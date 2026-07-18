@@ -1,0 +1,5 @@
+=== 2026-07-18 02:08 UTC ===
+Honduras: executive decree banning forced-labor imports approved by Council of Ministers July 17, 2026; ban status changed No -> Yes (not yet confirmed published in the official gazette).
+Brazil: forced-labor import-ban bill advanced further through committee, still not enacted. Separate unrelated 25% Section 301 tariff on Brazil (July 16) remains distinct from the forced-labor case; that decision is still pending, expected ~July 20-24, 2026.
+All other 58 economies re-researched: no material changes found. USTR has not yet issued its final Section 301 forced-labor tariff determination as of July 18, 2026.
+Push: succeeded (commit 17fefd2 on origin/claude/section-301-labour-tracker-etqasl).
