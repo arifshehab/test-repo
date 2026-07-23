@@ -70,4 +70,4 @@ Push: succeeded (commit 94e6ae2 on origin/claude/section-301-labour-tracker-etqa
 
 === 2026-07-23 UTC (correction: South Korea reverted to No) ===
 Per user question, reviewed whether South Korea's "Fisheries Forced Labor Prohibition Six Acts" (six bills introduced July 15, 2026) actually constitute progress toward an import ban. On closer inspection, the bills amend Korea's own Salt Industry Promotion Act and Fisheries Act to revoke/bar relicensing of domestic business licenses (e.g. salt farms) found using forced labor -- this is a domestic labor-enforcement/licensing measure targeting forced labor occurring within Korea, not a bill establishing a prohibition on importing forced-labor-made goods from abroad. It does not meet the "Partial" bar under the standing classification policy (which requires progress toward an import ban specifically), so the July 23 07:40 UTC reclassification to Partial was incorrect. Reverted South Korea's row from Partial back to No; column 6 cleared per the mandatory rule. No other rows changed.
-Push: pending (this commit).
+Push: succeeded (commit 09227c6 on origin/claude/section-301-labour-tracker-etqasl).
