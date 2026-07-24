@@ -1,0 +1,627 @@
+[
+ {
+  "code": "0106.19.91",
+  "description": "Live mammals, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "0106.20.00",
+  "description": "Live reptiles (including snakes and turtles)",
+  "scope": ""
+ },
+ {
+  "code": "0106.90.01",
+  "description": "Live animals other than mammals, reptiles, insects, and birds",
+  "scope": ""
+ },
+ {
+  "code": "0410.10.00",
+  "description": "Edible insects",
+  "scope": ""
+ },
+ {
+  "code": "0602.90.20",
+  "description": "Live orchid plants",
+  "scope": ""
+ },
+ {
+  "code": "0603.13.00",
+  "description": "Orchids, fresh cut",
+  "scope": ""
+ },
+ {
+  "code": "0603.14.00",
+  "description": "Chrysanthemums, fresh cut",
+  "scope": ""
+ },
+ {
+  "code": "0603.19.01",
+  "description": "Fresh cut, anthuriums, alstroemeria, gypsophilia, lilies, snapdragons and other flowers nesoi",
+  "scope": ""
+ },
+ {
+  "code": "0604.20.00",
+  "description": "Fresh foliage, branches, and other parts of plants, without flowers or buds, suitable for bouquets or ornamental purposes",
+  "scope": ""
+ },
+ {
+  "code": "0604.90.10",
+  "description": "Mosses and lichens suitable for bouquets or ornamental purposes",
+  "scope": ""
+ },
+ {
+  "code": "1211.90.89",
+  "description": "Psyllium seed husks",
+  "scope": "Ex"
+ },
+ {
+  "code": "1301.90.91",
+  "description": "Boswellia",
+  "scope": "Ex"
+ },
+ {
+  "code": "1401.10.00",
+  "description": "Bamboos, of a kind used primarily for plaiting",
+  "scope": ""
+ },
+ {
+  "code": "1511.10.00",
+  "description": "Palm oil, crude, and its fractions, whether or not refined, not chemically modified",
+  "scope": ""
+ },
+ {
+  "code": "1511.90.00",
+  "description": "Palm oil, other than crude, and its fractions, whether or not refined, but not chemically modified",
+  "scope": ""
+ },
+ {
+  "code": "1513.29.00",
+  "description": "Palm kernel oil or babassu oil, other than crude, and their fractions, whether or not refined, but not chemically modified",
+  "scope": ""
+ },
+ {
+  "code": "1515.30.00",
+  "description": "Castor oil and its fractions, whether or not refined, but not chemically modified",
+  "scope": ""
+ },
+ {
+  "code": "1515.90.81",
+  "description": "Argan oil",
+  "scope": "Ex"
+ },
+ {
+  "code": "2102.20.60",
+  "description": "Single-cell micro-organisms, dead, excluding yeasts (but not including vaccines of heading 3002)",
+  "scope": ""
+ },
+ {
+  "code": "2306.50.00",
+  "description": "Oilcake and other solid residues, resulting from the extraction of vegetable fats or oils, of coconut or copra",
+  "scope": ""
+ },
+ {
+  "code": "3823.11.00",
+  "description": "Stearic acid",
+  "scope": ""
+ },
+ {
+  "code": "3823.12.00",
+  "description": "Oleic acid",
+  "scope": ""
+ },
+ {
+  "code": "3823.19.20",
+  "description": "Industrial monocarboxylic fatty acids or acid oils from refining derived from coconut, palm-kernel, or palm oil",
+  "scope": ""
+ },
+ {
+  "code": "3823.70.40",
+  "description": "Industrial fatty alcohols, other than oleyl, derived from fatty substances of animal or vegetable origin",
+  "scope": ""
+ },
+ {
+  "code": "4403.41.00",
+  "description": "Wood in the rough or roughly squared, of Dark Red Meranti, Light Red Meranti or Meranti Bakau, not treated with paint, stain, creosote, or other preservatives",
+  "scope": ""
+ },
+ {
+  "code": "4409.22.05",
+  "description": "Nonconiferous tropical wood continuously shaped along any ends, whether or not also continuously shaped along any edges or faces",
+  "scope": ""
+ },
+ {
+  "code": "4409.22.10",
+  "description": "Nonconiferous tropical wood siding, whether or not continuously shaped along its edges or faces but not its ends",
+  "scope": ""
+ },
+ {
+  "code": "4409.22.25",
+  "description": "Nonconiferous tropical wood flooring, whether or not continuously shaped along its edges or faces but not its ends",
+  "scope": ""
+ },
+ {
+  "code": "4409.22.40",
+  "description": "Nonconiferous tropical wood standard moldings, whether or not continuously shaped along its edges or faces but not its ends",
+  "scope": ""
+ },
+ {
+  "code": "4409.22.50",
+  "description": "Other nonconiferous tropical wood moldings, whether or not continuously shaped along its edges or faces but not its ends",
+  "scope": ""
+ },
+ {
+  "code": "4409.22.60",
+  "description": "Plain nonconiferous tropical wood dowel rods, whether or not continuously shaped along its edges or faces but not its ends",
+  "scope": ""
+ },
+ {
+  "code": "4409.22.65",
+  "description": "Nonconiferous tropical wood dowel rods, sanded, grooved or otherwise advanced in condition, whether or not continuously shaped along its edges or faces but not its ends",
+  "scope": ""
+ },
+ {
+  "code": "4409.22.90",
+  "description": "Other nonconiferous tropical wood, whether or not continuously shaped along its edges or faces but not its ends",
+  "scope": ""
+ },
+ {
+  "code": "4412.31.06",
+  "description": "Plywood sheets not over 6 mm thick, tropical wood outer ply, birch face ply, not surface covered beyond clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.31.26",
+  "description": "Plywood sheets not over 6 mm thick, tropical wood outer ply, Spanish cedar or walnut face ply, not surface covered beyond clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.31.42",
+  "description": "Plywood sheets not over 6 mm thick, tropical wood outer ply, with mahogany face ply, not surface covered beyond clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.31.45",
+  "description": "Plywood sheets not over 3.6 mm thick, exceeding 1.2 m width and 2.2 m length, tropical wood outer ply, not mahogany face ply, not surface covered beyond clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.31.48",
+  "description": "Plywood sheets not over 3.6 mm thick, tropical wood outer ply, not mahogany face ply, not surface covered beyond clear or transparent, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4412.31.52",
+  "description": "Plywood sheets not over 6 mm thick, tropical wood nesoi outer ply, with face ply nesoi, not surface covered beyond clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.31.61",
+  "description": "Plywood sheets not over 6 mm thick, with certain specified tropical wood outer ply, surface covered beyond clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.31.92",
+  "description": "Plywood sheets not over 6 mm thick, tropical wood nesoi at least one outer ply, surface covered beyond clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.41.00",
+  "description": "Laminated veneered lumber with outer ply of tropical wood",
+  "scope": ""
+ },
+ {
+  "code": "4412.51.10",
+  "description": "Blockboard, laminboard and battenboard of plywood nesoi, outer ply of tropical wood, not surface covered beyond clear or transparent, with face ply of birch",
+  "scope": ""
+ },
+ {
+  "code": "4412.51.31",
+  "description": "Blockboard, laminboard and battenboard of plywood nesoi, outer ply of tropical wood, not surface covered beyond clear or transparent, not with face ply of birch",
+  "scope": ""
+ },
+ {
+  "code": "4412.51.41",
+  "description": "Blockboard, laminboard and battenboard of plywood nesoi, outer ply of tropical wood, surface covered other than clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.51.51",
+  "description": "Blockboard, laminboard and battenboard other than of plywood nesoi, outer ply of tropical wood",
+  "scope": ""
+ },
+ {
+  "code": "4412.91.06",
+  "description": "Not blockboard, laminboard or battenboard, outer ply of tropical wood, containing particle board",
+  "scope": ""
+ },
+ {
+  "code": "4412.91.10",
+  "description": "Not blockboard, laminboard or battenboard, plywood with outer ply of tropical wood, no particle board, not surface covered beyond clear or transparent, with face ply of birch",
+  "scope": ""
+ },
+ {
+  "code": "4412.91.31",
+  "description": "Not blockboard, laminboard or battenboard, plywood with outer ply of tropical wood, no particle board, not surface covered beyond clear or transparent, not with face ply of birch",
+  "scope": ""
+ },
+ {
+  "code": "4412.91.41",
+  "description": "Not blockboard, laminboard or battenboard, plywood with outer ply of tropical wood, surface covered beyond clear or transparent",
+  "scope": ""
+ },
+ {
+  "code": "4412.91.51",
+  "description": "Not blockboard, laminboard or battenboard, veneered panels and similar laminated wood with outer ply of tropical wood, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4501.10.00",
+  "description": "Natural cork, raw or simply prepared",
+  "scope": ""
+ },
+ {
+  "code": "4501.90.20",
+  "description": "Waste cork",
+  "scope": ""
+ },
+ {
+  "code": "4501.90.40",
+  "description": "Crushed, granulated or ground cork",
+  "scope": ""
+ },
+ {
+  "code": "4502.00.00",
+  "description": "Natural cork, debacked or roughly squared or in rectangular blocks, plates, sheets or strip (including sharp-edged blanks for corks or stoppers)",
+  "scope": ""
+ },
+ {
+  "code": "4503.10.20",
+  "description": "Corks and stoppers of natural cork, tapered and of a thickness (or length) greater than the maximum diameter, not over 19mm maximum diameter",
+  "scope": ""
+ },
+ {
+  "code": "4503.10.30",
+  "description": "Corks and stoppers wholly of natural cork, tapered and of a thickness (or length) greater than the maximum diameter, over 19mm maximum diameter",
+  "scope": ""
+ },
+ {
+  "code": "4503.10.40",
+  "description": "Corks and stoppers of natural cork, tapered and of a thickness (or length) greater than the maximum diameter, over 19mm maximum diameter, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4503.10.60",
+  "description": "Corks and stoppers of natural cork, of a thickness (or length) not greater than the maximum diameter",
+  "scope": ""
+ },
+ {
+  "code": "4503.90.20",
+  "description": "Disks, wafers and washers of natural cork",
+  "scope": ""
+ },
+ {
+  "code": "4503.90.40",
+  "description": "Natural cork wallcoverings, backed with paper or otherwise reinforced",
+  "scope": ""
+ },
+ {
+  "code": "4503.90.60",
+  "description": "Articles of natural cork, other than corks and stoppers",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.10",
+  "description": "Vulcanized sheets and slabs wholly of agglomerated ground or pulverized cork and rubber",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.20",
+  "description": "Insulation of compressed agglomerated cork, coated or not coated",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.30",
+  "description": "Floor coverings of agglomerated cork",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.40",
+  "description": "Agglomerated cork wallcoverings, backed with paper or otherwise reinforced",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.45",
+  "description": "Agglomerated cork stoppers, not tapered, wholly of cork, of a thickness (or length) greater than the maximum diameter",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.47",
+  "description": "Corks, stoppers, disks, wafers and washers of agglomerated cork, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.50",
+  "description": "Blocks, plates, sheets and strip; tiles of any shape; solid cylinder; all the foregoing of cork; all the foregoing, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4504.90.00",
+  "description": "Agglomerated cork and articles of cork, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4601.22.40",
+  "description": "Woven or partly assembled materials of rattan for mats, matting and screens",
+  "scope": ""
+ },
+ {
+  "code": "4601.22.80",
+  "description": "Rattan floor coverings",
+  "scope": ""
+ },
+ {
+  "code": "4601.22.90",
+  "description": "Mats, matting and screens of rattan, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4601.29.40",
+  "description": "Woven or partly assembled materials of willow for mats, matting and screens",
+  "scope": ""
+ },
+ {
+  "code": "4601.93.01",
+  "description": "Rattan webbing for mats, matting and screens",
+  "scope": ""
+ },
+ {
+  "code": "4601.93.05",
+  "description": "Plaits of rattan and similar products of such plaiting materials, whether or not assembled into strips",
+  "scope": ""
+ },
+ {
+  "code": "4601.93.20",
+  "description": "Products of rattan other than plaits and similar products such as plaiting materials.",
+  "scope": ""
+ },
+ {
+  "code": "4602.12.05",
+  "description": "Fishing baskets or creels made from rattan",
+  "scope": ""
+ },
+ {
+  "code": "4602.12.14",
+  "description": "Baskets and bags of rattan wickerwork",
+  "scope": ""
+ },
+ {
+  "code": "4602.12.16",
+  "description": "Baskets and bags of rattan other than wickerwork",
+  "scope": ""
+ },
+ {
+  "code": "4602.12.23",
+  "description": "Articles of a kind normally carried in the pocket or in the handbag, of rattan",
+  "scope": ""
+ },
+ {
+  "code": "4602.12.25",
+  "description": "Luggage, handbags and flat goods, whether or not lined, of rattan, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4602.12.35",
+  "description": "Articles of wickerwork, nesoi, of rattan",
+  "scope": ""
+ },
+ {
+  "code": "4602.12.45",
+  "description": "Basketwork and other articles, nesoi, of rattan",
+  "scope": ""
+ },
+ {
+  "code": "5004.00.00",
+  "description": "Silk yarns (other than yarn spun from silk waste), not put up for retail sale",
+  "scope": ""
+ },
+ {
+  "code": "5005.00.00",
+  "description": "Yarn spun from silk waste, not put up for retail sale",
+  "scope": ""
+ },
+ {
+  "code": "5006.00.10",
+  "description": "Spun yarn, containing 85 percent or more by weight of silk, put up for retail sale; silkworm gut",
+  "scope": ""
+ },
+ {
+  "code": "5006.00.90",
+  "description": "Spun silk yarn, containing less than 85 percent by weight of silk, put up for retail sale",
+  "scope": ""
+ },
+ {
+  "code": "5007.10.30",
+  "description": "Woven fabrics of noil silk, containing 85 percent or more by weight of silk or silk waste",
+  "scope": ""
+ },
+ {
+  "code": "5007.10.60",
+  "description": "Woven fabrics of noil silk, containing less than 85 percent by weight of silk or silk waste",
+  "scope": ""
+ },
+ {
+  "code": "5007.20.00",
+  "description": "Woven fabrics containing 85 percent or more by weight of silk or silk waste, other than noil silk",
+  "scope": ""
+ },
+ {
+  "code": "5007.90.30",
+  "description": "Woven silk fabrics, containing 85 percent or more by weight of silk or silk waste, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "7101.10.30",
+  "description": "Natural pearls, graded and temporarily strung for convenience of transport",
+  "scope": ""
+ },
+ {
+  "code": "7101.10.60",
+  "description": "Natural pearls, not strung, mounted or set",
+  "scope": ""
+ },
+ {
+  "code": "7102.10.00",
+  "description": "Diamonds, unsorted, whether or not worked",
+  "scope": ""
+ },
+ {
+  "code": "7102.31.00",
+  "description": "Nonindustrial diamonds, unworked or simply sawn, cleaved or bruted",
+  "scope": ""
+ },
+ {
+  "code": "7102.39.00",
+  "description": "Nonindustrial diamonds, worked, but not mounted or set",
+  "scope": ""
+ },
+ {
+  "code": "7103.10.20",
+  "description": "Precious stones (other than diamonds) and semiprecious stones, unworked",
+  "scope": ""
+ },
+ {
+  "code": "7103.10.40",
+  "description": "Precious stones (other than diamonds) and semiprecious stones, simply sawn or roughly shaped",
+  "scope": ""
+ },
+ {
+  "code": "7103.91.00",
+  "description": "Rubies, sapphires and emeralds, worked, whether or not graded, but not strung, mounted or set",
+  "scope": ""
+ },
+ {
+  "code": "7103.99.10",
+  "description": "Precious or semiprecious stones, nesoi, cut but not set, suitable for use in the manufacture of jewelry",
+  "scope": ""
+ },
+ {
+  "code": "7103.99.50",
+  "description": "Precious or semiprecious stones, nesoi, worked, whether or not graded, but not strung, mounted or set",
+  "scope": ""
+ },
+ {
+  "code": "7205.10.00",
+  "description": "Pig iron, spiegeleisen, and iron or steel granules",
+  "scope": ""
+ },
+ {
+  "code": "8112.92.07",
+  "description": "Waste and scrap of gallium, germanium, indium, niobium, or vanadium",
+  "scope": ""
+ },
+ {
+  "code": "0106.11.00",
+  "description": "Live Primates",
+  "scope": ""
+ },
+ {
+  "code": "0106.19.91",
+  "description": "Live mammals, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "0106.20.00",
+  "description": "Live reptiles (including snakes and turtles)",
+  "scope": ""
+ },
+ {
+  "code": "0106.31.00",
+  "description": "Live birds of prey",
+  "scope": ""
+ },
+ {
+  "code": "0106.32.00",
+  "description": "Live psittaciformes birds (including parrots, parakeets, macaws and cockatoos)",
+  "scope": ""
+ },
+ {
+  "code": "0106.39.01",
+  "description": "Live birds, other than poultry, birds of prey or psittaciformes birds",
+  "scope": ""
+ },
+ {
+  "code": "0106.90.01",
+  "description": "Live animals other than mammals, reptiles, insects, and birds",
+  "scope": ""
+ },
+ {
+  "code": "0208.50.00",
+  "description": "Meat and edible meat offal of reptiles, fresh, chilled or frozen",
+  "scope": ""
+ },
+ {
+  "code": "0208.90.25",
+  "description": "Frog legs, fresh, chilled or frozen",
+  "scope": ""
+ },
+ {
+  "code": "0410.10.00",
+  "description": "Edible insects",
+  "scope": ""
+ },
+ {
+  "code": "0501.00.00",
+  "description": "Human hair, unworked, whether or not washed or scoured; waste of human hair",
+  "scope": ""
+ },
+ {
+  "code": "0510.00.40",
+  "description": "Cantharides; bile; glands and other animal products nesoi used in pharmaceutical products",
+  "scope": ""
+ },
+ {
+  "code": "0601.10.15",
+  "description": "Tulip bulbs, dormant",
+  "scope": ""
+ },
+ {
+  "code": "0601.10.30",
+  "description": "Hyacinth bulbs, dormant",
+  "scope": ""
+ },
+ {
+  "code": "0601.10.45",
+  "description": "Lily bulbs, dormant",
+  "scope": ""
+ },
+ {
+  "code": "0601.10.60",
+  "description": "Narcissus bulbs, dormant",
+  "scope": ""
+ },
+ {
+  "code": "0601.10.75",
+  "description": "Crocus corms, dormant",
+  "scope": ""
+ },
+ {
+  "code": "0601.10.90",
+  "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, nesoi, dormant",
+  "scope": ""
+ },
+ {
+  "code": "0601.20.90",
+  "description": "Bulbs nesoi, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower; chicory plants and roots",
+  "scope": ""
+ },
+ {
+  "code": "0602.40.00",
+  "description": "Roses, grafted or not",
+  "scope": ""
+ },
+ {
+  "code": "0602.90.20",
+  "description": "Live orchid plants",
+  "scope": ""
+ }
+]

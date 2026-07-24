@@ -1,0 +1,222 @@
+[
+ {
+  "code": "4503.10.30",
+  "description": "Corks and stoppers wholly of natural cork, tapered and of a thickness (or length) greater than the maximum diameter, over 19mm maximum diameter",
+  "scope": ""
+ },
+ {
+  "code": "4503.10.40",
+  "description": "Corks and stoppers of natural cork, tapered and of a thickness (or length) greater than the maximum diameter, over 19mm maximum diameter, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4503.10.60",
+  "description": "Corks and stoppers of natural cork, of a thickness (or length) not greater than the maximum diameter",
+  "scope": ""
+ },
+ {
+  "code": "4503.90.20",
+  "description": "Disks, wafers and washers of natural cork",
+  "scope": ""
+ },
+ {
+  "code": "4503.90.40",
+  "description": "Natural cork wallcoverings, backed with paper or otherwise reinforced",
+  "scope": ""
+ },
+ {
+  "code": "4503.90.60",
+  "description": "Articles of natural cork, other than corks and stoppers",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.10",
+  "description": "Vulcanized sheets and slabs wholly of agglomerated ground or pulverized cork and rubber",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.20",
+  "description": "Insulation of compressed agglomerated cork, coated or not coated",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.30",
+  "description": "Floor coverings of agglomerated cork",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.40",
+  "description": "Agglomerated cork wallcoverings, backed with paper or otherwise reinforced",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.45",
+  "description": "Agglomerated cork stoppers, not tapered, wholly of cork, of a thickness (or length) greater than the maximum diameter",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.47",
+  "description": "Corks, stoppers, disks, wafers and washers of agglomerated cork, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4504.10.50",
+  "description": "Blocks, plates, sheets and strip; tiles of any shape; solid cylinder; all the foregoing of cork; all the foregoing, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "4504.90.00",
+  "description": "Agglomerated cork and articles of cork, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "5004.00.00",
+  "description": "Silk yarns (other than yarn spun from silk waste), not put up for retail sale",
+  "scope": ""
+ },
+ {
+  "code": "5005.00.00",
+  "description": "Yarn spun from silk waste, not put up for retail sale",
+  "scope": ""
+ },
+ {
+  "code": "5006.00.10",
+  "description": "Spun yarn, containing 85 percent or more by weight of silk, put up for retail sale; silkworm gut",
+  "scope": ""
+ },
+ {
+  "code": "5006.00.90",
+  "description": "Spun silk yarn, containing less than 85 percent by weight of silk, put up for retail sale",
+  "scope": ""
+ },
+ {
+  "code": "5007.10.30",
+  "description": "Woven fabrics of noil silk, containing 85 percent or more by weight of silk or silk waste",
+  "scope": ""
+ },
+ {
+  "code": "5007.10.60",
+  "description": "Woven fabrics of noil silk, containing less than 85 percent by weight of silk or silk waste",
+  "scope": ""
+ },
+ {
+  "code": "5007.20.00",
+  "description": "Woven fabrics containing 85 percent or more by weight of silk or silk waste, other than noil silk",
+  "scope": ""
+ },
+ {
+  "code": "5007.90.30",
+  "description": "Woven silk fabrics, containing 85 percent or more by weight of silk or silk waste, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "7101.10.30",
+  "description": "Natural pearls, graded and temporarily strung for convenience of transport",
+  "scope": ""
+ },
+ {
+  "code": "7101.10.60",
+  "description": "Natural pearls, not strung, mounted or set",
+  "scope": ""
+ },
+ {
+  "code": "7102.10.00",
+  "description": "Diamonds, unsorted, whether or not worked",
+  "scope": ""
+ },
+ {
+  "code": "7102.31.00",
+  "description": "Nonindustrial diamonds, unworked or simply sawn, cleaved or bruted",
+  "scope": ""
+ },
+ {
+  "code": "7102.39.00",
+  "description": "Nonindustrial diamonds, worked, but not mounted or set",
+  "scope": ""
+ },
+ {
+  "code": "7103.10.20",
+  "description": "Precious stones (other than diamonds) and semiprecious stones, unworked",
+  "scope": ""
+ },
+ {
+  "code": "7103.10.40",
+  "description": "Precious stones (other than diamonds) and semiprecious stones, simply sawn or roughly shaped",
+  "scope": ""
+ },
+ {
+  "code": "7103.91.00",
+  "description": "Rubies, sapphires and emeralds, worked, whether or not graded, but not strung, mounted or set",
+  "scope": ""
+ },
+ {
+  "code": "7103.99.10",
+  "description": "Precious or semiprecious stones, nesoi, cut but not set, suitable for use in the manufacture of jewelry",
+  "scope": ""
+ },
+ {
+  "code": "7103.99.50",
+  "description": "Precious or semiprecious stones, nesoi, worked, whether or not graded, but not strung, mounted or set",
+  "scope": ""
+ },
+ {
+  "code": "7205.10.00",
+  "description": "Pig iron, spiegeleisen, and iron or steel granules",
+  "scope": ""
+ },
+ {
+  "code": "8112.92.07",
+  "description": "Waste and scrap of gallium, germanium, indium, niobium, or vanadium",
+  "scope": ""
+ },
+ {
+  "code": "0106.14.00",
+  "description": "Live rabbits and hares",
+  "scope": ""
+ },
+ {
+  "code": "0106.19.30",
+  "description": "Live foxes",
+  "scope": ""
+ },
+ {
+  "code": "0106.19.91",
+  "description": "Live mammals, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "0106.20.00",
+  "description": "Live reptiles (including snakes and turtles)",
+  "scope": ""
+ },
+ {
+  "code": "0106.31.00",
+  "description": "Live birds of prey",
+  "scope": ""
+ },
+ {
+  "code": "0106.39.01",
+  "description": "Live birds, other than poultry, birds of prey or psittaciformes birds",
+  "scope": ""
+ },
+ {
+  "code": "0106.90.01",
+  "description": "Live animals other than mammals, reptiles, insects, and birds",
+  "scope": ""
+ },
+ {
+  "code": "0208.50.00",
+  "description": "Meat and edible meat offal of reptiles, fresh, chilled or frozen",
+  "scope": ""
+ },
+ {
+  "code": "0208.90.25",
+  "description": "Frog legs, fresh, chilled or frozen",
+  "scope": ""
+ },
+ {
+  "code": "0410.10.00",
+  "description": "Edible insects",
+  "scope": ""
+ }
+]

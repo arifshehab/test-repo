@@ -1,0 +1,114 @@
+[
+ {
+  "part": "B",
+  "economy": "United Kingdom",
+  "start_page": 242,
+  "end_page": 245,
+  "file": "/home/user/test-repo/data/source/parts/part_B.json",
+  "row_count": 57
+ },
+ {
+  "part": "C",
+  "economy": "European Union",
+  "start_page": 245,
+  "end_page": 247,
+  "file": "/home/user/test-repo/data/source/parts/part_C.json",
+  "row_count": 44
+ },
+ {
+  "part": "D",
+  "economy": "Switzerland",
+  "start_page": 247,
+  "end_page": 253,
+  "file": "/home/user/test-repo/data/source/parts/part_D.json",
+  "row_count": 124
+ },
+ {
+  "part": "E",
+  "economy": "Malaysia",
+  "start_page": 253,
+  "end_page": 259,
+  "file": "/home/user/test-repo/data/source/parts/part_E.json",
+  "row_count": 125
+ },
+ {
+  "part": "F",
+  "economy": "Cambodia",
+  "start_page": 259,
+  "end_page": 266,
+  "file": "/home/user/test-repo/data/source/parts/part_F.json",
+  "row_count": 141
+ },
+ {
+  "part": "G",
+  "economy": "Guatemala",
+  "start_page": 266,
+  "end_page": 272,
+  "file": "/home/user/test-repo/data/source/parts/part_G.json",
+  "row_count": 116
+ },
+ {
+  "part": "H",
+  "economy": "El Salvador",
+  "start_page": 272,
+  "end_page": 277,
+  "file": "/home/user/test-repo/data/source/parts/part_H.json",
+  "row_count": 95
+ },
+ {
+  "part": "I",
+  "economy": "Argentina",
+  "start_page": 277,
+  "end_page": 282,
+  "file": "/home/user/test-repo/data/source/parts/part_I.json",
+  "row_count": 95
+ },
+ {
+  "part": "J",
+  "economy": "Bangladesh",
+  "start_page": 282,
+  "end_page": 287,
+  "file": "/home/user/test-repo/data/source/parts/part_J.json",
+  "row_count": 96
+ },
+ {
+  "part": "K",
+  "economy": "Taiwan",
+  "start_page": 287,
+  "end_page": 293,
+  "file": "/home/user/test-repo/data/source/parts/part_K.json",
+  "row_count": 120
+ },
+ {
+  "part": "L",
+  "economy": "Indonesia",
+  "start_page": 293,
+  "end_page": 300,
+  "file": "/home/user/test-repo/data/source/parts/part_L.json",
+  "row_count": 137
+ },
+ {
+  "part": "M",
+  "economy": "Ecuador",
+  "start_page": 300,
+  "end_page": 308,
+  "file": "/home/user/test-repo/data/source/parts/part_M.json",
+  "row_count": 162
+ },
+ {
+  "part": "N",
+  "economy": "Jordan",
+  "start_page": 308,
+  "end_page": 315,
+  "file": "/home/user/test-repo/data/source/parts/part_N.json",
+  "row_count": 135
+ },
+ {
+  "part": "O",
+  "economy": "Jordan|El Salvador|Guatemala (CAFTA-DR textile/apparel)",
+  "start_page": 315,
+  "end_page": 431,
+  "file": "/home/user/test-repo/data/source/parts/part_O.json",
+  "row_count": 1736
+ }
+]

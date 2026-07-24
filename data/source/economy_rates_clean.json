@@ -1,0 +1,422 @@
+{
+ "Algeria": {
+  "economy": "Algeria",
+  "heading": "9903.05.20",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Angola": {
+  "economy": "Angola",
+  "heading": "9903.05.21",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Argentina": {
+  "economy": "Argentina",
+  "heading": "9903.05.22",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Australia": {
+  "economy": "Australia",
+  "heading": "9903.05.23",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Bahamas": {
+  "economy": "Bahamas",
+  "heading": "9903.05.24",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Bahrain": {
+  "economy": "Bahrain",
+  "heading": "9903.05.25",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Bangladesh": {
+  "economy": "Bangladesh",
+  "heading": "9903.05.26",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Brazil": {
+  "economy": "Brazil",
+  "heading": "9903.05.27",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Cambodia": {
+  "economy": "Cambodia",
+  "heading": "9903.05.28",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Canada": {
+  "economy": "Canada",
+  "heading": "9903.05.29",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Chile": {
+  "economy": "Chile",
+  "heading": "9903.05.30",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "China": {
+  "economy": "China",
+  "heading": "9903.05.31",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Colombia": {
+  "economy": "Colombia",
+  "heading": "9903.05.32",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Costa Rica": {
+  "economy": "Costa Rica",
+  "heading": "9903.05.33",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Dominican Republic": {
+  "economy": "Dominican Republic",
+  "heading": "9903.05.34",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Ecuador": {
+  "economy": "Ecuador",
+  "heading": "9903.05.35",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Egypt": {
+  "economy": "Egypt",
+  "heading": "9903.05.36",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "El Salvador": {
+  "economy": "El Salvador",
+  "heading": "9903.05.37",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Guatemala": {
+  "economy": "Guatemala",
+  "heading": "9903.05.40",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Guyana": {
+  "economy": "Guyana",
+  "heading": "9903.05.41",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Honduras": {
+  "economy": "Honduras",
+  "heading": "9903.05.42",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Hong Kong, China": {
+  "economy": "Hong Kong, China",
+  "heading": "9903.05.43",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "India": {
+  "economy": "India",
+  "heading": "9903.05.44",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Indonesia": {
+  "economy": "Indonesia",
+  "heading": "9903.05.45",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Iraq": {
+  "economy": "Iraq",
+  "heading": "9903.05.46",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Israel": {
+  "economy": "Israel",
+  "heading": "9903.05.47",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Jordan": {
+  "economy": "Jordan",
+  "heading": "9903.05.50",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Kazakhstan": {
+  "economy": "Kazakhstan",
+  "heading": "9903.05.51",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Kuwait": {
+  "economy": "Kuwait",
+  "heading": "9903.05.52",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Libya": {
+  "economy": "Libya",
+  "heading": "9903.05.53",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Malaysia": {
+  "economy": "Malaysia",
+  "heading": "9903.05.54",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Mexico": {
+  "economy": "Mexico",
+  "heading": "9903.05.55",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Morocco": {
+  "economy": "Morocco",
+  "heading": "9903.05.56",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "New Zealand": {
+  "economy": "New Zealand",
+  "heading": "9903.05.57",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Nicaragua": {
+  "economy": "Nicaragua",
+  "heading": "9903.05.58",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Nigeria": {
+  "economy": "Nigeria",
+  "heading": "9903.05.59",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Norway": {
+  "economy": "Norway",
+  "heading": "9903.05.60",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Oman": {
+  "economy": "Oman",
+  "heading": "9903.05.61",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Pakistan": {
+  "economy": "Pakistan",
+  "heading": "9903.05.62",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Peru": {
+  "economy": "Peru",
+  "heading": "9903.05.63",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Philippines": {
+  "economy": "Philippines",
+  "heading": "9903.05.64",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Qatar": {
+  "economy": "Qatar",
+  "heading": "9903.05.65",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Russia": {
+  "economy": "Russia",
+  "heading": "9903.05.66",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Saudi Arabia": {
+  "economy": "Saudi Arabia",
+  "heading": "9903.05.67",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Singapore": {
+  "economy": "Singapore",
+  "heading": "9903.05.68",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "South Africa": {
+  "economy": "South Africa",
+  "heading": "9903.05.69",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Sri Lanka": {
+  "economy": "Sri Lanka",
+  "heading": "9903.05.72",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Thailand": {
+  "economy": "Thailand",
+  "heading": "9903.05.77",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Trinidad and Tobago": {
+  "economy": "Trinidad and Tobago",
+  "heading": "9903.05.78",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "T\u00fcrkiye": {
+  "economy": "T\u00fcrkiye",
+  "heading": "9903.05.79",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "United Arab Emirates": {
+  "economy": "United Arab Emirates",
+  "heading": "9903.05.80",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "United Kingdom": {
+  "economy": "United Kingdom",
+  "heading": "9903.05.81",
+  "rate_type": "flat_additive",
+  "rate_pct": 10.0,
+  "rate_label": "+10% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Uruguay": {
+  "economy": "Uruguay",
+  "heading": "9903.05.82",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Venezuela": {
+  "economy": "Venezuela",
+  "heading": "9903.05.83",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "Vietnam": {
+  "economy": "Vietnam",
+  "heading": "9903.05.84",
+  "rate_type": "flat_additive",
+  "rate_pct": 12.5,
+  "rate_label": "+12.5% (additional duty on top of existing MFN/Col.1 rate)"
+ },
+ "European Union": {
+  "economy": "European Union",
+  "heading": null,
+  "rate_type": "net_of_mfn",
+  "rate_pct": 10.0,
+  "rate_label": "Net 10.0% (top-up to 10.0% combined MFN+Sec.301; +0% additional if existing MFN/Col.1 rate already >= 10.0%)"
+ },
+ "Japan": {
+  "economy": "Japan",
+  "heading": null,
+  "rate_type": "net_of_mfn",
+  "rate_pct": 12.5,
+  "rate_label": "Net 12.5% (top-up to 12.5% combined MFN+Sec.301; +0% additional if existing MFN/Col.1 rate already >= 12.5%)"
+ },
+ "South Korea": {
+  "economy": "South Korea",
+  "heading": null,
+  "rate_type": "net_of_mfn",
+  "rate_pct": 12.5,
+  "rate_label": "Net 12.5% (top-up to 12.5% combined MFN+Sec.301; +0% additional if existing MFN/Col.1 rate already >= 12.5%)"
+ },
+ "Switzerland": {
+  "economy": "Switzerland",
+  "heading": null,
+  "rate_type": "net_of_mfn",
+  "rate_pct": 12.5,
+  "rate_label": "Net 12.5% (top-up to 12.5% combined MFN+Sec.301; +0% additional if existing MFN/Col.1 rate already >= 12.5%)"
+ },
+ "Taiwan": {
+  "economy": "Taiwan",
+  "heading": null,
+  "rate_type": "net_of_mfn",
+  "rate_pct": 10.0,
+  "rate_label": "Net 10.0% (top-up to 10.0% combined MFN+Sec.301; +0% additional if existing MFN/Col.1 rate already >= 10.0%)"
+ }
+}

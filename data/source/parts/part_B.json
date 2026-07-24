@@ -1,0 +1,287 @@
+[
+ {
+  "code": "2208.30.30",
+  "description": "Irish and Scotch whiskies",
+  "scope": ""
+ },
+ {
+  "code": "2208.30.60",
+  "description": "Whiskies, other than Irish and Scotch whiskies 8419.20.0010 Medical or surgical sterilizers",
+  "scope": ""
+ },
+ {
+  "code": "9018.11.30",
+  "description": "Electrocardiographs",
+  "scope": ""
+ },
+ {
+  "code": "9018.11.60",
+  "description": "Printed circuit assemblies for electrocardiographs",
+  "scope": ""
+ },
+ {
+  "code": "9018.11.90",
+  "description": "Parts and accessories of electrocardiographs, other than printed circuit assemblies",
+  "scope": ""
+ },
+ {
+  "code": "9018.12.00",
+  "description": "Ultrasonic scanning electro-diagnostic apparatus used in medical, surgical, dental or veterinary sciences",
+  "scope": ""
+ },
+ {
+  "code": "9018.13.00",
+  "description": "Magnetic resonance imaging electro-diagnostic apparatus used in medical, surgical, dental or veterinary sciences",
+  "scope": ""
+ },
+ {
+  "code": "9018.14.00",
+  "description": "Scintigraphic electro-diagnostic apparatus used in medical, surgical, dental or veterinary sciences",
+  "scope": ""
+ },
+ {
+  "code": "9018.19.40",
+  "description": "Electro-diagnostic apparatus for functional exploratory examination, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.19.55",
+  "description": "Electro-diagnostic patient monitoring systems",
+  "scope": ""
+ },
+ {
+  "code": "9018.19.75",
+  "description": "Printed circuit assemblies for electro-diagnostic parameter acquisition modules",
+  "scope": ""
+ },
+ {
+  "code": "9018.19.95",
+  "description": "Electro-diagnostic apparatus nesoi, and parts and accessories thereof nesoi",
+  "scope": ""
+ },
+ {
+  "code": "9018.20.00",
+  "description": "Ultraviolet or infrared ray apparatus used in medical, surgical, dental or veterinary sciences, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.41.00",
+  "description": "Dental drill engines, whether or not combined on a single base with other dental equipment, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.49.40",
+  "description": "Dental burs",
+  "scope": ""
+ },
+ {
+  "code": "9018.49.80",
+  "description": "Instruments and apparatus used in dental sciences, nesoi, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.50.00",
+  "description": "Ophthalmic instruments and appliances nesoi, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.90.20",
+  "description": "Optical instruments and appliances nesoi, used in medical, surgical, dental or veterinary sciences, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.90.30",
+  "description": "Anesthetic instruments and appliances nesoi, used in medical, surgical, dental or veterinary sciences, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.90.50",
+  "description": "Sphygmomanometers, tensimeters and oscillometers used in medical, surgical, dental or veterinary sciences; parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.90.60",
+  "description": "Electro-surgical instruments and appliances nesoi, other than extracorporeal shock wave lithotripters and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.90.64",
+  "description": "Defibrillators",
+  "scope": ""
+ },
+ {
+  "code": "9018.90.68",
+  "description": "Printed circuit assemblies for defibrillators",
+  "scope": ""
+ },
+ {
+  "code": "9018.90.75",
+  "description": "Electro-medical instruments and appliances nesoi, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9018.90.80",
+  "description": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, nesoi, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9019.10.20",
+  "description": "Mechano-therapy appliances and massage apparatus, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9019.10.40",
+  "description": "Electrical psychological aptitude testing apparatus and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9019.20.00",
+  "description": "Ozone, oxygen and aerosol therapy, artificial respiration or other therapeutic respiration apparatus, and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9020.00.60",
+  "description": "Breathing appliances, nesoi, & gas masks, excl. protective masks having neither mechanical parts/replaceable filters, parts, accessories of",
+  "scope": ""
+ },
+ {
+  "code": "9020.00.90",
+  "description": "Parts and accessories of breathing appliances and gas masks, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "9021.31.00",
+  "description": "Artificial joints and parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9021.39.00",
+  "description": "Artificial parts of the body (other than artificial joints) and parts and accessories thereof, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "9021.40.00",
+  "description": "Hearing aids, excluding parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9021.50.00",
+  "description": "Pacemakers for stimulating heart muscles, excluding parts and accessories thereof",
+  "scope": ""
+ },
+ {
+  "code": "9021.90.40",
+  "description": "Parts and accessories for hearing aids and for pacemakers for stimulating heart muscles",
+  "scope": ""
+ },
+ {
+  "code": "9021.90.81",
+  "description": "Appliances nesoi which are worn or carried, or implanted in the body, to compensate for a defect or disability, and parts and accessories",
+  "scope": ""
+ },
+ {
+  "code": "9022.12.00",
+  "description": "Computed tomography apparatus based on the use of X-rays",
+  "scope": ""
+ },
+ {
+  "code": "9022.13.00",
+  "description": "Apparatus based on the use of X-rays for dental uses (other than computed tomography apparatus)",
+  "scope": ""
+ },
+ {
+  "code": "9022.14.00",
+  "description": "Apparatus based on the use of X-rays for medical, surgical or veterinary uses (other than computed tomography apparatus)",
+  "scope": ""
+ },
+ {
+  "code": "9022.19.00",
+  "description": "Apparatus based on the use of X-rays other than for medical, surgical, dental or veterinary use",
+  "scope": ""
+ },
+ {
+  "code": "9022.21.00",
+  "description": "Apparatus based on the use of alpha, beta or gamma radiations, for medical, surgical, dental or veterinary use",
+  "scope": ""
+ },
+ {
+  "code": "9022.30.00",
+  "description": "X-ray tubes",
+  "scope": ""
+ },
+ {
+  "code": "9022.90.05",
+  "description": "Radiation generator units",
+  "scope": ""
+ },
+ {
+  "code": "9022.90.15",
+  "description": "Radiation beam delivery units",
+  "scope": ""
+ },
+ {
+  "code": "9022.90.25",
+  "description": "X-ray generators, high tension generators, desks, screens, examination or treatment tables, chairs and similar apparatus, nesoi",
+  "scope": ""
+ },
+ {
+  "code": "9022.90.40",
+  "description": "Parts and accessories of X-ray tubes",
+  "scope": ""
+ },
+ {
+  "code": "9022.90.60",
+  "description": "Parts and accessories of apparatus based on the use of X-rays",
+  "scope": ""
+ },
+ {
+  "code": "9022.90.95",
+  "description": "Parts and accessories of apparatus based on the use of alpha, beta or gamma radiations",
+  "scope": ""
+ },
+ {
+  "code": "3823.11.00",
+  "description": "Stearic acid",
+  "scope": ""
+ },
+ {
+  "code": "3823.12.00",
+  "description": "Oleic acid",
+  "scope": ""
+ },
+ {
+  "code": "3823.19.20",
+  "description": "Industrial monocarboxylic fatty acids or acid oils from refining derived from coconut, palm-kernel, or palm oil",
+  "scope": ""
+ },
+ {
+  "code": "3823.70.40",
+  "description": "Industrial fatty alcohols, other than oleyl, derived from fatty substances of animal or vegetable origin",
+  "scope": ""
+ },
+ {
+  "code": "4501.10.00",
+  "description": "Natural cork, raw or simply prepared",
+  "scope": ""
+ },
+ {
+  "code": "4501.90.20",
+  "description": "Waste cork",
+  "scope": ""
+ },
+ {
+  "code": "4501.90.40",
+  "description": "Crushed, granulated or ground cork",
+  "scope": ""
+ },
+ {
+  "code": "4502.00.00",
+  "description": "Natural cork, debacked or roughly squared or in rectangular blocks, plates, sheets or strip (including sharp-edged blanks for corks or stoppers)",
+  "scope": ""
+ },
+ {
+  "code": "4503.10.20",
+  "description": "Corks and stoppers of natural cork, tapered and of a thickness (or length) greater than the maximum diameter, not over 19mm maximum diameter",
+  "scope": ""
+ }
+]
