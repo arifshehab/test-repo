@@ -113,4 +113,4 @@ Other notable updates (no status change, but flagged for close monitoring):
 - Peru's bill remains stalled (Congress's Permanent Commission's mandate ended July 15 without action) -- stays Partial.
 - Philippines: despite its July 24 Joint Administrative Order, USTR still applied the full 12.5% tariff; Manila is now separately seeking a tariff exemption -- stays Partial.
 - All other economies re-confirmed with no changes; extensive local-language and omnibus-Finance-Act searches (Chile, China, Costa Rica, Egypt, Guyana, Hong Kong, Iraq, Kazakhstan, Kuwait, Libya, Morocco, New Zealand, Nigeria, Norway, Oman, Qatar, Russia, Saudi Arabia, Singapore, South Africa, South Korea, Switzerland, Thailand, Türkiye, UAE, Uruguay, Venezuela) turned up nothing new.
-Push: pending (this commit).
+Push: succeeded (commit c428386 on origin/claude/section-301-labour-tracker-etqasl).
