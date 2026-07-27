@@ -85,13 +85,33 @@ codes are an **exact subset** of Part A (0 removed), including after normalizing
 
 The 6-item difference is therefore a **counting-definition gap** between the notice's prose
 "product" count and distinct HTS subheadings in Annex II — not missing or duplicated data.
-Two candidate explanations were tested and ruled out: 10-digit code formatting (the 7
-ten-digit codes are already counted correctly), and modified exemptions (369 shared codes
-received scope changes, mostly new `Pharma` tags, and 97 differ only by PDF line-break
-hyphenation — neither equals 6). USTR's 471 may also be measured against the **June 5
-Federal Register** publication rather than USTR's June 2 pre-publication PDF used here; the
-Federal Register version renders Annex A as page images, so it is not text-comparable
-without OCR.
+Three candidate explanations were tested and **all ruled out**:
+
+1. **10-digit code formatting** — the 7 codes in `XXXX.XX.XXXX` form are already counted
+   correctly; normalizing to 8 digits changes nothing.
+2. **Modified exemptions** — 369 shared codes received scope changes (mostly new `Pharma`
+   tags) and 97 differ only by PDF line-break hyphenation. Neither equals 6.
+3. **A June 2 vs June 5 difference** — ruled out by OCR, see below.
+
+### OCR verification of the June 5 Federal Register annex
+
+USTR's 471 might have been measured against the **June 5 Federal Register** publication
+rather than the **June 2 pre-publication PDF** used here. The Federal Register renders
+Annex A as page images, so the 68 annex pages were extracted and OCR'd (Tesseract 5,
+multi-pass across PSM modes 4/6/11/12, left-hand HTSUS column cropped) and compared
+code-by-code against the June 2 extraction.
+
+- OCR recall was **~96%** (1,631 of 1,655 codes read cleanly), with 43 identifiable
+  misreads (e.g. `0201.20.06` read as `9201.20.06`).
+- The 67 codes OCR appeared to "miss" were scattered thinly across **30 pages** (1–7 per
+  page) — the signature of random read failure, not a deliberate removal of 6 codes.
+- **16 of those codes were then inspected visually** in the page images, spanning three
+  chapters (28 chemicals, 71 precious metals, 81 base metals). **All 16 were present.**
+
+**Conclusion:** the June 5 published annex is identical in content to the June 2 PDF used
+here. The June baseline of 1,655 codes is confirmed, and **465 is the correct count of
+distinct new HTS subheadings**. The FRN's "471" reflects how USTR tallies "products" in
+prose, not a different underlying list.
 
 ## Category exemptions (not tied to HTS codes)
 
