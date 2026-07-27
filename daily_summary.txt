@@ -123,3 +123,16 @@ No material ban-status changes today. All 60 economies re-researched across 6 pa
 - Dominican Republic: Decreto 502-26 remains in force; added a note that local commentary (El Nuevo Diario) questions whether the decree's practical enforcement capacity will be sufficient for USTR's future satisfaction. Stays Yes.
 The Bahamas remains stuck at House-of-Assembly-passage-only (Senate/assent still unconfirmed) -- stays Partial. Israel's cabinet proposal for an import ban has not yet been formally voted on or enacted -- stays No, still flagged as a likely near-term mover. Peru's bill remains unassigned to any committee. Philippines' JAO did not secure a tariff exemption from USTR; Manila is separately pursuing a review. No new bilateral RTAs found for any economy. No new Federal Register final-rule text beyond the July 23 presidential action/press release and its underlying FRN.
 Push: succeeded (commit 8b8d0e2 on origin/claude/section-301-labour-tracker-etqasl).
+
+=== 2026-07-27 UTC ===
+One classification change today: Israel upgraded from No to Partial. On July 26-27, 2026, Israel's Cabinet formally voted to approve Prime Minister Netanyahu's proposal (promoted by National Economic Council Chairman Prof. Avi Simhon) to ban imports of goods produced through forced labor, directing the Minister of Economy and Industry to issue an implementing order, with a 90-day enforcement-framework buildout -- explicitly in response to the new 12.5% US tariff, in hopes of securing a reduction to 10%. This is a cabinet-approved policy decision, not yet a Knesset law or finalized ministerial order, so it meets the Partial bar rather than Yes; the ministerial implementing order itself is the next thing to watch for (would trigger a Yes upgrade).
+
+All other economies re-researched across 6 parallel batches with no other classification changes:
+- The Bahamas remains stuck at House-of-Assembly-passage-only for its third consecutive run; Senate passage/Governor-General's assent still unconfirmed. Stays Partial.
+- Colombia's DIAN/MinCIT standoff remains unresolved; ANDI (industry association) has publicly blamed DIAN's inaction for the 12.5% tariff. Stays Partial.
+- Malaysia's US Agreement on Reciprocal Trade remains signed but unratified; the 2-year domestic-legislation clock has not started. Stays Partial.
+- Peru's bill remains unassigned to committee; the Lima Chamber of Commerce is now urging the newly seated Congress to prioritize it. Stays Partial.
+- Philippines' Joint Administrative Order did not secure a US tariff exemption ($6.25B in exports now affected per DTI); no new legislative bill found. Stays Partial.
+- Norway has requested WTO dispute-settlement consultations with the US over the tariff (a diplomatic/legal response, not a forced-labor import measure) -- no status change.
+No new bilateral RTAs signed by any economy since baseline. No new Federal Register final-rule text found beyond what's already captured.
+Push: pending (this commit).
