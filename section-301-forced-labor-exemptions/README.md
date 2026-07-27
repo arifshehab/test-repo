@@ -70,6 +70,29 @@ that already **existed** in June.
 > The per-Part "Existing"/"New" columns count rows; unique-code totals differ because a
 > code can be exempted for more than one economy (163 codes appear in more than one Part).
 
+## Note on the FRN's "471 additional products"
+
+Section D of the July notice ("Determination to Exempt Additional Products") states that
+the Trade Representative excluded *"an additional 471 products"* beyond those proposed in
+June. This workbook counts **465** distinct new HTS subheadings in the universal list
+(Part A).
+
+The 465 figure was verified two independent ways — parsing the annex table structure, and
+re-extracting codes by text geometry (leftmost-column position). Both return exactly 2,120
+Part A codes, with no missed rows, duplicates, or non-standard entries; and June's 1,655
+codes are an **exact subset** of Part A (0 removed), including after normalizing 8- vs
+10-digit code formats. So 465 is the accurate count of distinct *new tariff lines*.
+
+The 6-item difference is therefore a **counting-definition gap** between the notice's prose
+"product" count and distinct HTS subheadings in Annex II — not missing or duplicated data.
+Two candidate explanations were tested and ruled out: 10-digit code formatting (the 7
+ten-digit codes are already counted correctly), and modified exemptions (369 shared codes
+received scope changes, mostly new `Pharma` tags, and 97 differ only by PDF line-break
+hyphenation — neither equals 6). USTR's 471 may also be measured against the **June 5
+Federal Register** publication rather than USTR's June 2 pre-publication PDF used here; the
+Federal Register version renders Annex A as page images, so it is not text-comparable
+without OCR.
+
 ## Category exemptions (not tied to HTS codes)
 
 Both notices also exempt, outside the HTS tables: informational materials; donations
