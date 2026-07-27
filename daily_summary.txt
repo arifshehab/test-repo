@@ -135,4 +135,4 @@ All other economies re-researched across 6 parallel batches with no other classi
 - Philippines' Joint Administrative Order did not secure a US tariff exemption ($6.25B in exports now affected per DTI); no new legislative bill found. Stays Partial.
 - Norway has requested WTO dispute-settlement consultations with the US over the tariff (a diplomatic/legal response, not a forced-labor import measure) -- no status change.
 No new bilateral RTAs signed by any economy since baseline. No new Federal Register final-rule text found beyond what's already captured.
-Push: pending (this commit).
+Push: succeeded (commit 40c7592 on origin/claude/section-301-labour-tracker-etqasl).
