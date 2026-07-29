@@ -176,4 +176,4 @@ Substantive row updates (no status changes):
 - UNITED KINGDOM -- detail added: the Independent Anti-Slavery Commissioner's December 2025 "model legislative drafting" report proposes an import/export ban plus mandatory due diligence, but is advisory, not a government bill. Stays Partial.
 
 Unchanged and re-verified: Colombia's DIAN/MinCIT competence standoff still unresolved with no decree issued; Norway still Partial with no Storting proposition tabled (regjeringen.no continues to return HTTP 403 to automated fetching, stated in-row rather than papered over); Pakistan's RTA still unsigned; Philippines has no bill beyond the July 24 JAO; Thailand's committee still has published no watchlist; Taiwan has no Legislative Yuan bill. Jordan's Annex I 10% figure remains unverified (the Annex still does not render from either ustr.gov or whitehouse.gov) and India's DGFT gazette PDF still fails to fetch -- both carried forward as open items. No new bilateral RTAs signed by any economy; no omnibus-buried bans found this run.
-Push: pending (this commit).
+Push: succeeded (commit 5a104c5 on origin/claude/section-301-labour-tracker-etqasl).
