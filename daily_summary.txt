@@ -222,4 +222,4 @@ Stalled watch items, all re-verified:
 - Also unchanged: Malaysia's ART unratified; Peru's bill unassigned in the new bicameral Congress; Philippines has nothing beyond the July 24 JAO; Thailand's committee has published no Royal Gazette watchlist; Norway has no Storting proposition (summer recess); Guatemala's MINTRAB company list still unpublished with the measure not in force until ~mid-August.
 - INDIA remains the sole unresolved primary-source item: the DGFT/eGazette PDF failed to render again. The ~August 12 effective date and the absence of any banned-goods list are corroborated by multiple independent legal trackers.
 No new bilateral RTAs with forced-labour clauses found; no omnibus-buried bans found this run.
-Push: pending (this commit).
+Push: succeeded (commit 5cf06fe on origin/claude/section-301-labour-tracker-etqasl).
