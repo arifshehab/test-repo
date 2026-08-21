@@ -703,4 +703,4 @@ Guards that held: Nigeria and Oman both re-confirmed at 12.5% -- the previously 
 
 Open watch items: Colombia decree signature; Israel order signature/Reshumot publication; Honduras STSS list (overdue); India Gazette date; Canada consultation outcome; New Zealand select-committee report-back August 31; UK Lords debate September 4; Vietnam decree effective September 5; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification; Thailand bill tabling.
 
-Push: pending (this commit)
+Push: confirmed, commit c685cff pushed to origin/claude/section-301-labour-tracker-etqasl
