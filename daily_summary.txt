@@ -844,3 +844,33 @@ Guards that held: Japan, South Korea and Switzerland all stayed No, with yesterd
 Open watch items: Colombia decree signature; Peru's delegated-powers filing; Israel order signature/Reshumot publication; Honduras gazette resumption and STSS list; India Gazette date; Canada consultation outcome; New Zealand report-back August 31; UK Lords debate September 4; Vietnam decree effective September 5; Philippines HB 10848 progress; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification; Thailand bill tabling.
 
 Push: confirmed, commit 9ed0658 pushed to origin/claude/section-301-labour-tracker-etqasl
+
+=== 2026-08-27 03:00 UTC ===
+No classification changes today. Tally unchanged: 15 Yes / 14 Partial / 31 No. All 60 economies re-researched across six parallel batches, with local-language searches for every "No"/stale economy. No new economy joined the RTA-commitment watchlist.
+
+Top-priority standing check, run directly: the Federal Register API, filtered to USTR documents published since July 29, now returns TWO items -- doc 2026-16841 of August 18 (annual China WTO-compliance notice) and doc 2026-17351 of August 26 (2026 Review of Notorious Markets, comment request). Both unrelated to forced labour. The July 23 final determination stands unamended.
+
+COLOMBIA -- the negative strengthened again, verified by me directly for a seventh consecutive day. The MinCIT Decretos 2026 register has MOVED a second time: from Decreto 1225 of August 18 to a ceiling of Decreto 1284 of 25 August, with THREE new decrees (1282, 1283, 1284, all dated August 25) added since the previous check and 36 entries in total. Every one is a personnel matter -- "por medio del cual se termina un encargo y se efectua un nombramiento ordinario" -- and the register still contains zero occurrences of "forzoso". That matters more than a register sitting still: MinCIT is demonstrably signing and publishing decrees, just not this one. Twelve days past the close of the comment window, the forced-labour instrument is still listed only as a "Proyecto de Decreto," unsigned and unextended.
+
+PERU -- the target has stopped being a date. Galarreta's "no later than Monday August 24" lapsed; Keiko Fujimori on August 23 and Galarreta again on August 26 both said only "esta semana," and that week is now all but out with no filing, no project number in congreso.gob.pe and nothing in El Peruano. The reported SCOPE has meanwhile grown -- citizen security, MSMEs, employment and formalisation, productive development, the tax regime, state modernisation -- while still omitting forced labour entirely, so even a filing would need reading for a forced-labour clause before it moved anything. A stale-source trap was caught and rejected: a result headlined "Pleno del Congreso aprobo delegar facultades legislativas" dates from 2024 and December 2025, not 2026, and is NOT evidence the current request was approved.
+
+MEXICO -- a loose date pinned down. Earlier runs recorded the TFJA's decision to take up the Empower/ProDESC case as "March 2026," then hedged to "March-May." Against ProDESC's own account the announcement date is MAY 18, 2026, the first time a Mexican tribunal has exercised its "atraer" power over forced-labour-linked imports. The petition concerns Chinese-made surveillance cameras (Dahua/Hikvision) procured by Ciudad Juarez. No ruling yet; classification unaffected, resting on the enacted 2023 DOF regulation.
+
+CANADA -- the separate trade track now has a hard date, still not touching this tracker. Canada announced retaliatory tariffs on August 25 covering roughly $20 billion of US goods at rates reported between 15% and 50% across 700-plus tariff lines, TAKING EFFECT SEPTEMBER 8, 2026. Those figures are press-sourced (CNBC, Al Jazeera, NPR) rather than read from a government instrument and are recorded as such. This remains a different tariff track from the Section 301 forced-labour action; Canada's 10% forced-labour tier and its Yes classification, resting on the enacted 2020 prohibition, are unaffected. The consultation that closed August 21 still has no outcome report.
+
+Negatives re-established:
+- Honduras: the leyes.hn ceiling is unchanged at Edition No. 37,226 of August 21 for a SIXTH straight day. No new gazette edition at all, so the missing STSS list reflects a silent gazette rather than editions that skipped it. A resumption of publishing remains the specific thing to watch.
+- Israel: eighth consecutive daily check since the August 20 Reshumot claim; still no signed order and no Reshumot entry.
+- The Bahamas: seventeenth consecutive blocked day (August 11-27), and no evidence of a Senate sitting on the Bill; the most recent documented Senate activity is the May 20 opening ceremony.
+- India: DGFT's index returned HTTP 403 for a SEVENTH consecutive run. Secondary sources show the series has advanced to Nos. 30, 32 and 33/2026-27 (August 20-21), all unrelated to forced labour, and recorded as secondary. The inferred in-force date is fifteen days past, unconfirmed.
+- South Africa: thirty-first consecutive verification, still No.
+- New Zealand: report-back due August 31, four days out, no early report and no extension.
+- Vietnam: NINE days from the September 5 effective date with still no Bo Noi vu HS-code list, implementing circular or customs preparation notice. If nothing issues before the date, that absence is itself the finding about how this ban will actually operate.
+
+Also carried: Philippines HB 10848 filed but with no committee action found; Malaysia's ART still unratified pending the US tariff proposal; Norway has no Storting proposition; Thailand's committee still organising; Trinidad and Tobago's first ministerial goods designation still pending; Sri Lanka's Customs guidelines still unissued; Guatemala has no SAT circular, Listado Oficial due November 15; UK Lords debate September 4.
+
+Guards that held: Japan, South Korea and Switzerland all stayed No, with the August 25 settled negatives respected and not re-litigated; Nigeria and Oman re-confirmed at 12.5%; the Bahamas red herring (S.I. No. 57/2026, a fine increase) not re-reported; the Australia/NSW committee false positive still rejected.
+
+Open watch items: Colombia decree signature; Peru's delegated-powers filing; Israel order signature/Reshumot publication; Honduras gazette resumption and STSS list; India Gazette date; Canada consultation outcome; New Zealand report-back August 31; UK Lords debate September 4; Vietnam decree effective September 5; Philippines HB 10848; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification; Thailand bill tabling.
+
+Push: pending (this commit)
