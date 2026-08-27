@@ -873,4 +873,4 @@ Guards that held: Japan, South Korea and Switzerland all stayed No, with the Aug
 
 Open watch items: Colombia decree signature; Peru's delegated-powers filing; Israel order signature/Reshumot publication; Honduras gazette resumption and STSS list; India Gazette date; Canada consultation outcome; New Zealand report-back August 31; UK Lords debate September 4; Vietnam decree effective September 5; Philippines HB 10848; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification; Thailand bill tabling.
 
-Push: pending (this commit)
+Push: confirmed, commit 3fa1f69 pushed to origin/claude/section-301-labour-tracker-etqasl
