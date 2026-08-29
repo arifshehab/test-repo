@@ -921,4 +921,4 @@ Not adopted: a Canada Finance counter-tariff instrument I could not retrieve (ca
 
 Open watch items: Honduras STSS list in a future edition; Colombia decree signature; Israel order signature/Reshumot publication; India Gazette date; Canada consultation outcome; New Zealand report-back August 31 and an official election date; UK Lords debate September 4 and Public Bill Committee September 10; Vietnam decree effective September 5; Philippines HB 10848; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification; Thailand bill tabling; any Peruvian Decreto Legislativo issued under the delegation.
 
-Push: pending (this commit)
+Push: confirmed, commit b047f65 pushed to origin/claude/section-301-labour-tracker-etqasl
