@@ -947,4 +947,4 @@ One batch reported Canada's counter-tariffs as having "taken effect as scheduled
 
 Open watch items: Honduras enforcement from September 20 and the Article 15 customs classification of the six registros; any Peruvian Decreto Legislativo issued under the delegation; Colombia decree signature; Israel order/Reshumot; India Gazette date; Canada consultation outcome; New Zealand report-back August 31; UK Lords debate September 4 and Public Bill Committee September 10; Vietnam effective September 5; Philippines HB 10848; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification; Thailand bill tabling.
 
-Push: pending (this commit)
+Push: confirmed, commit fcd8f4d pushed to origin/claude/section-301-labour-tracker-etqasl
