@@ -1001,4 +1001,4 @@ Guards that held: Japan, South Korea and Switzerland not reopened; Nigeria and O
 
 Open watch items: UK Lords debate September 4; Vietnam effective September 5; UK Public Bill Committee September 10; Honduras enforcement September 20 and the Article 15 classification; Australia consultation close September 25; Peru's referral to the Comision de Constitucion and any Decreto Legislativo; NZ second reading; Colombia decree signature; Israel order/Reshumot; India Gazette date; Canada consultation outcome; Philippines HB 10848; Ecuador ETITF manual; Sri Lanka guidelines; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification; Thailand Royal Gazette notice.
 
-Push: pending (this commit)
+Push: confirmed, commit df454d7 pushed to origin/claude/section-301-labour-tracker-etqasl
