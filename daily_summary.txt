@@ -1053,4 +1053,4 @@ Other checks: Brazil's PL 2.799/2015 confirmed at the Camara page, last event Ju
 
 Open watch items: UK Lords debate TOMORROW September 4; Vietnam effective September 5 (check for a circular or HS list first thing); UK Public Bill Committee September 10; Honduras enforcement September 20 and the Article 15 classification; Canada Commons resumption September 21; Australia consultation close September 25; whether Peru's forced-labour clause survives the Comision de Constitucion; NZ second reading; Colombia decree signature; Israel order/Reshumot; India Gazette date and any Para 2.20B designation; Philippines HB 10848; Ecuador ETITF manual; Sri Lanka guidelines; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification; Thailand Royal Gazette notice.
 
-Push: pending (this commit)
+Push: confirmed, commit d4c2820 pushed to origin/claude/section-301-labour-tracker-etqasl
