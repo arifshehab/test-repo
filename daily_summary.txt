@@ -1079,4 +1079,4 @@ Process note. FOUR of the six passes this run volunteered that they were lighter
 
 Open watch items: Vietnam effective TODAY September 5 -- check first thing for any circular, HS list or customs notice appearing at the moment of effect; UK Public Bill Committee September 10; Honduras enforcement September 20 and the Article 15 classification; Canada Commons resumption September 21; Australia consultation close September 25; whether Peru's forced-labour clause survives the Comision de Constitucion; Thailand's Risk List or Section 5 gazette notice; NZ second reading; Colombia decree signature; Israel order/Reshumot; India Gazette date and any Para 2.20B designation; Philippines HB 10848; Ecuador ETITF manual; Sri Lanka guidelines; Guatemala Listado Oficial November 15; Pakistan RTA signature; Malaysia ART ratification.
 
-Push: pending (this commit)
+Push: confirmed, commit 362e03d pushed to origin/claude/section-301-labour-tracker-etqasl
