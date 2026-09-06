@@ -1139,4 +1139,4 @@ Also logged: Trinidad and Tobago re-checked after several carried-forward runs -
 
 Open watch items: whether any Vietnamese implementing instrument appears now that the prohibition is live; Colombia decree signature; Peru's dictamen, now on a 15-working-day clock; UK Public Bill Committee September 10, with Committee-stage amendments typically published in the days just before first sitting; Honduras enforcement September 20 and the Article 15 classification; Canada Commons resumption September 21; Australia consultation close September 25; UK Committee report-back deadline November 3; Guatemala Listado Oficial November 15; Jordan's true entry-into-force date; NZ second reading; Israel order/Reshumot; India Gazette date; Philippines HB 10848; Ecuador ETITF manual; Sri Lanka guidelines; Pakistan RTA signature; Malaysia ART ratification; Thailand Risk List or Section 5 gazette notice.
 
-Push: pending (this commit)
+Push: confirmed, commit be4ee8f pushed to origin/claude/section-301-labour-tracker-etqasl
