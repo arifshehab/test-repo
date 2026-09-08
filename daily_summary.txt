@@ -1191,4 +1191,4 @@ Elsewhere: Vietnam day four, still no circular, HS list or customs notice, and s
 
 Open watch items: Peru's ministerial hearing September 9 and dictamen deadline September 18; UK Public Bill Committee oral evidence September 10, with line-by-line and the real amendment window later; Honduras enforcement September 20 and the Article 15 classification; Canada Commons resumption September 21; Australia consultation close September 25; UK Committee report November 3; Guatemala Listado Oficial November 15; Colombia decree signature; whether any Vietnamese implementing instrument appears; Jordan's true entry-into-force date; NZ second reading; Israel order/Reshumot; India Gazette date; Philippines HB 10848; Sri Lanka guidelines; Pakistan RTA signature; Malaysia ART ratification; Thailand Risk List or Section 5 gazette notice.
 
-Push: pending (this commit)
+Push: confirmed, commit 0a3d0c5 pushed to origin/claude/section-301-labour-tracker-etqasl
