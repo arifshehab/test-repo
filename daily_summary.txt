@@ -1245,4 +1245,4 @@ Honest carry-forwards rather than counted checks: Israel's Hebrew sources were n
 
 Open watch items: Peru's dictamen by September 18 and whether the customs bloc survives; Honduras enforcement September 20 and the Article 15 classification; Canada Commons resumption September 21; Australia consultation close September 25; UK Committee report November 3 and the oral-evidence transcript in the coming days; Guatemala Listado Oficial November 15; Colombia decree signature; whether any Vietnamese implementing instrument appears; Jordan's true entry-into-force date; NZ second reading; Israel order/Reshumot; India Gazette date; Philippines HB 10848; Sri Lanka guidelines; Pakistan RTA signature; Malaysia ART ratification; Thailand Risk List or Section 5 gazette notice.
 
-Push: pending (this commit)
+Push: confirmed, commit 5a3e117 pushed to origin/claude/section-301-labour-tracker-etqasl
