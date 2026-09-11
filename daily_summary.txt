@@ -1246,3 +1246,99 @@ Honest carry-forwards rather than counted checks: Israel's Hebrew sources were n
 Open watch items: Peru's dictamen by September 18 and whether the customs bloc survives; Honduras enforcement September 20 and the Article 15 classification; Canada Commons resumption September 21; Australia consultation close September 25; UK Committee report November 3 and the oral-evidence transcript in the coming days; Guatemala Listado Oficial November 15; Colombia decree signature; whether any Vietnamese implementing instrument appears; Jordan's true entry-into-force date; NZ second reading; Israel order/Reshumot; India Gazette date; Philippines HB 10848; Sri Lanka guidelines; Pakistan RTA signature; Malaysia ART ratification; Thailand Risk List or Section 5 gazette notice.
 
 Push: confirmed, commit 5a3e117 pushed to origin/claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-11 02:40 UTC ===
+No material change to any classification. Tally unchanged for the thirteenth consecutive run: 15 Yes / 14 Partial / 31 No.
+
+TOP-PRIORITY CHECK, VERIFIED BY ME DIRECTLY: USTR has still issued NO new or final Section 301
+forced-labour determination. I queried the Federal Register agency API myself; the newest USTR
+forced-labour document remains doc 2026-15181 of 28 July 2026, and everything since is unrelated
+(China tech-transfer exclusions 2 Sept, Russia WTO 1 Sept, Notorious Markets 26 Aug, China WTO 18 Aug).
+Three of the six batches reached the same result independently. Verified negative, not thin coverage.
+
+WHAT ACTUALLY CHANGED TODAY
+
+1. DOMINICAN REPUBLIC -- the most substantive new finding, and it is government-side. Diario Libre of
+   10 September, "Aun no se aplican medidas contra el trabajo forzoso", which I fetched and read
+   directly, quotes Customs Director General Nelson Arroyo saying the DGA cannot act until the Labour
+   Ministry issues technical guidance: "Hasta que el Ministerio de Trabajo no de las pautas tecnicas,
+   nosotros no podemos tomar medidas." No timeline, no prohibited-merchandise registry seven weeks
+   after Decreto 502-26, imports continuing normally, and in practice a complaint required to stop a
+   shipment even though the decree lets the DGA act on its own initiative. Classification UNCHANGED at
+   Yes -- this tracker classifies on enactment, not enforcement -- but the enforcement gap is now
+   confirmed in the words of the official responsible for enforcing it, which is stronger evidence than
+   the commentator scepticism previously recorded. Note: this article is a three-way confusable -- one
+   pass flagged it as possibly Venezuelan, another momentarily filed it under Colombia.
+
+2. PERU -- yesterday's unverified signal resolved, and a reported development corrected. The El Comercio
+   article is real; yesterday's 404 was my constructed URL, not the article. It is dated 5 September and
+   does list "facilitacion del comercio e implementacion de acuerdos comerciales" -- the bloc carrying the
+   forced-labour clause -- among deprioritised items, quoting "Los otros temas son importantes pero no
+   urgentes, pueden esperar algunas semanas mas", though it does not name forced labour. Separately a pass
+   reported the Comision de Trabajo rejecting the delegation report 10-2 on 9 September. I fetched it: the
+   article is dated 10 September and reads "fue rechazado con 10 votos en contra y 8 a favor" -- eight in
+   favour, not two -- and the rejected report covered youth employment and public-holiday regulation, with
+   NO mention of trabajo forzoso, customs or import prohibition. That is a DIFFERENT bloc and is not a vote
+   against the forced-labour clause; recorded explicitly so a future run does not read it as one. A further
+   claim that six commissions have recommended against the delegation is carried as unverified. Dictamen
+   still due 18 September. Stays Partial.
+
+3. VIETNAM -- day seven in force, still no implementing measure, plus a new confusable. Decree
+   283/2026/ND-CP took effect 10 September setting administrative penalties for labour violations
+   (50-75m VND for forced labour below the criminal threshold). It is a labour-enforcement penalty
+   instrument, NOT the Article 5(2) HS-code list Decree 292 requires, but its timing six days after
+   Decree 292 came into force makes it exactly the kind of item a future pass could mistake for the
+   missing implementing measure. Logged as a confusable, not as progress. Stays Yes.
+
+4. HONDURAS -- nine days to enforcement. I fetched leyes.hn myself: ceiling still Edition 37,238 of
+   4 September, so nothing published for seven days; a pass independently probed /gaceta/37239 and got a
+   404, corroborating from the other side. The item-count drift warning is now emphatically confirmed --
+   the index today lists 37,238 at "12 elementos" while its own summary on the same page says it contains
+   52 documents, and 37,237 reads 77 against 58 then 57. The counts contradict the summaries, so they carry
+   no evidential weight at all. Article 15 customs classification unverified for a ninth day.
+
+5. LIBYA -- a genuine Arabic search surfaced Decree No. 449/2026 (Ministry of Economy and Trade, Minister
+   Sohail Abu Shaiha) barring supply of goods outside banking channels from 30 September. Recent, an import
+   decree, hard effective date, and it will keep matching Libya-plus-import-prohibition searches -- but it
+   is a foreign-exchange control with no forced-labour element. Logged as a new confusable; the Libya
+   negative is now locally verified rather than thin-coverage.
+
+GAPS CLOSED BY ME after passes disclosed they had skipped them:
+- India: fetched DGFT directly, HTTP 403 with a 243-byte "AccessDenied" body -- body read, not status
+  trusted. FIFTEENTH confirmed refusal.
+- Israel: ran the Hebrew search myself -- only the 26 July Cabinet decision and 13 August Knesset Economic
+  Committee approval, no signed order, no Reshumot entry. TWENTY-FIRST verified rejection. Note the 90-day
+  clock from 26 July expires around 24 October, so this row has a real deadline.
+- Hong Kong: ran the Chinese search myself -- only imported-WORKER policy material (LegCo Manpower Panel,
+  Labour Department). 輸入勞工 is importing workers, not goods; negative now locally verified.
+
+FLAGGED SOURCING GAPS: Norway CLOSED -- the Storting "Saker som ventes fra regjeringen" register was
+fetched directly and still carries no tvangsarbeid proposition and no Regulation 2024/3015 item, while
+still carrying the EEA vareloven and Ukraine/Malaysia/MERCOSUR items that make it a working control.
+Malaysia NOT CLOSED and recorded as still open -- miti.gov.my returned only navigation chrome, so the row
+still rests on The Edge Malaysia and Malay Mail. It remains the weakest-sourced Partial in the file.
+
+DISCREPANCY FLAGGED, NOT RESOLVED: this row has described the 10 September UK Bill Committee sitting as
+oral evidence, on the basis of a correction I made on 8 September. This run's pass found results describing
+it as line-by-line scrutiny. bills.parliament.uk 403'd for a TWELFTH consecutive run, so I cannot adjudicate.
+If it was line-by-line, amendments already exist and this row has been looking for them a stage too late.
+No import-prohibition amendment identified on any account either way.
+
+Other: Australia's 25 September consultation close re-confirmed at ministers.ag.gov.au and
+consultations.ag.gov.au. Colombia register static at Decreto 1369 for a second day. Bahamas register empty
+body for a thirty-second day. South Africa forty-sixth negative. Nigeria 12.5% and Oman 12.5% reconfirmed
+against the recurring inflated figures.
+
+CANDOUR: batch 2 disclosed it carried Chile, China, Egypt, El Salvador, EU and Guatemala forward without
+fresh searches; batch 3 disclosed skipped local-language checks for Indonesia, Iraq and Kazakhstan; batch 5
+disclosed lighter treatment of Singapore and South Africa. Those are carried forward, not counted as
+verified checks today.
+
+WATCH: Peru dictamen 18 September; Honduras enforcement 20 September and the Article 15 classification;
+Canada Commons resumption 21 September; Australia consultation close 25 September; Israel 90-day deadline
+~24 October; UK Committee report 3 November; New Zealand election 7 November and any second reading;
+Guatemala Listado Oficial 15 November; Colombia decree signature; any Vietnamese implementing circular;
+Jordan's true entry-into-force date; Malaysia ART ratification; Pakistan RTA signature; Philippines HB 10848;
+Sri Lanka guidelines; India Gazette date; Thailand Risk List.
+
+Push: pending (this commit)
