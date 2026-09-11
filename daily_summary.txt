@@ -1341,4 +1341,4 @@ Guatemala Listado Oficial 15 November; Colombia decree signature; any Vietnamese
 Jordan's true entry-into-force date; Malaysia ART ratification; Pakistan RTA signature; Philippines HB 10848;
 Sri Lanka guidelines; India Gazette date; Thailand Risk List.
 
-Push: pending (this commit)
+Push: CONFIRMED SUCCESSFUL — content commit 0ed8841 pushed to origin/claude/section-301-labour-tracker-etqasl (85e08ec..0ed8841).
