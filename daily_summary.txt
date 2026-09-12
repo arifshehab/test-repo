@@ -1342,3 +1342,97 @@ Jordan's true entry-into-force date; Malaysia ART ratification; Pakistan RTA sig
 Sri Lanka guidelines; India Gazette date; Thailand Risk List.
 
 Push: CONFIRMED SUCCESSFUL — content commit 0ed8841 pushed to origin/claude/section-301-labour-tracker-etqasl (85e08ec..0ed8841).
+
+=== 2026-09-12 02:45 UTC ===
+No classification changes. Tally unchanged for a fourteenth consecutive run: 15 Yes / 14 Partial / 31 No.
+But this was the most eventful run in weeks: two of my own prior entries were wrong and are corrected below.
+
+TOP-PRIORITY CHECK, VERIFIED BY ME DIRECTLY: USTR has still issued NO new or final Section 301
+forced-labour determination. I queried the Federal Register agency API myself; newest USTR forced-labour
+document remains doc 2026-15181 of 28 July. All six batches reached the same result independently.
+
+1. PERU -- THE MOST CONSEQUENTIAL DEVELOPMENT THIS TRACKER HAS SEEN, verified by me at the official
+   congressional source. The Comision de Produccion, Comercio Exterior y Turismo, chaired by Jose Palma
+   Mendoza, REJECTED its report on the delegated-powers request on 9 September, "Con 8 votos a favor,
+   10 en contra y 1 abstencion". Crucially, the rejected report covered "...tributaria y aduanera,
+   facilitacion del comercio e implementacion de acuerdos comerciales" -- THE CUSTOMS AND TRADE BLOC,
+   the one Infobae and Gestion identified as carrying the forced-labour import prohibition. Unlike the
+   Comision de Trabajo vote recorded yesterday (youth employment and public holidays, correctly excluded),
+   this one is the right bloc. TWO LIMITS RECORDED RATHER THAN GLOSSED: "trabajo forzoso" does NOT appear
+   in the official text, so the link to the clause is INFERENTIAL, resting on the bloc description; and a
+   committee report is advisory -- the binding step is the Comision de Constitucion dictamen, still due
+   18 September. Stays Partial. A claim that 52 deputies have now voted against across commissions is
+   carried as unverified.
+
+2. HONDURAS -- CORRECTION TO MY OWN 11 SEPTEMBER ENTRY, and the methodological finding matters more than
+   the correction. That entry said the ceiling was Edition 37,238 of 4 September with "nothing published
+   for seven days", citing a pass's 404 on /gaceta/37239 as corroboration. Both were accurate when made
+   and both are now false: Editions 37,239 (5 Sept) and 37,242 (9 Sept) now appear, and /gaceta/37239
+   returns HTTP 200 where it 404'd a day earlier. LEYES.HN PUBLISHES EDITIONS RETROACTIVELY. This is a
+   worse version of the item-count drift already logged: a clean check of that index NEVER establishes
+   that nothing was published on a date, only that nothing was visible yet. Future runs must re-open the
+   whole recent range, never trust an established ceiling. Both new editions opened in full: 37,239 is two
+   legal-status resolutions plus bylaws; 37,242 is salary agreements, procurement, edictos and trademarks.
+   I checked 37,242 myself because it returned 14 SETRASS hits -- all belong to Acuerdo Ejecutivo
+   SETRASS-604-2026, a public-sector pay agreement, with ZERO "forzos" and both "aduana" hits inside a
+   class-35 trademark filing. 37,240 and 37,241 are 404, so the sequence has gaps. ARTICLE 15 PROBE now
+   characterised rather than just counted: three aduanas.gob.hn routes all return HTTP 403 with a
+   2,099-byte Cloudflare challenge body -- an edge WAF, not a server refusal, which explains ten days of
+   identical failures and means the determination is unverified, NOT confirmed absent. Eight days to
+   enforcement; ~19 days of Chinese silence.
+
+3. UNITED KINGDOM -- THE DISPUTE IS RESOLVED, AND IT RESOLVES AGAINST MY OWN 8 SEPTEMBER CORRECTION. The
+   way past the 403 was to stop trying parliament.uk and read independent write-ups. LexisNexis states
+   verbatim that the Committee "will meet for the first time on 10 September 2026 to scrutinise the Bill
+   line by line and is expected to report by 5.00 pm on 3 November 2026"; a UK Constitutional Law
+   Association post of 10 September converges. So 10 September was LINE-BY-LINE scrutiny, not oral
+   evidence -- my 8 September recharacterisation was itself the error, and amendments have been in scope
+   since then, meaning this row was looking for them a stage too late. bills.parliament.uk 403'd for a
+   THIRTEENTH consecutive run, so the amendment paper still has not been read -- that is now the gap.
+   No import-prohibition amendment identified by any reachable source. Classification unaffected.
+
+FLAGGED GAPS CLOSED THIS RUN (all four that were owed):
+- MALAYSIA, the weakest-sourced Partial in the file, CLOSED at primary-text level and government-direct.
+  miti.gov.my/ART served the actual treaty text and I fetched it myself: Article 7.2 "...shall enter into
+  force 60 days after the date on which the Parties have exchanged written notifications..." and Article
+  2.9(1) "Malaysia shall implement the obligations in this paragraph within two years of the date of entry
+  into force". Both propositions this row carried on secondary reporting for weeks are now verified.
+  Cross-reading note: the forced-labour clause is Article 2.9(1), the SAME number as in the US-Jordan
+  agreement -- these RTAs share a template. Caveats kept: page is dated "Last Updated 2026-05-22", and
+  current ratification status remains thin-coverage.
+- BRAZIL: the owed direct fetch was done. The Camara tramitacao page reads "Aguardando Designacao de
+  Relator(a) na Comissao de Constituicao e Justica e de Cidadania" -- no CCJC rapporteur in three months,
+  document-level stasis rather than inference from absent news.
+- ANGOLA: the owed Portuguese search was run -- only Lei n. 12/23, a domestic employment statute, no
+  import measure. imprensanacional.gov.ao 503s again.
+- IRAQ (Arabic) and KAZAKHSTAN (Russian): both owed local-language searches run, both clean negatives now
+  locally verified rather than carried.
+
+ALSO: EU near-fabrication caught and rejected -- a search synthesis described a "US-EU Framework Agreement
+of August 21, 2026" with a forced-labour clause; the primary sources date it to August 21, 2025, a year
+earlier and superseded. Same failure mode as the Peruvian expediente and the Mexican March date; here the
+year was the only thing wrong. Indonesia's "seven working days" figure failed an Indonesian-language test
+again and stays rejected. Israel: TWENTY-SECOND verified rejection, including a search of my own aimed at
+the Reshumot Kovetz HaTakanot specifically -- searching the publication venue and finding nothing is a
+better negative than searching the news; 48 days into a 90-day instruction. Taiwan: a real Chinese
+Legislative Yuan search found no bill and found Amnesty Taiwan still arguing the government "should
+legislate" -- advocacy for a bill that does not exist. Norway: third consecutive direct read of the
+Storting register, still clean. Colombia: third static day at Decreto 1369, verified by me after the pass
+went search-only. South Africa: the GPW portal LOADED rather than resetting -- a change -- but served only
+the category landing page, so it stays an index-level check and the negative is not upgraded.
+
+CANDOUR: India is recorded as a sixteenth refusal AT STATUS LEVEL ONLY -- the pass got HTTP 403 but
+disclosed its tooling cannot read bodies, and I did not re-fetch the host myself today, so today's check is
+weaker than yesterday's and is labelled so. Batch 1 skipped Cambodia; batch 3 gave Japan and Hong Kong
+lighter passes; batch 5 did not re-run Sinhala/Tamil for Sri Lanka; batch 6 carried Thailand and Trinidad
+forward. Those are carried, not counted as verified today.
+
+WATCH: Peru dictamen 18 September and whether the customs bloc survives the Comision de Constitucion;
+Honduras enforcement 20 September and the Article 15 classification; Canada Commons 21 September;
+Australia consultation close 25 September; Israel 90-day deadline ~24 October; UK Committee report
+3 November and the amendment paper; New Zealand election 7 November; Guatemala Listado Oficial
+15 November; Colombia decree signature; any Vietnamese implementing circular; Jordan's true entry-into-
+force date; Malaysia ART ratification notices; Pakistan RTA signature; Philippines HB 10848; Sri Lanka
+guidelines; India Gazette date; Thailand Risk List.
+
+Push: pending (this commit)
