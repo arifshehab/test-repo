@@ -1435,4 +1435,4 @@ Australia consultation close 25 September; Israel 90-day deadline ~24 October; U
 force date; Malaysia ART ratification notices; Pakistan RTA signature; Philippines HB 10848; Sri Lanka
 guidelines; India Gazette date; Thailand Risk List.
 
-Push: pending (this commit)
+Push: CONFIRMED SUCCESSFUL — content commit f89229a pushed to origin/claude/section-301-labour-tracker-etqasl (ee40d39..f89229a).
