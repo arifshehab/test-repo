@@ -1436,3 +1436,95 @@ force date; Malaysia ART ratification notices; Pakistan RTA signature; Philippin
 guidelines; India Gazette date; Thailand Risk List.
 
 Push: CONFIRMED SUCCESSFUL — content commit f89229a pushed to origin/claude/section-301-labour-tracker-etqasl (ee40d39..f89229a).
+
+=== 2026-09-13 02:50 UTC ===
+No classification changes. Tally unchanged for a fifteenth consecutive run: 15 Yes / 14 Partial / 31 No.
+Two genuinely new findings, one of them a refutation the tracker has been circling for six weeks.
+
+TOP-PRIORITY CHECK, VERIFIED BY ME DIRECTLY: no new or final USTR Section 301 forced-labour
+determination. Newest USTR document is 2026-18775, a 2027 National Trade Estimate comment request on
+public inspection ahead of a 14 September date -- NOT a forced-labour action. A full-text Federal Register
+search for "forced labor" + "section 301" since 1 August returns COUNT 0. The July 28 notice (2026-15181)
+remains the last forced-labour action.
+
+1. JORDAN -- THE "ENTERED INTO FORCE AUGUST 1" CLAIM IS NOW POSITIVELY REFUTED, not merely unconfirmed.
+   Six-plus Arabic outlets have carried it for weeks and this row kept declining to adopt it purely for
+   lack of official confirmation. The way in came sideways: yesterday's Malaysia finding showed these
+   reciprocal-trade agreements share a template -- forced-labour obligation at Article 2.9(1), entry into
+   force via exchange of written notifications plus 60 days -- which implied the Jordan text has an
+   equivalent. It does. I fetched the agreement on whitehouse.gov: "This Agreement shall enter into force
+   60 days after the date on which the Parties have notified each other in writing of the completion of
+   their respective applicable internal procedures required for the entry into force of this Agreement."
+   THE AGREEMENT WAS SIGNED 21 JULY 2026. Sixty days from signature is ~19 September, and the clock does
+   not even start until notifications are exchanged, which nothing shows has happened. Entry into force on
+   1 AUGUST -- eleven days after signature -- is ARITHMETICALLY IMPOSSIBLE under the treaty's own terms.
+   Rejected on primary-text grounds. A likely source of the error was also found: the OLD US-Jordan FTA
+   genuinely "دخلت حيز النفاذ في 17 كانون الأول 2001", so outlets may be transposing that language.
+   This matters substantively, not just for tidiness: Article 2.9(1) runs its five-year prohibition
+   deadline from entry into force, so a wrong start date misdates the deadline by months. The clock has
+   NOT started. Caveat kept: the fetch returned the entry-into-force article as 6.6(2) while my query had
+   suggested Malaysia's 7.2, so the NUMBER is held loosely; the 60-day mechanism itself came back
+   identically from two independent retrievals.
+
+2. THAILAND -- A NEW PATHWAY, flagged but explicitly not adopted. Thailand-US ART negotiations are
+   reported in their final stages (Nation Thailand 8-10 Sept: every major issue settled; Thai Examiner
+   10 Sept: an Anutin-Trump call could finalise it). Given the template finding above, a signed Thai
+   agreement carrying an Article 2.9-equivalent would put Thailand on the RTA-commitment watchlist and
+   move it No -> Partial on treaty grounds with no domestic Thai measure at all. Nothing moves today: no
+   signed text, no fact sheet, and this tracker does not classify on a negotiation reported to be nearly
+   done. Instruction to the next run: when it is announced, fetch the text, do not read the headline.
+
+3. PERU -- both claims this row was carrying as unverified are now VERIFIED, five days from the deadline.
+   La Republica of 11 September confirms 52 diputados have voted against across their commissions and
+   names the four outstanding: Economia; Desarrollo Agrario; Defensa del Consumidor; and Modernizacion de
+   la Gestion del Estado. Diario El Pueblo of 12 September corroborates the six-commission claim and names
+   them: "Justicia se suma a las comisiones de Energia y Minas; Infraestructura, Vivienda y Transporte;
+   Produccion; Trabajo; y Ciencia". CAUTION PRESERVED: that list says "Produccion" without the "Comercio
+   Exterior y Turismo" suffix -- almost certainly the same body that rejected its report 8-10-1 on
+   9 September, but not document-verified as one commission. Neither article names trabajo forzoso, so
+   yesterday's inferential link is unchanged -- what is established is the SCALE of rejection, not that
+   the clause was singled out. The Comision de Constitucion has NOT issued its dictamen; deadline 18
+   September; Defence Minister Belaunde is cited to appear before it on 14 September. Stays Partial.
+
+NEW CONFUSABLES LOGGED (this is becoming the most valuable recurring output of these runs):
+- VIETNAM: Thong tu 85/2026/TT-BTC, effective 15 September, on classification of import/export goods. A
+  circular, about HS classification, ten days after Decree 292 came into force, in the same round-ups --
+  very nearly the perfect false positive. It is a general Finance Ministry classification circular, NOT
+  the Bo Noi vu HS-code list Decree 292 requires. Two near-misses now logged for this row.
+- OMAN: Royal Decree 28/2026 amending the GCC unified customs code -- recent, Omani, customs, no
+  forced-labour element. Same shape as the Libyan Decree 449/2026 confusable.
+- MEXICO: an article reading as a new tribunal ruling is dated 21 OCTOBER 2025 and describes the Ninth
+  Collegiate Court ordering the TFJA to admit the claim -- an earlier procedural step, not the 18 May 2026
+  decision to take the case, and not a ruling. Caught before adoption.
+
+SWITZERLAND -- a rare positively-evidenced negative rather than an absence: NZZ carries "Warum die
+Schweizer Wirtschaft kein Importverbot fuer Gueter aus Zwangsarbeit will" -- Swiss business does not WANT
+an import ban. Affirmative domestic opposition is a stronger footing than silence.
+
+OTHER: Honduras seven days from enforcement -- I re-opened the whole range per the retroactive-publication
+rule; ceiling still 37,242 of 9 September with 37,240/41/43/44/45 all 404, which establishes only that
+nothing is VISIBLE for 10-12 September. Index counts now oscillate in both directions (37,235 reads 89
+today, 53 two days ago). Article 15 still unverified. Colombia fourth static day, verified by me at both
+pages -- I read the draft in full including "Anexo tecnico - 3 de septiembre", the sixth repetition of a
+rendering artifact that is fully understood and should stop being re-investigated. Norway a fourth
+consecutive document-level read -- this negative is now strong enough that a weekly check would serve.
+Brazil re-confirmed at "Aguardando Designacao de Relator(a)" -- no CCJC rapporteur in three months.
+Israel twenty-third verified rejection, day 49 of 90. Kuwait: the right primary source was identified and
+found blocked -- customs.gov.kw returns 503, which is a genuine gap rather than a confirmed absence.
+UK: line-by-line re-confirmed, so the stage question is settled; the narrower remaining gap is that four
+days after amendments came into scope, no transcript, witness list or amendment paper has been retrieved
+from any source, parliamentary or independent.
+
+CANDOUR: India adds NO refusal to the count today -- the pass worked from search only and I did not fetch
+the host either, so the streak stands at sixteen with today unverified rather than rounded up. Batch 3
+carried Iraq, Kazakhstan and Indonesia forward without re-running yesterday's local-language checks; batch
+5 did not re-attempt the South Africa gazette drill-down; batch 4 did not re-fetch the MITI ART page.
+
+WATCH: Peru's Belaunde hearing 14 September and the Constitucion dictamen 18 September; Honduras
+enforcement 20 September; Canada Commons 21 September; Australia consultation close 25 September; whether
+a Thailand ART is signed and what its Article 2.9 says; Israel's 90-day deadline ~24 October; UK amendment
+paper and the 3 November report; New Zealand election 7 November; Guatemala Listado Oficial 15 November;
+Colombia decree signature; any Vietnamese implementing circular; Jordan's notification exchange, which is
+now the event that starts its five-year clock; Malaysia ART ratification; Pakistan RTA signature.
+
+Push: pending (this commit)
