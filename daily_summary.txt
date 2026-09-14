@@ -1528,3 +1528,85 @@ Colombia decree signature; any Vietnamese implementing circular; Jordan's notifi
 now the event that starts its five-year clock; Malaysia ART ratification; Pakistan RTA signature.
 
 Push: CONFIRMED SUCCESSFUL — content commit 3e18c34 pushed to origin/claude/section-301-labour-tracker-etqasl (3685917..3e18c34).
+
+=== 2026-09-14 02:55 UTC ===
+No classification changes. Tally unchanged for a sixteenth consecutive run: 15 Yes / 14 Partial / 31 No.
+
+TOP-PRIORITY CHECK, VERIFIED BY ME DIRECTLY: no new or final USTR Section 301 forced-labour
+determination. The newest USTR document remains 2026-18775, the 2027 National Trade Estimate comment
+request, now actually published 14 September and still not a forced-labour action. The July 28 notice
+(2026-15181) remains the last forced-labour action.
+
+1. PERU -- THE EXPEDIENTE NUMBER IS CONFIRMED AT PRIMARY SOURCE, and it retrospectively vindicates a
+   rejection this tracker made on 1 September. Back then a pass reported "00098-2026-2031-CD" citing two
+   sources; I fetched both, the string was in NEITHER, and it was rejected. That was right on the evidence
+   then -- but THE NUMBER IS REAL. The Comision de Constitucion's own agenda page names "Proposicion
+   Legislativa 00098/2026-2031CD". Adopted now on the primary source, not the earlier bad citation. The
+   lesson, recorded: rejecting an unsourced identifier means unproven, not false -- re-test it rather than
+   treating it as permanently discredited.
+   TIMING STATED PRECISELY rather than reported as a negative, the same discipline as the 9 September
+   hearing: the session is "Lunes 14 de setiembre" at 4:00 p.m. Lima = 21:00 UTC, and this run executed at
+   ~02:50 UTC the same day. It lies ~18 HOURS IN THE FUTURE. Defence Minister Rafael Belaunde is the named
+   guest. FLAGGED WITHOUT OVER-READING: the agenda summarises the delegation as citizen security, small
+   business, employment, productive development, tax policy and administrative simplification over 120
+   days -- and does NOT list customs or trade facilitation. That may be mere abbreviation, and it is not
+   evidence the bloc was dropped, but it is the second document in a week whose description omits the bloc
+   carrying the forced-labour clause. Two stale-source traps caught: RPP and Gestion headlines reading as
+   though a dictamen had been approved are both dated 14 JUNE 2018 (a Vizcarra-era OECD-accession request,
+   "10 votos a favor y 2 en contra"). Neither adopted. Dictamen deadline 18 September, four days out.
+
+2. CHILE -- a genuinely new item, verified by me, and it illuminates the whole action from the American
+   side. US Ambassador Brandon Judd told Cooperativa (13 September) that Washington had suggested Chile
+   legislate: "Sugerimos que se podria aprobar una ley que diga que los productos fabricados por trabajo
+   forzado o infantil no se importaran a Chile." This is the first documented instance in this file of the
+   US explicitly telling a named economy to pass such a law -- useful context for reading every other row,
+   since it shows the tariff tiers being used as leverage toward specific domestic legislation. IT CHANGES
+   NOTHING: a US suggestion is not a Chilean measure. No commitment, no bill, no draft. Chile stays No.
+
+3. THREE BLOCKED SOURCES WERE POSITIVELY IDENTIFIED RATHER THAN JUST COUNTED, and they turn out to be
+   three different obstacles that have each been mistaken for absence of content at some point:
+   - INDIA: I fetched DGFT and got HTTP 403 with a 243-byte "<Code>AccessDenied</Code>" body -- an
+     S3-fronted host refusing automated clients. SEVENTEENTH confirmed refusal, body-checked by me after
+     the pass again disclosed it worked from search alone.
+   - HONDURAS: the Article 15 page returns a 2,101-byte body containing "Attention Required", "Cloudflare"
+     and "cf-error" -- a bot-management interstitial. So eleven days of identical failures carry NO
+     evidential weight about whether the determination exists.
+   - JORDAN: A CORRECTION TO HOW THIS ROW DESCRIBED ITS OWN EVIDENCE. For several runs it said the
+     Jordanian gazette was "searched" and produced nothing, implying it had been read. It has not. I
+     fetched lob.gov.jo: HTTP 200 -- which is why this was missed -- but the body is a BIG-IP JavaScript
+     bot-check, "Please enable JavaScript to view the page content. Your support ID is: 9442008884822311477".
+     Textbook case of a 200 that is not a success. The gazette has NEVER been consulted by this tracker.
+     Nothing substantive changes -- the 13 September refutation rests on treaty arithmetic, not the gazette
+     -- but the record of what was actually checked is corrected.
+
+OTHER: Honduras SIX DAYS from enforcement; ceiling still 37,242, with 37,243/44/45/47/48 returning 404 and
+37,246 failing on an SSL error (a transport failure, not a statement about content). Thailand's ART is NOT
+signed -- "final wording" per Commerce Minister Suphajee, expected within about a week; there is no text
+and no fact sheet, so the Article 2.9 question CANNOT yet be answered, which is stated plainly rather than
+filled in from the template. Malaysia: a Malay RTM piece headlined "dalam proses ratifikasi" looked like
+the needed update and proved to be dated 21 JANUARY 2026 -- caught by the same date discipline that caught
+the US-EU 2025 framework and the Mexican October 2025 item. Trinidad and Tobago: an AI-generated summary
+claiming T&T is among "54 economies that have failed to impose" a ban was rejected -- it quotes no primary
+source and loses to the gazetted Finance Act text read directly. Nicaragua: new context that Ley 1280 came
+as part of a three-law package (1278/1279/1280), suggesting a legislative tidy-up rather than a targeted
+Section 301 response. Colombia fifth static day, verified by me at both pages; the anexo-tecnico artifact
+recurred and the pass correctly reported its TOOL had not rendered the line rather than reporting the line
+missing. Israel twenty-fourth verified rejection, day 50 of 90. South Africa: the GPW portal has now reset,
+then served a landing page, then 404ed across three runs -- an unstable target, and the notice-level
+drill-down is still not done.
+
+CANDOUR: the Taiwan pass ran a Chinese query about THAILAND by mistake and said so, and I did not re-run
+it, so today is an unverified day for Taiwan carried forward from 12-13 September. Batch 3 carried Iraq,
+Kazakhstan, Indonesia, Hong Kong and Japan forward without fresh local-language checks; batch 5 did not
+touch Sri Lanka and made only one attempt on South Africa; batches 4 and 6 both had their Federal Register
+direct fetch blocked by a bot-check redirect and relied on search -- my own direct API query stands as the
+verified check for all six.
+
+WATCH: Peru's Constitucion session outcome (21:00 UTC today) and the 18 September dictamen; Honduras
+enforcement 20 September; Canada Commons 21 September; Australia consultation close 25 September; whether
+Thailand's ART is signed and what its Article 2.9 says; Israel's 90-day deadline ~24 October; UK amendment
+paper and the 3 November report; New Zealand election 7 November; Guatemala Listado Oficial 15 November;
+Colombia decree signature; any Vietnamese implementing circular; Jordan's notification exchange, earliest
+possible entry into force ~19 September; Malaysia ART ratification; Pakistan RTA signature.
+
+Push: pending (this commit)
