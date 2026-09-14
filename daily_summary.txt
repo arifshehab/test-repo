@@ -1609,4 +1609,4 @@ paper and the 3 November report; New Zealand election 7 November; Guatemala List
 Colombia decree signature; any Vietnamese implementing circular; Jordan's notification exchange, earliest
 possible entry into force ~19 September; Malaysia ART ratification; Pakistan RTA signature.
 
-Push: pending (this commit)
+Push: CONFIRMED SUCCESSFUL — content commit 187645a pushed to origin/claude/section-301-labour-tracker-etqasl (e5e78a7..187645a).
