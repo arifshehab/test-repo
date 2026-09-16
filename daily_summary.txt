@@ -1610,3 +1610,95 @@ Colombia decree signature; any Vietnamese implementing circular; Jordan's notifi
 possible entry into force ~19 September; Malaysia ART ratification; Pakistan RTA signature.
 
 Push: CONFIRMED SUCCESSFUL — content commit 187645a pushed to origin/claude/section-301-labour-tracker-etqasl (e5e78a7..187645a).
+
+=== 2026-09-16 02:15 UTC (September 15 refresh, completed late — see note) ===
+TIMING NOTE, RECORDED HONESTLY: this is the run triggered at 2026-09-15 02:09 UTC. All six research
+batches and my own verifications completed then, but before the file could be written the session's
+container was reprovisioned with a fresh clone of an unrelated project on a different branch, and the
+working copy of this tracker disappeared from disk. Nothing was lost: the tracker branch was intact on the
+remote at a6ee62e, exactly the hash pushed and verified on 14 September, and was restored by fetching it.
+The findings below are as of 15 September; only the write-up is late.
+
+No classification changes. Tally unchanged for a seventeenth consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR Section 301 forced-labour determination — verified by me directly at the Federal
+Register API; the newest USTR document is still 2026-18775, the 2027 NTE comment request of 14 September.
+
+1. PERU -- THE HEADLINE: THE 18 SEPTEMBER DEADLINE HAS EFFECTIVELY SLIPPED TO ~28 SEPTEMBER. The 14
+   September sessions happened. Defence Minister Belaunde appeared before the Comision de Constitucion and
+   sustained Proposicion 00098/2026-2031CD on DEFENCE points only; no dictamen issued. Chair Giannina
+   Avendano then announced the predictamen debate waits until after the 21-25 September "semana de
+   representacion", with evaluation the following Monday -- 28 September. I verified this across two
+   outlets (La Republica 14 Sept, Exitosa); the stated reason is that documentation is still being gathered
+   and several commissions asked for extended filing deadlines. DISTINCTION PRESERVED: no source says the
+   deadline was FORMALLY extended -- the chair's calendar simply overtakes it, which has the same practical
+   effect but is not the same thing, and a future run should watch whether an extension is voted or the
+   deadline just lapses. Also: the Comision de Economia's extraordinary session produced NO vote, postponed
+   to 16 September over a 114% interest-rate-cap dispute, with its technical report reportedly saying the
+   delegation is "no es viable". The June 2018 RPP dictamen headline was re-fetched and re-excluded.
+
+2. CHILE -- CHILE ANSWERED THE NEXT DAY, AND DECLINED. Foreign Minister Francisco Perez Mackenna, verified
+   by me: "No he sentido presion de EE.UU. para que modifiquemos nuestra politica de comercio exterior",
+   adding "A Chile se le respeta" and invoking non-intervention. No commitment to legislate. So within 24
+   hours the file records the US asking a named government to enact a ban and that government publicly
+   declining -- the clearest illustration yet of how this action is landing. A separate item was checked and
+   correctly NOT counted: four PDG deputies announced on 24 July they would seek executive sponsorship for
+   such a bill. An announced intention is not a tabled measure -- the same test that holds South Africa at
+   No -- and camara.cl and senado.cl show no boletin. Chile stays No; the row's negative is now
+   affirmatively evidenced rather than an absence.
+
+3. THAILAND -- resolved in the negative, usefully. The Anutin-Trump call that was expected to finalise the
+   ART HAS NOW HAPPENED AND DID NOT CONCLUDE IT; wire coverage reports talks will CONTINUE. Still unsigned,
+   still no text or fact sheet, so the Article 2.9 question still cannot be answered -- stated plainly
+   rather than filled in from the Malaysia/Jordan template. "Final wording" has now persisted a week.
+
+4. JORDAN -- THE OBSTACLE CHANGED SHAPE, which would otherwise read as progress. lob.gov.jo no longer
+   serves yesterday's BIG-IP JavaScript bot-check; it now returns a ~13KB Angular SPA shell (ng-app="App",
+   ديوان التشريع والرأي). Different barrier, not a lifted one -- two consecutive days of HTTP 200 have
+   yielded zero gazette text. THE DATE NOW MATTERS: earliest theoretically possible entry into force is
+   ~19 SEPTEMBER, four days out. If entry into force is reported on or after that date it becomes plausible
+   for the first time and must be checked against a notification date; if the 1 August claim resurfaces it
+   remains impossible.
+
+NEW CONFUSABLE LOGGED -- ISRAEL, and a dangerous one: Jerusalem Post and JNS articles headlined "Israel
+bans imports made with forced labor" surface prominently and read as though a ban were enacted. Fetched
+directly, the JPost piece is dated 27 JULY 2026 and describes the Cabinet decision and the 90-day
+instruction, not a signed order. An English headline stating the conclusion an unenacted decision aims at
+is exactly the shape of error that would flip this row wrongly to Yes. Twenty-fifth verified rejection;
+day 51 of 90.
+
+DOMINICAN REPUBLIC -- two additions. The Labour Ministry side of the enforcement gap is now on the record
+from the minister himself: Eddy Olivares says the ministry "is evaluating technically and operatively the
+scope of Decreto 502-26", confirming the pautas tecnicas are NOT issued eight weeks on and that the
+customs director's stated blocker is real. And a separate legislative initiative surfaced that this file
+had not recorded: Senator Felix Bautista submitted his own anti-forced-labour-import bill on 17 August.
+It changes nothing -- a pending bill alongside an enacted ban does not disturb the classification, exactly
+as Canada's C-35 does not -- but it is logged so no future pass mistakes a Dominican bill for the Dominican
+measure.
+
+OTHER: Honduras FIVE DAYS from enforcement; 37,243-37,250 all probed individually and all 404, with 37,246
+now a clean 404 where it SSL-errored yesterday. India an EIGHTEENTH confirmed refusal, body-checked by me
+(263-byte AccessDenied). Kuwait's customs.gov.kw failed a THIRD distinct way -- curl exit 000, no HTTP
+status at all, after two 503s. Vietnam day eleven, and the logged confusable Thong tu 85/2026/TT-BTC took
+effect today and was correctly excluded -- the logging discipline working as intended. Colombia sixth
+static day. South Africa's portal loaded again, a fourth different behaviour in four runs, but served only
+the category directory.
+
+CANDOUR: my own two attempts to fetch the leyes.hn INDEX failed (a 29-second timeout, then an SSL error),
+so today's index reading is the pass's and not mine; the eight edition probes are mine. Sri Lanka got only
+half its standard -- Sinhala re-run, Tamil not, and the pass said so. Taiwan's check was a general web
+search rather than a site-level ly.gov.tw query, owed a third run. South Africa's notice-level drill-down
+is owed a fourth run. Batch 3 skipped Guyana and the India fetch; batch 2 did not query the FR API directly.
+
+BRANCH NOTE: this session's system configuration names a branch "claude/section-301-labor-tracker-kglpx1",
+while this tracker has lived for four weeks on "claude/section-301-labour-tracker-etqasl", which is the
+branch the daily trigger names and which holds all history. I have continued on etqasl and have not
+touched the other branch.
+
+WATCH: Peru's Economia vote 16 September and the Constitucion predictamen ~28 September; Honduras
+enforcement 20 September; Jordan's earliest possible entry into force ~19 September; Canada Commons
+21 September; Australia consultation close 25 September; Israel's 90-day deadline ~24 October; UK amendment
+paper and the 3 November report; New Zealand election 7 November; Guatemala Listado Oficial 15 November;
+Colombia decree signature; any Vietnamese implementing circular; Thailand ART signature; Malaysia ART
+ratification; Pakistan RTA signature.
+
+Push: pending (this commit)
