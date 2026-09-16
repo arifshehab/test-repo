@@ -1701,4 +1701,4 @@ paper and the 3 November report; New Zealand election 7 November; Guatemala List
 Colombia decree signature; any Vietnamese implementing circular; Thailand ART signature; Malaysia ART
 ratification; Pakistan RTA signature.
 
-Push: pending (this commit)
+Push: CONFIRMED SUCCESSFUL — content commit f71138b pushed to origin/claude/section-301-labour-tracker-etqasl (a6ee62e..f71138b).
