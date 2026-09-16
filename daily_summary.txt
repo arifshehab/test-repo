@@ -1702,3 +1702,90 @@ Colombia decree signature; any Vietnamese implementing circular; Thailand ART si
 ratification; Pakistan RTA signature.
 
 Push: CONFIRMED SUCCESSFUL — content commit f71138b pushed to origin/claude/section-301-labour-tracker-etqasl (a6ee62e..f71138b).
+
+=== 2026-09-16 02:40 UTC ===
+No classification changes. Tally unchanged for an eighteenth consecutive run: 15 Yes / 14 Partial / 31 No.
+But the most significant external development since the July action landed, and it validates this file.
+
+USTR PUBLISHED A LIST, AND THIS TRACKER MATCHES IT 12 FOR 12.
+On 15 September USTR published "USTR Convenes Over 50 Trading Partners to Provide Training Related to
+Imposing and Enforcing Forced Labor Import Prohibitions" -- I fetched it directly. USTR "convened
+representatives of over 50 trading partners from around the world to provide training related to imposing
+and effectively enforcing forced labor import prohibitions", and NAMED TWELVE ECONOMIES as having adopted
+measures: "Cambodia, Canada, Ecuador, the European Union, Guatemala, Honduras, India, Indonesia, Mexico,
+Pakistan, Sri Lanka, and Trinidad and Tobago". It announces NO new or final Section 301 determination and
+no tariff change -- so the top-priority watch item has still not landed.
+
+EVERY ONE OF THOSE TWELVE IS IN THIS FILE'S "YES" COLUMN. Zero misses. That is the first independent,
+government-level check this tracker has ever had against its own central judgment.
+
+THE DIVERGENCE IS THE INTERESTING PART. This file has FIFTEEN Yes economies; USTR names twelve. The three
+it omits are the DOMINICAN REPUBLIC, EL SALVADOR and VIETNAM. Two readings, neither established:
+  (a) USTR simply has not updated its list; or
+  (b) USTR is listing OPERATIONAL regimes, not merely enacted ones.
+Reading (b) is what this file's own evidence quietly supports, because those three are precisely the rows
+where we have documented the worst implementation gaps -- the DR's customs director saying on the record he
+cannot act without pautas tecnicas that the labour minister confirms are still being "evaluated", with no
+registry eight weeks on; Vietnam twelve days into an in-force prohibition with no HS-code list, no circular
+and no customs notice. And the timing argument cuts AGAINST the lag explanation: Decreto 502-26 issued
+23 July and Vietnam's Decree 292 on 22 July, both BEFORE the USTR action itself, so a list compiled later
+had every chance to include them.
+NOTHING IS RECLASSIFIED. The standing policy classifies on enactment, and a press release is not a
+classification instrument. But this is recorded on all three rows so that if USTR later treats them as
+lacking a prohibition, we know exactly where the divergence began. Note also the list is clearly UPDATED,
+not a restatement of the June tier: it adds Honduras, India, Sri Lanka and Trinidad and Tobago (all
+post-June enactments) and drops the RTA-commitment economies and the UK -- which makes the three omissions
+harder to wave away.
+
+PERU -- opposing commissions rose to SEVEN (Infobae, 15 Sept): Energia y Minas, Infraestructura, Produccion,
+Trabajo, Ciencia, Justicia and Defensa del Consumidor, with only Ambiente and Defensa in favour. Defensa del
+Consumidor, one of the four we were watching, voted against by ten votes. Desarrollo Agrario and
+Modernizacion still unconfirmed. DISCIPLINE MAINTAINED: none of these articles names the customs/trade bloc
+or trabajo forzoso, so what is established is the scale of resistance, not that the clause has been struck.
+The Comision de Economia's rescheduled vote was TODAY and its outcome was not retrievable -- too recent to
+index -- recorded as a GAP, not a negative. No formal extension of the 18 September deadline reported; the
+chair's deferral to ~28 September stands.
+
+HONDURAS -- FOUR DAYS OUT. USTR named Honduras, the first American-side corroboration this row has had,
+which sits oddly against the Article 15 classification still being unverifiable. Private-sector guidance has
+hardened into practical advice: CCIT offering legal assistance, specialists telling importers to obtain
+certificates of origin and sworn social-compliance declarations before Monday. 37,243-37,252 all probed,
+all 404. Cloudflare block re-confirmed at body level ("Attention Required! | Cloudflare"). NO postponement.
+A NEW OBSTACLE CLASS was hit and is logged separately so it is never misread: attempts to reach AGADUANAS
+and OPCE were refused by OUR OWN egress policy (connect_rejected), which is not evidence about those sites.
+
+GAPS CLOSED: TAIWAN, owed for three runs -- a site-level ly.gov.tw query finally ran and found only the
+Legislative Yuan's own research papers, including "我國強迫勞動相關議題之研析" and a study of the EU
+regulation. Research briefs are not bills; the negative is now first-hand. Telling detail: the LY research
+service studying the EU regulation is what preparatory work looks like before a bill exists.
+KUWAIT, diagnosed rather than just counted -- after a fourth and fifth failure mode (connection reset, then
+HTTP 000 on both hosts) I checked whether the fault was OURS: the egress proxy reports healthy and ustr.gov
+returned 200 as a control. So the failure is specific to the Kuwaiti host, not our network -- a distinction
+that matters precisely because the Honduran AGADUANAS failure this same run WAS ours.
+INDIA -- nineteenth refusal and the first independently DOUBLE-confirmed one: a research pass and I each
+fetched the DGFT index separately and each got HTTP 403 with a 263-byte AccessDenied body and different S3
+RequestIds. NORWAY -- fifth consecutive direct read; moving this row to weekly.
+
+OTHER: Israel twenty-sixth rejection, day 52 of 90, and the 27 July "Israel bans imports" headline
+resurfaced and was recognised and rejected -- the logging discipline working. Jordan three days from its
+earliest possible entry into force with still no notification-exchange evidence; its absence from USTR's
+list is corroboration, not tension, since a five-year commitment is not an adopted prohibition. Colombia
+seventh static day. El Salvador: the "Supreme Court invalidated the tariff" claim surfaced a THIRD time,
+now with a February date and a Coexport attribution, and was rejected again as IEEPA conflation.
+The Bahamas block is now characterised -- HTTP 202 carrying an sgcaptcha challenge, not a bare empty body.
+
+CANDOUR: SOUTH AFRICA's notice-level gazette drill-down is owed for a FIFTH consecutive run; one alternate
+URL was tried and 404'd with no readable body. Five runs of an undone task is not a scheduling accident, and
+I have written into the row that the next run should either try a direct notice-number URL or record the
+check as infeasible with this tooling and stop carrying it. Sri Lanka ran Tamil but skipped Sinhala -- the
+mirror image of yesterday, so across two runs both languages are covered but neither run covered both.
+Chile's camara.cl returned 403, so that negative rests on search rather than the legislative register.
+Batch 5 did not re-check the Philippines or Singapore; batch 3 carried Iraq and Kazakhstan in English only.
+
+WATCH: Peru's Economia vote result and the Constitucion predictamen ~28 September; HONDURAS ENFORCEMENT
+20 SEPTEMBER, four days; Jordan's earliest possible entry into force ~19 September; Canada Commons
+21 September; Australia consultation close 25 September; Israel's 90-day deadline ~24 October; UK amendment
+paper and the 3 November report; New Zealand election 7 November; Guatemala Listado Oficial 15 November;
+whether USTR's list is updated to add or continue omitting the Dominican Republic, El Salvador and Vietnam.
+
+Push: pending (this commit)
