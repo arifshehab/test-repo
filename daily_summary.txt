@@ -1789,3 +1789,91 @@ paper and the 3 November report; New Zealand election 7 November; Guatemala List
 whether USTR's list is updated to add or continue omitting the Dominican Republic, El Salvador and Vietnam.
 
 Push: CONFIRMED SUCCESSFUL — content commit 19d1df1 pushed to origin/claude/section-301-labour-tracker-etqasl (f860ed2..19d1df1).
+
+=== 2026-09-17 02:45 UTC ===
+No classification changes. Tally unchanged for a nineteenth consecutive run: 15 Yes / 14 Partial / 31 No.
+Two of my own recent entries were wrong and are corrected below.
+
+1. CORRECTION -- I OVER-READ THE USTR PRESS RELEASE YESTERDAY. I recorded the twelve-economy list and
+   leaned toward the reading that USTR might be listing OPERATIONAL regimes rather than merely enacted ones,
+   arguing "the timing argument cuts AGAINST the lag explanation". I had not quoted the framing sentence in
+   full. It reads: "As a result of these efforts and USTR's Section 301 investigation of this issue, BY JULY
+   2026, 12 additional economies had adopted measures that prohibit the importation of goods made by forced
+   labor, INCLUDING Cambodia, Canada, Ecuador, the European Union, Guatemala, Honduras, India, Indonesia,
+   Mexico, Pakistan, Sri Lanka, and Trinidad and Tobago" -- and the release adds "Since then, dozens more
+   countries have expressed interest in adopting similar measures". So: it is explicitly a JULY SNAPSHOT,
+   not a current roster; "including" is hedged and the release nowhere claims the list is exhaustive; and
+   USTR publishes NO inclusion criteria and NO attendee roster, so there is nothing to test an
+   operational-versus-enacted theory against. My claim that a later-compiled list "had every opportunity" to
+   include a 23 July decree was simply wrong. The confident framing is WITHDRAWN.
+   WHAT SURVIVES is narrower and still real: all twelve named economies sit in this file's Yes column, which
+   is genuine external corroboration. And the snapshot explains two of the three omissions well --
+   Vietnam's decree was issued 22 July but did not come into force until 5 September, and the Dominican
+   decree issued 23 July, one day after the Section 301 action itself. EL SALVADOR IS THE ONE THE SNAPSHOT
+   DOES NOT EXPLAIN: Article 27-A has been in force since about March 2026, comfortably inside any "by July"
+   cut-off. That is now the sharpest open question from the release, and it is recorded as a question, not
+   as evidence of anything.
+
+2. CORRECTION -- THE PERU DEADLINE IS 22 SEPTEMBER, NOT ~28. On 15 September I recorded that the 18
+   September deadline had slipped to about 28 September because the chair had deferred debate until after
+   the 21-25 September representation week. La Republica of 16 September supplies the rule: "De acuerdo con
+   el reglamento, el plazo maximo para revisar este tipo de solicitudes, por su caracter de urgencia, es de
+   15 dias habiles. La fecha limite sera este 22 de septiembre", with Avendano quoted: "Los 15 dias se
+   cumplen el lunes de la otra semana." The Comision de Constitucion will sit DURING the representation
+   week to meet it. The 28 September figure is withdrawn. The lesson, written into the row: a chair's
+   scheduling remark is not a deadline; the reglamento is.
+   AND THE FIRST GENUINE COUNTERPOINT: three commissions voted on 16 September and they do NOT all run the
+   same way. Economia approved an unfavourable report "9 votos a favor, 5 en contra y 2 abstenciones", but
+   Modernizacion de la Gestion del Estado approved FAVOURABLY "10 votos a favor" to "nueve en contra", and
+   Desarrollo Agrario likewise "11 votos a favor" to "ocho votos en contra". Both commissions this row had
+   listed as outstanding have now reported, and both in favour. The picture is mixed, not uniformly
+   negative. None of the three touched the customs/trade bloc or named trabajo forzoso; the only vote that
+   ever did -- Produccion, 8-10-1 against on 9 September -- still stands.
+
+3. HONDURAS -- THREE DAYS OUT, and the retroactive-publication behaviour caught itself a THIRD time, which
+   is exactly why the range is re-opened every run. EDITION 37,240 OF 7 SEPTEMBER NOW EXISTS. It returned
+   404 on direct probes on 12, 14, 15 and 16 September and was absent from the index on all of them; today
+   it is listed and returns HTTP 200. I opened it rather than trusting the index: 52 documents, ZERO
+   "forzos", zero SETRASS/STSS, and its single "arancel" hit is in the site's own navigation furniture
+   ("Arancel notarial"). Clean -- but an index check of leyes.hn now demonstrably establishes visibility and
+   nothing else. 37,241 and 37,243-37,254 all 404 today. The research pass disclosed it did not probe the
+   range at all, so these checks are mine. No postponement of the 20 September date; the only operative
+   guidance for importers facing Monday is still the private-sector CCIT advisory, not anything from the
+   state.
+
+4. SOUTH AFRICA -- THE TASK IS CLOSED, WITH A REASON. After five runs of deferral I asked for either a
+   result or an explicit infeasibility finding, and got the latter with specifics. Four routes tried:
+   gpwonline.co.za serves only a category landing page; a site-restricted search returns nothing;
+   opengazettes.org.za states its archive covers 1958-2021 and so CANNOT hold a 2026 notice (a
+   document-level negative about that source, not a block); and gazettes.africa does carry a genuine current
+   index -- 1,186 gazettes catalogued for 2026 -- but its search is JavaScript-driven and a static-HTML
+   fetcher cannot execute it. The obstacle is now understood: not missing notices, but an archive that
+   cannot be searched without a JS-capable browser or API. Recorded as INFEASIBLE WITH CURRENT TOOLING and
+   removed from the live task list. Classification unaffected.
+
+OTHER: Chile's camara.cl 403 was body-checked and is a Cloudflare "Attention Required" interstitial -- a
+sixth instance of the disguised-block pattern, so the Chilean register still has not been queried at source.
+Malaysia gained the PM's own words: Anwar Ibrahim, "Sehingga kini, pihak Amerika Syarikat belum mengemukakan
+cadangan tarif untuk diratifikasi" -- the hold-up is on the US side, previously known only from ministerial
+and press sourcing. Jordan two days from its earliest arithmetically possible entry into force with the
+sixty-day clock still not shown to have started at all. Thailand still unsigned, with a further Anutin-Trump
+call now proposed for 17-18 September -- three consecutive runs of imminence without signature, and the row
+now records the pattern rather than the imminence. Kuwait's customs host failed a sixth distinct way, with
+the ustr.gov control again at 200, so the diagnosis holds and I am standing this check down to occasional.
+
+CANDOUR: Brazil's Camara page could not be read at all -- 504, 504, 503 -- so after four runs of direct
+confirmation the fifth is a tooling failure, and the rapporteur status stands from 16 September rather than
+being reconfirmed. Batch 3 did not probe the Honduras range, re-fetch DGFT with a body, or re-search Hong
+Kong, Japan, Guyana, Iraq, Kazakhstan or Indonesia. Batch 2 did not re-fetch Colombia, so an eighth static
+day is probable but unverified. Batch 6 did not retry bills.parliament.uk, so the UK amendment paper is
+unread for a ninth day. Batch 5 did not re-search Qatar, Russia, Saudi Arabia or South Korea. Sri Lanka got
+both Sinhala and Tamil in the same run for the first time.
+
+WATCH: HONDURAS ENFORCEMENT 20 SEPTEMBER, three days; Jordan's earliest possible entry into force
+19 September; PERU'S COMISION DE CONSTITUCION BY 22 SEPTEMBER; Canada Commons 21 September; Australia
+consultation close 25 September; whether Thailand's ART is signed after the 17-18 September call; Israel's
+90-day deadline ~24 October; UK amendment paper and the 3 November report; New Zealand election 7 November;
+Guatemala Listado Oficial 15 November; any Vietnamese implementing circular; Malaysia's notification
+exchange; and whether USTR updates its list beyond the July snapshot.
+
+Push: pending (this commit)
