@@ -1876,4 +1876,4 @@ consultation close 25 September; whether Thailand's ART is signed after the 17-1
 Guatemala Listado Oficial 15 November; any Vietnamese implementing circular; Malaysia's notification
 exchange; and whether USTR updates its list beyond the July snapshot.
 
-Push: pending (this commit)
+Push: CONFIRMED SUCCESSFUL — content commit 7753892 pushed to origin/claude/section-301-labour-tracker-etqasl (6b40d73..7753892).
