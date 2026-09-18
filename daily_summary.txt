@@ -1877,3 +1877,88 @@ Guatemala Listado Oficial 15 November; any Vietnamese implementing circular; Mal
 exchange; and whether USTR updates its list beyond the July snapshot.
 
 Push: CONFIRMED SUCCESSFUL — content commit 7753892 pushed to origin/claude/section-301-labour-tracker-etqasl (6b40d73..7753892).
+
+=== 2026-09-18 02:50 UTC ===
+No classification changes. Tally unchanged for a twentieth consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR determination -- verified by me directly at the Federal Register API.
+
+1. MEXICO -- THE BEST SOURCING THIS ROW HAS EVER HAD, AND A FIVE-DAY-OLD AMBIGUITY CLOSED. A pass flagged an
+   unread Spanish item about Mexico "preparing" an import veto in five sectors. Rather than adopt it I
+   followed it to a government-direct source this file had never used -- the STPS portal
+   trabajoforzoso.stps.gob.mx -- and read it. It confirms the instrument the row rests on (DOF 17 February
+   2023, operative 18 May 2023, USMCA Article 23.6) and quotes the obligation: "Cada parte prohibira la
+   importacion de mercancias a su territorio procedentes de otras fuentes producidas en su totalidad o en
+   parte por trabajo forzoso u obligatorio". IT ALSO SUPPLIES A FACT THIS FILE DID NOT HAVE: a MODIFIED
+   agreement published 29 OCTOBER 2025. That closes an item left dangling on 13 September, when a pass
+   mentioned a ProDESC reference to a rule change dated "29 de octubre" with the year ambiguous and it was
+   flagged rather than adopted. The year is 2025, from the government's own portal. Note the near-miss: this
+   is NOT the 21 October 2025 Ninth Collegiate Court item rejected twice -- two distinct late-October 2025
+   Mexican items exist and must not be merged. The five-sector work (textiles, apparel, footwear, aluminium,
+   solar panels; STPS with Economia and ANAM; investigations on complaint and ex officio; information
+   exchange with US CBP) is operational build-out, not a new prohibition, so no classification change.
+   Column 6 already held the DOF entry -- the instrument itself, the highest tier -- so the portal was added
+   alongside rather than substituted.
+
+2. CORRECTION TO YESTERDAY'S CORRECTION -- I STATED PERU'S DEADLINE TOO FLATLY. Yesterday I replaced the
+   "~28 September" estimate with 22 September on the strength of La Republica quoting the reglamento ("15
+   dias habiles ... La fecha limite sera este 22 de septiembre"). That quote is real and stands. But Canal N
+   and Exitosa of 14 September report the chair's own calendar deferring the predictamen session to Monday
+   28 September, and NO SOURCE RECONCILES THE TWO. The honest position is that a regulatory deadline of 22
+   September and a working calendar pointing at 28 September are in tension, and the row now carries both
+   rather than asserting either. Coverage today states the 18 September deadline "was not met".
+   Also recorded with its inconsistency visible: El Comercio reports 8 of 12 commissions against with only
+   Ambiente, Defensa and Desarrollo Agrario in favour -- but that omits Modernizacion de la Gestion del
+   Estado, which this file recorded yesterday as approving FAVOURABLY 10-9 on 16 September. Both accounts
+   cannot be complete; neither is adopted over the other.
+   A THIRD STALE-SOURCE TRAP, this one on the Congress's own domain: a comunicaciones.congreso.gob.pe page
+   headlined as the Comision de Constitucion pronouncing IN FAVOUR of delegating powers, reading exactly
+   like a live dictamen approval, is dated 11 JUNE 2024 ("13 votos a favor, 4 en contra y 4 abstenciones").
+   The traps are now dated 2018, 2024 and counting -- an official domain confers no protection against
+   staleness.
+
+3. HONDURAS -- TWO DAYS OUT, AND THE GAZETTE COULD NOT BE READ AT ALL, partly through my own fault. leyes.hn
+   now returns HTTP 429. I triggered it by firing fifteen edition probes in quick succession -- my error,
+   recorded as such -- but the research pass then hit the same 429 independently across three attempts with
+   four-, six- and ten-to-twenty-second backoff, and a single spaced request of mine afterwards also 429'd.
+   So the rate limit is real and outlasted my burst, and today's range re-open is INCOMPLETE. Nothing about
+   the contents can be inferred from it. The concrete lesson written into the row: probe this host slowly,
+   because a burst costs a whole day's visibility on the row that needs it most. The Article 15 block was
+   re-confirmed at body level ("<title>Attention Required! | Cloudflare</title>"). NO postponement of the
+   20 September date found anywhere; the only operative guidance for importers facing Sunday remains the
+   private-sector CCIT advisory.
+
+4. UNITED KINGDOM -- THE FIRST POSITIVE READ OF THE BILL'S CONTENTS rather than another blocked attempt.
+   bills.parliament.uk, its publications path and committees.parliament.uk all 403'd (eighteenth
+   consecutive run), but a detailed independent explainer of what is actually IN the Immigration and Asylum
+   Bill 2026 was read directly: its modern-slavery content is victim identification, credibility assessment
+   and victim-of-trafficking leave, with NO import restriction anywhere. Combined with the JCHR chair's
+   welcome being specifically about Modern Slavery Act s.54 transparency statements, the negative now rests
+   on a positive account of the Bill's contents rather than on an absence of reports. The amendment paper
+   itself is still unread.
+
+OTHER: El Salvador's open question was searched properly and is genuinely unresolved -- nothing, positive or
+negative, on whether USTR regards Article 27-A as qualifying. A NEW and unusually convincing confusable was
+caught there: a USTR release headlined "Ambassador Greer Issues Statement on Frameworks for Agreements on
+Reciprocal Trade with El Salvador, Argentina, Ecuador, and Guatemala" groups exactly the right countries and
+sits on ustr.gov -- but is dated 13 NOVEMBER 2025, predating both the Salvadoran RTA and the entire Section
+301 action. Brazil's page re-fetched cleanly at HTTP 200 with status unchanged, establishing that yesterday's
+504/504/503 was transient and not a change. The Bahamas block was documented at byte level for the first
+time -- HTTP 202 carrying a 218-byte sgcaptcha meta-refresh, which is exactly why a status-only check reads
+it as success. Colombia's eighth static day is now confirmed and a ninth recorded. Angola's gazette produced
+a third distinct failure mode (HTTP 500, after 503 and bare connection failure). India a twenty-first
+body-verified refusal. Thailand a fourth consecutive run of imminence -- the proposed 17-18 September call
+had not occurred as of the 17th, and the DTN director-general is on record that there is "still no firm
+timetable". Jordan one day from its earliest arithmetically possible entry into force with the sixty-day
+clock still not shown to have started at all.
+
+CANDOUR: the Honduras 429 is the significant gap and I contributed to it. Sri Lanka's bilingual pass was not
+repeated (carried from 15-16 September). UAE, Uruguay and Venezuela got no local-language pass this run.
+New Zealand and Norway were deliberately deprioritised. Qatar and Saudi Arabia were search-summary level only.
+
+WATCH: HONDURAS ENFORCEMENT 20 SEPTEMBER, two days; JORDAN'S earliest possible entry into force TOMORROW,
+19 September; Canada Commons 21 September; PERU'S COMISION DE CONSTITUCION, 22 or 28 September unresolved;
+Australia consultation close 25 September; whether Thailand's ART is ever actually signed; Israel's 90-day
+deadline ~24 October; UK amendment paper and the 3 November report; New Zealand election 7 November;
+Guatemala Listado Oficial 15 November; Malaysia's notification exchange; any Vietnamese implementing circular.
+
+Push: pending (this commit)
