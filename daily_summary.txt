@@ -1961,4 +1961,4 @@ Australia consultation close 25 September; whether Thailand's ART is ever actual
 deadline ~24 October; UK amendment paper and the 3 November report; New Zealand election 7 November;
 Guatemala Listado Oficial 15 November; Malaysia's notification exchange; any Vietnamese implementing circular.
 
-Push: pending (this commit)
+Push: CONFIRMED SUCCESSFUL — content commit 874effb pushed to origin/claude/section-301-labour-tracker-etqasl (4ed43e0..874effb).
