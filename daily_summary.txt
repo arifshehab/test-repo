@@ -2046,4 +2046,4 @@ deadline ~24 October; UK amendment paper and the 3 November report; New Zealand 
 Guatemala Listado Oficial 15 November; Malaysia's notification exchange; any Vietnamese implementing
 circular; and whether leyes.hn's rate limit clears.
 
-Push: pending (this commit)
+Push: CONFIRMED SUCCESSFUL — content commit b10bb8a pushed to origin/claude/section-301-labour-tracker-etqasl (3376833..b10bb8a).
