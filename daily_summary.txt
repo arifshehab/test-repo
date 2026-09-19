@@ -1962,3 +1962,88 @@ deadline ~24 October; UK amendment paper and the 3 November report; New Zealand 
 Guatemala Listado Oficial 15 November; Malaysia's notification exchange; any Vietnamese implementing circular.
 
 Push: CONFIRMED SUCCESSFUL — content commit 874effb pushed to origin/claude/section-301-labour-tracker-etqasl (4ed43e0..874effb).
+
+=== 2026-09-19 03:00 UTC ===
+No classification changes. Tally unchanged for a twenty-first consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR determination -- verified by me directly at the Federal Register API.
+
+1. HONDURAS -- ENFORCEMENT BEGINS TOMORROW, SUNDAY 20 SEPTEMBER. No postponement, suspension or amendment
+   of the date was found by any search, so the measure takes effect as published. THE CHINESE SILENCE IS NOW
+   VERIFIED RATHER THAN INFERRED: a pass fetched the Chinese embassy in Tegucigalpa's OWN news index at
+   hn.china-embassy.gov.cn directly, and its recent headlines cover the ambassador's visits, business and
+   cultural events and a rebuttal of Taiwanese media -- nothing on forced labour, Section 301, or the six
+   named producers. That converts ~27 days of silence from an absence of search hits into a documented fact.
+   BUT THE GAZETTE COULD NOT BE READ FOR A SECOND DAY: leyes.hn still returns HTTP 429. The rate limit I
+   triggered on 18 September with a burst of probes has not cleared -- one spaced attempt by the pass and one
+   by me both failed. So this row enters its enforcement date with the gazette unread for two consecutive
+   days, the worst possible timing, and it is my fault. Recorded plainly. A prohibition takes effect tomorrow
+   whose Article 15 customs classification has never been published and whose administering agency's website
+   has been behind a Cloudflare block for weeks; the only practical guidance available to importers remains
+   the private-sector CCIT advisory.
+
+2. JORDAN -- THE THRESHOLD DAY PASSED WITH NOTHING. Sixty days from the 21 July signature fell today, the
+   first date on which entry into force was even arithmetically possible. No source, English or Arabic,
+   reports a notification exchange, ratification, or entry into force; I searched independently and found
+   only signing coverage, and a pass found the discredited 1 August claim recycled again by CNN Arabic and
+   almamlakatv.com. THE CORRECT INFERENCE IS NARROW: today was the earliest possible date only if
+   notifications were exchanged on signing day, and nothing has ever shown they were exchanged at all. So
+   today's passing establishes nothing except that the most optimistic timeline did not visibly materialise.
+   The five-year Article 2.9(1) deadline still has no start date.
+
+3. COLOMBIA -- THE REGISTER MOVED, ending a nine-day freeze, and what it published is the point. I fetched
+   it myself: ceiling now Decreto 1418 del 17 de septiembre, an MSME recovery measure, "Ultima actualizacion:
+   18 de septiembre de 2026", still ZERO "forzoso". While the register was static one could suppose the whole
+   pipeline had stalled; it plainly has not. The ministry is issuing decrees again and the forced-labour
+   decree is still not one of them -- a more informative fact than the freeze was. Separately, a pass
+   confirmed "Anexo tecnico - 3 de septiembre" present by direct curl, so on this occasion it was NOT a
+   rendering artifact; the earlier non-sightings are now demonstrated as tool failures from both directions.
+
+4. PERU -- THE DEADLINE IS NOW A THREE-WAY TENSION, worse than yesterday rather than better. A third figure
+   appeared: La Republica of 18 September reports Renovacion Popular pressing for a vote "antes del lunes 21
+   de septiembre, dia en que vence el plazo". The file now carries 21 September (one party's reading), 22
+   September (the reglamento's fifteen working days) and 28 September (the chair's own calendar). No source
+   reconciles any of them, and the row carries all three rather than picking one.
+   A FOURTH STALE-SOURCE TRAP, the most convincing yet: a comunicaciones.congreso.gob.pe page headlined
+   "Comision de Constitucion inicio debate de predictamen sobre delegacion de facultades al Ejecutivo" --
+   almost word for word the event this row is waiting for -- is dated 12 SEPTEMBER 2023 and concerns a
+   COVID-era election-fines dictamen. The traps are now dated 2018, 2023 and 2024, three of them on the
+   Congress's own domain. Every one would have produced a false positive on the single most important
+   question in this file.
+
+OTHER: Canada checked at LegisInfo directly two days before the Commons returns -- C-35 is labelled "At
+second reading", which is the stage AWAITED not reached, with latest completed stage still first reading on
+12 June and "No activity" under second reading. That label is a genuine trap and is now flagged in the row.
+Mexico's five-sector pilot was pinned down as still PREPARATORY -- La Jornada San Luis of 1 September uses
+"prepara" and "alista" throughout, and no later source shows it launched. New Zealand got a real check for
+the first time in two runs and produced a SIXTH distinct failure mode (legislation.govt.nz HTTP 403); the
+substance is unchanged. Thailand is now a FIFTH consecutive run of imminence and the goalpost has moved
+again -- from "final wording", to a finalising call, to unscheduled possible sidelines talks during a
+21-27 September UN trip, with Nation Thailand reporting "no official arrangements ... made for discussions
+with the US president on the sidelines". Tracking that degradation is more useful than tracking each fresh
+claim. The UK's positive account broadened -- the Bill's modern-slavery content now catalogued as victim
+identification, credibility assessment, trafficking leave and Slavery and Trafficking Prevention/Risk Order
+reforms, with no import restriction anywhere -- while the amendment paper stays unread after a nineteenth
+blocked run, with commonslibrary.parliament.uk newly 403ing too.
+
+A REAL LEAD LOGGED RATHER THAN DISMISSED: a pass found proyectos.conare.ac.cr/asamblea/19323.pdf labelled
+"PROYECTO DE LEY" for Costa Rica and could not read it. I fetched it myself -- it downloads cleanly, 819,749
+bytes, 140 pages, PDF 1.5 -- but its text is not recoverable here: decompressing the content streams yields
+three-quarters of a million characters of whitespace with zero readable words, the signature of subset fonts
+with custom encodings. So NOTHING is known about its subject matter; it may be a forced-labour bill or
+entirely unrelated. Logged as an OPEN LEAD needing a PDF-text-capable tool, the same class of limitation as
+gazettes.africa. Costa Rica stays No on the existing basis.
+
+CANDOUR: the Honduras 429 is the significant gap and I caused it. Batch 3 gave Guyana, Hong Kong, Indonesia,
+Iraq, Japan and Kazakhstan no fresh checks at all and did not re-fetch DGFT or Jordan's official sources.
+Batch 5 did not re-check Pakistan, the Philippines, Russia, Singapore or South Korea, and Sri Lanka's
+bilingual pass was skipped again. Batch 1 did not re-fetch Brazil or the Bahamas at byte level. Norway and
+Kuwait remain deliberately deprioritised.
+
+WATCH: HONDURAS ENFORCEMENT TOMORROW -- next run should establish what actually happened at the border;
+Canada Commons 21 September; Peru's Comision de Constitucion on 21, 22 or 28 September; Australia
+consultation close 25 September; whether Thailand's ART is signed around the UNGA trip; Israel's 90-day
+deadline ~24 October; UK amendment paper and the 3 November report; New Zealand election 7 November;
+Guatemala Listado Oficial 15 November; Malaysia's notification exchange; any Vietnamese implementing
+circular; and whether leyes.hn's rate limit clears.
+
+Push: pending (this commit)
