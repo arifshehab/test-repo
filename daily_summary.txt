@@ -2047,3 +2047,80 @@ Guatemala Listado Oficial 15 November; Malaysia's notification exchange; any Vie
 circular; and whether leyes.hn's rate limit clears.
 
 Push: CONFIRMED SUCCESSFUL — content commit b10bb8a pushed to origin/claude/section-301-labour-tracker-etqasl (3376833..b10bb8a).
+
+=== 2026-09-20 03:05 UTC ===
+No classification changes. Tally unchanged for a twenty-second consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR determination -- verified by me directly at the Federal Register API.
+Today was Honduras enforcement day, and it produced this tracker's most important methodological finding yet.
+
+1. HONDURAS -- ENFORCEMENT TOOK EFFECT, AND WE HAVE BEEN READING THE WRONG SOURCE FOR A MONTH.
+   Enforcement day itself produced no visible events: no customs action, detained shipment, broker account,
+   SETRASS/Aduanas statement or same-day dispatch could be found in Spanish anywhere. Most plausibly Sunday
+   publication lag; graded a thin-coverage negative, not a finding that nothing happened. No postponement was
+   found by any route, so the measure took effect as published.
+   THE BREAKTHROUGH came from finally asking whether leyes.hn -- the third-party aggregator this file has
+   depended on for a month -- is the right source at all. IT IS NOT. Honduras's gazette is published by the
+   Empresa Nacional de Artes Graficas, and enag.gob.hn carries a "Gaceta Digital" section indexed by year and
+   month. Its September 2026 index lists editions leyes.hn HAS NEVER SHOWN: 37,243 (10 Sept), 37,244 (11
+   Sept), 37,245 (12 Sept), 37,246 (14 Sept) and 37,247 (16 Sept). Every one returned HTTP 404 on leyes.hn on
+   multiple days while that mirror sat frozen at 37,242 since 9 September. For at least ten days this row has
+   been recording a mirror's gaps as though they were the gazette's. ENAG's own "Fecha de creacion" fields
+   show it uploads late too (37,244 and 37,246 on 19 Sept; 37,243 and 37,247 on the 18th), so publication
+   genuinely lags -- but the mirror lags further, and silently.
+   THE NEW EDITIONS WERE CHECKED, NOT MERELY LISTED, because an index is not the document -- the very rule
+   that exists because nine runs produced false Honduras negatives in August. Two carried SETRASS acuerdos,
+   from the ministry that issued the prohibited-goods list, which is exactly where a second Annex I or the
+   missing Article 15 classification would appear. I downloaded both PDFs and extracted their text.
+   Edition 37,245 (4.5 MB) holds Acuerdo Ejecutivo No. SETRASS-521-2026 and has ZERO occurrences of "forzos";
+   its only import references are to the fuel-price parity system. Edition 37,244 (11.2 MB) holds Acuerdo No.
+   SETRASS-549-2026 and has exactly ONE "forzos" -- "cancelacion por reduccion forzosa de personal", a
+   compulsory staff reduction in an employment lawsuit -- while its "prohibido" hits belong to a fencing
+   federation's statutes. So NEITHER is a forced-labour measure and the substance is unchanged. Editions
+   37,243, 37,246 and 37,247 were not opened and are logged as unchecked.
+   STANDING INSTRUCTION CHANGED: use enag.gob.hn/index.php/gaceta-digital as the primary source; treat
+   leyes.hn as a convenience mirror that demonstrably omits editions. Note the breakthrough arrived precisely
+   BECAUSE the mirror was unavailable -- leyes.hn has now 429'd for three consecutive days. Also logged:
+   lagaceta.hn is an unrelated Honduran news outlet, not the gazette; tsc.gob.hn returns 403.
+
+2. PERU -- A SCHEDULED DATE AT LAST, though the deadline stays contested. Canal N reports the Comision de
+   Constitucion "programo para el lunes 28 de septiembre el inicio del debate sobre el predictamen" -- the
+   first firm calendar entry this row has had. Avendano is also quoted describing the clock as expiring "el
+   lunes de la proxima semana", genuinely ambiguous between 21 and 28 September. So a SCHEDULED DEBATE on 28
+   September now sits against deadline claims of 21 and 22 September: the scheduling is the firmer fact and
+   the deadline the softer one, the reverse of how this row read it three days ago. Both known stale traps
+   were re-verified at source (RPP dated 14 June 2018; americatv.com.pe dated 11 June 2024).
+
+3. COSTA RICA -- THE OPEN LEAD IS CLOSED. Expediente 19.323 is an essential-services strike and
+   collective-bargaining bill, not a forced-labour measure. The PDF still could not be parsed here, so this
+   rests on convergent external characterisation rather than the primary text, and is graded accordingly --
+   but the lead is resolved well enough to stop carrying. Worth noting it was found by a pass, could have
+   been waved away as noise, and was instead chased to a conclusion.
+
+4. MEXICO -- a search-synthesis claim that "STPS confirmed the launch in September 2026" was caught and
+   rejected by the pass itself: it traces to no dated sentence, and the underlying articles (1 September)
+   still use "prepara" and "alista". The pilot remains unlaunched on the evidence available.
+
+OTHER: Jordan's threshold-passed finding confirmed on a second day, with useful context -- Minister Qudah
+said in late July the agreement was "expected to enter into force early next month", an expectation voiced
+seven weeks ago that did not hold and which may well be the root of the discredited 1 August claim.
+Malaysia gained the PM's own words in full from his own account ("...masih belum berkuat kuasa kerana
+tertakluk kepada proses ratifikasi... pihak Amerika Syarikat belum mengemukakan cadangan tarif untuk
+diratifikasi"), and the Jordan parallel is now informative rather than speculative: NEITHER reciprocal-trade
+agreement has completed its notification step, suggesting a common hold-up on the US side. Thailand a sixth
+consecutive run of imminence, with Anutin's US visit starting tomorrow and no meeting scheduled. Colombia
+re-confirmed at Decreto 1418. Sri Lanka met its bilingual standard in a single run for only the second time.
+
+CANDOUR: India adds NO refusal today -- the pass spent its budget on Honduras and Jordan and I did not fetch
+the host either, so the streak stands at twenty-one with today carried. Batch 3 left Guyana, Hong Kong,
+Indonesia, Iraq, Japan, Kazakhstan and Israel untouched. Batch 1 did not re-fetch Australia or the Bahamas.
+Batch 6 gave the UAE and Switzerland only bundled checks and did not try Hansard or TheyWorkForYou for the
+UK. A South African gazette (Vol 735 No 55407, 18 September) surfaced at saflii.org but returned 403, so its
+contents are unknown -- logged as an open item, not as evidence either way.
+
+WATCH: what actually happened at the Honduran border, now checkable via ENAG for the first time; Canada
+Commons 21 September; Anutin's US visit 21-27 September; Peru's predictamen debate 28 September against the
+21/22 deadline claims; Australia consultation close 25 September; Israel's 90-day deadline ~24 October; UK
+amendment paper and the 3 November report; New Zealand election 7 November; Guatemala Listado Oficial
+15 November; Malaysia's and Jordan's notification exchanges; any Vietnamese implementing circular.
+
+Push: pending (this commit)
