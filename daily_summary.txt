@@ -2124,3 +2124,60 @@ amendment paper and the 3 November report; New Zealand election 7 November; Guat
 15 November; Malaysia's and Jordan's notification exchanges; any Vietnamese implementing circular.
 
 Push: CONFIRMED SUCCESSFUL — content commit 619d2b4 pushed to origin/claude/section-301-labour-tracker-etqasl (44ed87b..619d2b4).
+
+=== 2026-09-21 02:35 UTC ===
+
+Classification tally unchanged for a twenty-third consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR Section 301 determination. The Federal Register API was queried directly by
+two independent passes (agency filter trade-representative-office-of-united-states, and a
+full-text query since 2026-09-15): zero USTR documents published since 09-14, and the operative
+forced-labour action remains 2026-07-28, document 2026-15181. All sixty economies covered by six
+parallel passes with local-language searching.
+
+THE DAY'S SUBSTANTIVE RESULT -- HONDURAS: THE GAZETTE GAP IS CLOSED AT PRIMARY TEXT.
+The three editions left unopened when leyes.hn was rate-limited -- 37,243, 37,246 and 37,247 --
+were downloaded from ENAG as genuine PDFs and text-extracted locally. A research pass had reported
+them unreadable; that was a tooling failure on its side, correctly flagged as unverified rather
+than as a negative, and it was worth doing the extraction here rather than accepting it. Extraction
+quality was checked before any negative was accepted (14,223 / 7,624 / 42,579 words of four or more
+letters). All three contain zero occurrences of forzos, forzad, SETRASS or trabajo forzoso.
+37,243 is acuerdos, trademarks and labour-court judgments with no occurrence of "import" at all;
+37,246 is a returning-migrant customs-exemption decree whose Article 7 merely preserves existing
+import prohibitions without naming or altering the forced-labour one; 37,247 is trademarks and a
+consultancy contract. The whole September gazette run has now been read, and it contains no second
+Annex I list and no Article 15 customs classification.
+
+Two further things fell out of that work. First, a metadata question is resolved: the ENAG download
+slugs (20260901-37235 ... 20260916-37247) match edition number to gazette date cleanly and
+sequentially, so the slug is reliable even where the displayed date column is not. Second, and more
+important, the index stops at 37,247 of 16 September -- nothing has been published for 17 to 21
+September. So no gazette covers enforcement day. With a second day of no press dispatch either,
+the enforcement-day record is empty from both directions, and that is now a verified absence at the
+official publisher rather than yesterday's thin-coverage negative.
+
+CANADA: the Commons returned today and Bill C-35 did not move. LegisInfo fetched directly
+(HTTP 200): StatusNameEn "At second reading in the House of Commons", LatestCompletedMajorStageNameEn
+"First reading", latest event "Introduction and first reading" dated 2026-06-12. The label survived
+the one day on which it was most likely to be misread as progress. A new confusable is logged, from
+my own error: I first queried S-211 -- the number the enacted Act carried in the 44th Parliament --
+and got back a live bill about sports betting advertising. Numbers are recycled between Parliaments;
+the correct handle is C-35 in 45-1. The file itself was already right.
+
+THAILAND: the one row that could have moved. Anutin's US visit has begun, and the position degraded
+rather than resolved -- no meeting with the President is scheduled, a draft agreement is still to be
+sent "when the negotiations reached the appropriate stage", and a new unspecified US condition has
+entered the talks that Anutin says he has not asked for details of. Seventh consecutive run of
+imminence without a signature. Stays No.
+
+Grading of the weaker passes, recorded rather than smoothed over: India's refusal today is
+status-only, the body was not retrievable, so it is logged at a lower grade than the runs that
+recovered the AccessDenied XML. Norway's weekly re-read returned navigation only and did not
+reproduce the control items, so it is NOT counted as a sixth clean confirmation and a proper re-read
+is owed. South Africa's 18 September gazette was pursued at the official GPW domain rather than an
+aggregator and returned 404, with saflii 403 -- still unknown, still evidence of nothing.
+Peru produced no session or vote; 21 September was both a candidate deadline and the opening day of
+the semana de representacion, so today's silence is uninformative and the 21/22/28 tension survives
+intact. Two undated Sinar Harian items on pressure to cancel Malaysian ratification are flagged as a
+thread to date-check, not adopted. The UK amendment paper is unread for a twenty-first run.
+
+Push: pending (this commit)
