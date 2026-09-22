@@ -2255,4 +2255,4 @@ began with narrative instead of the classification keyword, which broke the tall
 5/6 rule. Caught by the validator and fixed before commit; both rows now open with "Yes (" and
 "Partial (" as the schema requires.
 
-Push: pending (this commit)
+Push: confirmed, commit 0c0d2b4 on claude/section-301-labour-tracker-etqasl
