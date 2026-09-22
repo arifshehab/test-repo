@@ -2181,3 +2181,78 @@ intact. Two undated Sinar Harian items on pressure to cancel Malaysian ratificat
 thread to date-check, not adopted. The UK amendment paper is unread for a twenty-first run.
 
 Push: confirmed, commit d442d96 on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-22 02:40 UTC ===
+
+Classification tally unchanged for a twenty-fourth consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR Section 301 determination -- the Federal Register API was queried directly
+here and independently by all six passes; the newest USTR document of any kind is still
+2026-09-14 (doc 2026-18775, an unrelated NTE comment request) and the operative forced-labour
+action remains 2026-07-28, doc 2026-15181.
+
+THE DAY'S MAIN EVENT -- THE BAHAMAS: A ROW OPENED AFTER 42 DAYS AND IMMEDIATELY PRODUCED A FALSE
+POSITIVE THAT HAD TO BE KILLED.
+Two findings, the second more important than the first. (1) The block is not an outage but an
+INTERMITTENT throttle: retrying the acts-by-year register with a persistent cookie jar and spaced
+requests returned the 218-byte sgcaptcha body on attempts 1, 2, 4, 5 and 6 and real HTML on
+attempts 3 and 7. The "42 consecutive blocked days" was partly measuring my own retry budget, not
+the site. The standing instruction is now to retry with a cookie jar rather than record a block
+after one refusal. (2) With the register open, a research pass found an Act titled "Customs
+Management (Amendment) Act, 2026" and reported it as possibly warranting elevation to Yes. It
+flagged rather than asserted, which was the right call, because it is NOT the forced-labour
+instrument. Three independent grounds: the commencement footnote it relied on actually belongs to
+the row above, the VAT (Amendment)(No. 2) Act 2026-0019A, and row-level parsing shows the Customs
+row 2026-0020A carries no footnote at all; Act 2026-0020 sits in an unbroken fiscal sequence from
+the Appropriation Acts through Tariff, Stamp, VAT No. 2, Real Property Tax, Business Licence and
+Domestic Minimum Top-Up Tax, and the Act PDF -- retrieved for the first time in 43 days -- carries
+the header "EXTRAORDINARY OFFICIAL GAZETTE ... 1st July, 2026", the start of the Bahamian fiscal
+year; and the table's ceiling of 2026-0038 matches the 9 August parse that recorded no Customs
+Management amendment, so the Act was already there and that earlier index read was INCOMPLETE.
+Honest limit: the Act PDF body is a scanned image -- 65 recoverable words across 112,000 characters
+of stream data even after decoding the ToUnicode cmaps -- so its zero hits for "forced" and "208"
+are a tooling failure, not a negative, and the classification rests on the three grounds above
+rather than on the unreadable text. The Bahamas stays Partial, and a second act-level confusable is
+logged; it is the more dangerous of the two, because it carries the Bill's exact short title.
+
+NORWAY: TWO "FAILED READS" WERE NOT FAILED READS, AND MY OWN INSTRUCTION WAS WRONG.
+Yesterday's and today's passes both reported that the Storting register loaded but could not be
+read, because the Malaysia/Ukraine/MERCOSUR control items were missing. Fetched directly here, the
+page reads fine and explains itself: "Listen over bebudede saker sendes fra regjeringen til
+Stortinget to ganger i aaret - i oktober og rundt 1. februar", and decisively "Listen toemmes paa
+sommeren i paavente av hoestsesjonen" -- the list is emptied over the summer, and its scope line
+still says spring session 2026. The control cannot exist in this period, so the test I specified was
+invalid and both passes were misled by the instruction rather than careless. The rule survives in
+better form: a page that loads is not a page that was read, but an empty register is not a failed
+read either. Norway is parked until the October list arrives; there is nothing to check until then.
+
+OTHER RESOLUTIONS. The EU "3 September Official Journal" claim is refuted: the guidelines are
+C(2026) 4386 final, header "Brussels, 26.6.2026", retrieved directly from the Commission -- the date
+the row already carried, so the check's value was in stopping the claim. Malaysia's two Sinar Harian
+items are dated and dead: 30 October 2025 and 23 February 2026, both tied to the superseded IEEPA
+episode -- the undated snippet is confirmed as this file's most reliable source of false novelty.
+India recovers a body-confirmed refusal (403 with the AccessDenied XML and a RequestId) by switching
+from the summarising fetch tool to raw curl, showing yesterday's weaker grade was a tool artefact.
+The UK gap narrows from a better direction: a new route (TheyWorkForYou) finally loaded, and a legal
+analysis states the Bill "stops short" of recommendations that "urged the Government to consider
+imposing forced-labour import bans" -- affirmative evidence of absence rather than silence, though
+the amendment paper itself is unread for a 22nd run. Taiwan's commitment is at Article 3.9, NOT the
+Article 2.9 of the Malaysia and Jordan agreements -- checking 2.9 there would yield a false negative.
+
+HONDURAS: three days in force, and a six-day publication gap. ENAG still ceilings at 37,247 of
+16 September, so nothing at all has been gazetted for 17-22 September. Spanish press for the first
+three enforcement days returned only recycled July-August coverage: no enforcement action, no
+detained shipment, no SETRASS or Aduanas statement. The index also skips 37,241, which is the
+publisher's own numbering, not a missed fetch.
+
+Peru passed its second candidate deadline as a non-event, consistent with the non-sitting semana de
+representacion; reporting still converges on 28 September and the customs bloc's survival is still
+unaddressed. Disclosed gaps carried, not hidden: congreso.gob.pe's dictamen listing and El Peruano's
+digest unfetched for a third run; South Africa's 18 September gazette 403s again; Canada's
+consultation pages not re-fetched; several batch economies had no fresh local-language search.
+
+Correction made during this run: I initially wrote the Mexico and Taiwan updates so that column 5
+began with narrative instead of the classification keyword, which broke the tally and the column
+5/6 rule. Caught by the validator and fixed before commit; both rows now open with "Yes (" and
+"Partial (" as the schema requires.
+
+Push: pending (this commit)
