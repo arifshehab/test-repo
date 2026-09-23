@@ -2256,3 +2256,75 @@ began with narrative instead of the classification keyword, which broke the tall
 "Partial (" as the schema requires.
 
 Push: confirmed, commit 0c0d2b4 on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-23 02:45 UTC ===
+
+Classification tally unchanged for a twenty-fifth consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR Section 301 determination -- the Federal Register API was queried directly
+here and independently by all six passes; newest USTR document of any kind remains 2026-09-14
+(doc 2026-18775) and the operative forced-labour action remains 2026-07-28, doc 2026-15181.
+
+THE DAY'S FIRST RESULT IS A CORRECTION OF YESTERDAY'S HEADLINE FINDING. Yesterday this log
+asserted a SIX-DAY HONDURAN PUBLICATION GAP spanning the entire enforcement period, on the strength
+of an ENAG index that ceilinged at edition 37,247. That was wrong, and the cause is simple: THE
+INDEX IS PAGINATED, twelve entries to a page, and every read until now had taken page one only.
+Page two carries 37,247 through 37,251. There was no gap; the gazette published on 17, 18, 19 and
+21 September, with no edition on the 20th because it was a Sunday.
+
+The route there is worth recording, because I reached the right answer by the wrong road. Page
+one's contents CHANGED overnight -- 37,241 appeared and 37,247 vanished -- which I reproduced
+across four fetches while the vanished edition still downloaded perfectly at its own URL. I
+concluded the index was mutable and lossy, and found 37,248 through 37,251 by probing slugs by
+construction. A parallel pass found the actual mechanism, pagination, which explains the same
+facts more simply and is correct: nothing was ever deleted, the twelve-item window merely
+reshuffled. I have adopted that explanation over my own. This is the third time the
+index-is-not-the-document rule has paid out -- after the leyes.hn mirror and the Bahamian acts
+register -- and the new failure mode is page one of a paginated list mistaken for the whole list.
+A second correction follows from the same error: yesterday's "37,241 numbering skip" was also
+wrong; that edition exists.
+
+Substantively nothing changes. All four newly found editions were downloaded as genuine PDFs and
+text-extracted, with extraction quality checked before any negative was accepted, and none
+contains "forzos", "SETRASS", "PCM-014" or "Anexo I". Edition 37,251 of 21 September -- the first
+business day under the prohibition, and the most important edition in this row -- is clean. The
+eight "forzad" hits in 37,248 are all "concreto reforzado", reinforced concrete in public-works
+bid schedules.
+
+DOMINICAN REPUBLIC -- THE DAY'S GENUINE NEWS. On 22 September the Senate approved, under urgency
+and in two consecutive readings, Senator Felix Bautista's bill establishing "un regimen legal de
+prevencion, identificacion, verificacion y prohibicion de la importacion de mercancias ...
+mediante trabajo forzoso". Verified at the primary source, the Senate's own site. The
+classification does NOT change: the row is already Yes on the enacted Decreto 502-26, and a bill
+passing one chamber is not enactment in any case. Two traps logged -- outlets and the Senate
+itself head this "aprueba ... LEY", which would read as an enactment that has not happened; and
+the Spanish headlines fired as false positives in four other economies' research today (Argentina,
+Uruguay, Venezuela, Chile), each of which correctly caught it.
+
+PERU -- THE DEADLINE TENSION RESOLVES AND THE BLOC QUESTION GETS ITS FIRST REAL EVIDENCE. The
+22 September regulatory deadline simply lapsed: no vote, no formal extension. In its place the
+commission convened a public hearing on four topics -- ambiental, intercultural, seguridad
+ciudadana and laboral -- and comercio exterior, aduanas and trabajo forzoso are NOT among them.
+That is the first positively sourced evidence on the question this row has been asking for two
+weeks, and it points the same way as the 9 September rejection. It is evidence of absence from a
+hearing agenda, not proof of deletion from a dictamen that still has no public text, and is
+recorded at that strength. 28 September is now the single live milestone. The four-run tooling gap
+is finally diagnosed rather than repeated: El Peruano's digest returns an identical 21,215-byte
+body regardless of the date parameter because it is a JavaScript single-page app -- so repeating
+curl against it is known-futile, not a refusal and not an absence of publication.
+
+OTHER MOVEMENT. The Bahamas could NOT reproduce yesterday's access -- eighteen attempts, all
+blocked -- so the cookie-jar retry is a sometimes-key, not a key, and today yields no evidence
+either way. South Africa's open gazette is identified as "Legal Notices A/C", a routine series
+where a substantive trade instrument would not normally appear, which lowers its priority without
+opening it. Mexico gains a sentence that cuts against the row -- "se puso en marcha un programa
+piloto", past tense -- flagged as the row's top open question and NOT adopted, since El
+Economista's own page still could not be reached. India repeats its body-confirmed refusal. The
+UK's block changes character: every parliamentary route returns a Cloudflare bot challenge rather
+than a permissions refusal, so the amendment paper is unreachable by this toolchain rather than
+withheld. Australia's one loose end is closed -- the 16 September Hansard item is a passing mention
+about banana-industry wages, not legislative activity. Thailand's ninth run of imminence without
+signature, with USTR's own Thailand page now confirmed to contain zero occurrences of "forced
+labor". Taiwan's owed site-level query failed as a proxy error and is recorded as unverified, not
+as a negative.
+
+Push: pending (this commit)
