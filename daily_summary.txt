@@ -2327,4 +2327,4 @@ signature, with USTR's own Thailand page now confirmed to contain zero occurrenc
 labor". Taiwan's owed site-level query failed as a proxy error and is recorded as unverified, not
 as a negative.
 
-Push: pending (this commit)
+Push: confirmed, commit 459b8ec on claude/section-301-labour-tracker-etqasl
