@@ -2328,3 +2328,67 @@ labor". Taiwan's owed site-level query failed as a proxy error and is recorded a
 as a negative.
 
 Push: confirmed, commit 459b8ec on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-24 02:50 UTC ===
+
+Classification tally unchanged for a twenty-sixth consecutive run: 15 Yes / 14 Partial / 31 No.
+NO NEW FORCED-LABOUR DETERMINATION, but the USTR baseline moved and is worth stating precisely:
+a new USTR Federal Register document appeared on 2026-09-23, doc 2026-19399, and it is "Fiscal
+Year 2027 Tariff-Rate Quota Allocations for Raw Cane Sugar" -- fetched and read here, its abstract
+concerns in-quota quantities for imported raw cane sugar and contains no forced-labour content.
+So the newest USTR item of any kind is now 23 September, while the operative forced-labour action
+remains 2026-07-28, doc 2026-15181.
+
+HONDURAS, DAY FIVE: one new edition, clean, and one number deliberately left open. Reading both
+index pages as the corrected method now requires turned up edition 37,253 of 23 September. It was
+downloaded and text-extracted independently here and by a parallel pass and is clean -- no
+"forzos", "SETRASS", "PCM-014" or "Anexo I"; its two "aduana" hits are an unrelated customs
+personnel cancellation acuerdo. The gazette has now been read continuously from 1 to 23 September
+with no forced-labour content in it. Edition 37,252 is missing and I am deliberately NOT calling it
+a numbering skip: it 404s on all seven dates probed, but that is exactly the inference that burned
+this row two days ago, when 37,241 was logged as the publisher's own gap and then turned out to
+exist. It is recorded as "not found at any date tried", which is a weaker claim than "does not
+exist". Day five of enforcement still shows no detention, complaint, statement or postponement.
+
+DOMINICAN REPUBLIC: the bill has been transmitted to the Cámara de Diputados, with no Chamber
+action and no promulgation. Two things remain unresolved and are recorded as such rather than
+smoothed: no bill or expediente number has been recovered by anyone, and the vote count does not
+reconcile across sources (27 of 30; 26 then 27 across two readings; the Senate's own page gives no
+tally). No figure should be quoted from this row as settled.
+
+CANADA: an item owed for five runs is finally answered, and it arrived wrapped in a near-miss
+confusable. A Government of Canada "what we heard" release was found and read -- but it covers
+Major Projects, Trade and Transportation, and Labour Relations, and the Trade and Transportation
+one closed on 21 August, the very same date as the forced-labour consultation, while actually
+concerning Transport Canada's Transportation Security Clearance Program. A careless match would
+have closed this item wrongly. The real answer is a confirmed negative: the forced-labour
+consultation still has no report, thirty-four days after closing.
+
+NEW ZEALAND: a genuine status change, though not a classification change. Parliament held its final
+sitting on 23 September ahead of the 7 November election, with dissolution on 1 October -- which I
+verified directly across several wire carriers. The Modern Slavery Bill did not get a second
+reading, so this row is no longer "heading toward a second reading with no date set" but DID NOT
+PASS THIS TERM. A further detail is carried at lower confidence and explicitly not confirmed here:
+reporting has PM Luxon ruling out a cross-party fast-track and pledging to bring the law back next
+term. I verified the adjournment; I did not reach those outlets.
+
+MEXICO: the most useful datum yet on the launched-versus-prepared question, and it points away from
+the claim. The government's own portal, trabajoforzoso.stps.gob.mx, does not mention the five-sector
+pilot at all -- it describes only the 2023 mechanism. A pilot in operation would be the natural
+thing for that portal to carry. Every other dated source says "prepara"/"alista"; the single
+past-tense clause remains uncorroborated, and El Economista's own site has now defeated three
+attempts across three days. The balance favours "prepared", the question stays open, and the claim
+is still not adopted.
+
+SMALLER RESULTS. Thailand's tenth run of imminence without signature, with a confusable logged that
+would have answered the wrong question -- Anutin's list of conditions already fulfilled (UXO
+clearance, troop withdrawal, scam-centre crackdown) belongs to the older Cambodia-border joint
+statement, not to the new unspecified US condition. Taiwan's proxy failure cleared, converting
+yesterday's unverified result into a real negative: no tabled Legislative Yuan bill. India's third
+consecutive body-confirmed refusal. The UK produced its first response in the series that is an
+absence rather than a barrier -- publicwhip returned a clean 404 -- while the parliamentary estate
+stays bot-blocked at 24 runs. A second Libyan confusable is logged (Decision No. 465/2026, an
+import-registration system). Bangladesh's Import Policy Order is unread for a third day behind two
+different tool failures and is now that row's priority gap.
+
+Push: pending (this commit)
