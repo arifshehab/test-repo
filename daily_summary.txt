@@ -2392,3 +2392,66 @@ import-registration system). Bangladesh's Import Policy Order is unread for a th
 different tool failures and is now that row's priority gap.
 
 Push: confirmed, commit 89de3f7 on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-25 02:55 UTC ===
+
+Classification tally unchanged for a twenty-seventh consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR Section 301 forced-labour determination. The Federal Register API was queried
+directly here and by all six passes -- one of them by walking the full 2,085-document agency
+listing rather than a keyword search, which is a stronger check than usual. The newest USTR item of
+any kind is still 2026-09-23, doc 2026-19399 (raw cane sugar quota allocations, already read and
+confirmed unrelated); the operative forced-labour action remains 2026-07-28, doc 2026-15181.
+
+HONDURAS: A WITHHELD JUDGEMENT PAID OFF IN TWENTY-FOUR HOURS. Yesterday edition 37,252 returned 404
+on all seven dates probed, and the obvious inference was a Tuesday numbering gap. I recorded it as
+"not found at any date tried" instead, because the identical call on 37,241 had been wrong three
+days earlier. Today 37,252 exists at exactly the URL that refused it -- it was simply published or
+indexed late. That is twice in three days the cautious formulation has been vindicated, and the
+rule is now explicit for this row: a missing edition is a "not yet found" to be re-probed, never
+the publisher's own gap. The edition was downloaded and extracted and is clean. The September
+gazette is therefore now read in full and continuously -- nineteen editions, 1 to 23 September, no
+gaps, no forced-labour content in any of them. Nothing exists above 37,253. Day six of the
+prohibition passes with no enforcement event of any kind.
+
+PERU: I AM WITHDRAWING MY OWN WORD "RESOLVED". Two days ago I recorded the deadline tension as
+settled in favour of 28 September, on Canal N's framing. The chair herself contradicts that. La
+República of 23 September is headlined that the commission still has no date and quotes Avendaño:
+"Es una fecha que no le puedo precisar, pero esta semana mi equipo técnico se está abocando a
+terminar el documento respectivo." So 28 September is a reported intention, not a fixed date, and
+this row has repeated its own oldest lesson -- a chair's scheduling remark is not a deadline, and
+neither is a reporter's consolidation of one. The more important finding is that a THIRD document
+now omits the customs bloc: Renovación Popular has filed a texto sustitutorio restricting the
+delegation to four axes -- seguridad ciudadana, El Niño, reactivación económica y empleo,
+modernización del Estado -- with comercio exterior, aduanas and trabajo forzoso absent. One bench's
+proposal is not proof of deletion, but three documents in four days now point the same way.
+
+THE BAHAMAS: the register opened again, and established something better than another tally mark --
+the page structurally CANNOT answer this row's question. It does list the forced-labour instrument
+as a Bill, with its own PDF path, separately from the excluded regulations confusable; but it
+carries no status or progress column at all. So the long-held hope that opening this register would
+reveal whether the Bill has passed the Senate was misplaced. The answer must come from Hansard, the
+Gazette or an official quote. The Bill PDF itself was attempted six times and refused each time.
+
+DOMINICAN REPUBLIC: both open items were chased into the primary record and neither is resolvable
+there, which is itself the answer. The Senate names the measure with no expediente numeral at all,
+and publishes no vote tally -- "votos" never appears with a figure in either official article. One
+press figure is now explained and retired: "27 in favour of 30" describes the proponent plus
+co-sponsors, not a division. No count should be quoted from this row.
+
+CORRECTIONS AND CLOSURES. New Zealand's low-confidence Luxon detail is confirmed by a direct read of
+Newsroom -- but the source list was wrong and is corrected: LiveNews does not carry that quote, and
+attributing it to both outlets was my over-attribution. Mexico tips further toward "prepared": a
+second carry of the same story uses "alista", so the two carries disagree with each other, which
+likely explains the whole puzzle. Libya's 403-blocked lead is dated to 3 June 2026 and closed --
+it concerns the proposed action, not any Libyan response. Kuwait, Morocco and Oman finally got the
+primary-source fetches owed for three runs (moci.gov.kw, mcinet.gov.ma, customs.gov.om, all HTTP
+200), and an Omani date confusable is logged: an alroya.om piece dated April 2025, a year before
+this investigation began. Israel's "searched not fetched" shortfall was fixed and both primary
+routes proved blocked at body level. Bangladesh's Import Policy Order is unread on its fifth day
+after five new routes failed, though two reachable alternative hosts are now identified.
+
+One tool limit worth recording for every row, not just the UK: web.archive.org cannot be reached by
+the fetching tool at all, which closes off the archive-snapshot workaround several rows were
+holding in reserve.
+
+Push: pending (this commit)
