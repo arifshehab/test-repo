@@ -2516,4 +2516,4 @@ our own proxy, meaning the request was never sent. India's DGFT gave a fifth con
 body-confirmed refusal and now comes off the daily retry list. The Dominican confusable fired again
 against Argentina, Uruguay and Venezuela, and all three caught it.
 
-Push: pending (this commit)
+Push: confirmed, commit c9ca005 on claude/section-301-labour-tracker-etqasl
