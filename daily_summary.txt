@@ -2455,3 +2455,65 @@ the fetching tool at all, which closes off the archive-snapshot workaround sever
 holding in reserve.
 
 Push: confirmed, commit a7d208b on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-26 03:00 UTC ===
+
+Classification tally unchanged for a twenty-eighth consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR Section 301 forced-labour determination. I queried the Federal Register API
+directly and four of the six passes did likewise; the newest USTR item of any kind remains
+2026-09-23 doc 2026-19399 (raw cane sugar quota, already read and confirmed unrelated) and the
+operative action is still 2026-07-28 doc 2026-15181. One pass could not reach the API at all --
+it was served a bot-challenge redirect to unblock.federalregister.gov -- and honestly reported its
+finding as resting on a search index instead. That is worth noting as a tooling risk, but the
+finding itself is solid on five independent direct reads.
+
+HONDURAS: A THIRD LATE EDITION, AND THE RULE IS NOW PROVEN RATHER THAN PROVISIONAL. Edition 37,254
+of 24 September now exists at the exact URL that returned 404 on both the 24th and the 25th. That
+is the third time in four days -- after 37,241 and 37,252 -- that writing an edition off early
+would have been wrong. This publisher routinely posts one to two days late, so for this row a 404
+means NOT YET POSTED and must be re-probed for at least two further days. The edition is clean; its
+single "forzos" hit is the confusable already logged for 37,244, a compulsory staff reduction in a
+personnel dispute. The September gazette now reads continuously across twenty editions, 1 to 24
+September, with no gaps and no forced-labour content anywhere in it. Day seven of the prohibition
+passes with no detention, complaint, statement or postponement.
+
+THAILAND: THE WATCH RESOLVES, AND BY ITINERARY RATHER THAN BY ANY STATEMENT. Anutin's trip is
+reported as New York for the UN through about 24 September, then London on the 25th and 26th, then
+home on the 27th. There is no Washington leg at all. So the "US visit" that eleven consecutive runs
+treated as the occasion for a possible signature never contained a bilateral meeting in its
+schedule, and the window closes in absence rather than refusal. Twelfth and final run of this
+imminence cycle. The lesson is the one the row applied throughout: reporting that an agreement is
+close is not evidence that it is close.
+
+MEXICO: THE MOST LIKELY EXPLANATION OF THE PUZZLE IS THAT THE SOURCE TEXT MOVED. The Yahoo carry was
+re-fetched at its exact URL and now reads "alista", the preparatory verb; the past-tense clause
+"se puso en marcha un programa piloto" was not reproduced, and the URL slug itself contains
+"alista". Two further checks came back empty where a real launch would show: no September 2026 DOF
+acuerdo establishing a pilot, and gob.mx/stps carries only the 2023 instrument's original
+entry-into-force release. The claim is now treated as withdrawn rather than merely unadopted.
+
+PERU: A NEW AND REVEALING SIGNAL TWO DAYS BEFORE THE REPORTED MILESTONE. Fuerza Popular and
+Renovación Popular are preparing a predictamen EN MINORÍA in favour of granting the faculties, with
+Abensur quoted: "Una vez presentado el dictamen en mayoría y si es negativo, presentaremos el de
+minoría." That is the minority bloc hedging against a majority report they expect to be negative --
+the first indication of which way the majority report is likely to go, and it points toward
+rejection of the delegation as a whole rather than mere trimming of the customs bloc. It is an
+inference from one bench's tactics, not a reading of a text that still does not exist. No
+convocatoria for Monday had been published as of Saturday and the predictamen has not appeared.
+
+SMALLER RESULTS AND HONEST LIMITS. Bangladesh gained a second independent Bengali excerpt of the
+same appendix listing the identical four prohibited grounds with no forced-labour ground -- two
+partial readings now agree, which strengthens without establishing; the primary text is unread on
+its sixth day. Chile's leychile.cl was finally tried and turned out to be another JavaScript
+application this toolchain cannot query, joining El Peruano and the Dominican SIL; Chile's negative
+still rests entirely on search, with no Chilean register ever read at source, which is worth saying
+plainly. Egypt got a real primary fetch at last (goeic.gov.eg), and Uruguay produced its first
+document-level negative (gub.uy, 60,653 bytes, zero hits for "trabajo forzoso"). Israel's
+reshumot.gov.il attempt failed at the proxy with a 502 CONNECT rejection -- categorically different
+from the body-confirmed WAF blocks at nevo.co.il and gov.il, because this one never reached the
+origin. Türkiye produced a new failure mode entirely: "connect_rejected (organization policy)" at
+our own proxy, meaning the request was never sent. India's DGFT gave a fifth consecutive
+body-confirmed refusal and now comes off the daily retry list. The Dominican confusable fired again
+against Argentina, Uruguay and Venezuela, and all three caught it.
+
+Push: pending (this commit)
