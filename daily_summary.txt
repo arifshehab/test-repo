@@ -2586,4 +2586,4 @@ Kuwait's customs site produced a seventh distinct failure signature, and Oman's 
 produced an organisation-policy rejection at our own edge -- the same class as Türkiye's, and not an
 Omani refusal.
 
-Push: pending (this commit)
+Push: confirmed, commit a5c7f9d on claude/section-301-labour-tracker-etqasl
