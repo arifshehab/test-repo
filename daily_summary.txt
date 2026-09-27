@@ -2517,3 +2517,73 @@ body-confirmed refusal and now comes off the daily retry list. The Dominican con
 against Argentina, Uruguay and Venezuela, and all three caught it.
 
 Push: confirmed, commit c9ca005 on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-27 03:05 UTC ===
+
+Classification tally unchanged for a twenty-ninth consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR Section 301 forced-labour determination. I queried the Federal Register API
+directly and all six passes did likewise -- including the pass that was served a bot challenge
+yesterday, which got through cleanly today with a browser user-agent. Newest USTR item of any kind
+remains 2026-09-23 doc 2026-19399 (raw cane sugar quota, confirmed unrelated); the operative action
+is still 2026-07-28 doc 2026-15181.
+
+BANGLADESH: A REAL BREAKTHROUGH THAT SOLVES THE WRONG HALF OF THE PROBLEM. After six days in which
+the Ministry of Commerce was blocked site-side across every route, the Import Policy Order
+2026-2029 was found mirrored as a PDF by a Bangladeshi law firm and downloaded -- 88 pages, 723KB,
+genuine. The gap has moved from ACCESS to ENCODING, and nothing is yet known. The document uses
+SutonnyMJ, Nikosh and Vrinda, legacy non-Unicode Bengali faces with no ToUnicode table, so
+extraction yields 302,960 characters of mojibake. I attempted a cmap-based decode and it recovered
+nothing. The diagnosis is conclusive: of the 141 recognisable ASCII runs in the whole file, the
+commonest are "name", "post", "prep", "hhea", "hmtx", "loca" and "cmap" -- PDF font-table internals,
+not text. There is not one readable English sentence in it. So the zero hits for "forced" and
+"compulsory" are MEANINGLESS and must not be read as a negative. One real fact was recovered from
+Latin numerals in the header: the order was published Monday 24 August 2026, refining the previous
+approximation. What is needed is OCR, which this environment lacks, or a plain-text reproduction.
+
+HONDURAS: two more late editions and a new class of false positive. Editions 37,255 and 37,256 both
+appeared, 37,255 having 404'd on three dates only yesterday -- that is five editions now that
+appeared after failing probes, so the re-probe rule is beyond argument. Both are clean, but 37,255
+is the most keyword-hostile edition yet: it publishes EMPLOYMENT-LAW text, so "forzoso" appears in
+"descanso forzoso" (compulsory maternity rest) and in a contract-termination clause, and thirteen
+"prohibición" hits are headings like "PROHIBICIÓN DE LABORAR DURANTE LAS VACACIONES". The confusable
+list now runs to four kinds: reinforced concrete, compulsory staff reduction, reinforced
+surveillance, and ordinary labour-code vocabulary. An extraction disagreement is also logged: a
+parallel pass reported ZERO "forzos" hits in that same edition where I found two and quoted them.
+Both reached the same conclusion, but two readings of one document disagreed on whether a word
+appears, so a keyword count from a single extraction is not authoritative on its own. The gazette
+now reads continuously across twenty-two editions, 1 to 26 September, with no forced-labour
+content. The outlet-by-outlet press sweep owed for three runs was finally done and found nothing
+across the whole first week of enforcement.
+
+TÜRKIYE: upgraded from search-only to a genuine document-level negative by going to a different
+host. resmigazete.gov.tr was fetched and read at body level -- issue 33383 of 27 September, carrying
+university regulations, customs notices and procurement announcements, with zero mentions of forced
+labour or import prohibitions. That also confirms yesterday's failure was ours, not Turkey's:
+ticaret.gov.tr was refused by our own proxy while another Turkish government host answers normally.
+
+INDIA: the first positively sourced answer on the missing designation. The Gazette copy of
+Notification 23/2026-27 was located on egazette.gov.in, though the fetch failed on a TLS error. The
+useful result came from the trade press: multiple independent sources state the list of banned
+products WILL BE NOTIFIED SEPARATELY and has not yet been published. The missing Para 2.20B
+designation is now confirmed missing by sources describing it as still to come, which is far
+stronger than never having found one.
+
+COUNTING DISCIPLINE ON PERU. A pass offered the 22 September hearing as a FOURTH document omitting
+the customs bloc, describing it as three panels. It is the same hearing already logged, described
+by a different source with a different breakdown -- not a new event. The count stays at THREE. That
+the two descriptions disagree on the panel list is itself a reason not to quote either as
+definitive. Separately, the El Peruano route was genuinely attempted this run rather than skipped:
+three URL patterns and a congreso.gob.pe path, all 404. Sixth run without a route, but an
+attempt-and-fail rather than a gap. No agenda for Monday, no majority predictamen, complaint still
+unfiled.
+
+SMALLER RESULTS. Chile's Diario Oficial was finally attempted after three runs of being named and
+skipped: 302 then HTTP 503 -- no content, but a captured failure rather than a silent omission.
+Israel's reshumot.gov.il failed identically and is now logged in the proxy's own status endpoint at
+2026-09-27T02:22:32Z, so that condition is persistent rather than transient. The Philippines' own
+bill tracker refused us at HTTP 403, so HB 10848's committee referral is unverified, not absent.
+Kuwait's customs site produced a seventh distinct failure signature, and Oman's circulars subpage
+produced an organisation-policy rejection at our own edge -- the same class as Türkiye's, and not an
+Omani refusal.
+
+Push: pending (this commit)
