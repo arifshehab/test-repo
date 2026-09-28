@@ -2587,3 +2587,70 @@ produced an organisation-policy rejection at our own edge -- the same class as T
 Omani refusal.
 
 Push: confirmed, commit a5c7f9d on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-28 03:00 UTC ===
+
+Classification tally unchanged for a thirtieth consecutive run: 15 Yes / 14 Partial / 31 No.
+No new or final USTR Section 301 forced-labour determination -- I queried the Federal Register API
+directly and all six passes did likewise, several with both an agency filter and a forced-labour
+term filter. Newest USTR item of any kind remains 2026-09-23 doc 2026-19399 (raw cane sugar quota,
+confirmed unrelated); the operative action is still 2026-07-28 doc 2026-15181.
+
+THE UK ROW BROKE AFTER TWENTY-SEVEN BLOCKED RUNS, AND NOT FROM PARLIAMENT. Anti-Slavery
+International's amendments page was fetched and read for the first time -- it sets out that
+organisation's proposed amendments to Clauses 37, 38, 39 and 43 plus a new clause on First
+Responder Organisations, all victim-identification and support, with no import prohibition
+anywhere. Better, I then downloaded the underlying amendment PDFs, which the covering pass could
+not extract: Clause-37-1.pdf is headed "Recovery and reflection period" and reads "Clause 37,
+page 39, leave out Clause 37"; Clause-43-Amendment-1.pdf is headed "Support for survivors of
+modern slavery". Both return zero hits for import, forced labour, prohibit and customs. So this
+row finally has a DOCUMENT-LEVEL READ OF ACTUAL AMENDMENT TEXT instead of an inference from what
+reports fail to mention. The gap narrows but does not close: what was read is one organisation's
+proposed amendments, not the official paper listing every amendment tabled by every member, which
+remains behind the parliamentary bot challenge. Committee stage reports 3 November.
+
+A STRUCTURAL PROBLEM WITH THIS TRACKER SURFACED ON PERU AND IS WORTH MORE THAN TODAY'S NON-RESULT.
+A pass could not establish whether today's Comisión de Constitución session convened and graded
+that honestly as unverified. The explanation is not a research failure: THIS REFRESH RUNS AT
+02:19 UTC, WHICH IS 21:19 THE PREVIOUS EVENING IN LIMA. At the moment of the run it is still
+Sunday night in Peru and Monday 28 September has not begun there, so the session could not have
+happened and no dictamen could exist. Today's silence carries zero information. The general
+consequence applies to every Western-Hemisphere row: Tegucigalpa is 20:19 the previous evening,
+Santo Domingo and Washington 22:19, so a same-day event in the Americas can never be captured by
+the run bearing that date, and an absence on the nominal day is a scheduling artefact rather than
+evidence. Peru's outcome belongs to tomorrow's refresh. One real item was found within reach,
+dated 21 September: Gaceta Perú TV reports the majority report is expected to recommend DENYING the
+delegation, citing an opinion from former Constitutional Tribunal president César Landa -- which
+independently corroborates the inference drawn on 26 September from Fuerza Popular's decision to
+prepare a minority report.
+
+VENEZUELA'S DIRECT FETCH WAS FINALLY EXECUTED after six runs of search-only coverage, and produced
+two real document-level negatives: www.mppef.gob.ve (317,501 bytes) and mppre.gob.ve (138,438
+bytes), both clean. Three further hosts -- mincomercio, minec and the Gaceta Oficial -- return
+"connect_rejected (organization policy)", which is OUR OWN egress denial, not Venezuelan opacity,
+and that distinction is now recorded.
+
+DOMINICAN REPUBLIC: a real Chamber record read at last. Of the two URLs identified yesterday, one
+is a genuine non-JS listing and one is a template shell still containing literal {{linkdownload}}
+placeholders. The real one's newest entry is the session of 22 September, with nothing posted
+since -- informative, because the bill reached the Chamber on the 24th and has therefore not been
+scheduled. A name-collision confusable is logged from the agenda PDF: its only "Bautista" is
+Eduviges María Bautista Gomera, a different deputy on an unrelated bill.
+
+TWO DOCUMENTS MOVED FROM UNREACHABLE TO REACHABLE-BUT-UNREADABLE IN TWO DAYS, which is now a
+pattern worth naming: Bangladesh's Import Policy Order (legacy non-Unicode Bengali fonts) and
+India's Gazette notification, which came down cleanly once a TLS error was bypassed but turns out
+to be an image-only scan. The remaining hard gaps in this file are increasingly OCR problems rather
+than access problems.
+
+SMALLER RESULTS. Chile's Diario Oficial changed failure mode from 503 to a clean 403 with an
+Apache body -- a deliberate block rather than a transient outage, so it should be treated as
+refusing this toolchain; Chile's negative still rests entirely on search with no Chilean register
+ever read at source. Israel produced a third distinct blocking mechanism, a JS bot challenge at the
+Knesset, alongside the WAF 403s and the proxy 502. Jordan gave its cleanest negative yet: both
+ministry sites fetched by raw curl and grepped at body level, zero matches. Honduras is at day nine
+with the ceiling unchanged at 37,256; 37,257 and 37,258 probed and not yet found, which the
+timezone point also explains. A Colombia date trap is logged: a "25 de septiembre" date on the
+MinCIT drafts page belongs to a different draft about cámaras de comercio, not this measure.
+
+Push: pending (this commit)
