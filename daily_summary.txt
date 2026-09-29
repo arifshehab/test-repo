@@ -2654,3 +2654,78 @@ timezone point also explains. A Colombia date trap is logged: a "25 de septiembr
 MinCIT drafts page belongs to a different draft about cámaras de comercio, not this measure.
 
 Push: confirmed, commit 8fb46dd on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-29 03:05 UTC ===
+
+MATERIAL CHANGE TODAY, THE FIRST IN THIRTY RUNS: COLOMBIA MOVES FROM PARTIAL TO YES.
+Tally is now 16 Yes / 13 Partial / 31 No, from 15/14/31.
+
+DECRETO 1444 DEL 28 DE SEPTIEMBRE DE 2026 has been issued, "por el cual se prohíbe la importación
+de bienes producidos total o parcialmente mediante trabajo forzoso u obligatorio, y se dictan otras
+disposiciones". I verified it twice at primary source. The title, number and date were read on the
+Ministry of Commerce's own decree register, whose "Última actualización" line now reads 28 de
+septiembre de 2026 -- that register had ceilinged at Decreto 1418 for eleven days. I then downloaded
+the decree PDF itself (2,191,640 bytes) and extracted it: 3,038 words, with 31 occurrences of
+"forzoso", 21 of "prohib" and 17 of "importaci". Article 1 bars entry into the national customs
+territory of goods extracted, produced, manufactured or transformed wholly or partly through forced
+or compulsory labour, across every stage of the supply chain; Article 2 defines forced labour by
+reference to ILO Convention 29; Article 18 brings it into force the day after Diario Oficial
+publication. It is Yes rather than Partial because the policy reserves Yes for an actually enacted
+instrument even if not yet fully effective, and this is a signed, numbered, dated decree on the
+issuing ministry's own register -- no longer the "Proyecto de Decreto" tracked here since the
+comment window closed on 15 August, forty-four days ago. One thing is flagged, not hidden:
+publication in the Diario Oficial itself was not confirmed, and since Article 18 keys entry into
+force to it, the decree may be enacted but not yet in force. That does not change the
+classification under this file's policy, but the date should be pinned next run.
+
+PERU: THE PREDICTAMEN LANDED, AND IT IS NEGATIVE. Yesterday's timezone fix worked exactly as
+predicted -- Sunday-evening Lima meant nothing was visible; today's run sees the whole of Monday.
+Three things. The Monday session did NOT take place, with two deputies quoted saying they had
+received no formal citación. A PREDICTAMEN now exists recommending "no aprobación y envío al
+archivo", verified directly at Infobae, and it gives the expediente in full for the first time:
+Proposición Legislativa 00098-2026-2031-CD. Its central objection is constitutional specificity --
+the request "reúne 66 ítems distribuidos en ocho literales" while review identifies "más de 100
+asuntos distintos". Both predictions this file made, from Fuerza Popular's minority-report
+preparation and the 21 September Gaceta Perú TV report, are borne out. But it has NOT been voted:
+the commission was convened for two non-ordinary sessions on 29 and 30 September, and a predictamen
+is a draft put to a commission, not a decision of it. The delegation is NOT rejected and the vehicle
+is not dead. The customs bloc is confirmed still present in the request as filed, but no outlet
+quotes any predictamen passage about it and the eight-area lists conflict across outlets, so that
+question is unresolved at document level. One attributed detail is explicitly NOT adopted: a pass
+reported that La República observed the predictamen's first page carries the session date and voting
+deputies' names blank; I fetched that article and it contains no such statement.
+
+CHILE: A REGISTER READ AT SOURCE AT LAST, AND A BASELINE ERROR CORRECTED -- BUT NO RECLASSIFICATION.
+The Chamber of Deputies publishes an open-data SOAP service at opendata.camara.cl which answers
+normally while camara.cl sits behind Cloudflare. It returned 575 proyectos for 2026 and immediately
+corrected this file: we had recorded that no Chilean boletín exists, and one does. Boletín 18510-07,
+"Modifica el Código Penal en materia de trabajo forzoso y dispone reglas sobre trazabilidad de
+productos", filed 22 July. I am deliberately NOT reclassifying on a title. The metadata carries no
+bill text and returns zero occurrences of "importación" and zero of "aduana", and what the title
+describes is a criminal-code amendment plus traceability rules -- the same shape as New Zealand's
+disclosure bill and Australia's failure-to-prevent offence, both of which sit at No precisely
+because they are not import prohibitions. Chile stays No pending a read of the text, which is now
+the single task owed on that row.
+
+UNITED KINGDOM: the job started yesterday is finished. All six Anti-Slavery International amendment
+PDFs are now read at document level, including the three previously unretrieved -- a Clause 38
+deletion, a Clause 39 replacement on leave to remain, and a First Responder Organisations new
+clause. Zero import-prohibition content across all six. Two apparent keyword hits were run down and
+are false positives: "import" is "importance", and "prohibit" is "prohibit discrimination". A FLEX
+confusable is logged: its earlier briefings concern the 2025 Border Security Act, a different bill
+in a different year. The bounded gap is unchanged and should not be overstated as closed -- what is
+exhaustively read is one organisation's amendments, not the official amendment paper.
+
+SMALLER RESULTS. Bangladesh gained a third independent excerpt of Appendix 1(b), this one in genuine
+Unicode Bengali, listing the same four grounds with no forced-labour ground -- three partial
+readings now agree, though all three are truncated; the gazette reference SRO No. 308-Law/2026 of
+23 August was also recovered. Argentina produced its first sign of domestic drafting, a press report
+that Economía, Capital Humano and the customs directorate are working on a "borrador de normativa"
+-- a draft in preparation is not a tabled measure and does not move the row. Norway's autumn
+register has not yet arrived, which is the expected result two days before October and is recorded
+as such rather than as a failure. The Dominican Chamber posted session 00010 of 29 September and the
+bill is not on it, five days after reaching the Chamber. Türkiye added two more gazette issues read
+at table-of-contents level. Honduras is at day ten with the ceiling unchanged, and a routing detail
+is logged: the year-level ENAG path carries no editions at all, only the month path does.
+
+Push: pending (this commit)
