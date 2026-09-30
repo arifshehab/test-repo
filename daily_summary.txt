@@ -2729,3 +2729,77 @@ at table-of-contents level. Honduras is at day ten with the ceiling unchanged, a
 is logged: the year-level ENAG path carries no editions at all, only the month path does.
 
 Push: confirmed, commit d2b21c3 on claude/section-301-labour-tracker-etqasl
+
+=== 2026-09-30 03:15 UTC ===
+
+SECOND MATERIAL CHANGE IN TWO DAYS: CHILE MOVES FROM NO TO PARTIAL.
+Tally is now 16 Yes / 14 Partial / 30 No, from 16/13/31.
+
+CHILE — AND THE REASON MATTERS AS MUCH AS THE RESULT. Yesterday I refused to reclassify this row on
+the strength of a bill title, because boletín 18510-07 is called "Modifica el Código Penal en
+materia de trabajo forzoso y dispone reglas sobre trazabilidad de productos" and its metadata
+contains zero occurrences of "importación". Reading the text proved that refusal right, but in the
+OPPOSITE direction from the one I expected. Article 2 of the bill, read at primary text:
+"Prohíbase la producción, transporte, distribución, comercialización, IMPORTACIÓN y exportación de
+bienes, productos o mercancías respecto de los cuales existan antecedentes suficientes para
+presumir que han sido obtenidos, total o parcialmente, mediante trabajo forzoso, servidumbre,
+esclavitud o cualquier otra forma de explotación laboral prohibida por la ley." It also sets a fine
+of up to 100 UTM plus decomiso, requires a semiannual high-risk product list, and its considerando
+names Canada's import ban as the model. The lesson is not "titles mislead toward No" but "read the
+text, in either direction".
+
+The route was new: the Chamber's open-data SOAP operation retornarDocumentoIngresoProyectoLey
+returns the bill as a base64 PDF. A TOOLING FINDING WORTH KEEPING: this file's usual zlib stream
+extraction recovered 601 words and ZERO hits for "importación" from that PDF, while pypdfium2
+recovered 11,380 characters including the article above. Two methods on one document disagreed
+completely, and the weaker one would have left this row misclassified. pypdfium2 is available here
+and should be tried whenever the stream method returns an implausibly low word count.
+Partial, not Yes: it is an unsponsored deputy's moción with no votes recorded and may never advance,
+but a formally tabled bill naming importation is Partial under the standing rule. Two baseline
+errors corrected: this file had recorded that no Chilean boletín exists, and that the measure was
+criminal-code only.
+
+COSTA RICA IS NOW THE MOST LIKELY NEXT CHANGE, and is held at No only because the text is unread.
+Decreto Ejecutivo N.° 45941-H-MTSS-COMEX, signed 7 September and published in La Gaceta on
+28 September, Alcance N.° 129, creates an official list of goods at risk of forced labour. The
+accounts CONFLICT on the one point that decides the classification: La Nación says it establishes a
+registry rather than imposing import prohibitions, while El Observador says the aim is to prohibit
+and prevent entry. Both cannot be right about its legal effect. Holding at No is conservative and
+explicitly provisional pending the text.
+
+PERU: the Tuesday session convened and nothing was decided. Verified at Gestión — the commission
+"paused" to Wednesday 30 September rather than voting, and after more than three and a half hours
+had covered only one subject area out of a request containing 66 measures. So the predictamen is
+still unvoted and the delegation still not rejected. A DANGEROUS HEADLINE TRAP is logged: Correo ran
+"Comisión de Constitución concluye no dar facultades" when no such conclusion was reached — the
+headline treats the technical team's draft as a decision of the commission. New event: Fuerza
+Popular filed a moción de censura against chair Avendaño during the session, alleging "falta de
+transparencia"; she ruled it did not proceed. The debate never reached the customs bloc.
+
+A BASELINE GAP FOUND AND FIXED IN THE BRIEF: the standing baseline has cited only doc 2026-15181 as
+the 28 July operative action. Doc 2026-15274 was published the same day and is a separate
+PRESIDENTIAL DOCUMENT, "Actions by the United States in the Investigations Under Section 301 ... of
+60 Economies Related to the Failure of Each Economy To Impose and Effectively Enforce a Prohibition
+on the Importation of Goods Produced With Forced Labor" — verified directly at the Federal Register
+API. There are two operative instruments of that date, not one.
+
+A WAF QUESTION SETTLED AND ONE OF MY OWN ENTRIES CORRECTED. The "Request Rejected" body at
+douane.gov.ma is MOROCCO'S OWN WAF, not our proxy: it arrives as an HTTP 200 with an origin-issued
+support ID that differs per request, whereas our proxy's denial fails at the tunnel with a CONNECT
+502. Applying the same test, customs.gov.om's circulars page — which I attributed to "our own edge"
+on 27 September — is also the origin's WAF. That earlier attribution was wrong and is corrected.
+Separately, diariooficial.gov.co does fail with the proxy's CONNECT 502, so Colombia's Diario
+Oficial edition and entry-into-force date remain unfound and must not be inferred as 29 September.
+
+Smaller results: Indonesia's Permendag 18/2026, an open item since 27 September, is closed — it is
+an import-licensing amendment with zero "kerja paksa" content. Argentina's draft turns out to be
+EX POST by design, detecting breaches after goods enter rather than blocking them, so even
+publication would not automatically move that row. Norway's register is still empty on the last day
+of September, which is expected, and the row returns to the live list tomorrow. New Zealand
+dissolves tomorrow. Honduras is at day eleven with no October index yet.
+
+One coverage gap to record honestly: the batch covering Peru disclosed that it read only part of its
+baseline file, so Sri Lanka, South Africa and South Korea went unread there, and six of its ten
+economies were not checked at all this run.
+
+Push: pending (this commit)
