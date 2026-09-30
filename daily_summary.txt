@@ -2802,4 +2802,4 @@ One coverage gap to record honestly: the batch covering Peru disclosed that it r
 baseline file, so Sri Lanka, South Africa and South Korea went unread there, and six of its ten
 economies were not checked at all this run.
 
-Push: pending (this commit)
+Push: confirmed, commit d605f12 on claude/section-301-labour-tracker-etqasl
