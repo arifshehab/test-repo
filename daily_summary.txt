@@ -2827,4 +2827,4 @@ RESEARCH QUALITY THIS RUN: every one of the six batches volunteered that its pas
 
 A VALIDATOR CATCH WORTH LOGGING: the Costa Rica reasoning was rewritten to Partial while column 5 still opened with "No", which would have broken the tally and the col5/col6 rule. The full-file validator caught it before commit -- the same class of error as the 22 September Mexico/Taiwan incident, and the reason that check exists.
 
-Push: pending (this commit)
+Push: confirmed, commit 7153b3a on claude/section-301-labour-tracker-etqasl
