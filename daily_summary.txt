@@ -2854,4 +2854,4 @@ OTHER: The Bahamas -- the prescribed Hansard/press route was tried and produced 
 
 RESEARCH QUALITY: all five reporting batches again volunteered that their pass was lighter than instructed, which is the intended behaviour. Batch 1 did not reach primary-source depth on its three named priorities; Guyana and Singapore were explicitly carried forward without being searched at all. Against that, the depth instruction worked where it was aimed: Peru, Honduras, Indonesia, Brazil and Canada all produced primary-source results rather than search summaries.
 
-Push: pending (this commit)
+Push: confirmed, commit 3a1b830 on claude/section-301-labour-tracker-etqasl
