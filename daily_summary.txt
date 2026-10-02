@@ -2869,4 +2869,4 @@ THAILAND: no Royal Gazette notice found, but ratchakitcha was NOT queried direct
 
 UAE, Uruguay, Venezuela, Trinidad and Tobago: unchanged, search-level only. Colombia's Decreto 1444, the Dominican Senate bill and the Costa Rican list keep surfacing as confusables in Spanish-language queries for Uruguay and Venezuela and were each set aside.
 
-Addendum push: pending (this commit)
+Addendum push: confirmed, commit 9049c2a on claude/section-301-labour-tracker-etqasl
