@@ -2901,4 +2901,4 @@ OTHER: Bangladesh -- both logged leads were opened and neither carries the answe
 
 RESEARCH QUALITY: all four reporting batches again volunteered that their pass was lighter than instructed. Batch 1 did no work at all on Argentina, Australia, Algeria and Angola, which are carried forward stale rather than re-verified; batch 4 fetched no primary instrument for five economies because every route stayed blocked. Against that, the "depth beats breadth" instruction produced the retractions and the three primary-source closures above, which is the right trade.
 
-Push: pending (this commit)
+Push: confirmed, commit 7c5a94c on claude/section-301-labour-tracker-etqasl
