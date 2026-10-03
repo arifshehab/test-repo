@@ -2916,4 +2916,4 @@ ELSEWHERE IN BATCH 5, nothing changed classification. PAKISTAN: still no RTA sig
 
 STILL OUTSTANDING: batch 6 (Switzerland, Taiwan, Thailand, Trinidad and Tobago, Turkiye, UAE, United Kingdom, Uruguay, Venezuela, Vietnam) has not returned. Those ten rows remain unchecked in this run.
 
-Addendum 1 push: pending (this commit)
+Addendum 1 push: confirmed, commit 25de476 on claude/section-301-labour-tracker-etqasl
