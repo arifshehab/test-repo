@@ -2935,4 +2935,4 @@ THREE ROWS WHERE THE CHECK FAILED, LOGGED AS FAILURES NOT CLEAN DAYS. THAILAND: 
 
 A SEARCH-QUALITY OBSERVATION worth keeping: for URUGUAY and VENEZUELA, Spanish-language queries returned ONLY the three Latin American economies that did act (Colombia's Decreto 1444, the Dominican bill and Decree 502-26, and the Costa Rican list) for a fourth consecutive day. Those three now reliably crowd out null-result economies, which means a null Spanish result for Uruguay or Venezuela is WEAK evidence and a government source is needed. Neither has ever been checked at one. The UAE row has the same character -- its one Arabic match was Israel's ban, a neighbour's measure surfacing as a false positive.
 
-Addendum 2 push: pending (this commit)
+Addendum 2 push: confirmed, commit d8d0a54 on claude/section-301-labour-tracker-etqasl
