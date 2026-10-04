@@ -2964,4 +2964,4 @@ OTHER: Australia searched properly after being skipped -- its consultation CLOSE
 
 RESEARCH QUALITY: all five reporting batches again volunteered being lighter than instructed. Qatar, Saudi Arabia, Oman, Kuwait and Libya got only batch-wide rather than economy-specific local-language queries; Sri Lanka's own bilingual standard was not met; Chile's stationary status is CARRIED from yesterday rather than re-verified. Against that, three separate passes independently read the G20 primary text, and the Nicaragua provenance failure was found by fetching a source rather than trusting a recurring summary.
 
-Push: pending (this commit)
+Push: confirmed, commit 20be3dc on claude/section-301-labour-tracker-etqasl
