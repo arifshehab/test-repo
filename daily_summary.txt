@@ -2983,4 +2983,4 @@ A MODEL-GENERATED CLAIM CORRECTLY REFUSED. On Thailand, a Thai-language search p
 
 OTHER: Trinidad and Tobago -- no designation list, so the framework stays unpopulated; useful ministerial framing surfaced about not becoming "a destination and dumping ground for goods produced through coercion, human trafficking, debt bondage, child labour". UAE -- three government sources ATTEMPTED and all failed (two 503s, one 403), which is a better state than never having tried. Venezuela -- a sixth distinct failure signature recorded: WebFetch to mincomercio.gob.ve failed with "getaddrinfo EAI_AGAIN", a DNS failure, neither a block nor a refusal. VIETNAM -- no Vietnamese-language search was run, so this row fell below its own standard, and that standard exists precisely because Vietnam's ban was originally missed by English-only searching, making it the least acceptable row in the file to skip. Logged as a gap, not a clean day.
 
-Addendum push: pending (this commit)
+Addendum push: confirmed, commit 5523a55 on claude/section-301-labour-tracker-etqasl
