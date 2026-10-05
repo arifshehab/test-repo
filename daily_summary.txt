@@ -3033,4 +3033,4 @@ VIETNAM: the skipped Vietnamese search was run properly, in four queries coverin
 
 OTHER: UAE read at a government source for the first time -- and an identification corrected, since moec.gov.ae now 302s to moet.gov.ae, the Ministry of Economy AND TOURISM; its news items are all September with nothing on topic, a homepage-level negative. uaelegislation.gov.ae/ar/legislations/2583 stays 403 and unread. Turkiye's table-of-contents negative extended to issue 33391 of 5 October, now continuous from 33383 -- with the caveat sharpened, since the same fetch tool was caught fabricating on Colombia today. Thailand failed a sixth, seventh and eighth route (ratchakitcha 403, dft.go.th 503, customs.go.th timeout) and now has the longest unbroken run of failed primary-source routes in the file; its US deal is reported unsigned with "technical details and wording" still open.
 
-Addendum push: pending (this commit)
+Addendum push: confirmed, commit 88fbd69 on claude/section-301-labour-tracker-etqasl
