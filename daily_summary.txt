@@ -3012,4 +3012,4 @@ OTHER: Mexico's last undated lead is dated and closed -- Mundo Ejecutivo's "acti
 
 RESEARCH QUALITY: all five reporting batches again volunteered being lighter than instructed. Batch 2 did no fresh search at all on China, Ecuador, El Salvador, the EU or Guatemala. Against that, three separate declines of unsupported model summaries (Colombia's fabricated field, Malaysia's unverified order, South Africa's "notice was published") kept three false findings out of the file.
 
-Push: pending (this commit)
+Push: confirmed, commit 051269c on claude/section-301-labour-tracker-etqasl
