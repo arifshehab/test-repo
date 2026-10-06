@@ -3103,4 +3103,4 @@ All sixty economies checked. Final tally for the run: 17 Yes / 14 Partial / 29 N
 
 OTHER: Taiwan's quoted-phrase mirror queries reproduce yesterday's results exactly (six bills for 強迫勞動, zero for the trade-law phrases). Switzerland was a NEWS-ONLY pass -- the OData register was not re-queried, so its register-level closure is CARRIED from 5 October, not re-confirmed. Thailand's Gazette position is still unverified, with no new Thai primary route tried beyond ratchakitcha, and that pass was lighter than instructed. Vietnam read only search summaries, not page bodies, and moha.gov.vn's 301 was not followed.
 
-Addendum 3 push: pending (this commit)
+Addendum 3 push: confirmed, commit dc2654a on claude/section-301-labour-tracker-etqasl
