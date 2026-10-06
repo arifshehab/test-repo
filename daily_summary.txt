@@ -3054,7 +3054,7 @@ JAPAN: upgraded from "reportedly" to VERIFIED, from an American official source.
 
 OTHER: Brazil re-verified at the Chamber API after yesterday's tooling failure -- still 76 events, last 2026-06-12, "Aguardando Designacao de Relator(a)", no 77th. Canada's LegisInfo JSON fetched directly this time: "At second reading" as an ORDER-PAPER label with LatestCompletedMajorStage still "First reading" and no royal assent. Cambodia's Prakas page loads and the title is confirmed, but the only text remains the known scan and no Unicode copy exists -- so the operative text is still unread. Argentina: no response found to Greer's 3 October demand, and the ex post question is unchanged. Israel: four routes enumerated and all closed, with one new signature -- knesset.gov.il serves a 303 to a maintenance page for this region, which is not a block at all; WebFetch was not tried on any Israeli host and is the obvious next step. Kazakhstan's Kazakh-language pass is now complete (search-level only). Iraq's pass notes a real gap: its Arabic sweeps have never been validated with a must-be-present control word.
 
-Push: pending (this commit)
+Push: confirmed, commit 7472ead on claude/section-301-labour-tracker-etqasl
 
 --- ADDENDUM 1, same run (batches 2 and 5 returned after the first commit) ---
 No further classification changes; tally stands at 17 Yes / 14 Partial / 29 No. But this addendum carries the most useful tooling discovery of the whole project, and a growing risk to the Peru finding.
@@ -3069,4 +3069,4 @@ No further classification changes; tally stands at 17 Yes / 14 Partial / 29 No. 
 
 5. EGYPT: a systematic hunt for the gazette's real URL failed, and the pattern is the finding -- SEVEN .gov.eg hosts all returned curl 000, an egress failure, which suggests the whole .gov.eg space may be unreachable from here rather than that any hostname is wrong. Worth retesting with a User-Agent.
 
-Addendum 1 push: pending (this commit)
+Addendum 1 push: confirmed, commit fad1f7c on claude/section-301-labour-tracker-etqasl
