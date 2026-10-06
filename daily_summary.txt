@@ -3086,4 +3086,4 @@ No further classification changes; tally stands at 17 Yes / 14 Partial / 29 No. 
 
 OTHER: Kuwait, Libya and Morocco each got the ECONOMY-SPECIFIC Arabic search they had been missing; Libya's is graded verified for coverage and surfaced one new host. Norway's negative widened usefully -- Stortinget Dokument 15:1 (2025-26) was extracted to 579,000 characters with zero hits for "tvangsarbeid" or "2024/3015". Mexico: a 3 October La Prensa de Coahuila item proved to be the already-settled G20 statement. WebFetch rescued nothing on this batch; the Malaysian result came from curl.
 
-Addendum 2 push: pending (this commit)
+Addendum 2 push: confirmed, commit 2d29343 on claude/section-301-labour-tracker-etqasl
