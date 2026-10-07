@@ -3118,4 +3118,4 @@ This is worth stating plainly as a lesson about the shape of the finding rather 
 
 TIMING NOTE, now a standing feature of this row: this run fired at 02:19 UTC, which is 21:19 TUESDAY 6 OCTOBER in Lima -- so unlike every previous run, the Peruvian event HAD occurred by check time and the outcome was obtainable. On the three previous occasions the fire time fell before the event and the file recorded that no outcome could exist; today it fell after, and it did.
 
-Push: pending (this commit)
+Push: confirmed, commit 39682ea on claude/section-301-labour-tracker-etqasl
