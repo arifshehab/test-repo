@@ -3316,4 +3316,4 @@ smoothed over.
 Validator: 61 rows, 6 columns, 60 economies, column-5/column-6 rule clean.
 Tally 17 Yes / 14 Partial / 29 No.
 
-Push: pending (this commit)
+Push: confirmed, commit bbe6a55 (2026-10-07 addendum 3)
