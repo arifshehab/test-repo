@@ -3162,4 +3162,4 @@ All sixty economies checked. Final tally: 17 Yes / 14 Partial / 29 No, the only 
 
 OTHER: Thailand's Gazette is now unverified after NINE failed routes, though customs.go.th opened and its homepage is clean on twelve Thai and English terms. The UAE's one identified legal reference is now diagnosed rather than merely unopened -- a Cloudflare challenge no header defeats. Venezuela remains genuinely unknown, with only mppef.gob.ve readable and the Gaceta Oficial resetting under every approach.
 
-Addendum 2 push: pending (this commit)
+Addendum 2 push: confirmed, commit 58bb97e on claude/section-301-labour-tracker-etqasl
