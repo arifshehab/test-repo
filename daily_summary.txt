@@ -3163,3 +3163,157 @@ All sixty economies checked. Final tally: 17 Yes / 14 Partial / 29 No, the only 
 OTHER: Thailand's Gazette is now unverified after NINE failed routes, though customs.go.th opened and its homepage is clean on twelve Thai and English terms. The UAE's one identified legal reference is now diagnosed rather than merely unopened -- a Cloudflare challenge no header defeats. Venezuela remains genuinely unknown, with only mppef.gob.ve readable and the Gaceta Oficial resetting under every approach.
 
 Addendum 2 push: confirmed, commit 58bb97e on claude/section-301-labour-tracker-etqasl
+
+=== 2026-10-07 03:05 UTC (ADDENDUM 3) ===
+
+Batch 5 (Pakistan, Peru, Philippines, Qatar, Russia, Saudi Arabia, Singapore,
+South Africa, South Korea, Sri Lanka) returned after the addendum-2 push and is
+applied here. NO CLASSIFICATION CHANGES. Tally unchanged: 17 Yes / 14 Partial /
+29 No.
+
+PERU -- THE SOURCE TENSION LOGGED EARLIER TODAY IS RESOLVED, AND NOT AS A
+CONTRADICTION BUT AS A SEQUENCE. The "debate paused" account describes an
+EARLIER moment than the rejection vote: the Congreso's own news service (6 Oct,
+16:12) records a first cuarto intermedio after five hours and BEFORE any vote.
+I did not take this from the batch's summary -- I fetched RPP's 6 Oct 21:20
+update and the Congreso page myself and read them in raw bytes.
+
+The materially new fact is a SECOND substitute text. After the Pleno resumed
+past 8 p.m. to debate Fuerza Popular's minority dictamen, Alegria announced a
+texto sustitutorio that, verbatim, "recoge los 20 puntos consensuados en el
+dictamen en mayoria que ya fue rechazado e incorpora nueve puntos adicionales a
+esa propuesta". So the rejection of the commission text did NOT end the
+delegation -- the rejected 20-point consensus is being revived with nine
+additions. Zunini (Juntos por el Peru) objected under ARTICLE 78 of the chamber
+rules, which requires "la firma de los voceros que representen por lo menos la
+mayoria simple de los diputados" plus publication on the institutional web
+portal; a cuarto intermedio was granted to consensuar the new terms. That
+article-78 publication requirement is useful rather than merely procedural: it
+makes the next text FINDABLE when it clears.
+
+One item now touches this row's subject matter. Both the Congreso summary and
+RPP report the minority text extending delegation to "el fortalecimiento de las
+micro y pequenas empresas, la promocion del empleo, el desarrollo productivo,
+el regimen tributario y la simplificacion administrativa", with RPP adding a
+120-day period. "Regimen tributario" is the nearest surviving relative of the
+customs bloc and the first sign since 1 October that the bloc may be partly
+alive -- but it is a TAX item, not a customs or foreign-trade one. I searched
+both pages myself for comercio exterior, aduan, arancel, forzos, Mincetur and
+facilitaci: ALL ZERO on both, controls working ("Junta de Portavoces" and
+"cuarto intermedio" matched). Only "tribut" hit, on "regimen tributario" itself.
+
+Four counts of the text's size remain unreconciled and none is adopted: Andina
+says eight materias over 120 days; Exitosa (5 Oct) 50 of 66 items; RPP quotes
+Alegria's later text as 30 points; Abensur via RPP says "30 facultades".
+
+The Fuerza Popular minority text was NOT obtained. Congrezoo, the Congress news
+feed and congreso.gob.pe do not host it; the only publication found is an
+unreadable photograph on X. The failure layer is UNPUBLISHED OR UNINDEXED, not
+blocked -- a different and more tractable problem than an access wall.
+
+NET POSITION ON PERU: the delegation route is NEITHER CLOSED NOR CONFIRMED
+OPEN. This morning's withdrawal of the "route closed" conclusion is not
+replaced by its opposite. The contents of the live text are graded
+thin-coverage on news summaries, not read. The Junta's outcome is unreadable
+today -- the pass ran at 02:25 UTC, about 21:25 on 6 October in Lima, so the
+Pleno was still sitting -- and belongs to the 8 October run. The Senate's
+Comision de Constitucion declared itself in permanent session on 6 October.
+Two traps declined: RPP's "miercoles 6 de octubre" is a weekday typo and is not
+relied on; RPP's Abensur piece says three abstentions where its own main piece
+and Infobae say two, so 49-73-2 is carried as better corroborated.
+
+SOUTH KOREA -- A WORKING ROUTE FOUND AFTER DAYS OF CHASING THE WRONG ONE. The
+likms search form was pinned down concretely (first__search_form, POSTing to
+/bill/bi/bill/sch/detailedSchPage.do with field billNm) and then reset
+mid-exchange, after main.do had loaded earlier in the same pass -- so likms is
+INTERMITTENT, and the standing transience rule applies. The route that works is
+the National Assembly Open API
+(open.assembly.go.kr/portal/openapi/nzmimeepazxkubdpn?Type=json&AGE=22&BILL_NAME=...),
+current to 2026-10-06. A title search for the exact term returns "no matching
+data"; the broader term matches only historical forced-mobilisation bills. This
+upgrades the negative IN KIND, from a failed search box to a title-level
+negative against a current authoritative index -- but NOT to document level,
+because likms detail pages are an AJAX shell and the bodies are unread. Five
+customs-law bills filed 3 Sep to 6 Oct and one Foreign Trade Act bill are
+logged as the specific open set. Bill 2220854 was checked and is domestic
+corporate due diligence, not an import ban.
+
+RUSSIA -- FIRST PRIMARY-SOURCE PASS EVER ON THIS ROW.
+publication.pravo.gov.ru/api/Documents?Name=...&PageSize=10 works. The control
+is reported with its figure rather than asserted: "налог" returns 511 hits,
+newest 2026-08. Three inflected forms of "forced labour" each return zero.
+Graded narrowly as a TITLE-LEVEL negative, since the endpoint matches document
+names and an instrument titled otherwise would not surface.
+
+SAUDI ARABIA -- one document read in full and the sweep obstacle named. Umm
+al-Qura has no usable keyword search from curl because its search page is
+JavaScript-templated; the gazette cannot be swept from here by any route tried.
+What was done is a full read of the 2 October import-licensing guide (132,311
+characters): zero for both Arabic terms for forced/compulsory labour, with the
+only prohibition hits concerning the Chemical Weapons Convention. Verified on
+that one document; thin-coverage overall.
+
+SRI LANKA -- the homepage-level negative becomes a SITE-SEARCH negative with
+controls reported: zero for "forced" and "2496" across posts, pages and media,
+while "certificate" returned posts and "gazette" returned media. The limit is
+stated explicitly: a WordPress search does not reach text inside PDF
+attachments, so the missing operational guidelines could sit in one. Sinhala and
+Tamil were one query each; the Sinhala query returned unrelated English pages
+and is recorded as a weak negative.
+
+PHILIPPINES -- the Salceda quote leaves snippet strength. It is confirmed at a
+readable source (Journal News, 26 Aug): "Administrative action is an important
+first step, but we need a law that leaves no ambiguity." Worth stating what it
+does NOT do: that piece does not mention committee referral, so HB 10848's
+referral stays unverified. congress.gov.ph returns a ~5 KB Cloudflare JS
+challenge EVEN WITH a browser User-Agent -- the class the corrected UA rule says
+no header defeats -- and pna.gov.ph answers 301 to Facebook.
+
+SINGAPORE -- negative verified as current rather than inherited: the MTI
+newsroom loads (meti.gov.sg and mti.gov.sg serve the same 6.4 MB page), newest
+items 5 October, no mention of "forced" or Section 301 in the index text. The
+DPM Gan attribution corrected yesterday is now independently supported by
+asianews.network.
+
+QATAR -- the attempt was made and the layer is named. almeezan.qa fails TLS
+verification under curl ("unable to get local issuer certificate", pointing to
+an incomplete server chain at the origin, not to our egress path) and returns
+503 via WebFetch. VERIFICATION WAS NOT BYPASSED. That is recorded explicitly
+because a curl -k breach occurred elsewhere in today's run and must not become
+normalised: a chain failure is reported, never worked around.
+
+PAKISTAN -- no signing. commerce.gov.pk/sros/ returns 403 with a browser
+User-Agent and a large Cloudflare challenge body, so headers will not help and
+retrying with them is not worth the attempt. The July 2025 confusable fired
+again on "finalized a trade agreement" results and was declined again. Graded a
+GAP rather than a negative: the SRO index was not read.
+
+SOUTH AFRICA -- yesterday's diagnosis that this row needs a notice-itemising
+route is confirmed by direct test, and the cause is structural.
+gpwonline.co.za DOES load with a User-Agent, so the host is not the obstacle;
+its gazette pages and numbered subpages are SHELLS with no itemised notices and
+its search returns nothing. Not a block to retry -- a portal that does not
+expose notice-level data to a non-JavaScript client. Negative stays
+index-level.
+
+CROSS-CUTTING -- the Federal Register unfiltered "forced labor" query (the
+query added after the 6 October protocol gap, which the USTR-agency filter
+misses) returns nothing newer than 2026-17926 of 2 September; the six hits
+since 20 July are all known. The Reciprocal Trade page lists none of these ten
+economies. User-Agent results this batch, reported both ways: it HELPED on
+bworldonline.com, gpwonline.co.za, publication.pravo.gov.ru, customs.gov.lk,
+uqn.gov.sa and the Peruvian news sites; it did NOT help on congress.gov.ph or
+commerce.gov.pk (JS challenges), pna.gov.ph (Facebook redirect) or almeezan.qa
+(TLS). This is consistent with the corrected rule: body size and title are the
+diagnostic, not the status code.
+
+The batch reported its own pass as lighter than instructed in four places --
+no Philippine, Pakistani or Qatari primary document read, no Korean bill text
+read, Saudi contents searched at one document only, and one query each in
+Sinhala and Tamil -- and those limits are carried into the rows rather than
+smoothed over.
+
+Validator: 61 rows, 6 columns, 60 economies, column-5/column-6 rule clean.
+Tally 17 Yes / 14 Partial / 29 No.
+
+Push: pending (this commit)
