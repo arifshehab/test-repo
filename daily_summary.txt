@@ -3591,4 +3591,62 @@ Algeria's column 5 had no trailing parenthesis, so the append produced
 Validator: 61 rows, 6 columns, 60 economies, column-5/column-6 rule clean,
 every column-5 opening word in {Yes, No, Partial}.
 
+Push: confirmed, commit bafc838 (2026-10-08 addendum 1)
+
+=== 2026-10-08 03:35 UTC (ADDENDUM 2) ===
+
+THE NEW METHOD WAS PUT TO WORK IMMEDIATELY, AND INDIA'S GAZETTE NOTIFICATION
+IS NOW READ IN FULL FOR THE FIRST TIME IN THIS FILE. No classification
+changes; tally unchanged at 17 Yes / 14 Partial / 29 No. Batch 5 is still
+running.
+
+Addendum 1 recorded that the "no OCR, therefore unreadable" conclusion was a
+non-sequitur and listed India's Gazette PDF as the concrete next step. Rather
+than leave that for tomorrow, I did it. The PDF (DGFT Notification 23/2026-27)
+was re-fetched at 646,046 bytes, one page, and its text layer confirmed at ZERO
+characters -- so the image-only diagnosis this row carried was correct on its
+own terms. Rendering at scale 3 and reading the image gives the document.
+
+WHAT IT SAYS. The header is "(To be published in the Gazette of India
+Extraordinary Part-II, Section-3, Sub-Section (ii))", Notification No.
+23/2026-27, New Delhi, dated 13th July 2026, issued under Section 3 read with
+Section 5 of the Foreign Trade (Development & Regulation) Act, 1992.
+
+Para 2.20B, verbatim: "The import of goods produced or manufactured, wholly or
+in part, through the use of forced labour is prohibited. The Central Government
+may, from time to time, specify, by notification, the goods whose import shall
+be prohibited under this paragraph, having regard to the findings of such
+enquiry or such other material as it may consider appropriate."
+
+THAT SENTENCE SETTLES THE DESIGNATION-DEPENDENCY QUESTION FROM PRIMARY TEXT,
+and it matters well beyond India. The prohibition is enacted in terms while the
+specification of goods is left to later notification -- exactly the structure
+this file classifies as Yes, and exactly the structure USTR itself counts,
+since its 15 September list names both India and Trinidad. Three independent
+strands now agree on that rule: our own stated policy, USTR's practice, and the
+Indian text read directly. It is the same structure as The Bahamas s.208A, which
+was the file's most contested recent call.
+
+Para 11.64 defines "Forced Labour" as "all work or service which is exacted
+from any person under the menace of any penalty and for which the said person
+has not offered himself voluntarily, as defined under the ILO Forced Labour
+Convention, 1930 (No. 29)".
+
+THE EFFECTIVE-DATE RULE IS CONFIRMED EVEN THOUGH THE DATE IS NOT. The
+notification states twice that its provisions "shall come into effect after the
+expiry of 30 days from the date of publication of this Notification in the
+Official Gazette". So this row's long-carried uncertainty is now correctly
+located: not that the effective date is unknowable, but that the GAZETTE
+PUBLICATION DATE is still unconfirmed, with effectiveness being that date plus
+30 days. The enquiry procedure is remitted to the Handbook of Procedures, 2023.
+Signed Lav Agarwal, DGFT and Addl. Secretary; File No.
+K-31013/1/2026-DIR NAFTA-Part(4). India's grade is raised to VERIFIED AT
+DOCUMENT LEVEL.
+
+Two rows read at document level in one run, both previously written off as
+unreadable. Bangladesh's SRO gazette is the remaining candidate and is flagged
+on its row.
+
+Validator: 61 rows, 6 columns, 60 economies, column rules clean.
+
 Push: pending (this commit)
