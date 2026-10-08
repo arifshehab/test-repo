@@ -3471,4 +3471,124 @@ tool is now marked unreliable for negatives on that row.
 
 Validator: 61 rows, 6 columns, 60 economies, column-5/column-6 rule clean.
 
+Push: confirmed, commit 68b9b47 (2026-10-08 base)
+
+=== 2026-10-08 03:20 UTC (ADDENDUM 1) ===
+
+Batch 1 (Algeria, Angola, Argentina, Australia, The Bahamas, Bahrain,
+Bangladesh, Brazil, Cambodia, Canada) applied. NO CLASSIFICATION CHANGES.
+Tally unchanged: 17 Yes / 14 Partial / 29 No. Batch 5 is still running.
+
+THE BIGGEST RESULT OF THE RUN IS A METHOD, NOT A FACT, AND IT RETIRES A
+LIMITATION THIS FILE HAS ASSERTED FOR WEEKS. Three rows -- Cambodia, India and
+Bangladesh -- have carried the conclusion that a scanned PDF "cannot be read
+here by any means" because no OCR tooling is installed. The premise was true
+and the conclusion was a non-sequitur. A scanned page can be RENDERED TO AN
+IMAGE AND READ VISUALLY, with no OCR involved.
+
+I verified this myself rather than take it on report. The Cambodian Prakas PDF
+was re-fetched independently (2,367,678 bytes) and is SHA256-identical to the
+copy fetched from the long-untried alternate path -- so that lead is closed:
+same file, not a second copy. All three pages confirm a text layer of ZERO
+characters, so the "genuine scan" diagnosis was correct on its own terms.
+Rendering at scale 3 and reading the images gives the document directly.
+
+CAMBODIA'S PRAKAS IS THEREFORE READ, after being listed as an open item for
+weeks. The title is an inter-ministerial Prakas "on the prohibition of the
+importation of goods that use forced labour", issued jointly by Economy and
+Finance, Commerce, and Labour and Vocational Training. Article 4 prohibits the
+import, use, circulation or supply in Cambodia of goods linked to forced
+labour; Article 7 repeats it for goods so found; Article 8 provides for
+suspension of import/export activity and of certificates of origin; Article 6
+gives importers 10 working days to respond; Article 9 makes it effective on
+signature. THE 1-VERSUS-2 JULY WRINKLE IS RESOLVED TO 1 JULY 2026: the
+signature block reads "done at Phnom Penh, day 1, month July, year 2026" over
+three ministerial seals and the signatures of Aun Pornmoniroth, Cham Nimul and
+Heng Sour, with the foot reading "page 3 of 3". Classification was already Yes
+and is unchanged, but it now rests on the primary text instead of a title plus
+two summaries. Grade raised to VERIFIED AT DOCUMENT LEVEL.
+
+The same unlock is recorded on INDIA and BANGLADESH as the concrete next step.
+India's row had itself observed that "the remaining hard gaps in this file are
+increasingly OCR problems rather than access problems" -- an acute observation,
+and that whole class of problem is now dissolved rather than narrowed. For
+Bangladesh it matters doubly: a visual read does not depend on the legacy-font
+byte mapping that voided the Bengali keyword sweep, so it sidesteps the exact
+failure that destroyed it.
+
+ALGERIA -- A ROUTE THIS ROW CALLED "ARCHITECTURALLY IMPOSSIBLE" EXISTS, AND THE
+NEGATIVE IS UPGRADED TO VERIFIED. The Journal Officiel is fetchable by DIRECT
+FILE URL (joradp.dz/FTP/JO-ARABE/2026/A2026NNN.pdf). The earlier failure is now
+understood and is narrow: the DIRECTORY returns a 403 IIS page while direct
+file access works -- an index-blocked/document-open inversion of this file's
+usual rule. Issues 001-069 exist and 070+ are 404, with 069 dated 28 September,
+so the series ceiling is established rather than guessed. The sweep is a
+control-word case study: the first pass was VOID because the extracted Arabic
+is reversed and ligature-mangled and both controls returned zero -- the Bengali
+failure mode exactly. After per-line reversal the controls pass with counts
+(marsum 1041, qanun 2047, istirad 72, al-jamarik 113), though the
+"official gazette" control stays zero as ligature-mangled, and that residual
+failure is stated rather than hidden. On the validated pass every forced-labour
+term is zero or a confusable: "qasri" once in a colonisation-crimes law on
+enforced disappearance, "jabri/jabari" 47 times all meaning compulsory in
+contexts like mandatory vaccination. Algeria stays No, now verified across the
+Arabic JO for 1 January to 28 September 2026.
+
+BAHRAIN -- gazette route found, negative upgraded to index-level verified. The
+register's POST search works with the page's own antiforgery token and a cookie
+jar; the "Latest" list was PAGINATED TO THE END (13 pages, 124 records, gazettes
+3903-3908, 3 Sep to 1 Oct) with nothing on forced labour. Controls reported:
+"al-waridat" 592, "istirad" 7 titles / 20 content, "al-jamarik" 3. TWO TERMS
+WERE NOT SWEPT AND ARE LOGGED AS A TOOLING FAILURE, NOT A ZERO: the four
+"qasri"/"sukhra" variants each returned HTTP 302 at 141 bytes, so those searches
+never executed. Two side-results: customs.gov.bh and its prohibited-goods page
+are zero for "forced"/"labour", and nbr.gov.bh turns out to be the TAX authority
+with no customs content, so the long-owed NBR search is MOOT rather than
+outstanding.
+
+A TAXONOMY REFINEMENT WORTH KEEPING. Bahrain's www host and Angola's apex both
+fail with curl exit 60, but the message is "SSL: no alternative certificate
+subject name matches target host name" -- a CERTIFICATE-NAME MISMATCH, which is
+distinct from the incomplete-chain case recorded on almeezan.qa and distinct
+from a block. An exit 60 must be read for its message before being filed as
+class (iv); on Bahrain the apex host served the site fine.
+
+ANGOLA -- still unread, but three hosts now have three genuinely DIFFERENT
+layers: apex = certificate-name mismatch, www = exit 35 connection reset,
+dr.gov.ao = CONNECT 502 at our own egress proxy. Not one wall but three, and
+only the third is ours. lex.ao loads but tops out at 1 June 2026 and was not
+used, per the stale-mirror rule.
+
+THE BAHAMAS -- the 6 October reclassification gains direct ministerial
+corroboration, which matters because USTR's own list omits this economy.
+Minister Jomo Campbell, Nassau Guardian 27 July: "The Bahamas currently has a
+law on its books prohibiting the entry into this country of goods made with
+forced labor elsewhere in the world", with the report adding that the Customs
+Management (Amendment) Act "was recently amended to include a provision that
+prohibits the importation of goods that were produced using forced labor".
+Campbell also framed it as a tariff play: "Six countries have already moved from
+the higher tariff rate to the lower by updating their laws since June. We intend
+to be the seventh." The s.208A Order is still neither found nor excluded, and
+the register's resistance is now quantified: 26 further cookie-jar attempts,
+every body a 217-218 byte sgcaptcha meta-refresh, and following it up to 12
+times changed nothing. That route should be treated as closed, not merely hard.
+
+Elsewhere: Brazil re-checked at source and verified stationary (76 tramitacao
+events, last 12 June, still awaiting a rapporteur). Canada's 4 October 403 was
+TRANSIENT and LegisInfo fetched cleanly -- C-35 unchanged at second reading;
+separately USTR's 8 September statement reports a Section 338 ban on certain
+Canadian products and says Canada "walked away from a near-final trade deal",
+recorded for context with no classification effect. Argentina's 7 October
+Boletin listing does carry short subjects, correcting this file's own
+"numbers only" characterisation, and is zero for forzos/compulsori/esclav.
+Australia: an Albanese-Trump "October 20" meeting result was DECLINED as almost
+certainly the October 2025 meeting.
+
+One formatting defect was caught by the validator and fixed before commit:
+Algeria's column 5 had no trailing parenthesis, so the append produced
+"No. OCTOBER..." instead of a clean prefix. Corrected to the "No -- " form.
+
+Validator: 61 rows, 6 columns, 60 economies, column-5/column-6 rule clean,
+every column-5 opening word in {Yes, No, Partial}.
+
 Push: pending (this commit)
