@@ -3649,4 +3649,120 @@ on its row.
 
 Validator: 61 rows, 6 columns, 60 economies, column rules clean.
 
+Push: confirmed, commit 6e95033 (2026-10-08 addendum 2)
+
+=== 2026-10-08 04:05 UTC (ADDENDUM 3) ===
+
+Batch 5 applied. ALL SIX BATCHES ARE NOW IN. NO CLASSIFICATION CHANGES ANYWHERE
+IN THE RUN. Final tally: 17 Yes / 14 Partial / 29 No.
+
+PERU -- THE OUTCOME EXISTS, AND THE DELEGATION PASSED THE CHAMBER IN THE NARROW
+FORM. After five runs where the answer was unreadable for timezone reasons, the
+Congreso's own news service carries it. I fetched and read that page in raw
+bytes myself (85,295 bytes, datePublished 2026-10-07T04:22Z, headline
+"06 Oct 2026 | 23:22 h"): "El Pleno de la Camara de Diputados aprobo esta noche,
+por mayoria (66 votos a favor, 34 votos en contra y 24 abstenciones), el
+dictamen en mayoria de la Proposicion Legislativa 00098-2026-2031-CD, que delega
+al Poder Ejecutivo la facultad de legislar en materia de seguridad ciudadana y
+del fenomeno El Nino por un plazo de noventa (90) dias calendario."
+
+The full sequence of one sitting explains every apparently contradictory report,
+and all three tallies are consistent rather than in conflict: the proposal was
+FIRST REJECTED (49-73-2); then BOTH minority dictamenes, Fuerza Popular's and
+Juntos por el Peru's, were DISAPPROVED -- so Alegria's 20-points-plus-nine text
+was voted down and is moot, and the article-78 publication gate never had to be
+cleared; then the majority dictamen was re-voted on a reconsideracion moved by
+Roxana Rocha Gallegos, which itself carried 75-33-16, and the text was approved
+66-34-24. It now goes to the SENATE under arts. 116(h) and 148.
+
+The approved scope is citizen security and El Nino ONLY -- the same narrow
+formula as the commission text read here on 1 October, whose ten pages returned
+zero for comercio exterior, facilitacion del comercio, forzos, arancel, Mincetur
+and tributar. I ran the term sweep on the Congreso page with controls reported:
+comercio exterior 0, aduan 0, arancel 0, forzos 0, facilitaci 0, tribut 0, with
+controls "reconsider" 2 and "Senado" 3 matching. The single "Mincetur" hit was
+checked and is a SIDEBAR RELATED-NEWS TEASER ABOUT MACHU PICCHU, not the article.
+So the customs bloc is not in the text that passed, and "regimen tributario" --
+its nearest surviving relative -- died with the Fuerza Popular text.
+
+THE CONCLUSION IS STILL HEDGED, DELIBERATELY. The approved text itself has not
+been read, so whether the Pleno amended the committee formula is unconfirmed,
+and the Senate has not acted. The 1 October "route closed" conclusion was voided
+on 6 October by the rejection; today's outcome largely restores its substance by
+a different path, but it is NOT reinstated -- a narrow delegation that has passed
+one chamber unread is not a closed route. Peru stays Partial; the July bill is
+still tabled and nothing is enacted.
+
+SOUTH KOREA -- yesterday's open item is CLOSED and the negative moves from title
+level to document level. A route to the bill bodies was found: take each BILL_ID
+from the Open API, then POST billId=<ID>&billCd=BKC_0004 to likms's
+downloadDtlZip.do, which returns a zip of the HWP and PDF original (a GET returns
+an error page, so the POST is the whole trick). All six bodies were read and none
+concerns forced labour, with controls reported -- each has its statement-of-reasons
+section, each customs bill contains "gwanse-beop", and the term for "forced" is
+zero in all six. They are: IP-infringement customs holds (3 Sep), public notice of
+payment notices (9 Sep), tariff quotas for recycled critical minerals (21 Sep),
+customs holds for trade-secret infringement (29 Sep), biometric customs inspection
+(6 Oct), and origin-marking penalties under the Foreign Trade Act (8 Jul). The
+title sweep was widened with controls: forced labour, import ban and exploitation
+all return "no matching data", while "foreign trade" returns 8, "labour" 93,
+"customs" 48 and the control 44. Gap stated: three supply-chain bills (2221523,
+2221491, 2220286) were identified but NOT read -- the concrete next item.
+
+RUSSIA -- YESTERDAY'S ROUTE IS DOWN AND TODAY IS EXPLICITLY NOT A NEGATIVE. The
+pravo.gov.ru API failed on every attempt (about 13 calls, then six more in a
+background sweep), AND THE CONTROL WORD FAILED TOO: "налог", which returned 511
+hits yesterday, returned nothing today. Under the control-word rule that voids
+the pass outright. Yesterday's title-level negative stands on yesterday's
+evidence; today's failure is a tooling failure, not a confirmation.
+
+SRI LANKA -- a real route and a false positive caught before adoption. The
+customs.gov.lk WordPress REST API works, and the media endpoint returned the
+COMPLETE 60-item upload list since 1 July, with completeness established because
+page 2 returns rest_post_invalid_page_number. No guideline, certification or
+penalty document is in it -- a listing-level negative rather than another failed
+search. Eight PDFs were extracted, including the Consolidated Import Control List
+(217,301 characters), which contains three "forced" hits that are ALL
+"reinFORCED" in plastics and cement items. Checked rather than counted.
+
+QATAR -- the TLS signature is NOT unique to one host, which changes what it
+means. Both almeezan.qa and, newly, customs.gov.qa fail with exit 60 "unable to
+get local issuer certificate". One host with an incomplete chain is a
+misconfiguration; two unrelated government hosts suggests something systematic
+about Qatari government TLS as seen from here. Verification was not bypassed on
+either, stated again because the 7 October breach was against a comparable target.
+
+PAKISTAN -- a second dated corroboration (PkRevenue, 28 April, quoting SRO
+704(I)/2026 prohibiting imports made wholly or partially through forced labour)
+and one genuinely new lead held at secondary strength: Profit, 15 July, reports
+the ECC approved inserting an ILO-based definition of forced labour -- a
+follow-up amendment, not known to be notified as an SRO. Also worth recording WHY
+the July 2025 confusable keeps recurring: both pages carry 2026 DATE BANNERS that
+are display dates, not publication dates. Exactly what the date rule is for.
+
+Also: South Africa gains a working dtic REST route (newest "forced" item still
+11 July; control "tariff" 10 posts to 18 September) while the gazette stays
+structurally shut. Saudi Arabia was probed by ID range, not swept -- and about 39
+of the ~56 ids are 12,941-byte EMPTY SHELLS, which would have inflated any
+negative counted naively. The Philippines row carries a flagged internal
+inconsistency: this file says the JAO was signed 24 July, the day AFTER the
+determination, while a search summary says the day before; left open rather than
+resolved on a summary, but it matters, since "signed in anticipation" and "signed
+in response" carry different weight. Singapore's entry today is INHERITED, not
+independently refreshed, and is marked as such.
+
+RUN TOTALS. Six batches, 60 economies. No classification changes. Two documents
+read at document level that this file had written off as unreadable (Cambodia's
+Prakas and India's DGFT notification). Three routes found that were previously
+declared closed or impossible (Algeria's Journal Officiel, Bahrain's gazette
+register, South Korea's bill bodies). Two of my own long-carried claims withdrawn
+as wrong (Trinidad's 109-number gap, Algeria's "architecturally impossible").
+One standing watch item discharged (Norway). One first external validation of the
+file's classifications (USTR's twelve, all already Yes). One live political
+question resolved after five runs (Peru).
+
+Validator: 61 rows, 6 columns, economy roster matched against the fixed 60-name
+list in order, every column-5 opening word in {Yes, No, Partial}, column-5/6 and
+column-2/4 rules clean, all column-6 entries URLs.
+
 Push: pending (this commit)
