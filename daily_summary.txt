@@ -3317,3 +3317,158 @@ Validator: 61 rows, 6 columns, 60 economies, column-5/column-6 rule clean.
 Tally 17 Yes / 14 Partial / 29 No.
 
 Push: confirmed, commit bbe6a55 (2026-10-07 addendum 3)
+
+=== 2026-10-08 02:55 UTC ===
+
+NO MATERIAL CLASSIFICATION CHANGES. Tally unchanged: 17 Yes / 14 Partial /
+29 No. Batches 2, 3, 4 and 6 are applied here; batches 1 and 5 are still
+running and will follow as an addendum.
+
+FINAL DETERMINATION: NO CHANGE. I ran both required queries myself rather
+than take them on report. The USTR-agency filter's newest items are
+2026-20511 and 2026-20510 of 7 October (China technology-transfer, unrelated)
+and the last forced-labour item under it is still 2026-15181 of 28 July. The
+unfiltered full-text query for "forced labor" -- the one added after the
+6 October protocol gap, because the agency filter misses CBP/DHS items --
+returns 393 documents with the newest still 2026-17926 of 2 September, now 36
+days old. The control confirms the query works, so the zero is real. Three
+batches reached this independently, one of them with a "section 307" control
+returning 19 documents. Worth noting that the trigger describes a final
+determination as "expected imminently"; nothing forced-labour-related has
+entered the Federal Register in five weeks, so it is the expectation of
+imminence that is stale, not the file's framing.
+
+THE RUN'S MOST VALUABLE FIND IS A USTR PRIMARY-SOURCE CROSS-CHECK ON OUR OWN
+CLASSIFICATIONS, and it is the first external test this file has ever had.
+USTR's press release of 15 September 2026, read here directly from ustr.gov
+(34,444 bytes; press index control "Greer" = 14 hits), states: "As a result of
+these efforts and USTR's Section 301 investigation of this issue, by July
+2026, 12 additional economies had adopted measures that prohibit the
+importation of goods made by forced labor, including Cambodia, Canada,
+Ecuador, the European Union, Guatemala, Honduras, India, Indonesia, Mexico,
+Pakistan, Sri Lanka, and Trinidad and Tobago."
+
+ALL TWELVE ARE ALREADY CLASSIFIED YES IN THIS FILE -- zero misses. That is
+independent confirmation from the investigating agency that our "Yes" bar
+matches its own view.
+
+It cuts the other way too, and that is recorded rather than smoothed over.
+Five of our seventeen Yes rows are absent from USTR's list, and only COLOMBIA
+(28 September) falls outside the sentence's July window. The other four were
+enacted inside it: THE BAHAMAS (1 July), EL SALVADOR (March), DOMINICAN
+REPUBLIC (23 July) and VIETNAM (22 July). So USTR's twelve is not a superset
+of ours for the period it covers, and each of those four rows now carries the
+tension explicitly.
+
+None is downgraded. The policy keys on the enacted instrument, and all four
+were read at primary-source level. One detail in the same release actively
+supports the file's hardest recent call: TRINIDAD AND TOBAGO IS ON USTR'S
+LIST, and Trinidad's s.45(1)(w) is a designation-dependent framework ban with
+no designation list published -- structurally identical to The Bahamas s.208A,
+which this file reversed itself on two days ago. USTR counting that structure
+confirms the designation-dependent-equals-Yes rule is consistent rather than
+generous, and the same reasoning supports India's Para 2.20B. Vietnam's
+omission is most likely explained by USTR running a SEPARATE Section 301
+investigation into Vietnam (FR 2026-11043, 3 June), so a credit-claiming
+sentence would not extend to it.
+
+TRINIDAD AND TOBAGO -- A GAP THIS FILE CARRIED FOR WEEKS DOES NOT EXIST, AND
+IT WAS MY OWN PARSING ERROR. The "109-number Legal Notice gap" was an
+artefact: the directory contains two RANGE files, Legal_Notice_No._707_750 and
+_751_816, which between them cover 110 of the supposedly unpublished numbers.
+I parsed the listing myself to check: of 824 numbers, 823 are covered and the
+only genuinely absent one is LN 313 (404). Both range files were downloaded
+and scanned -- 44 and 66 pages, 70,866 and 107,400 characters extracted, so
+real reads -- with zero hits for "forced labour", "forced labor", "45(1)",
+"designated by the Minister" and "Customs Act". The earlier note describing
+"713 PDFs" and a gap "across 708-746" was the same misreading and is
+withdrawn. The published corpus is now verified complete but for LN 313.
+
+NORWAY -- THE STANDING WATCH ITEM IS DISCHARGED WITH A VERIFIED NEGATIVE. The
+autumn "bebudede saker" list has arrived: the Stortinget page (85,685 bytes)
+now reads "saker som regjeringen har meldt at de vil legge frem for Stortinget
+i loepet av hoestsesjonen 2026" and is populated by department with Oct/Nov/Dec
+timings. Zero hits for tvangsarbeid, 2024/3015, forced and handelsforbud, with
+the market-surveillance control item present, so the test is valid. No
+proposisjon on the forced-labour regulation is announced for the autumn
+session. Norway stays Partial. Caveat recorded: an EEA incorporation could
+travel instead as an EOeS-komite consent item and none is listed; regjeringen.no's
+own copy was not obtained (403). New methodology note: Norwegian pages carry
+HTML entities, so keyword counts must be run on DECODED text or words like
+"toemmes" are undercounted.
+
+MALAYSIA -- THE GAZETTE WAS ACTUALLY POLLED, AND A SEARCH METHOD IS NOW VOID.
+The encrypted listing endpoint was replayed with the page's own published key
+and returned 7,341 records, newest P.U.(A) 353/2026 of 7 October, so the poll
+is current to yesterday. No new Prohibition of Imports order exists in the
+range 314-353 and no title mentions forced labour or "buruh"; the known
+338/2026 reproduced as a control. Correction of method: the portal's SEARCH BOX
+DOES NOT WORK as previously used -- it ignores "searchValue" because DataTables
+expects "search[value]", so a keyword query silently returns the newest records
+instead of matches. Any earlier site-search zero obtained that way is VOID and
+withdrawn; the range enumeration is what carries the negative now.
+
+TAIWAN -- Article 3.9 read verbatim from the sanitized AIT-TECRO ART PDF on
+ustr.gov (243,912 bytes, 40 pages), control string appearing exactly once:
+TECRO "shall adopt and effectively implement a prohibition on importation of
+goods mined, produced, or manufactured wholly or in part by forced or
+compulsory labor" and "shall presumptively prohibit importation of goods from
+those enterprises". The treaty basis for Partial is now on primary footing and
+the 3.9-not-2.9 numbering is verified rather than carried on note.
+
+COLOMBIA -- three fresh routes tried for the Diario Oficial edition; all
+failed, informatively. suin-juriscol, funcionpublica and a normograma path all
+returned curl 000, layer (ii), our own egress proxy -- a ninth consecutive day
+of the same signature, so retrying those hosts cannot work. A commercial
+database (redjurista) returned HTTP 200 at 87,271 bytes and is reported as a
+NON-READ, not a negative: zero hits for "1444", "2026" and "forzos", control
+"decreto" only 4, and its single "Diario Oficial" hit a navigation menu item.
+It serves a not-found page as 200. What was gained is a measured negative at
+the register: the MinCIT page (82,933 bytes) now reads "Ultima actualizacion:
+1 de octubre de 2026", quotes Decreto 1444's full prohibition title verbatim
+with both dates as 28/09/2026, and contains "Diario Oficial" ZERO times.
+Decreto 1469 of 30 September is an unrelated advisory designation. Declined: a
+floated "Diario Oficial No. 53" that no source confirmed, and an ABC Economia
+claim that the decree unlocks tariff removal.
+
+HONDURAS -- nothing posted, and the pagination trap reproduced a SEVENTH time:
+four October offsets all served the identical 58,194-byte page. Editions 37,262
+and 37,263 are still not posted (twelve number/date probes, all genuine 404s at
+a consistent 14,444 bytes). It follows there was nothing to scan, which is
+stated explicitly because it is NOT the same as a clean scan. Article 15 stays
+unverified behind a Cloudflare edge block. Declined: a search summary reporting
+it could not find "SETRASS-527-2026", which is a search miss, not a refutation
+of an Acuerdo read here in full.
+
+ROUTE AND LAYER FINDINGS WORTH KEEPING. Thailand's Royal Gazette is finally
+named precisely: ratchakitcha.soc.go.th 403s with a 5,605-byte body (6,181 on
+its search path), which by BODY SIZE is a Cloudflare JS challenge no header
+defeats -- so the nine failed routes on that row were not nine problems but one,
+and header retries are pointless; dft.go.th is exit 60. Nigeria and Libya are
+both cf-mitigated JS challenges (5,651 and 5,690 bytes). New Zealand's
+parliament.nz returned HTTP 200 serving a 15,079-byte RADWARE CAPTCHA -- a new
+signature for this file and another 200-that-is-not-a-read. Nicaragua's
+dga.gob.ni returned a support number DIFFERENT from 5 October's, which resolves
+its origin-WAF/egress flip-flop toward the origin. Morocco's douane.gov.ma
+loaded with a User-Agent and produced NO support-ID body, so its origin-WAF
+label did not reproduce and is carried as provisional; its five circular PDFs
+downloaded but could not be extracted, which is logged as a TOOLING FAILURE and
+not as an absence. Oman's mjla.gov.om gave exit 60 again, confirming the
+signature should not have been retired on one contrary day -- and TLS
+verification was NOT disabled on that host this run, stated explicitly because
+the 7 October breach was against it. The UK's IAB34 now has a concrete path
+discrepancy: the API's own path uses cm5902/ImmigrationAsylum where this file
+has been working from cm5906/ImmigrationAndAsylum, and the API path 403s with a
+5,847-byte Cloudflare challenge.
+
+LEADS DECLINED THIS STAGE: a claim that Vietnam's Appendix I forced-labour
+category is administered by Bo Cong Thuong (cited pages do not support it; Bo
+Noi vu stands, corroborated by three sources); any Thai Section 5 notice having
+been issued; Japan's Furuya bill treated as Partial (it is INTENT, and nearly a
+year old); and a Spanish search claiming no Dominican bill exists, which is
+flatly wrong since the Senate passed Bautista's bill on 22 September -- that
+tool is now marked unreliable for negatives on that row.
+
+Validator: 61 rows, 6 columns, 60 economies, column-5/column-6 rule clean.
+
+Push: pending (this commit)
