@@ -3766,3 +3766,163 @@ list in order, every column-5 opening word in {Yes, No, Partial}, column-5/6 and
 column-2/4 rules clean, all column-6 entries URLs.
 
 Push: confirmed, commit 7d8cc1a (2026-10-08 addendum 3)
+
+=== 2026-10-09 03:05 UTC ===
+
+ONE CLASSIFICATION CHANGE: EL SALVADOR Yes -> Partial. New tally
+16 Yes / 15 Partial / 29 No. All six batches in.
+
+FINAL DETERMINATION: NO. But the corpus moved for the first time in five
+weeks, 393 -> 394, and the new item is exactly the kind the agency filter
+misses. It is 2026-20650, "Low-Value Shipments", a CBP/DHS PROPOSED RULE of
+8 October on informal entries of $2,500 or less (docket USCBP-2026-0298,
+comments close 7 December). "Forced labor" appears in a recital -- "Effective
+customs enforcement prevents the importation of unlawful and dangerous goods
+and guarantees compliance with Federal laws, including laws governing forced
+labor, rules of origin, origin marking, intellectual property, revenue
+collection, and product safety" -- so it is incidental, not operative, and has
+no classification effect. One batch read the 32-page govinfo PDF and confirmed
+that is the only "forced" hit. The USTR-filtered newest item is 2026-20615
+(8 Oct, EU CBAM comments); the newest forced-labour-SPECIFIC item is still
+2026-17926 of 2 September. THE PROTOCOL GAP FIX FROM 6 OCTOBER HAS NOW PAID
+FOR ITSELF: the agency filter does not return 20650 at all.
+
+ROUTE NOTE: federalregister.gov's full_text .txt endpoint 302-redirects to
+unblock.federalregister.gov and serves a 10,596-byte access wall AS HTTP 200.
+Two batches were misled by it; one inferred "zero forced-labor hits" from the
+wall itself. The API `excerpts` field and the govinfo PDF are the reliable
+routes. Another 200-is-not-a-read, caught by a control word.
+
+EL SALVADOR: THE FIRST DOWNGRADE IN THIS FILE, AND IT CAME FROM READING A TEXT
+THAT HAD NEVER BEEN READ. Yesterday's entry flagged that USTR's 15 September
+list of twelve OMITS El Salvador although Article 27-A has been in force since
+March 2026, inside USTR's own window. That flag was the thread worth pulling.
+
+Route note first, because it is why this took weeks: the URL in column 6 is a
+DOWNLOAD LANDING PAGE, not the PDF, and the file arrives with EIGHT JUNK BYTES
+ahead of the %PDF header, which must be stripped before any parser opens it.
+Stripped: 178,137 bytes, 20 pages, 54,925 characters, control "aduana" 84.
+
+I read Article 27-A myself rather than take the recommendation. Its heading is
+"CONTROL ADUANERO EN MATERIA DE TRABAJO FORZOSO" -- control, not prohibition.
+It requires importers to file a sworn declaration that goods were not made with
+forced, compulsory or child labour; lets the DGA demand more documentation on
+reasonable doubt; and provides that FALSITY IN THE DECLARATION OR FAILURE TO
+PRODUCE INFORMATION may bring suspension, preventive retention, "LA DENEGATORIA
+DEL DESPACHO" or other customs measures.
+
+THERE IS NO SENTENCE PROHIBITING THE IMPORTATION OF FORCED-LABOUR GOODS, and no
+power to prohibit. The denial-of-clearance power is triggered by a DOCUMENTARY
+failure, not by a finding that the goods were made with forced labour. That is
+a sworn-disclosure regime with customs enforcement, which is a different
+instrument from an import ban.
+
+This file's own comparisons decide it. Costa Rica's Article 12 gives only
+monitoring and is Partial(c). India's Para 2.20B says "The import of goods
+produced or manufactured, wholly or in part, through the use of forced labour
+is prohibited" and The Bahamas's s.208A says "The Minister may, by Order,
+prohibit the importation" -- both Yes, both containing an express prohibition
+or power to prohibit. El Salvador has NEITHER. It sits above Costa Rica
+(it can deny clearance) and below India, Trinidad and The Bahamas (it never
+prohibits importation). "An incomplete regime that falls short of a full import
+prohibition" is limb (c) almost verbatim.
+
+THE COUNTER-ARGUMENT IS RECORDED, NOT SUPPRESSED: an importer whose goods ARE
+made with forced labour cannot truthfully declare, so in practice the regime
+should exclude them. That is an argument from practical effect, not from the
+instrument's terms, and this file's policy is textual -- the same reasoning was
+applied against Costa Rica's purpose clause, and against inference generally
+after the Bahamas episode. A future run may revisit it; the quoted text is in
+the row so that it can.
+
+The row does NOT fall to No on any reading: El Salvador signed the ART on
+29 January 2026, an independent limb (b) basis. USTR's omission now has a
+MECHANISM rather than being an unexplained gap. What would move it back to Yes
+is publication of DGA/MTPS lineamientos containing an actual prohibition.
+
+OTHER SUBSTANTIVE RESULTS.
+
+The render-and-read method unlocked a THIRD document: BANGLADESH's gazette
+(723,681 bytes, 88 pages). Its legacy-font text layer is mojibake -- which is
+what voided the eleven-zero Bengali sweep -- but a visual read does not depend
+on byte mapping at all. Appendix 1 was located by searching Latin chemical
+names that survive the mangling, then pages 70-71 were rendered and read:
+header "Bangladesh Gazette, Extraordinary, August 24, 2026", items (1) to (28)
+ending at gillnets, NO forced-labour item. This confirms the 5 October
+enumeration at document level. Limit stated: the 88-page BODY is unread, so a
+clause elsewhere is not excluded.
+
+MOROCCO delivered a sharper and more embarrassing version of the same lesson.
+Yesterday the five circular PDFs were logged as a tooling failure. Today
+pypdfium2 read them DIRECTLY -- they had a text layer all along. No rendering,
+no OCR needed. Before concluding a PDF is unreadable, TRY THE OTHER LIBRARY.
+All five are clean; the one with the suspicious title "Restrictions
+quantitatives a l'importation" turns out to be A GARLIC IMPORT LICENCE.
+
+BAHRAIN: I CORRECT MYSELF. Yesterday I recorded four Arabic terms returning
+HTTP 302 as "a tooling failure, not a zero". A batch reconstructed the POST
+from the site's own main1.js and tested it with TWO NONSENSE ARABIC STRINGS
+that cannot match anything; those return the IDENTICAL 302, while real terms
+return 120-140 KB pages. On that evidence the 302 IS the zero-hit signal and
+the terms did execute. I tried to reproduce the POST independently and MY OWN
+ATTEMPT WAS VOID -- every term including the real controls returned an
+identical 404 at 1,245 bytes, so my guessed payload never executed. The
+correction therefore rests on the batch's reconstruction, not on my
+replication, and is recorded that way. Bahrain's negative is BETTER than
+yesterday's entry claimed.
+
+THE EU ENTRY FROM YESTERDAY IS ALSO CORRECTED. I carried that the Commission's
+risk database "MISSED its 14 June 2026 deadline". The DEADLINE is now verified
+in German statutory text via a commercial mirror ("...bis zum 14. Juni 2026..."),
+which also discharges part of the long-outstanding French/German requirement.
+THE MISS IS NOT VERIFIED and three sources actively conflict: the contractor
+Ecorys says its project runs December 2025 to June 2030; one German firm says
+the database WAS built in June; another says it was still to be finalised. So
+"missed" is withdrawn. The 20 October textiles webinar is also withdrawn -- a
+German search found no such event. New access signature: EUR-Lex,
+data.europa.eu and publications.europa.eu all serve an AWS WAF CHALLENGE as
+HTTP 202 with awsWafCookieDomainList, distinct from Cloudflare, which WebFetch
+also could not penetrate.
+
+JORDAN: lob.gov.jo was FETCHED FOR THE FIRST TIME in this project. It is a wall
+but a named one -- HTTP 200 carrying "bobcmn" and a support ID, the F5 BIG-IP
+origin-WAF JS challenge served with a success status. Usefully it is the same
+signature seen on 14 September but NOT the Angular shell of 15-16 September, so
+the challenge ROTATES SHAPES on this host. The ART was re-read at source,
+confirming Article 2.9's prohibition commitment and, newly, ARTICLE 6.6(2)'s
+entry-into-force mechanism (60 days after mutual written notification) -- so
+the clock has a defined start not shown to have begun. Annex I is still not
+retrieved; the White House page carries annex HEADINGS ONLY.
+
+COLOMBIA: a new route was found and the negative hardens into something better
+than "unreachable". dapre.presidencia.gov.co IS reachable where the rest of the
+Colombian estate is not, and serves Decreto 1444 directly (2,191,640 bytes,
+"forzos" 31). It carries NO edition stamp: "Diario Oficial" appears exactly
+twice, both in body text. With MinCIT showing it zero times and the Gestor
+mirror's publication fields still empty, the honest conclusion is no longer
+"we cannot reach the source" but that THE DECREE AS PUBLISHED BY THREE ROUTES
+SIMPLY DOES NOT CARRY AN EDITION NUMBER.
+
+VOID SWEEPS REPORTED AS VOID, NOT AS NEGATIVES: Hong Kong (info.gov.hk returned
+200 with the control for "Hong Kong" at ZERO -- three of three government
+routes unusable, two of them 543- and 352-byte shells); Iraq (moc.gov.iq 403
+with the Arabic control zero); Kazakhstan (gov.kz/mti/press a 836-byte shell,
+control zero); Indonesia (control zero on a 403 page). Controls that PASSED:
+Jordan's petra.gov.jo 54/0 and mit.gov.jo 9/0, Japan's JETRO 12/0 and METI
+13/0, Taiwan's labour control at 1,264, the UAE's long-owed control which
+finally ran and passed, and Turkiye's index control at 7 and 8 hits.
+
+Trinidad: Gazette No. 169 of 8 October is new, read clean (52,999 characters,
+control "Trinidad" 128, zero "forced labour", zero "45(1)"), and yesterday's
+correction is independently confirmed -- max 824, only LN 313 absent.
+Malaysia advanced to P.U.(A) 354/2026 of 8 October with the P.U.(B) series
+checked for the first time; its search box re-tested and CONFIRMED broken.
+The UK path hypothesis from yesterday is KILLED: both the API's cm5902 path and
+the old cm5906 path 403 with challenge bodies, so the path was never the
+obstacle. Honduras unchanged after 21 probes with a positive control (37,261
+fetches at 3.9 MB); the pagination trap reproduced an EIGHTH time.
+
+Validator: 61 rows, 6 columns, roster matched in order, every column-5 opening
+word in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean.
+
+Push: pending (this commit)
