@@ -3925,4 +3925,133 @@ fetches at 3.9 MB); the pagination trap reproduced an EIGHTH time.
 Validator: 61 rows, 6 columns, roster matched in order, every column-5 opening
 word in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean.
 
+Push: confirmed, commit d65ac75 (2026-10-09 base)
+
+=== 2026-10-09 03:45 UTC (ADDENDUM 1) ===
+
+Batch 5 applied. ALL SIX BATCHES IN. No further classification changes; final
+tally 16 Yes / 15 Partial / 29 No.
+
+PERU -- THE APPROVED TEXT IS READ, AND A ROUTE NOBODY HAD CONSIDERED IS NOW THE
+MAIN STORY. Three things landed and the third reframes the row.
+
+FIRST, the approved text was obtained and read, which had never been done. It
+is a PURE SCAN, 15 pages, zero text-layer characters -- so it was only readable
+because of the method that became available on 8 October. I rendered and read
+page 1 myself. Article 1: "...por el plazo de noventa (90) dias calendario...
+EXCLUSIVAMENTE en materia de seguridad ciudadana y del Fenomeno El Nino."
+That word EXCLUSIVAMENTE is decisive: an express exclusivity limit on the face
+of the text, not an inference from a topic list. Article 2 runs 2.1.1-2.1.6 and
+2.2.1-2.2.14; the only trade-adjacent words in the document are "importacion"
+of FIREARMS and SUNAT as a participating entity. The delegation route via this
+law is closed ON THE TEXT -- a far stronger statement than the five-run
+inference that was built up and then voided on 6 October.
+
+SECOND, the Senate has not acted and today's silence carries no information.
+The expediente shows the text remitted to the Senate at 7 Oct 18:01 Lima. The
+Senate's Comision de Constitucion sits at 10:00 a.m. on 9 October, which is
+15:00 UTC -- AFTER this run fired at 02:35 UTC. The sixth consecutive timezone
+artefact on this row. A claim that Senate rules arts. 25/142 bar senators from
+adding matters was NOT verified and is not adopted; if wrong, a Senate
+amendment is the one way the first finding could be undone.
+
+THIRD, AND THE REAL FIND: THE COMMITTEE'S OWN DICTAMEN SAYS A FORCED-LABOUR
+IMPORT BAN DOES NOT NEED A LAW AT ALL. I read the relevant section of the
+177-page majority dictamen in raw text (428,603 characters, control "dictamen"
+188). Section 6.6.3 states the Executive's request item f.3 verbatim as
+"Regular la prevencion y erradicacion del ingreso al territorio nacional de
+mercancias elaboradas total o parcialmente mediante trabajo forzoso, incluyendo
+la prohibicion de su importacion" -- so the ban WAS expressly among the 66
+requested faculties, which this file had inferred but never seen stated. The
+committee rejected it on Article 104 specificity and unmotivated urgency, and
+then added: "...EN TANTO SE DERIVA DEL [CPTPP], aprobado... mediante la
+Resolucion Legislativa N 31286 el 16 de julio de 2021 y... ratificado mediante
+el Decreto Supremo N 042-2021-RE... EN ESTRICTO NO REQUIERE DE UNA LEY. PUEDE
+REGULARSE MEDIANTE DECRETO SUPREMO en tanto los Tratados suscritos con arreglo
+a la Constitucion forman parte del derecho nacional, de conformidad con el
+articulo 55 de la Constitucion."
+
+The congressional committee is saying Peru could impose the ban BY EXECUTIVE
+DECREE, without Congress, because CPTPP is already domestic law under Article
+55. On that view the ten days this file spent tracking the delegation fight
+were largely beside the point. THE THING TO WATCH IS NOW EL PERUANO FOR A
+DECRETO SUPREMO, not the Senate. No such decree was found, but that rests on
+one search and El Peruano was NOT checked -- a thin negative and the first task
+for the next run. Section 6.6.2 confirms the adjacent customs bloc was rejected
+on the same grounds.
+
+FOURTH, the July bill is finally identified BY NUMBER and carries a caveat that
+goes to this row's own basis: PL 14852/2025-PE, an Executive bill presented
+2 July 2026, "EN COMISION" since 6 July -- but sitting in the 2021-2026
+CONGRESS, and WHETHER IT LAPSED IS UNVERIFIED. Limb (a) of Peru's Partial rests
+on a formally tabled bill, so if it lapsed the classification needs
+re-examination. Current-period register searches return zero for "trabajo
+forzoso" with working controls ("facultades" 3, "aduanas" 4), which is
+consistent with lapse but does not establish it. Second task for next run.
+
+PHILIPPINES -- the inconsistency flagged yesterday is RESOLVED, and BOTH
+competing dates were wrong. The JAO was signed 23 JULY, the SAME DAY as the
+determination. BusinessWorld with datePublished 2026-07-23T13:03:45Z says
+"signed by the department on Thursday", and 23 July 2026 is a Thursday by
+calendar check. This row's "24 July" was almost certainly a publication date
+read as a signing date. What it does NOT settle: which came first within the
+day, so "in anticipation" versus "in response" stays open.
+
+RUSSIA -- yesterday's void is resolved and the negative restored, with better
+controls. The API worked on retry, confirming intermittency rather than loss,
+and the control that failed yesterday passed at exactly its 7 October value
+(511). Two further controls were added and pass (1,688 and 5). All
+forced-labour formulations zero; "import ban" returns 4 and "import of goods"
+2 on unrelated titles, which usefully shows the register does surface
+import instruments when they exist. Now reproduced on a second day.
+
+SOUTH KOREA -- the three supply-chain bills are read and all are zero, making
+NINE bill bodies read at document level across two days. The new gap is stated
+precisely: the API reports 48 customs bills, only five are read, so ~43 remain
+-- and paging could not be made to work, since pIndex, pSize and PAGE all
+returned identical first-five results. That is rule 19 applied to our own loop,
+and it is reported as unresolved rather than as a property of the API.
+
+SRI LANKA -- the gazette was re-read at primary source and the operative
+sentence is now quoted: "The Importation of any goods that are mined, produced
+or manufactured wholly or partly by forced labour is hereby prohibited."
+A ROUTE CHANGE MATTERS: documents.gov.lk NOW 404s, so this row's citation no
+longer resolves; imexport.gov.lk is the working source. Regulation 4 requires
+evidence "as may be prescribed by the Director General of Customs" -- precisely
+the missing guideline. The guideline search is now near-exhaustive: the REST
+pages list was paginated TO THE END at 104 pages carrying 1,219 PDF links, of
+which 26 are dated July-October 2026 and none is a guideline. Only PDFs
+reachable from neither pages nor media remain unprobed.
+
+PAKISTAN -- the designation-dependent structure of SRO 704(I)/2026 is now
+explicit: the federal government "will periodically identify and notify
+specific goods, entities, and countries to which the restriction applies".
+That is the same shape as India, Trinidad and The Bahamas, so Pakistan's Yes
+rests on the structure USTR itself counts. The ECC lead was chased and
+half-resolved: Profit (datePublished verified 2026-07-15) confirms ECC approval
+of an ILO-C29 definition, but NO corresponding SRO number was found, so it is
+not shown to be notified.
+
+SINGAPORE -- today's check is WEAK and labelled so rather than counted as a
+refresh. "forced" returns zero on the MTI newsroom, but the controls "tariff"
+and "301" ALSO return zero, so the extraction is not reaching article text and
+the zero is uninformative. Void sweep, not a negative. The row stands on the
+6 October raw-bytes reading.
+
+Qatar, Saudi Arabia and South Africa were lighter than instructed this pass --
+searches only, no primary-source probing -- and are labelled as carried rather
+than refreshed.
+
+RUN TOTALS. Six batches, 60 economies, one classification change (El Salvador
+Yes -> Partial). Four documents read at document level that were previously
+unread or written off: Bangladesh's gazette, El Salvador's Article 27-A, Peru's
+approved text and Peru's committee dictamen. Three of my own prior entries
+corrected: Bahrain's 302s, the EU database "miss", and the UK path hypothesis.
+The Philippines date inconsistency resolved against both prior readings. The
+Federal Register corpus moved for the first time in five weeks, caught only by
+the unfiltered query.
+
+Validator: 61 rows, 6 columns, roster matched in order, column-5 opening words
+all in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean.
+
 Push: pending (this commit)
