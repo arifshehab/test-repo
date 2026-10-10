@@ -4159,4 +4159,107 @@ number, so the penalty-article gap is unchanged.
 Validator: 61 rows, 6 columns, column-5 opening words all in {Yes, No,
 Partial}, column-5/6 rule clean.
 
+Push: confirmed, commit 3478a5c (2026-10-10 base)
+
+=== 2026-10-10 03:35 UTC (ADDENDUM 1) ===
+
+Batches 3 and 6 applied. No classification changes; tally holds at
+16 Yes / 15 Partial / 29 No. Batch 5 is still running.
+
+FINAL DETERMINATION: unchanged, now confirmed independently by all six passes.
+The unfiltered corpus is still 394 with 2026-20650 the newest entry and
+2026-17926 of 2 September the newest forced-labour-specific item. One batch
+noted honestly that the 10 October Federal Register issue may not be indexed
+yet, so a same-day item is not excluded.
+
+UNITED KINGDOM -- A FIGURE THIS FILE CARRIED FOR DAYS WAS STALE, AND
+CORRECTING IT SHARPLY NARROWS THE GAP. The row has recorded that the
+amendments endpoint "returns 21 amendments". IT RETURNS 143. I verified this
+myself, and the detail is the lesson: totalResults reads 143 in BOTH the
+default response (17,343 bytes) and the take=200 response (130,220 bytes) --
+the default page simply returns 20 items. The number needed to catch this was
+in the payload all along. That is rule 1, PAGE ONE IS NOT THE LIST, applied to
+a JSON API, where a paginated default looks complete because it parses cleanly
+and carries no visible truncation. Generalised and worth keeping: ALWAYS CHECK
+totalResults AGAINST len(items).
+
+Substantively the negative is now much stronger. Across all 143 amendments:
+"forced" ZERO, "import" ZERO, "supply chain" ZERO, "customs" ZERO. The
+breakdown is 62 EditBillBody, 50 DeleteClauseOrSchedule, 31 AddClauseOrSchedule,
+and all 31 new clauses NC1-NC31 were enumerated with none an import
+prohibition. Three are modern-slavery adjacent and are named so they are not
+later mistaken for import measures: NC15, NC29 and NC21. My own counts across
+the full response confirm "slavery" 2 and "trafficking" 3, all in that cluster.
+Limit stated: the API exposes only summary and marshalled-list fields, so this
+is a complete-set title-level negative, not a full-text read. IAB34 is still
+unread.
+
+TRINIDAD AND TOBAGO -- the ceiling moved overnight and the new notices were
+read. The directory now lists 719 PDFs to LN 828, where yesterday the maximum
+was 824. LN 825 and 826 are substantial (65.86 MB, 136 pages each) and are
+Common External Tariff orders under Customs Act s.8A(1) and s.8A(2), NOT
+s.45(1)(w), with zero "forced labour". That is exactly the pattern the
+exhaustive scan of the earlier 715 established, so the new arrivals confirm it.
+LN 827-828 and new Gazette No. 170 all read clean. LN 313 remains the single
+absent number.
+
+JAPAN -- the government's own concession is now SOURCE-READ, making this
+negative as well evidenced as any in the file. The Star (24 July) quotes Chief
+Cabinet Secretary Kihara: "Japan regrets that this latest measure imposes
+tariffs on Japan solely on the grounds that there is no ban on the import of
+products produced through forced labour", with Adnkronos reporting the same
+press conference. That is the Japanese government acknowledging the absence,
+against its own interest, alongside USTR's National Trade Estimate saying the
+same in Japanese. Controls reported including the failure: METI passes (11/0),
+the JETRO fetch TIMED OUT so there is no JETRO control today. New cheap lead:
+mofa.go.jp returns 403 at 372 BYTES -- the tiny-body class a User-Agent
+defeats, not retested.
+
+HONG KONG -- yesterday's void sweep becomes a valid negative purely through
+transience. info.gov.hk returned 200 with the control for "Hong Kong" at ZERO
+yesterday; today the same URL gives 11,973 bytes with the control at 4, and two
+further routes work for the first time (cedb.gov.hk/en at 49,266 bytes with
+control 34, cedb.gov.hk/tc at 58,140 with control 39). All three are zero on
+forced labour, the Chinese term and Section 301, so the zeros are now
+informative. Caveat kept: these are homepage and current-news pages, not
+archives.
+
+INDIA -- the register advanced to 42/2026-27 of 9 October (an unrelated Para
+4.49 amendment); the only forced-labour row is still 23/2026-27. The gazette
+publication date is still not obtained AND THE OBSTACLE IS NOW DIAGNOSED:
+egazette.gov.in fails on both host forms with exit 60 "unable to get local
+issuer certificate", and OUR OWN EGRESS CA APPEARS IN THE CHAIN, which locates
+the failure at our egress rather than at an incomplete chain on the origin. So
+the other-host-form remedy will not help and retrying will not either.
+
+ISRAEL -- Hebrew matching is proved (jdn.co.il control at 14 hits) and a NEW
+ENDPOINT is found: reshumot.justice.gov.il returns 403 at 334 BYTES, which is
+the tiny-body class a User-Agent may defeat -- a concrete next step, and it
+also disposes of the "reshumot.org.il" hostname guess. Four distinct layers now
+named on this row. The 24 October date is two weeks out.
+
+Three more unstable-layer data points: Venezuela's gacetaoficial.gob.ve gave
+exit 56 today after exit 35 on 8 October and curl 000 on 9 October -- THREE
+DIFFERENT SHAPES IN THREE DAYS from one host, so no stable attribution is
+possible. Iraq's moc.gov.iq changed from a 403 to exit 35 "tlsv1 alert internal
+error". Jordan's lob.gov.jo served the F5 challenge at a different byte size
+(5,969 vs 7,480), consistent with the rotating-shapes behaviour recorded
+yesterday.
+
+Türkiye now has three consecutive index-level reads (8, 9 and 10 October), all
+zero with working controls, and the correct encoding is recorded as
+windows-1254. Taiwan's mirror sweep REPRODUCED EXACTLY, ruling out a one-day
+artefact, though ly.gov.tw is still unread at source. Switzerland's long-owed
+French and Italian searches were finally run and found nothing new.
+
+VOID OR ABSENT TODAY, reported as such: Kazakhstan (gov.kz unreachable, no
+control, sweep void); Indonesia (no government host fetched, search-level
+only); Iraq (no valid control). One point of method: GUYANA IS ENGLISH-SPEAKING,
+so the mandatory local-language pass does not apply there and its absence is
+not a gap.
+
+Honduras: ninth reproduction of the pagination trap, 21 probes all 404 with the
+positive control re-run (37,261 at 3,901,377 bytes). Nothing posted, which is
+not a clean scan.
+
 Push: pending (this commit)
