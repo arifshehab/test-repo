@@ -4055,3 +4055,108 @@ Validator: 61 rows, 6 columns, roster matched in order, column-5 opening words
 all in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean.
 
 Push: confirmed, commit 8ecb4f5 (2026-10-09 addendum 1)
+
+=== 2026-10-10 03:00 UTC ===
+
+NO CLASSIFICATION CHANGES. Tally holds at 16 Yes / 15 Partial / 29 No.
+Batches 1, 2 and 4 applied here; batches 3, 5 and 6 still running.
+
+FINAL DETERMINATION: NO, and the corpus did NOT move. The unfiltered "forced
+labor" count is still 394, confirmed independently by four batches, with
+2026-20650 (the CBP low-value-shipments rule) still the newest entry and
+2026-17926 of 2 September still the newest forced-labour-SPECIFIC item. The
+USTR agency filter's newest is 2026-20615 (8 Oct, EU CBAM comments).
+ustr.gov/rss.xml's newest items are 9 October (Greer touring Utah
+manufacturing) and 8 October (a Mexico worker-rights item) -- no forced-labour
+release since the 2 October G20 statement. Every batch used the API excerpts
+route rather than the full_text access wall, as briefed.
+
+EL SALVADOR: THE DOCUMENT THAT COULD HAVE OVERTURNED YESTERDAY'S DOWNGRADE WAS
+FOUND, READ, AND CONFIRMS IT INSTEAD. Yesterday's entry named precisely what
+would move the row back to Yes -- DGA/MTPS lineamientos containing an actual
+prohibition -- and flagged DGA Boletin Informativo No. DGA 032/2026 as the
+search-level item to chase. It was chased and read today, and I verified it
+myself: 293,097 bytes, 2 pages, 3,664 characters, no junk-byte prefix this
+time. Against working controls (aduana 4, declaraci 8, forzos 5), the decisive
+counts are PROHIB ZERO, DENEGATOR ZERO, RETENCI ZERO. The bulletin contains no
+prohibition, no denial-of-clearance trigger and no import bar of any kind; it
+purely operationalises the sworn declaration, requiring importers under
+definitive import, active inward processing and free-zone regimes to "declarar
+bajo juramento, que las mercancias en cuestion no han sido fabricadas o
+elaboradas, total o parcialmente, mediante trabajo forzoso, obligatorio o
+trabajo infantil". THE ENTIRE OPERATIVE CHAIN -- statute plus implementing
+bulletin -- HAS NOW BEEN READ, AND AT NO POINT DOES IT PROHIBIT IMPORTATION.
+The Partial under limb (c) is materially stronger than when it was made.
+
+Two gains besides: the 1 June 2026 start date moves from search-level to
+primary text, and an EY alert confirms that suspension, retention or
+"denegatoria del despacho" follow "en caso de detectarse INCONSISTENCIAS" --
+inconsistencies, which tracks Article 27-A paragraph 3 and reinforces that the
+trigger is documentary. The MTPS lineamientos remain the one unfound document
+and are now the only remaining candidate for a prohibition. Route note: the
+DGA site search DOES NOT SEARCH (identical ~408 KB homepage for different
+terms), so the bulletin was found by guessing the slug.
+
+BANGLADESH: THE 88-PAGE BODY IS READ AND THE OPEN ITEM IS CLOSED. Yesterday
+Appendix 1(b) was verified but the body was not, so a clause elsewhere could
+not be excluded. Today all 88 pages were rendered and pages 1-77 read as
+images with spot checks beyond. Nothing in the body concerns forced, convict or
+slave labour. The operative sentence is now quoted -- clause 3(1)(kha), that
+goods in the Appendix 1 part "kha" list may not be imported -- and that list is
+the 28 items already verified. A CORRECTION TO THIS FILE'S OWN DESCRIPTION:
+there is no part "ga" of Appendix 1; it runs "ka" (pp. 63-69), "kha"
+(pp. 70-71), then Appendix 2 at p. 72. Pages 78-79 and 81-87 (chemical-weapons
+list and BDS standards tables) are logged as UNREAD rather than clear. A good
+control on the method itself: the Latin text layer works ("Phosgene" found on
+p. 78) while the English-term check returned zero on every term and is VOID,
+because the Bengali is mojibake -- only the visual read counts.
+
+NORWAY: THE RESIDUAL LEAD IS KILLED, AND HOW IT DIED IS WORTH KEEPING.
+Yesterday a search summary reported a draft EEA Joint Committee Decision
+"under consideration with entry into force pending" -- exactly the EOeS-komite
+route flagged as the last gap. IT IS A LEGEND ARTEFACT. The EFTA page gives the
+status as "EU legal act marked as EEA relevant... and under scrutiny for
+incorporation", with EU dates only and NO JCD number or date. The phrase
+"Entry into force of Joint Committee Decision (JCD) pending" is one of the
+page's own STATUS-LEGEND LABELS, not an assertion about this act, and a search
+engine lifted it and attached it to the subject. That is a new failure mode for
+this file: not fabrication, not a stale date, but A PAGE'S OWN LEGEND MISREAD
+AS A FINDING ABOUT ITS SUBJECT. Lead declined; the actual EEA Joint Committee
+register remains unread.
+
+CHINA gets its first control-validated site sweep, reported with its mixed
+result: MOFCOM's home (controls 83 and 12) and spokesperson index (10 and 2)
+are valid zeros on both target terms, while gov.cn's home is NEAR-VOID because
+its own "import" control returned zero. Moves the row from search-level to a
+control-validated index-level negative on the two MOFCOM pages.
+
+VOID OR UNREAD READS REPORTED AS SUCH: Guatemala's mineco.gob.gt returned 200
+at 98,144 bytes with the control "trabajo" at ZERO, so that read is void;
+Kuwait's moci.gov.kw and Oman's customs.gov.om both loaded for the first time
+but had NO keyword count run, so they are fetches, not reads.
+
+TRANSIENCE, THREE TIMES. Canada's LegisInfo returned 403 on the FIRST attempt
+and 200 on the second and third within one pass -- the cleanest demonstration
+yet of why a block seen once is never settled. The Dominican Chamber host,
+egress-blocked yesterday, loaded today at 190,894 bytes. Nicaragua's dga.gob.ni
+has now produced a DIFFERENT layer label on three consecutive days
+(origin-WAF, then exit 56 plus CONNECT 502, then CONNECT 502 alone).
+
+New access signature: New Zealand's legislation.govt.nz returns an EMPTY HTTP
+202 -- a success status with no body, distinct from the AWS WAF 202 on EUR-Lex.
+
+Costa Rica supplied a confusable worth recording: COMEX's press page has nine
+"forzos" hits and ALL NINE are in the old CP-3231 headline about the US
+preliminary findings, not a Costa Rican measure. Oman supplied another: a 2005
+decree RATIFYING ILO Convention 105 is not an import prohibition.
+
+Colombia's MinCIT register shows "Diario Oficial" zero times for a third
+consecutive day (control "decreto" 159), supporting the hypothesis that the
+decree simply carries no edition number. The EU's first French-language source
+was obtained but is a commercial summary giving neither the date nor an article
+number, so the penalty-article gap is unchanged.
+
+Validator: 61 rows, 6 columns, column-5 opening words all in {Yes, No,
+Partial}, column-5/6 rule clean.
+
+Push: pending (this commit)
