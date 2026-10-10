@@ -4262,4 +4262,110 @@ Honduras: ninth reproduction of the pagination trap, 21 probes all 404 with the
 positive control re-run (37,261 at 3,901,377 bytes). Nothing posted, which is
 not a clean scan.
 
+Push: confirmed, commit f65f8f5 (2026-10-10 addendum 1)
+
+=== 2026-10-10 04:10 UTC (ADDENDUM 2) ===
+
+Batch 5 applied. ALL SIX BATCHES IN. No classification changes anywhere in the
+run. Final tally 16 Yes / 15 Partial / 29 No.
+
+QATAR -- I CORRECT MY OWN 8 OCTOBER DIAGNOSIS, AND THE CORRECTION GENERALISES.
+On 8 October I wrote that almeezan.qa and customs.gov.qa both failed with
+"unable to get local issuer certificate" and that "two unrelated government
+hosts showing it suggests something SYSTEMATIC about Qatari government TLS".
+That was built on one observation per host and it does not survive testing. I
+re-tested it myself: the www forms do fail with ssl_verify_result 20, but THE
+APEX almeezan.qa INTERMITTENTLY COMPLETES THE HANDSHAKE CLEANLY -- I saw
+ssl_verify 20 twice and then a clean ssl_verify 0 with HTTP 403 at 1,892 bytes,
+all within the same minute. So the TLS failure is not a stable property of the
+origin, let alone of Qatari government TLS generally, and the host-form
+distinction matters here just as it did on Bahrain.
+
+The 403 is also not what the body-size rule would suggest. At 1,892 bytes it is
+far too small to be a JS challenge, which is correctly ruled out -- but it is
+not a bare-request refusal either: I ran the A/B and a browser User-Agent did
+NOT defeat it. The body is titled "WEB APP - UNAVAILABLE" with no Cloudflare
+markers. It is an origin application that is simply down.
+
+That refines the taxonomy in a way that applies beyond this row: A TINY-BODY
+403 HAS AT LEAST TWO CAUSES -- a bare-request refusal a User-Agent defeats, and
+an origin application-unavailable page that no header will fix -- AND THE
+TITLE, NOT THE SIZE, IS THE DISCRIMINATOR.
+
+PERU -- the lapse question raised yesterday is RESOLVED on the register, which
+matters because it went to the classification itself. PL 14852/2025-PE has NOT
+lapsed: a POST pulling the entire 2021 register (8,793,739 bytes, 14,864 rows,
+bounded by controls at both ends) shows it as "EN COMISION", presented
+2026-07-02, titled "PROYECTO DE LEY QUE ESTABLECE LA PROHIBICION DE IMPORTACION
+DE MERCANCIAS PRODUCIDAS POR TRABAJO FORZOSO". The whole register had to be
+pulled because the filter fields do not filter -- rule 19 again. The limit is
+stated: the register shows no archive status, which is not the same as
+establishing the bill is legally alive in the new Congress, since the carry-over
+rule was not read. Limb (a) stands on the register as of today.
+
+A second register check is reported as VOID: the 2026-2031 register returns
+only 6 entries and its control FAILS, because the delegation request that
+certainly exists is not in it either. On the Decreto Supremo route -- yesterday's
+main thing to watch -- no decree was found, but thinly: elperuano's Normas page
+is a JavaScript app shell, and a gob.pe search returned 8 hits that are all
+MINCETUR committee designations under DS 001-2007-TR, with pages 1-3 at
+near-identical sizes so pagination cannot be confirmed. The Senate session DID
+happen at 10:00 Lima on 9 October but every source found is pre-event, so this
+reads as not yet indexed rather than no action.
+
+SOUTH KOREA -- yesterday's rule-19 flag is EXPLAINED and a workaround found.
+Without an API key, open.assembly.go.kr simply IGNORES pIndex: pages 1, 2, 3 and
+7 all return the same five bills. It is a keyless sample cap, not a broken
+endpoint or a stale loop. The PROPOSER, COMMITTEE and PROC_RESULT filters do
+work, and combining them enumerated 42 of the 44 unique customs bills. SIXTEEN
+more bodies were read this pass, all with the forced-labour term at zero and the
+statement-of-reasons section as control, bringing the total to 25. A false
+positive was caught: bill 2205987 shows 40 hits for the bare word for
+"compulsory" and every one is 강제징수, COMPULSORY TAX COLLECTION -- the same
+class as "reducción forzosa de personal" and "reinFORCED". The 26 unread bills
+all predate the March 2026 investigation, which makes this a defensible stopping
+point rather than an open gap.
+
+SINGAPORE -- yesterday's void sweep is fixed AND a novel false positive caught.
+The controls now pass (tariff 96, 301 80, Section 37). The raw count for
+"forced" is 21, but most are the CSS MEDIA FEATURE "forced-colors" in the page
+source, not the word in any article; stripped, there are three genuine MTI
+items and the newest forced-labour item is still 24 July. That is a confusable
+this file has not recorded before -- not a homonym in prose but A CSS IDENTIFIER
+INFLATING A KEYWORD COUNT -- and it is why a raw hit count on HTML should be
+inspected rather than trusted.
+
+PAKISTAN -- the ECC amendment moves off secondary reporting onto the
+government's own press service: pid.gov.pk and APP both report the ECC
+approving a Ministry of Commerce proposal to amend the Import Policy Order 2022
+"by incorporating a definition of 'forced labour' in line with the ILO Forced
+Labour Convention, 1930 (No. 29)". The decisive negative is measured too: "SRO"
+appears ZERO times on each release, so approval is established and notification
+is not. One headline declined: thenews.pk says "ECC bans EXPORT" -- export, not
+import, probably a slip but unverified either way.
+
+RUSSIA -- today's pass is VOID for the second time in three days: the API failed
+on every attempt including nine retries on the control. Nothing is concluded.
+The four-day pattern (worked 7th, failed 8th, worked 9th, failed 10th) makes the
+endpoint demonstrably INTERMITTENT, so the 7 and 9 October negatives stand on
+their own days and the route should be retried, not abandoned.
+
+Lighter than instructed and labelled so: Sri Lanka (no Sinhala or Tamil search),
+South Africa (no gazette probe, no Afrikaans search), Saudi Arabia (no gazette
+probing at all), Qatar (no separate Arabic query).
+
+RUN TOTALS. Six batches, 60 economies, no classification changes. Four of my own
+or the file's prior entries corrected: the UK's stale "21 amendments" (it is
+143), Bangladesh's non-existent "Appendix 1 part ga", Qatar's overdrawn
+"systematic TLS" inference, and Norway's residual EEA lead as a legend artefact.
+Three documents read that closed open items: El Salvador's implementing bulletin
+(which confirmed rather than reversed yesterday's downgrade), Bangladesh's
+88-page body, and Japan's government concession at source. Two void sweeps from
+yesterday became valid negatives through transience (Hong Kong, Singapore), and
+two new ones were reported as void rather than dressed up (Russia, Kazakhstan).
+
+Validator: 61 rows, 6 columns, roster matched in order, column-5 opening words
+all in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean, all column-6
+entries URLs.
+
 Push: pending (this commit)
