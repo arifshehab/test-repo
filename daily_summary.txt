@@ -4368,4 +4368,4 @@ Validator: 61 rows, 6 columns, roster matched in order, column-5 opening words
 all in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean, all column-6
 entries URLs.
 
-Push: pending (this commit)
+Push: confirmed, commit 44a681d (2026-10-10 addendum 2)
