@@ -4369,3 +4369,141 @@ all in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean, all column-6
 entries URLs.
 
 Push: confirmed, commit 44a681d (2026-10-10 addendum 2)
+
+=== 2026-10-11 03:20 UTC ===
+
+ONE CLASSIFICATION CHANGE: ISRAEL Partial -> Yes. New tally
+17 Yes / 14 Partial / 29 No. All six batches in.
+
+FINAL DETERMINATION: NO. The unfiltered corpus is still 394, confirmed
+independently by all six passes and by my own query, with 2026-20650 (the CBP
+low-value-shipments rule) still the newest entry and 2026-17926 of 2 September
+still the newest forced-labour-SPECIFIC item. A date-bounded query from
+1 October returns exactly one item, that same rule.
+
+ISRAEL -- AND THIS FILE MUST OWN A SUBSTANTIAL MISS. The order was published on
+17 AUGUST and this row carried "no signed order, no Reshumot entry" for nearly
+two months while being actively watched.
+
+I fetched and read the text myself. It is the "צו היבוא והיצוא (איסור יבוא
+טובין שיוצרו בעבודת כפייה), התשפ״ו–2026", gazette citation ק״ת תשפ״ו 2560, made
+under section 2 of the Import and Export Ordinance 1979 WITH THE APPROVAL OF
+THE KNESSET ECONOMIC AFFAIRS COMMITTEE. Section 1 is an express prohibition --
+"לא ייבא אדם לישראל טובין שיוצרו, בחלקם או במלואם, בעבודת כפייה" -- with the
+ILO Convention 29 definition verbatim. Section 2 applies that prohibition to
+goods "המפורטים בתוספת", specified in the Schedule, AND THE SCHEDULE IS PRESENT
+BUT EMPTY. Signed 3 Elul 5786 (16 August 2026) by Economy Minister Nir Barkat.
+
+Publication and entry into force are corroborated from two further independent
+sources I fetched: Shibolet & Co (datePublished 2026-10-08) states "ביום 17
+באוגוסט 2026, פורסם הצו ברשומות ונכנס לתוקף" -- published in Reshumot and in
+force on 17 August -- with no goods list as at 8 October, and attributes the
+measure to alignment with UFLPA and the EU FLR "ובפרט על רקע לחץ אמריקאי ישיר",
+in particular direct American pressure in the Section 301 context. The Tel Aviv
+Chamber of Commerce carries the 19 August headline "פורסם ברשומות צו האוסר יבוא
+של מוצרים שיוצרו בעבודה בכפייה".
+
+WHY YES: the policy reserves Yes for an actually enacted, in-force instrument.
+This one is made, committee-approved, signed, gazetted and in force. The empty
+Schedule makes it designation-dependent -- exactly the structure settled as Yes
+for Trinidad s.45(1)(w), India Para 2.20B, Pakistan SRO 704 and The Bahamas
+s.208A, and which USTR itself counts. Israel is a STRONGER case than The
+Bahamas, whose s.208A confers only a power to prohibit by future Order, where
+Israel s.1 prohibits in terms today.
+
+SOURCING GRADED HONESTLY: the primary Reshumot is still unread. Wikisource is a
+MIRROR (the open-statute transcription project), and reshumot.justice.gov.il
+403s at 334 bytes even with a browser User-Agent. What carries it is the
+combination of a full operative text bearing its own gazette page number,
+enabling section, committee approval and ILO definition, plus two independent
+corroborations of Reshumot publication, one written eight weeks later.
+
+WHY IT WAS MISSED, because the pattern matters more than the instance. Every
+Israeli government route is blocked -- nevo.co.il is an IP block,
+reshumot.justice.gov.il 403s, knesset.gov.il serves a regional maintenance page,
+moit.gov.il times out -- so the row leaned on search; search kept returning the
+JULY JNS/JPost "Israel bans imports" headlines, which this file CORRECTLY
+declined as premature since they predated the order; and having declined that
+category repeatedly, the row stopped testing it, while attention stayed fixed on
+a different and still-valid date, the ~24 October enforcement-mechanism window.
+THE LESSON: WHEN EVERY PRIMARY ROUTE TO A JURISDICTION IS BLOCKED AND SEARCH
+KEEPS RETURNING THE SAME KNOWN CONFUSABLE, THAT IS EXACTLY WHERE A REAL
+DEVELOPMENT HIDES. The fix was a route class never tried for Israel: a
+non-government open-statute mirror.
+
+NOT a flag: USTR's 15 September list omits Israel, but that sentence is limited
+to measures adopted "by July 2026", so a mid-August order falls outside its
+window and its absence is expected.
+
+PERU -- the Senate sat and decided nothing, but two new facts emerged, one each
+way. The Comision de Constitucion's session of 9 October took place; its AGENDA
+was obtained and read, yielding the Senate file number for the first time
+(Proposicion Legislativa 00013-2026-2031-S), and it is invitations to Premier
+Galarreta and six ministers, with controls forzoso/aduan/comercio all zero. Two
+dated sources confirm NO vote and NO dictamen. AGAINST this row's direction:
+Galarreta is asking the Senate to WIDEN the request. FOR it, and more
+informative: Gestion enumerates the Executive's request as EIGHT materias --
+seguridad ciudadana, modernizacion del Estado, simplificacion administrativa,
+mypes, promocion del empleo, desarrollo productivo, materia tributaria, vivienda
+y saneamiento -- with NO customs and NO foreign-trade item. So even the widening
+sought is, on the only enumeration available, to a set excluding the bloc this
+row turns on. No Decreto Supremo found, search still thin; the carry-over rule
+is unresolved though the governing instrument is now identified.
+
+UNITED KINGDOM -- a line this row relied on no longer holds. The 7 October
+reasoning was that no amendment paper existed later than 16 September. The
+Publications list now shows "Notices of Amendments as at 9 October 2026" and
+"as at 12 October 2026"; both PDFs 403 at 5,807 bytes behind the Cloudflare
+challenge, so it CANNOT be said whether the 143 enumerated amendments include
+them. The structured negative itself re-verified clean.
+
+EL SALVADOR -- the last candidate for a prohibition is now searched properly and
+is not there. mtps.gob.sv was searched through its REST API: all 45 posts since
+1 March (279,951 characters, controls trabajo 153, forzos 0, aduan 0), all 24
+pages, and /descargas (trabajo 65, forzoso 0). The MTPS site search DOES search
+(three terms, three distinct md5s) -- the positive case of the search-validation
+rule, and the opposite of the DGA site. Three days have now read the statute,
+read the implementing bulletin and searched the responsible ministry, and
+nothing prohibits importation.
+
+TWO LOCAL-LANGUAGE PASSES CORRECTLY REFUSED AS NOT DISCHARGED: a Khmer query for
+Cambodia returned no Khmer-language pages at all, and an Urdu query for Pakistan
+returned English pages. In both cases the agent declined to count it as a sweep
+-- the control-word discipline applied to language coverage.
+
+A THIRD CAUSE OF A TINY-BODY 403 IS NOW ON RECORD. Japan's mofa.go.jp returns
+403 at 372 bytes, which looked like the bare-request class; the body is an
+AKAMAI "Access Denied" page with an errors.edgesuite.net reference and persists
+with a User-Agent. So the taxonomy is: bare-request refusal (UA defeats),
+origin application down (Qatar's "Web App - Unavailable"), and Akamai edge block
+-- the TITLE discriminates, never the size.
+
+A PARAMETER TRAP CAUGHT ON TAIWAN: a first query used the Latin "term=11"
+instead of the Chinese "屆=11" and returned 14 and 10 hits for the two key
+phrases -- plausible-looking figures that were NOT a finding. The correct
+parameter reproduced the baseline exactly for a third identical day. A wrong
+parameter name can yield plausible non-zero results rather than an obvious error.
+
+KUWAIT produced a genuinely useful POSITIVE control: its ministry laws page
+lists 2026 ministerial decisions including No. 19/2026 banning the IMPORT and
+manufacture of R22 air conditioners, plus food export bans and a drone ban. So
+import-ban decisions demonstrably appear there when they exist, and none
+concerns forced labour -- converting "nothing found" into "the place such a
+decision would appear was read". OMAN gained its first gazette-level evidence,
+via the qanoon.om mirror (controls الجريدة الرسمية 23), newest issue 1668.
+
+RUSSIA's negative is restored on a third valid day (control налог 512, труд
+867, all three inflections zero). QATAR's host changed shape for a third
+consecutive day -- TLS failure, then 403 "Web App - Unavailable", now HTTP 200
+serving a React shell -- so no primary-source pass is achievable there by any
+route tried. VENEZUELA's gazette host cycled back to exit 35 after 000 and 56.
+
+Lighter than instructed and labelled: Libya (not retried at all), Switzerland
+(German only), Mexico and Egypt (no local-language control), the Philippines (no
+Filipino search), Singapore (not re-probed), and Trinidad (the Gazettes
+directory 404s, so no check for an issue after No. 170 was possible).
+
+Validator: 61 rows, 6 columns, roster matched in order, column-5 opening words
+all in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean.
+
+Push: pending (this commit)
