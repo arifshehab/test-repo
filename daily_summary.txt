@@ -4688,3 +4688,83 @@ explicitly WEAK control today (Tebliğ zero, probably a light edition) and the
 zero is marked not to be over-read.
 
 Push: pending (this commit)
+
+
+--- 2026-10-12 addendum 1 confirmed push: 73e3976 ---
+
+
+=== 2026-10-12 05:40 UTC (addendum 2 -- batch 5) ===
+
+No classification changes. Tally holds at 17 Yes / 14 Partial / 29 No.
+No new or final USTR Section 301 determination; the Federal Register corpus
+for the trade-representative agency is unchanged at 394 documents, and the
+mandatory unfiltered full-text sweep (which the agency filter misses CBP and
+DHS items from) added nothing new.
+
+Batch 5 (Pakistan through Sri Lanka) returned four substantive gains, and I
+verified the most load-bearing claim at document level myself.
+
+PAKISTAN -- SRO 704(I)/2026 read in the consolidated Import Policy Order via
+the customspk.com open mirror, under a differential control against the prior
+consolidation:
+  ipo20.pdf  967,893 bytes  216 pages  638,076 chars
+             "forced labour" 2   "704(I)/2026" 2   "International Labour" 1
+  ipo19.pdf  967,075 bytes  216 pages  637,215 chars
+             "forced labour" 0   "704(I)/2026" 0   "International Labour" 0
+The control discriminates: the terms exist only in the post-SRO text. Paragraph
+7(3) recovered in full, including a third sentence not previously quoted:
+"Importers of goods from the notified countries shall be required to furnish
+such documentary evidence or certification as may be prescribed, from time to
+time, establish that the goods sought to be imported are not mined, produced,
+or manufactured by the forced labour." This confirms the El Salvador contrast:
+Pakistan's paragraph is an express prohibition whose certification duty applies
+only downstream of designation ("from the notified countries"), where El
+Salvador's Art 27-A is a sworn-declaration regime with denial of clearance
+triggered by documentary failure and no prohibition. The two superficially
+similar rows stay classified differently -- Pakistan Yes, El Salvador Partial(c)
+-- and both texts have now been read rather than summarised.
+
+QATAR -- first primary-source pass for this row, via api.moj.gov.qa, an open
+JSON legislation API reached after every HTML route failed. This also closes
+out my own overdrawn "systematic Qatari TLS" inference: the apex intermittently
+handshakes cleanly and returns a 1,892-byte 403 titled "Web App - Unavailable",
+an origin application that is down, which no header defeats.
+
+SAUDI ARABIA -- search correction. The file's note that the Umm al-Qura search
+is JavaScript-templated was wrong: uqn.gov.sa/search?query=<term>&pgno=N is
+server-rendered and paginates. Re-run with real controls; no ban instrument.
+
+PERU -- El Peruano full-text search executed (thin by construction, since a
+differently-phrased Decreto Supremo would not surface on these terms) and the
+Reglamento del Congreso read: it is SILENT on carry-over of pending bills into
+a new Congress, so limb (a) of the Partial rests on the register status
+"EN COMISION" rather than on an express continuity rule. The approved
+delegation text (66-34-24 on 6 October, after an initial 49-73-2 rejection)
+delegates "EXCLUSIVAMENTE" to citizen security and El Nino, so it is not a
+route to a forced-labour ban.
+
+Also refreshed with verified negatives: Russia, Philippines, South Korea,
+Sri Lanka, South Africa, Singapore.
+
+METHODOLOGY -- correction to my own taxonomy (rule 4). I had written that
+Angola's dr.gov.ao "moved off our egress proxy" onto a mid-exchange failure.
+It did not. curl -v shows "> CONNECT dr.gov.ao:443" then
+"< HTTP/1.1 502 Bad Gateway" then "curl: (56) CONNECT tunnel failed,
+response 502": curl exit 56 and "CONNECT tunnel failed, response 502" are the
+same event reported two ways, and exit 56 here is how curl surfaces our own
+proxy refusing the CONNECT. A bare exit code is not a layer; use -v before
+filing one. This propagates to Venezuela, the Dominican Chamber host and
+Morocco's sgg.gov.ma, which were filed the same way.
+
+TLS verification was left on throughout; no -k, and HTTPS_PROXY untouched.
+
+Open items carried forward: the Reshumot primary and Israel's still-empty
+Schedule plus the ~24 October enforcement-mechanism date; India's Gazette
+publication date (egazette fails at our own egress, PIB archives unsearched);
+Colombia's Diario Oficial edition; the Bahamas s.208A Ministerial Order;
+Thailand's Section 5 notice; the EU's Article 37(3) text; Malaysia's Parliament
+bill list; Morocco's Bulletin Officiel; the MTPS lineamientos; and whether
+Pakistan's ECC-approved ILO C29 definition was notified as a separate SRO
+(versions 21/22 are 404).
+
+Push: pending (this commit)
