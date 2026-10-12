@@ -4626,4 +4626,65 @@ web.archive.org itself is egress-blocked.
 Validator: 61 rows, 6 columns, column-5 opening words all in {Yes, No,
 Partial}, column-5/6 rule clean.
 
+Push: confirmed, commit ed3d1b9 (2026-10-12 base)
+
+=== 2026-10-12 03:50 UTC (ADDENDUM 1) ===
+
+Batch 6 applied. No classification changes; tally holds at
+17 Yes / 14 Partial / 29 No. Batch 5 is still running.
+
+TRINIDAD: THE GAP I FLAGGED YESTERDAY IS CLOSED, AND THE ANSWER WAS A SINGULAR
+IN A PATH. Yesterday the Gazettes directory 301'd to a 404 and I recorded that
+"the absence of a No. 171 is unverified rather than established". The correct
+path is /e-gazette/2026/Gazette/ -- SINGULAR. I verified it myself: 200 at
+40,552 bytes listing 170 PDFs with a maximum of 171. GAZETTE No. 171 EXISTS and
+is clean: 4,872,077 bytes, valid %PDF header, 1 page, 1,707 characters, control
+"Trinidad" 4, and zero for "forced labour", "forced labor", "45(1)" and
+"Customs Act". No No. 172. So the question resolves in the opposite direction
+from the guess -- the issue exists and is clean. A further route detail found
+while verifying, and my own first attempt failed on it: http://www.printery...
+301s while https://printery... works. Scheme AND host form both matter.
+
+THAILAND: the lead I flagged yesterday was tested and is a DEAD END, recorded
+so nobody tries it again. cicbts.dft.go.th/portal/ returns 200 at 49,696 bytes
+but is a "BenF Dashboard" of monthly statistics PDFs behind an officials'
+login, not a notification index -- and the controls make that unambiguous: the
+Department of Foreign Trade's own name appears ONCE, while the Thai
+forced-labour terms, "ประกาศ" and "มาตรา 5" are all zero. No open-statute
+mirror for Thai gazette notices was found; krisdika mirrors and third-party
+Thai legal databases were not tried, and after the Israel finding that is now
+the obvious next step for this row.
+
+SWITZERLAND: the register check is now done PROPERLY in all three languages,
+discharging an obligation carried for weeks. The OData register was queried in
+German, French AND Italian for items from 5 October -- 4 items each, with a
+nine-term keyword scan hitting none. That is a genuine trilingual negative on
+current business rather than a carried-forward closure. It was not
+author-filtered, which is the remaining narrow gap. Declined: an SRF snippet
+that a draft bill is "in Arbeit", which is undated and is not tabling.
+
+UAE: the gap I flagged yesterday is closed at homepage level. All four Arabic
+forced-labour formulations were run against a control of 60 and all return
+zero, where yesterday only the English word had been tried on an Arabic page.
+
+UK: the open question stays open, with one useful inference. The count did not
+move from 11 to 12 October, so the 12 October notices paper is probably not yet
+reflected in the API -- a reasonable reading, not a certainty. Two route facts
+worth keeping: the API's dateTabled field is EMPTY, so the "are these included"
+question cannot be settled that way; and adding a searchTerm parameter returns
+HTTP 500.
+
+VENEZUELA: a candidate mirror was found and correctly NOT treated as a
+negative. vlexvenezuela.com's prohibited-imports tag page lists the Customs Law
+and Tariff decree with zero forced-labour hits, but its site search returned 0
+and the agent declined to count that because it was not shown that the search
+actually searches -- rule 19 applied BEFORE relying on a zero rather than after.
+A promising route awaiting validation, not a result.
+
+Also: Taiwan reproduced identically for a FOURTH day with the correct Chinese
+parameter, which read against yesterday's parameter trap confirms the query is
+properly constructed. Türkiye's fifth consecutive index read carries an
+explicitly WEAK control today (Tebliğ zero, probably a light edition) and the
+zero is marked not to be over-read.
+
 Push: pending (this commit)
