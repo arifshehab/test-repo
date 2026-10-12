@@ -4507,3 +4507,123 @@ Validator: 61 rows, 6 columns, roster matched in order, column-5 opening words
 all in {Yes, No, Partial}, column-5/6 and column-2/4 rules clean.
 
 Push: confirmed, commit e23fc95 (2026-10-11)
+
+=== 2026-10-12 03:15 UTC ===
+
+NO CLASSIFICATION CHANGES. Tally holds at 17 Yes / 14 Partial / 29 No.
+Batches 1-4 applied here; batches 5 and 6 still running.
+
+FINAL DETERMINATION: NO. The unfiltered corpus is still 394, verified by my own
+query and by every batch, with 2026-17926 of 2 September still the newest
+forced-labour-SPECIFIC item and 2026-20650 (the CBP low-value-shipments rule)
+still the only entry since 1 October.
+
+A TAXONOMY CORRECTION THAT HAS BEEN MIS-RECORDED FOR DAYS, AND IT IS MINE.
+On 11 October I wrote that Angola's dr.gov.ao "NOW GIVES EXIT 56 (a reset)
+where the baseline recorded CONNECT 502 -- so that host has moved off our
+egress proxy". THAT IS WRONG. I checked it myself with curl -v and the exchange
+reads: "Establish HTTP proxy tunnel to dr.gov.ao:443", "> CONNECT
+dr.gov.ao:443", "< HTTP/1.1 502 Bad Gateway", then "curl: (56) CONNECT tunnel
+failed, response 502". EXIT 56 IS SIMPLY HOW CURL SURFACES OUR OWN PROXY
+REFUSING THE CONNECT. The two are the same event reported two ways, not a
+change of layer.
+
+This propagates. I ran the same check on Venezuela's gacetaoficial.gob.ve and
+got the identical CONNECT 502 -- so the "three distinct failure shapes in four
+days" I recorded for that row was partly an artefact of reading exit codes
+without -v. The same applies to the Dominican Chamber host and to Morocco's
+sgg.gov.ma, both of which this file has logged as exit-56 "mid-exchange"
+failures. THE RULE: A BARE CURL EXIT CODE IS NOT A LAYER. Use -v before filing
+one. It is the same lesson this file keeps relearning in new forms -- a status
+or error code is not a diagnosis.
+
+BAHRAIN: THE PROVENANCE QUESTION OPEN SINCE 9 OCTOBER IS SETTLED BY INDEPENDENT
+REPLICATION, AND MY OWN FAILED ATTEMPT IS EXPLAINED. The working POST was
+rebuilt against legalaffairs.gov.bh, and the detail that defeated me on
+11 October is that "SortBy" MUST carry a valid value such as SortDate -- a
+payload with empty strings in every field returns 302 even for a real control
+term, which is exactly what mine did. With the correct payload the controls
+REPRODUCE THE 8 OCTOBER BASELINE EXACTLY (customs 3 records, import 7), and two
+nonsense Arabic strings return the identical 302 at 132 bytes. So the 302 is
+confirmed as the zero-hit signal and my "unreplicated" caveat is discharged.
+The search was also pushed further: the two core forced-labour terms return
+zero in both modes; two adjacent terms return a single unrelated hit (Law
+20/2025 on alternative sentences); and the trafficking term returns two
+institutional committee decisions, not import measures.
+
+THE ISRAEL LESSON IS ALREADY PAYING OFF. Yesterday's finding was that a
+non-government open-statute mirror broke open a row whose entire government
+estate was unreachable. Today three more mirrors were located for exactly such
+rows: online.zakon.kz for KAZAKHSTAN (283,976 bytes, control 27, its two
+"compulsory" hits both unrelated expropriation), qistas.com for JORDAN
+(231,757 bytes, control 5, not yet searched), and lawsociety.ly for LIBYA
+(426,743 bytes, front page only). None has been searched in depth, so all three
+are routes rather than results -- but the route class is now proven twice.
+Mirrors remain UNTRIED for The Bahamas, Angola, Egypt and Nigeria, and that is
+recorded on each row as the next step.
+
+ISRAEL RE-EXAMINED AND THE RECLASSIFICATION HOLDS. The order page re-fetched at
+71,635 bytes, same revision, controls 23 and 10; section 2 and the signature
+line match; THE SCHEDULE IS STILL EMPTY; and a Wikisource API search returns
+only this order with no amendment page, so no schedule has been added. The
+Reshumot primary is still unread (403 at 334 bytes). A GOOD CATCH IN PASSING:
+jdn.co.il, which supplied a working Hebrew control of 14 hits on 10 October,
+today returned 593,692 bytes with that control at ZERO -- so that sweep was
+void and was not counted, and the Wikisource page itself became the working
+control. The control-word rule applied against a source the file had come to
+rely on.
+
+OMAN has moved from no gazette evidence three days ago to TWO ISSUES READ at
+contents level. The qanoon.om mirror is current -- issue 1669 of 11 October is
+new -- and the contents lists of 1669 and 1668 were both read with controls
+("قرار" 9 and 17), all four Arabic forced-labour and trafficking terms zero.
+A new confusable is catalogued: Ministerial Decision 209/2026 banning imports
+of certain fish from Buzău county, Romania, which belongs beside gazette 1644's
+veterinary decisions. The limit is precise: the issue PDFs are
+Cloudflare-challenged, so only contents lists were read.
+
+INDIA: a route was fixed and did not yield, which is worth recording either
+way. The pib.gov.in redirect is a 301, not the 302 I recorded, and following it
+works -- but both PIB pages are current-release homepages, zero on the target
+terms, and THE PIB ARCHIVES WERE NOT SEARCHED, which is where a gazette
+reference would sit. The gazette publication date, and so the effective date,
+remains unobtained.
+
+BANGLADESH: the US Department of Labor lead was chased and is REAL BUT JUNE
+MATERIAL. The Financial Express piece (printed date 14 June 2026, while the
+page also displays "3 months ago" -- a display-date trap caught in the act)
+quotes the US embassy: "The US Department of Labor has commissioned a Forced
+Labor Import Prohibition feasibility study in Bangladesh", "in direct support
+of Bangladesh's commitment Under the Agreement on Reciprocal Trade". Run by
+ICF, panel visit 21-25 June, no published outcome. Context on direction of
+travel; no instrument.
+
+EUROPEAN UNION: AN ARTICLE NUMBER AT LAST, not adopted. A German mirror gives
+the 14 December 2026 penalty-notification date as ARTICLE 37(3) of Regulation
+2024/3015 -- the first specific provision to target rather than an unanchored
+date. It is NOT treated as verified, and the reason is in the source: the
+page's own metadata carries factcheck_status=review_needed and it states its
+EUR-Lex check was incomplete. Article 37(3) itself is unread. Two further
+routes failed in new ways (lexparency exit 35, legifrance a 5.5 KB challenge).
+
+COLOMBIA: the measured absence now runs to four days on the MinCIT register and
+SEVEN on the Gestor Normativo fields, both on full-size pages rather than
+shells. That makes "the decree carries no edition stamp" materially stronger
+than "we cannot reach the source".
+
+VOID OR SHALLOW READS REPORTED AS SUCH: Guatemala's mineco.gob.gt (control
+"trabajo" zero for a THIRD consecutive day), El Salvador's transparencia.gob.sv
+(control zero), Kazakhstan's gov.kz (836-byte shell), Iraq's Sky News control
+(zero), Japan's kokkai and e-gov (2,800- and 800-byte shells), Hong Kong's
+gld.gov.hk (372 bytes). Mexico's single Spanish search ran with NO control word
+and is marked as failing the rule.
+
+Honduras: eleventh reproduction of the pagination trap, 24 probes all 404 with
+the positive control re-run. A new route was tried and half-failed usefully:
+the archive.org availability API WORKS from here and lists a July snapshot, but
+web.archive.org itself is egress-blocked.
+
+Validator: 61 rows, 6 columns, column-5 opening words all in {Yes, No,
+Partial}, column-5/6 rule clean.
+
+Push: pending (this commit)
