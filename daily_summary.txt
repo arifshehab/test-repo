@@ -4901,3 +4901,88 @@ Batch 6 (Switzerland through Vietnam) had not returned when this entry was
 written and will follow as an addendum.
 
 Push: pending (this commit)
+
+
+--- 2026-10-13 main entry confirmed push: d0f72f5 ---
+
+
+=== 2026-10-13 03:05 UTC (addendum 1 -- batch 6) ===
+
+Batch 6 (Switzerland through Vietnam) returned. No classification changes.
+Tally still 17 Yes / 14 Partial / 29 No. Batch 6 independently confirms no
+new USTR final determination: the only forced-labour item in the USTR
+October index is the 2 October G20-margin statement already recorded, and
+none of batch 6's ten economies is named in it. The Agreements on Reciprocal
+Trade page still lists the same ten signed agreements.
+
+ONE REAL NUMERIC MOVE, AND IT IS IRRELEVANT TO THIS TRACKER -- UNITED
+KINGDOM. The Immigration and Asylum Bill amendment set has grown from 143 to
+173. I replicated the read myself:
+bills-api.parliament.uk/api/v1/Bills/4254/Stages/21099/Amendments?take=200
+-- HTTP 200, 153,744 bytes, totalResults 173 AND len(items) 173. The two
+agree, so this is a complete set rather than a truncated first page; that
+check is the one that previously caught the stale 21-versus-143 figure.
+Breakdown: 75 EditBillBody, 61 DeleteClauseOrSchedule, 37
+AddClauseOrSchedule. Across the whole JSON: "forced" 0, "import" 0, "supply
+chain" 0, "customs" 0, with "slavery" 3 and "trafficking" 4 (up from 2 and
+3). New clauses run NC1-NC36 plus NS1; NC32-NC36 and NS1 are deportation,
+ISC enforcement and protection-definition items. So the growth is genuine
+but carries no move toward a full import prohibition, and the UK stays
+Partial(c). The bills search for "forced labour" still returns only dead
+bill 3151, the 2022 Xinjiang bill. Caveat: the API carries summary text
+only, not full clause text, so this is a title-and-summary negative over a
+complete set.
+
+VERIFIED AT SOURCE -- TRINIDAD AND TOBAGO. The /Gazette/ listing (200,
+40,552 bytes) still tops out at No. 171 with no No. 172, and the /Legal
+Notices/ listing (200, 175,998 bytes) shows 719 PDFs topping out at LN 828,
+byte-identical to the 11 October read. There is nothing new to read.
+
+TAIWAN reproduced exactly for a fifth consecutive day on the ly.govapi.tw
+mirror using the correct parameter form, with a strong control (1,264 hits
+for the control term) and zeros on the Foreign Trade Act, "prohibit import"
+and "forced-labour products". The six forced-labour hits are Employment
+Service Act amendment drafts, not import measures. Still a mirror; ly.gov.tw
+has never been read at source.
+
+FOUR SWEEPS DOWNGRADED RATHER THAN BANKED AS NEGATIVES:
+- URUGUAY: the gub.uy ministry news list returned "trabajo forzoso" zero but
+  THE CONTROL FAILED ("estados unidos" 0, "arancel" 1), so the sweep carries
+  almost no weight. Uruguay's true state is UNKNOWN at decree level.
+- TÜRKIYE: a second consecutive weak control -- "Yonetmelik" 6 and 4 but
+  "Tebli" 0 on both 12 and 13 October. The zeros must not be over-read.
+- SWITZERLAND: the parlament.ch register returned the SAME 4 rows dated
+  2026-10-05 in all three languages, so the identical zeros add little.
+- VENEZUELA: vlexvenezuela.com loads but its site search was never
+  validated, so the mirror route is untested rather than exhausted and no
+  negative is claimed from it.
+
+THAILAND's Section 5 notice stays UNVERIFIED rather than absent: the gazette
+is unread (ratchakitcha 403 at 5,594 and 5,649 bytes, Cloudflare-class;
+krisdika curl 000 with the layer unattributed because -v was not run), and
+the Thai search could not confirm whether the notice issued.
+
+VIETNAM's Vietnamese-language sweep was VALID (control "292" present) and
+found no implementing circular. A search summary again attributed
+administration of the decree to the Ministry of Industry and Trade while
+citing no supporting page; declined for a third consecutive run.
+
+Lighter than instructed in batch 6: no Swiss French or Italian search, no
+Thai statute mirror beyond one host, the UAE Arabic terms not re-run against
+moet.gov.ae, and the White House fact-sheet check not done (briefing-room
+returned a 301 at 0 bytes).
+
+TLS verification was left on throughout; no -k, and HTTPS_PROXY untouched.
+
+OPEN ITEMS CARRIED FORWARD: Israel's Reshumot primary, its still-empty
+Schedule and the inferred late-October enforcement-mechanism date; India's
+Gazette date (the PIB ARCHIVE, as distinct from the current-release page,
+is still unqueried); the EU's Article 37(3); the Bahamas s.208A Ministerial
+Order; Thailand's Section 5 notice; Morocco's Bulletin Officiel; the MTPS
+lineamientos (one unfetched transparencia.gob.sv lead); Pakistan's possible
+C29-definition SRO; Peru's bill register status and any Decreto Supremo;
+South Africa's promised gazette notice (the likeliest next Partial);
+Qatar's uncovered October gap; and the untried mirror routes for Egypt, the
+Bahamas, Uruguay and Venezuela.
+
+Push: pending (this commit)
