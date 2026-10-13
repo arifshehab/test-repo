@@ -4768,3 +4768,136 @@ Pakistan's ECC-approved ILO C29 definition was notified as a separate SRO
 (versions 21/22 are 404).
 
 Push: pending (this commit)
+
+
+--- 2026-10-12 addendum 2 confirmed push: d1d8c96 ---
+
+
+=== 2026-10-13 02:40 UTC ===
+
+NO MATERIAL CHANGES. No classification moves. Tally holds at
+17 Yes / 14 Partial / 29 No for the fifth consecutive day.
+
+NO NEW OR REVISED USTR SECTION 301 DETERMINATION. Verified at primary-source
+level this run by two Federal Register API sweeps rather than by a corpus
+count:
+  - unfiltered full-text "forced labor" + "Section 301", newest first:
+    totalResults 18, newest item still 2026-07-28 -- Notice 2026-15181 (USTR)
+    and Presidential Determination 2026-15274.
+  - unfiltered "forced labor" limited to publication_date >= 2026-08-01:
+    totalResults 5, and ALL FIVE are CBP/DHS/SEC items, none a Section 301
+    determination. Newest is CBP proposed rule 2026-20650 "Low-Value
+    Shipments", 2026-10-08.
+  - agency-filtered USTR corpus: totalResults 2089, newest 2026-10-08.
+The second sweep is exactly why the unfiltered query is mandatory: the
+agency filter would have shown none of those five.
+
+A NOTE ON THE STANDING BRIEF. The recurring brief still describes the final
+determination as "expected imminently". It is not outstanding. Three
+independent research passes and the file's own rows agree it was issued
+2026-07-23 ("Today, Ambassador Jamieson Greer is taking final action, at
+President Trump's direction, under Section 301 ... by imposing tariffs on 60
+economies", ustr.gov press release, fetched at 41,659 bytes with controls),
+with the 10%/12.5% tiers effective 2026-07-24 and an MFN-offset mechanism
+added. The file is correct; the brief is stale. Flagging rather than acting.
+
+ONE OPEN ITEM CLOSED -- MALAYSIA. The Dewan Rakyat bill list has been read
+for the first time, and I replicated the read myself:
+http://www.parlimen.gov.my/bills-dewan-rakyat.html?uweb=dr -- HTTP 200,
+266,400 bytes, 27,437 chars. Control "RUU" 70; currency control "Perbekalan
+2027" (D.R.25/2026, dated 06/10/2026) present; the full unbroken run
+D.R.1/2026 to D.R.25/2026 present. Against that: Kastam, Customs, Buruh,
+Paksa, paksaan, Import, Larangan and forced ALL zero. So no forced-labour or
+Customs Act bill is tabled as of 6 October, and Malaysia's limb (a) is now a
+VERIFIED NEGATIVE rather than an untested gap -- Partial rests on limb (b),
+the treaty commitment, alone. Route: the HTTPS forms of both www and apex
+fail with curl exit 60, "unable to get local issuer certificate" (incomplete
+chain), while plain http works. TLS verification was NOT disabled.
+
+ONE PREVIOUSLY-MISSED DEVELOPMENT ADDED -- the 2 October USTR press release.
+At the G20 Trade Ministerial in Milwaukee, the Trade Ministers of the United
+States, MEXICO and ARGENTINA agreed a joint statement on eliminating forced
+labour in global supply chains. Greer "applaud[ed] my colleagues from Mexico
+and Argentina for siding with moral and economic reality". Fetched at 31,353
+bytes, control "forced labor" 8. A non-binding ministerial statement is not
+an enacted instrument, so this does NOT move Argentina off Partial(b); it is
+recorded as a response on both rows. Neither the Argentina nor the Mexico
+research pass found it; it came from my own read of the USTR October index
+(200, 33,177 bytes, controls Greer 12 / USTR 6), whose nine October items
+contain no Section 301 action and no new bilateral agreement.
+
+A CORRECTION TO THIS RUN'S OWN RESEARCH -- PERU. A quote was attributed to
+premier Galarreta, that for matters outside the delegation the government
+"legislara mediante decretos de urgencia o decretos supremos". IT IS NOT IN
+ITS OWN CITED SOURCE. I fetched that El Peruano article myself (HTTP 200,
+88,717 bytes, control "Galarreta" 4, dated 07/10/2026) and the strings
+"decreto", "urgencia", "supremo", "forzos" and "laboral" all return ZERO.
+What he actually said is that the approved delegation leaves out fundamental
+measures and that he expects the Senate to improve it. The quote is not
+recorded.
+The same read produced a real gain, and it settles an open question from
+primary text AGAINST the view that the Senate cannot widen scope: "De
+acuerdo al articulo 102-A de la Constitucion, el Senado tiene la facultad de
+aprobar, modificar o rechazar las proposiciones legislativas remitidas por
+la Camara de Diputados." It also confirms the 66-34-24 vote after a prior
+rejection, and the 90-day delegation limited to seguridad ciudadana and el
+Fenomeno El Nino, from El Peruano rather than from secondary coverage. No
+Decreto Supremo on forced labour exists, so Peru stays Partial; the bill's
+"EN COMISION" register status was not re-checked, so limb (a) is
+uncorroborated today.
+
+OTHER GAINS:
+- ALGERIA: Journal Officiel (Arabic) issue 070 now exists -- 561,592 bytes,
+  44 pages, 185,638 chars, controls pass (qanun 29, marsum 4), all five
+  forced-labour terms zero. 071/072/076/077 still 404. The verified negative
+  now extends through issue 070.
+- COLOMBIA: Decreto 1444 corroborated from a second direction -- the Peru
+  batch surfaced its text unprompted. "Diario Oficial" is absent from the
+  MinCIT register for the fifth straight day, which strengthens the
+  hypothesis that the decree carries no edition number rather than that we
+  have failed to find it.
+- EUROPEAN UNION: a wrong-document trap caught and REJECTED. Council
+  PE-CONS 43/24 serves 200 at 791,844 bytes over 141 pages but is the ESG
+  ratings regulation, "forced labour" count zero. It would have produced a
+  false "Article 37" hit. Article 37(3) is still unread; EUR-Lex is AWS WAF
+  (empty HTTP 202 on three URL forms).
+- JORDAN: the Article 6.6(2) notification still has NOT been reported.
+  Agreement text read at 293,950 bytes: "This Agreement shall enter into
+  force 60 days after the date on which the Parties have notified each other
+  in writing". A secondary "mid-September" entry-into-force estimate
+  conflicts with the primary text and is not adopted.
+- ISRAEL: Yes holds on a second re-test. Same revision, SCHEDULE STILL
+  EMPTY, no amendment page. The "~24 October" date is now correctly recorded
+  as an INFERENCE from the ~26 July cabinet decision's 90-day instruction,
+  not a reported date. Reshumot still unread (403 at 334 bytes).
+- INDIA: the PIB route was tried for the first time and did not yield the
+  Gazette date. Note the page reached was the CURRENT-release page, not the
+  archive, so the archive proper remains unqueried.
+- NIGERIA: the mirror route was attempted for the first time and failed (a
+  guessed trade.gov URL returned the site's own 404 at 250,001 bytes).
+
+THREE SWEEPS DECLARED VOID rather than reported as negatives, per the
+control-word rule: HONG KONG (info.gov.hk, 200 at 11,173 bytes, control
+"Hong Kong" zero), JORDAN's qistas.com search (control "Jordan" zero), and
+KAZAKHSTAN's online.zakon.kz search (a guessed URL returning 404 at 149,844
+bytes, control zero). None of the three supports a negative.
+
+HONESTY ON PASS DEPTH: this was a lighter run than the protocol asks for.
+Several batches ran roughly one query per economy, and the following
+local-language sweeps owed under the standing rule were NOT discharged:
+Bengali, Khmer (the query returned only English), Hindi, Indonesian, Kazakh,
+Malay, Urdu, Sinhala-script and Filipino-native. Registers not re-fetched
+include api.moj.gov.qa (so Qatar's negative still stops at 8 September),
+uqn.gov.sa, publication.pravo.gov.ru, the Storting pending list,
+customs.gov.kw, mjla.gov.om and La Gaceta. The Egypt and Bahamas
+non-government mirror routes remain untried rather than exhausted. These are
+recorded on the rows themselves as thin-coverage, not as verified negatives.
+
+TLS verification was left on throughout; no -k, and HTTPS_PROXY untouched,
+including on the Malaysian host whose chain is incomplete and on Morocco's
+sgg.gov.ma.
+
+Batch 6 (Switzerland through Vietnam) had not returned when this entry was
+written and will follow as an addendum.
+
+Push: pending (this commit)
