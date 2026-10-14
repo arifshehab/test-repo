@@ -4986,3 +4986,220 @@ Qatar's uncovered October gap; and the untried mirror routes for Egypt, the
 Bahamas, Uruguay and Venezuela.
 
 Push: pending (this commit)
+
+
+--- 2026-10-13 addendum 1 confirmed push: b7bc112 ---
+
+
+=== 2026-10-14 03:10 UTC ===
+
+NO MATERIAL CHANGES to any classification. Tally holds at
+17 Yes / 14 Partial / 29 No for the sixth consecutive day. But this was the
+most productive run in a week: FOUR long-standing open items closed, TWO
+entries on this file's own proven-mirror list overturned, and TWO
+corrections made to claims produced by this run's own research.
+
+NO NEW OR REVISED USTR DETERMINATION. Verified at primary level by three
+Federal Register API sweeps, all byte-identical in result to 10-13:
+  - unfiltered "forced labor" + "Section 301": totalResults 18, newest still
+    2026-07-28 (Notice 2026-15181, USTR; Presidential Determination
+    2026-15274).
+  - unfiltered "forced labor" since 2026-08-01: totalResults 5, ALL of them
+    CBP/DHS/SEC, none a Section 301 determination.
+  - USTR agency corpus: totalResults 2089, newest 2026-10-08.
+One batch independently ran the same check with a proper control (the USTR
+filter with the term gives count 1, the final action itself; without the
+term it gives 13 of 13 notices, newest 2026-10-08, none on forced labour)
+and reached the same result. Both full-text queries 403'd on first attempt
+and cleared on retry -- the transience rule, again.
+
+ONE NEW USTR ITEM, FOUND BY MY OWN READ AND CORRECTLY SCOPED. The October
+press-release index grew from nine items to ten overnight (33,177 ->
+34,021 bytes). The new item is "United States Seeks Mexico's Review of
+Alleged Denial of Workers' Rights at Carolina Performance Fabrics", read at
+34,104 bytes with control "Carolina" 10. It invokes the USMCA RAPID RESPONSE
+LABOR MECHANISM over freedom of association and collective bargaining at a
+Guanajuato specialty-textiles plant, on a 10 September COCENA-union
+petition, with liquidation suspended on that facility's entries. It is a
+labour-rights case, NOT a forced-labour import ban and NOT a Section 301
+action, so it changes no classification. Recorded on Mexico's row.
+
+=== FOUR OPEN ITEMS CLOSED ===
+
+1. EUROPEAN UNION -- and it CORRECTS THIS FILE'S OWN FRAMING. The regulation
+has been read from primary text for the first time, and I replicated the
+read myself: the Publications Office Cellar route works where every EUR-Lex,
+data.europa.eu and europarl form returns an empty HTTP 202 (AWS WAF). GET
+publications.europa.eu/resource/celex/32024R3015 with
+Accept: application/xhtml+xml -> 200, 291,328 bytes, 136,562 chars. Identity
+PROVEN rather than assumed: "forced labour" 220, "2024/3015" 7,
+"2019/1020" 8, "ESG" ZERO -- so not the PE-CONS 43/24 ESG-ratings document
+that previously produced a false Article 37 hit.
+The finding: the 14 December 2027 application date is in ARTICLE 39, not
+Article 37(3). "It shall apply from 14 December 2027. However, Articles
+5(3), 7, 8, 9(2), 11, 33, 35 and 37(3) shall apply from 13 December 2024."
+ARTICLE 37 IS HEADED "Penalties", and 37(3) is only a notification deadline:
+"Member States shall, by 14 December 2026, notify the Commission of those
+rules and of those measures." So the item this file chased for weeks was
+pointed at the wrong article; the date was always in Article 39. The
+prohibition itself is Article 3. A readable government-direct URL has been
+added to column 6 alongside the AWS-WAF-blocked ELI link.
+
+2. INDIA -- Gazette details obtained, and I verified them at document level:
+Gazette of India EXTRAORDINARY Part II Sec. 3(ii), No. 3716, "NEW DELHI,
+TUESDAY, JULY 14, 2026/ASHADHA 23, 1948", S.O. 3879(E), file ID
+CG-DL-E-16072026-274548, notification dated 13 July, digitally signed
+2026.07.16. Route: an indianchemicalcouncil.com mirror, 736,619 bytes, 3
+pages, text layer intact. Graded a MIRROR; the DGFT link stays the stronger
+government-direct source. egazette.gov.in still fails at our own egress and
+archive.pib.gov.in fails with exit 35, so the PIB archive proper is still
+unreached.
+AND A CORRECTION TO THE RESEARCH PASS: it reported English "with immediate
+effect", a zero count for "30 days", and concluded the secondary "30 days
+after publication" reporting was unreliable. That is wrong. THE CONFLICT IS
+INSIDE THE PRIMARY DOCUMENT: the HINDI operative clause says Para 2.20B
+"will be effective after the expiry of 30 days from the date of publication
+of this notification in the official Gazette", while the English text and
+the "Effect of the Notification" paragraph both say "with immediate effect".
+The two language versions of one notification disagree, and the secondary
+reporting tracks the Hindi. On a 14 July publication the 30-day limb bites
+about 13 August. Both readings are now past, so Yes is unaffected -- but
+this is a real textual conflict, not a secondary-source error.
+
+3. MALAYSIA -- now closed across BOTH Houses. Yesterday's Dewan Rakyat read
+is joined by the Dewan Negara list, which I replicated myself: 200, 237,597
+bytes, newest entry D.R.22/2026 "RUU Kumpulan Wang Amanah Negara 2026"
+present as a currency control, and Kastam / Customs / Buruh / Paksa /
+paksaan / Larangan / forced ALL ZERO. "Perbekalan 2027" is correctly absent
+there, since it sits at first reading in the Dewan Rakyat -- a sensible
+cross-check that the two listings really are distinct. Limb (a) is a
+verified negative in both chambers; Partial rests on the treaty commitment
+alone. The owed Malay search also ran: only July items, including Utusan's
+"Malaysia diberi dua tahun gubal undang-undang buruh paksa", whose wording
+confirms the two-year clock starts only once the agreement takes effect, so
+no bill is yet due.
+
+4. ALGERIA -- the FRENCH edition has been swept for the first time, having
+been an acknowledged gap since this row began. 71 files (F2026001-072, 071
+genuinely absent), 8,121,337 characters, strong controls ("journal officiel"
+2,903, "decret executif" 4,826, "importation" 320), and "travail force",
+"travail obligatoire", "travaux forces" and "traite des etres" ALL ZERO. The
+one "esclavage" hit is "le viol et/ou l'esclavage sexuel" in the
+colonisation-crimes law. The pass's own first attempt was VOID (a seq -w bug
+produced two-digit URLs, so all 71 requests 404'd) and was correctly redone.
+Arabic issue 072 also now exists and sweeps clean. Algeria is a verified
+negative across Arabic 001-070 plus 072 and French 001-072 except 071.
+
+=== TWO PROVEN-MIRROR ENTRIES OVERTURNED (both verified by me) ===
+
+- QISTAS.COM IS NOT A STATUTE DATABASE AND NEVER WAS. It serves 200 at
+  221,395 bytes titled "Qistas, Legal Intelligence for Arabic legal
+  systems" -- an AI legal-product marketing site whose sitemap lists only
+  about, connector, faq, contact, privacy and terms. /ar/legislation and
+  /ar/legislations/jordan 404; /ar/search?q= returns a page whose only
+  control hit echoes the query. It cannot support a negative and is struck
+  from the proven-mirror list. Jordan's Article 6.6(2) notification is
+  therefore still unestablished by ANY route.
+- ONLINE.ZAKON.KZ HAS MIGRATED to PRG (Paragraph): 282,972 bytes, title
+  "the largest system of legal and reference information in the RK | PRG",
+  52 references to prg.kz, and the old URL shapes 404. The successor search
+  renders client-side and its POST API 404s through that host, so the
+  Kazakhstan sweep is VOID and the file's entry is stale as written.
+
+These two matter beyond their rows: both were being passed to every batch as
+proven routes, so the list itself was misleading research.
+
+=== ROUTE PROGRESS WITHOUT CLOSURE ===
+
+- MOROCCO: four distinct behaviours on one estate, all attributed with
+  curl -v. www over https completes CONNECT and the ClientHello then resets
+  (exit 35), so the proxy passed it; the bare apex over https gets
+  CONNECT 502 from OUR proxy (exit 56); the bare apex over plain http does
+  not resolve (DNS) while www does; and PLAIN HTTP TO WWW REACHED THE ORIGIN
+  FOR THE FIRST TIME -- 200, 701 bytes, an IIS default stub last modified
+  2016-03-30. Same http-works-where-https-fails pattern as Malaysia. But
+  thirteen guessed deep paths all returned ASP.NET 404s, so the BO URL shape
+  is still unknown and the Bulletin Officiel is unread.
+- THE BAHAMAS: the "untried mirror" was a phantom. bahamaslaws.com 301s to
+  laws.bahamas.gov.bs, i.e. it is an ALIAS of the same government origin,
+  which then serves its own 403 at 75,193 bytes. That option should stop
+  being carried forward. A different route did work --
+  bahamascustoms.gov.bs/resources/laws-on-line/, 200 at 103,017 bytes,
+  controls "Customs" 88 and "2026" 35 -- and "forced" and "208A" both return
+  ZERO, a verified negative at that listing. The s.208A Order is still
+  neither found nor excluded.
+- HONG KONG: a route that READS, replacing yesterday's void sweep. The daily
+  indexes info.gov.hk/gia/general/202610/NN.htm work with -L and a browser
+  UA: all fourteen days of 1-14 October, 200 at 10-19 KB each, control
+  present 3-14 times per page, no relevant item. Headline level only.
+- EGYPT: the mirror route was tried for the first time and produced a graded
+  negative. Critically, the obvious "?s=" search on three Egyptian legal
+  sites returned IDENTICAL byte counts for different queries -- a PHANTOM
+  search -- and was discarded. The real endpoint, manshurat.org/search?keys=,
+  control-validates (Arabic "import law" -> 22 hits vs zero for junk), and
+  against it the forced-labour terms return only a ministerial decision on
+  COMPULSORY ACQUISITION of land for a power line, a same-root false friend.
+- NIGERIA: a real mirror exists (trade.gov prohibited-imports guide, 279,525
+  bytes, controls passing, forced/prison/convict zero) BUT is stamped "Last
+  published date: 2023-06-06", so under the stale-mirror rule it says
+  nothing about the April 2026 revision and is not banked.
+
+=== OTHER NOTABLE ===
+
+- DOMINICAN REPUBLIC: the strongest evidence this row has carried. Both the
+  13 and 14 October Chamber sitting agendas were read at DOCUMENT level
+  (327,535 bytes/13pp and 289,088 bytes/12pp) and "forzos", "forzad",
+  "importaci", "mercanc" and the sponsor name ALL return zero against
+  controls "sesion" 123 and 190. The bill is not on either agenda.
+- ISRAEL: Yes holds on a third re-test; Schedule STILL EMPTY, one revision
+  only, no amendment mirrored. The enforcement deadline now has a verified
+  anchor: a 26 July JNS report, fetched and grep-confirmed, quotes the
+  cabinet decision giving a National Economic Council team 90 days to submit
+  an enforcement mechanism "for Cabinet approval". 90 days from Sunday
+  26 July is 24 October -- so the date stays OUR ARITHMETIC; no outlet states
+  it. Honest limit recorded: Wikisource shows "no amendment MIRRORED", not
+  "no amendment published".
+- COLOMBIA: the register genuinely refreshed ("Ultima actualizacion: 13 de
+  octubre") and "Diario Oficial" is absent for a sixth straight day, while
+  the Gestor Normativo mirror still shows BLANK "Fecha de Entrada en
+  Vigencia" and "Medio de Publicacion". The no-edition-number hypothesis is
+  now the strongly favoured reading.
+- ARGENTINA: unlike yesterday, a genuinely NEW Boletin edition (13-10-2026,
+  153,699 bytes vs 198,275) -- real new coverage, title-level.
+- AUSTRALIA: the consultation page read directly -- "Closed 25 Sep 2026" with
+  no outcome statement, submissions list or exposure draft.
+- EL SALVADOR: the outstanding MTPS lead is DEAD, not unexamined -- a 404 at
+  8,548 bytes across six URL forms while the site root loads, so the
+  document ID is gone or mis-numbered. Partial(c) holds on a fourth test.
+- NORWAY: Storting list re-fetched with PASSING controls, so today's
+  negative is genuinely verified rather than carried forward. Norway is NOT
+  among the fourteen signatories of the 7 October excess-capacity statement
+  (checked directly).
+- TWO SWEEPS VOIDED on failed controls rather than banked: GUATEMALA's
+  mineco.gob.gt (200 at 98,144 bytes, control 2, "trabajo" and "forzoso"
+  both ZERO -- a JavaScript shell) and KAZAKHSTAN's successor mirror.
+
+LOCAL-LANGUAGE OBLIGATIONS: four long-owed sweeps were discharged this run
+-- BENGALI (via Prothom Alo's own search API, control-validated: the exact
+phrase returned total=2 with 145 in-page term hits, results through
+14 October), MALAY, KAZAKH and HINDI -- plus first-ever HAUSA and YORUBA
+attempts, which returned only English or unrelated items and so support no
+negative. KHMER is partly discharged: the WebSearch query again returned
+only English and is not counted, but direct Khmer-site fetches were made,
+including mlvt.gov.kh's Prakas listing with a passing control title, whose
+newest entries are 2 July, 4 May and 17 March -- no amending Prakas.
+Still owed: Urdu, Sinhala-script, Filipino-native, Swiss French/Italian.
+
+STILL LIGHTER THAN PROTOCOL: Bahrain's gazette POST search and Bangladesh's
+Import Policy Order were not re-run; Guyana had no searches at all this
+pass; several trade-deal checks were combined queries rather than per-economy
+USTR and White House sweeps. Recorded on the rows as thin-coverage.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched,
+including on Malaysia's and Morocco's incomplete-chain hosts and on Oman's
+mjla.gov.om.
+
+Batches 5 and 6 had not returned when this entry was written and follow as
+an addendum.
+
+Push: pending (this commit)
