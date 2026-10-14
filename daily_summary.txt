@@ -5336,3 +5336,159 @@ Batch 5 had not returned when this entry was written and follows as
 addendum 2.
 
 Push: pending (this commit)
+
+
+--- 2026-10-14 addendum 1 confirmed push: c8aa2e0 ---
+
+
+=== 2026-10-14 04:20 UTC (addendum 2 -- batch 5) ===
+
+*** ONE CLASSIFICATION CHANGE: THE PHILIPPINES MOVES PARTIAL -> YES. ***
+Tally is now 18 Yes / 13 Partial / 29 No, the first change since Israel on
+11 October.
+
+The change rests on two independent grounds, and the second is an internal
+inconsistency in this file rather than new evidence.
+
+(1) NEW GOVERNMENT-DIRECT EVIDENCE OF WHAT THE INSTRUMENT ACTUALLY IS. The
+row previously rested on secondary reporting (Manila Times, BusinessWorld)
+describing the 24 July 2026 Joint Administrative Order as an inter-agency
+investigation mechanism, and concluded it "functions as an
+investigation/enforcement mechanism referencing existing law rather than a
+standalone blanket import prohibition". DTI's OWN official index of Joint
+Administrative Orders gives the instrument's real title, and I fetched and
+grepped that page myself (dti.gov.ph/dti-knowledge-hub/dti-laws-policies/
+dti-joint-adm-orders, 200 at 184,071 bytes, control "Joint Administrative" 8):
+  "Joint Administrative Order No. 26-01 -- Rules on the Investigation and
+   PROHIBITION of the Importation of Goods Produced through Forced Labor"
+A useful internal control: the same index separately labels another entry
+"DRAFT Joint Administrative Order", so the issuing department does mark
+drafts as drafts, and 26-01 carries no such label. DTI's own 24 July release
+supplies the mechanism: the departments signed a JAO "establishing the rules
+for the investigation and prohibition of the importation of goods produced
+wholly or in part through forced labor", and "Under the JAO, the Bureau of
+Customs will act on the findings and recommendations of the Inter-Agency
+Committee and implement measures to prohibit the importation of goods
+determined to have been produced wholly or in part through forced labor."
+
+(2) THE ROW WAS APPLYING A TEST THIS FILE ABANDONED. "Standalone blanket
+import prohibition" is not the standing policy. Designation-dependent
+framework bans -- an enacted prohibition biting only on goods the executive
+or a committee later determines -- are settled as Yes five times over:
+Trinidad s.45(1)(w), India FTP Para 2.20B, Pakistan SRO 704(I)/2026 para
+7(3), The Bahamas s.208A, and Israel's s.1/s.2 order. JAO 26-01 is that same
+architecture. Holding the Philippines at Partial while Pakistan sits at Yes
+on materially the same shape was an inconsistency, and it is corrected here.
+The instrument is also distinguishable from the El Salvador Partial(c)
+holding, which turns on a sworn-declaration regime whose consequences flow
+from DOCUMENTARY failure and which contains no prohibition at all; here
+"prohibition" is the operative word in the instrument's own title.
+
+Column 6 is upgraded from a news article to two DTI government-direct pages.
+
+HONEST LIMITATION, AND WHAT WOULD REVERSE THIS: the operative text has NOT
+been read. Every /sdm_downloads/ page on dti.gov.ph returns 403 at 520
+bytes, and I verified with a CONTROL that this is the whole route rather
+than selective -- JAO 24-02 of 2024 returns the identical 403 at 520 bytes.
+That CORRECTS the research pass's inference that the block was path-specific
+to the forced-labour document. If the text turns out merely to channel
+pre-existing RA 10863 seizure powers without creating a prohibition, the row
+should revert to Partial. I also tried the Bureau of Customs route myself:
+customs.gov.ph's search discriminates properly (a gibberish query returns a
+page 14 KB smaller) but its eleven hits are generic trade-facilitation news,
+with no forced-labour Customs Memorandum Order and no JAO.
+officialgazette.gov.ph and dole.gov.ph are Cloudflare-blocked at ~5.6 KB.
+
+NO NEW USTR DETERMINATION -- batch 5 confirms independently with its own
+control: the Federal Register API returns exactly one forced-labour Section
+301 document since 20 July (2026-15181, the 28 July publication of the
+23 July action), while the control shows USTR documents running through
+8 October. whitehouse.gov briefings and fact-sheets (262 KB each) have zero
+mentions of any batch-5 economy.
+
+TWO MORE OPEN ITEMS CLOSED
+
+PERU -- limb (a) is CORROBORATED AT SOURCE for the first time, closing
+yesterday's acknowledged gap. A POST to the Congress register API returned
+the row for PL 14852/2025-PE: state "EN COMISION", presented 2026-07-02,
+titled "PROYECTO DE LEY QUE ESTABLECE LA PROHIBICION DE IMPORTACION DE
+MERCANCIAS PRODUCIDAS POR TRABAJO FORZOSO", proponent PODER EJECUTIVO, with
+a live server timestamp. The control is strong: the full period register came
+back at 8,793,866 bytes and 14,864 rows and contains EXACTLY ONE
+forced-labour-titled bill. An earlier note that the register filters do not
+filter was wrong -- it used the wrong field name. No Decreto Supremo exists:
+El Peruano full-text search ran with a passing index control ("decreto
+supremo" for 13-14 October returns 39 hits) and the forced-labour terms
+return only three unrelated hits. Thin on phrasing only.
+AND THE GALARRETA QUOTE IS TRACED. Yesterday I recorded that it was absent
+from the URL it was cited to -- that was correct -- but the words do exist, in
+El Peruano noticia 306511 of 9 October: after the delegation, norms in the
+approved subjects issue by decretos legislativos "mientras que en temas en
+los que no se han aprobado se legislara mediante decretos de urgencia o
+decretos supremos". It is El Peruano's PARAPHRASE, not a verbatim quote, and
+it is generic ("forzoso" counts zero on that page), so it is a pathway
+signal only. Recorded as such.
+
+QATAR -- closed, and the October gap turns out to be THE SOURCE'S OWN LAG,
+not our blind spot. The api.moj.gov.qa index was enumerated in full: 39
+pages of 250 giving 9,668 unique parents, cross-checked against a
+published-lookup call returning 9,669, the single difference being a
+corrigendum. Controls strong and the parameter properly identified
+(searchTerm; fourteen other names left the total unchanged, so they do not
+filter; "customs" 464, nonsense 0). The NEWEST publishDate in the entire
+index is 2026-09-08, with ZERO October items in either endpoint -- so there
+is nothing after 8 September to test. A local scan of all 9,668 titles
+returns zero on both forced-labour terms. Technique note worth keeping:
+multi-word Arabic queries behave as OR matching (the phrase returns 4,254
+and is meaningless), so single words must be used.
+
+SOUTH AFRICA -- closed at gazette full-text level, and the answer is that NO
+NOTICE HAS BEEN PUBLISHED through 12 October. It stays No and remains the
+likeliest next move to Partial. Via the gazettes.africa mirror with strong,
+specific controls -- "Department of Trade, Industry and Competition" 55 hits
+since 25 July, "Import and Export Control" 72, nonsense 0, and the 12 October
+issues indexed, so the corpus is current -- the exact phrase "forced labour"
+returns ONE hit across all of Africa and it is NAMIBIAN, while the Afrikaans
+and Zulu terms return 0. "child labour" returns 6, none South African: a
+sensible second probe, since a notice covering forced AND child labour would
+contain it. Two noise hits were run down and rejected (one matched only via
+"Land Reform (Labour" plus "Compulsory" in separate places; the other only
+on "force"). Caveat recorded: OCR text on a mirror, so a notice worded far
+from these terms could be missed.
+
+OTHER NOTES
+- PAKISTAN: the C29-definition SRO question is still unestablished, and the
+  FBR sweep is VOID FOR IT by its own control -- 1,318 "SRO" hits but
+  "704(I)/2026" ZERO, because FBR does not carry Commerce Ministry SROs at
+  all. Wrong corpus, not evidence of absence. The Urdu search is only partly
+  creditable: one query returned an Urdu summary over exclusively English
+  pages; another returned six genuine Urdu pages, all the July 2025
+  confusable. Direct Urdu-site searches are VOID (the query term counted zero
+  even as an echo, so those hosts served homepages). No 2026 US-Pakistan
+  agreement, so Pakistan has still not joined the watchlist.
+- RUSSIA: today's sweep is valid where an earlier variant was not. The https
+  form resets in TLS, so plain http was used -- verification was never at
+  issue and was not disabled. Controls pass convincingly, including "on the
+  prohibition of importation" returning 2, which proves ban-type titles DO
+  surface. A follow-up report from the same pass explicitly VOIDED its own
+  earlier https sweep because both controls failed there. Correct handling.
+- SAUDI ARABIA: the search works ONLY on the www host (the apex /search
+  returns a 155-byte 301), refining the earlier correction. Both
+  forced-labour phrasings return zero; a related variant returns the January
+  2025 national forced-labour POLICY, which is a policy, not an import ban.
+- SINGAPORE: the CSS "forced-colors" artefact was stripped before counting --
+  the trap that once inflated a count to 21 when only 3 were real.
+- SRI LANKA: guidelines still absent, and the media "gazette" control
+  returned zero under the date filter, so that control is WEAK and is
+  labelled as such. The Sinhala obligation stays open.
+
+STILL OWED after this run: Sinhala-script and a genuine Filipino sweep;
+Pakistan's Urdu sweep of the SRO question; the Philippines JAO operative
+text; Israel's Reshumot and its still-empty Schedule; the PIB archive; the
+Bahamas s.208A Order; Thailand's Section 5 notice; Morocco's Bulletin
+Officiel URL shape; Venezuela at gazette level; and a genuinely independent
+Bahamian subsidiary-legislation mirror.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+Push: pending (this commit)
