@@ -5203,3 +5203,136 @@ Batches 5 and 6 had not returned when this entry was written and follow as
 an addendum.
 
 Push: pending (this commit)
+
+
+--- 2026-10-14 main entry confirmed push: c5d4bfb ---
+
+
+=== 2026-10-14 03:40 UTC (addendum 1 -- batch 6) ===
+
+Batch 6 (Switzerland through Vietnam) returned. No classification changes;
+tally still 17 Yes / 14 Partial / 29 No. It independently confirms no new or
+revised USTR determination after 2026-07-23, and adds a whitehouse.gov check
+that had never been done: /briefing-room/ 301s to /news/, and /fact-sheets/
+and /presidential-actions/ load -- page one shows the newest fact sheet at
+2026-10-08 with ZERO mentions of any batch-6 economy, "forced labor" or
+"Section 301". Page-one depth only.
+
+THE MOST SUBSTANTIVE UK DEVELOPMENT SINCE THAT ROW WAS CREATED, and I
+verified it myself from the amendment text. The Immigration and Asylum Bill
+set grew 173 -> 177 (totalResults 177 AND len(items) 177, so complete;
+AddClauseOrSchedule up from 37 to 41), and for the first time the whole JSON
+returns a non-zero count for "forced" -- exactly 1. It is NC40, dNum hoc118,
+sponsored by Liam Byrne, decision "NoDecision", headed "Designation of goods
+presumed to involve forced labour", inserting after s.54 of the Modern
+Slavery Act 2015. Its own explanatory note: it "would permit the Secretary of
+State to designate goods as being presumed to involve forced labour and
+require organisations to publish whether they sell, import or export goods so
+designated." The text lets the SoS designate goods by description, country,
+region, facility, undertaking, sector, industry or person, then requires a
+trading organisation to "publish on its website, as part of any slavery and
+human trafficking statement prepared under section 54 or otherwise, details
+of whether the organisation... makes available on the United Kingdom market,
+imports into the United Kingdom, or exports from the United Kingdom, any
+goods designated". It carries a right of appeal, a guidance duty, the ILO
+C29 definition and a broad value-chain definition.
+DECISIVE FOR CLASSIFICATION: "prohibit" and "must not" both count ZERO. This
+is a DESIGNATION-PLUS-DISCLOSURE regime, not an import prohibition, so even
+if adopted it would keep the UK at Partial(c) rather than moving it to Yes --
+and as an undecided backbench amendment to a government bill it is not itself
+a tabled measure under the standing policy. Worth watching if moved to a
+vote.
+
+TWO MORE OPEN ITEMS CLOSED
+
+URUGUAY moves from "unknown at decree level" to a VERIFIED NEGATIVE. IMPO's
+search is behind a login, so the corpus was ENUMERATED instead: decrees 1-238
+present (216, 236, 237 absent; 239+ are distinctive 4,450-byte stubs through
+700) and laws 20480-20530. The combined decree text runs ~73,600 lines with
+STRONG controls -- "arancel" 71, "importaci" 59, "Estados Unidos" 34, ministry
+name 91, "aduana" 44 -- and "trabajo forz", "forzoso", "esclav" all ZERO. The
+five "forzad" hits were chased down: "desaparicion forzada" in decrees 67 and
+154, false positives of a shared root. Publication lag is ~7 days. Gaps stated
+honestly: decrees after ~1 October, the three absent numbers, laws below
+20480, and ministerial/customs resolutions.
+
+TÜRKIYE closed at full-text level, AND the two-run weak control is explained
+as OUR OWN BUG. Issue BODIES were read rather than the index: full-issue PDFs
+for 8-14 October (92/96/136 pages for 12-14 Oct, plus 84/144/136/76 for
+8-11), controls passing throughout, all five forced-labour terms ZERO every
+day. The cause of the "Teblig" zero: the headings are uppercase "TEBLIG" and
+Turkish dotted-I lowercasing breaks the match. So those zeros were a CASING
+ARTEFACT in our query, not the "light edition" previously guessed. The
+"ithalat" hits on 9-10 October are an ordinary surveillance-notice amendment.
+
+TWO MORE CORRECTIONS TO THIS FILE'S OWN PRIOR EVIDENCE
+
+TAIWAN: the Foreign Trade Act is 貿易法, NOT 對外貿易法. Every earlier run
+reporting that phrase at ZERO was querying a statute name that does not
+exist, so those zeros were uninformative rather than reassuring -- the same
+class of error as the earlier wrong-parameter phantom, and it went undetected
+for five runs. Re-run correctly, 貿易法 returns 22 bills; the two substantive
+ones were read (chip export controls; origin-washing penalties) and neither
+mentions forced labour. The conclusion survives, but now rests on a query
+that actually tested the right statute.
+
+VENEZUELA: the vlexvenezuela.com search is not merely unvalidated, it is
+BROKEN. It returns 200 at ~19.6 KB for every query with an empty results
+list, and decisively, a real statute name and the gibberish "xqzvbnmkw" are
+INDISTINGUISHABLE in output. The sweep is VOID and the earlier "0 hits" on
+that host carries no weight. That is the THIRD mirror entry overturned today,
+after qistas.com and online.zakon.kz. An alternative route on the same mirror
+was used instead -- but it lists only five issues dated 14-18 September, so it
+is 26 days stale; four were read with passing controls and return zero, while
+the 4 MB extraordinary issue returned zero for every control and is NOT
+counted. Venezuela remains UNKNOWN at gazette level.
+
+OTHER GAINS
+
+- SWITZERLAND: the author-filter gap flagged for several runs is CLOSED. The
+  register was queried in all three official languages with passing controls,
+  and the two named sponsors were filtered directly -- Wuerth has three items
+  since 15 June and Mueller seven, and NONE is on forced labour. So the
+  Wuerth/Mueller draft has not been tabled, previously an untested
+  assumption. French and Italian searches also ran, discharging the owed
+  second and third language.
+- THAILAND: the Section 5 notice stays UNVERIFIED, but a dead host was
+  identified -- krisdika.go.th is merely the LEGACY NAME of the Office of the
+  Council of State, whose live site is ocs.go.th, so earlier curl 000 results
+  were chasing a host that no longer serves. The apex form https://ocs.go.th/
+  works where www fails on an incomplete chain (the other-host-form fix
+  again), and its homepage was grepped with passing controls and all seven
+  Thai terms zero. No usable Thai gazette mirror exists: the candidates are
+  an expat advice site or unreachable.
+- TRINIDAD: the published corpus moved and both new documents are clean --
+  Gazette No. 172 of 13 October (10,463,077 bytes, 9pp, control 18) and Act
+  No. 22 of 2026, assented 9 October (120,722 bytes, 8pp), with forced
+  labour, 45(1) and customs act all zero. Still no s.45(1)(w) designation
+  order.
+- UAE: the Arabic terms were re-run against the ministry site, discharging
+  yesterday's shortfall -- 328,507 chars, control 60, all five variants zero,
+  though with weak secondary controls so homepage level only.
+  uaelegislation.gov.ae is still Cloudflare-blocked and unread.
+- VIETNAM: the attribution claim declined for four runs is now REFUTED from
+  the ministry's own page rather than merely declined. moit.gov.vn's 25 July
+  article says MOIT "will continue to coordinate with relevant ministries...
+  to exchange with the United States side" -- MOIT is the US LIAISON, not the
+  administering authority -- with the other ministry's name and "HS code" both
+  zero. A previously Cloudflare-blocked VCCI lead also resolved: the decree
+  "sets the prohibition principle" while which agency determines and how
+  customs blocks goods "still needs to be specified", consistent with no
+  implementing circular.
+
+Lighter than instructed in batch 6: the Thai mirror hunt was one pass; the
+UAE legislation portal is unread; the Venezuelan mirror offers only five
+issues; the other 40 new UK clauses were listed by title and sponsor but not
+read in full; ly.gov.tw was not read at source; Uruguayan laws were scanned
+only from 20480 up and resolutions not at all.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched,
+including on the several Thai hosts with self-signed or incomplete chains.
+
+Batch 5 had not returned when this entry was written and follows as
+addendum 2.
+
+Push: pending (this commit)
