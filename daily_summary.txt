@@ -5824,3 +5824,133 @@ Batches 5 and 6 had not returned when this entry was written and follow as
 addendum 2.
 
 Push: pending (this commit)
+
+
+--- 2026-10-15 addendum 1 confirmed push: a7adeac ---
+
+
+=== 2026-10-15 04:50 UTC (addendum 2 -- batch 5) ===
+
+Batch 5 returned and delivered the run's decisive result. No classification
+changes; tally holds at 18 Yes / 13 Partial / 29 No.
+
+*** THE OPERATIVE TEXT OF PHILIPPINES JAO 26-01 HAS BEEN READ, AND
+YESTERDAY'S RECLASSIFICATION TO YES HOLDS -- BUT AS THE WEAKEST OF THE SIX
+DESIGNATION-DEPENDENT CASES, AND THE ROW IS FLAGGED CONTESTABLE. ***
+
+ROUTE, which corrects yesterday's note that the document was unreachable:
+the /sdm_downloads/ PAGE route is blocked, but the DOWNLOAD link uses a
+different URL shape that works -- dti.gov.ph/?sdm_process_download=1&
+download_id=272364, which 302s to the DTI S3 bucket. I fetched it myself:
+200, 2,308,386 bytes, application/pdf, S3 Last-Modified 27 July 2026, six
+pages with ZERO text layer. So I rendered the pages at scale 3 and read the
+images -- the render-and-read technique, now proven on a seventh document.
+
+WHAT IT SAYS, quoted from my own read:
+- "JOINT ADMINISTRATIVE ORDER NO. 26-01, Series of 2026", dated 23 July
+  2026, signed by DTI, DOLE and DOF, subject "RULES ON THE INVESTIGATION AND
+  PROHIBITION OF THE IMPORTATION OF GOODS PRODUCED THROUGH FORCED LABOR".
+- Section 7, "INVESTIGATION FINDINGS AND CUSTOMS ENFORCEMENT": "Where
+  substantial evidence exists that imported goods were produced wholly or in
+  part through forced labor, the Committee SHALL endorse the findings to the
+  BOC and other competent authorities FOR THE PROHIBITION OF THE IMPORTATION
+  OF SUCH GOODS, in accordance with customs laws, and other applicable rules,
+  and regulations."
+- Section 8: "This Order shall not apply to goods shipped prior to its
+  effectivity".
+- Section 9: guidelines to issue "within ninety (90) days from the
+  effectivity of this Order".
+- Section 5 lets the Committee act on a complaint by any natural or juridical
+  person, a government referral, information from foreign governments or
+  labour organisations, or its own monitoring; section 6 gives an importer 15
+  working days to show the goods were not forced-labour made.
+
+WHY YES HOLDS. The recital invokes RA 10863 s.118(g), which bars importation
+of goods "explicitly prohibited by law or rules and regulations issued by the
+competent authority" -- so the architecture is statute, plus THIS issued rule,
+plus a committee determination. That is the designation-dependent shape,
+settled six times here and vindicated three times by USTR's own practice
+(most recently by the 15 September release naming India, Pakistan and
+Trinidad). The Order covers all imported goods regardless of sector or
+country of origin, creates a new category, and makes endorsement for
+prohibition MANDATORY ("shall"). It is emphatically not the El Salvador
+documentary shape.
+
+THE CONTRARY ARGUMENT, stated fairly rather than buried. There is NO
+self-executing sentence prohibiting anything, unlike India Para 2.20B or
+Pakistan para 7(3). The prohibition is effected by the BOC under pre-existing
+customs law following a finding. And the ENACTING CLAUSE describes the JAO as
+governing "the investigation and REGULATION of imported goods" -- not
+prohibition -- even though the title says prohibition. On a strict "operative
+prohibition sentence" test this is Partial(c).
+
+I decline that test, and the reason matters: it would equally demote Trinidad
+s.45(1)(w), a bare power to prohibit by order with no order ever found, and
+The Bahamas s.208A. Applying a stricter test to one row than to others is
+precisely the error corrected here yesterday, and I am not going to commit it
+in the opposite direction.
+
+TWO GENUINE GAPS, recorded with what would reverse the call. Section 12 makes
+the Order take effect fifteen days after publication in the Official Gazette
+or a newspaper, and PUBLICATION COULD NOT BE VERIFIED -- officialgazette.gov.ph
+and dole.gov.ph are Cloudflare-blocked at ~5.6 KB -- so the Order is not
+confirmed in force. Against that, section 8 speaks of "its effectivity" as a
+real date, DTI carries it on its index of issuances without the "DRAFT" label
+it applies to other entries, and the standing policy treats a
+post-publication grace period as no bar to Yes. The section 9 implementing
+guidelines have not issued. If those guidelines or a later reading show the
+Order merely channels pre-existing s.118(g) powers without creating a
+prohibition, the row should revert to Partial.
+Column 6 is upgraded to the JAO text itself.
+
+OTHER RESULTS
+
+SOUTH AFRICA -- still No, and the negative is now much better grounded. The
+gazettes.africa sweep was extended through 13 October with layered controls:
+"Customs and Excise" 25 hits since 25 July, "International Trade
+Administration Commission" 13, "Department of Trade, Industry and
+Competition" 5, gibberish 0. Against that, "forced labour" and "forced or
+compulsory labour" return ZERO since 25 July, Afrikaans and Zulu zero, and
+the only "forced labor" hit is RWANDAN. The best control of the lot is
+archive-wide: "forced labour" returns 116 hits across the whole corpus, none
+dated after 2025-12-23 -- so the corpus demonstrably carries the phrase
+historically, which is what makes the recent zero meaningful.
+
+PERU -- Partial holds, with two METHOD CORRECTIONS. The bill was re-verified
+("EN COMISIÓN", exactly one forced-labour-titled bill among 14,864 rows) and
+no Decreto Supremo exists. But the El Peruano "q=" parameter is a PHANTOM --
+the real parameter is "query" with fechaIni=YYYYMMDD -- and this pass's
+control count for "decreto supremo" was 8 where yesterday's was 39. The two
+are probably counting issues versus items, but that was NOT verified, so the
+figures should not be compared. On carry-over, a new datum: the new period
+register exists with numbering restarting at 00001-2026-2031-CR and holds
+only 6 bills, none on forced labour, so PL 14852 has not been re-presented
+under a new number.
+
+QATAR -- the index MOVED, which is itself the finding: 9,668 to 9,700 items,
+newest publishDate 2026-09-08 to 2026-09-17, nine new items, none on trade or
+forced labour. Still zero October items, confirming the standing reading that
+the gap is the source's own lag and not our route. One forced-labour variant
+returns 2 hits, both ILO C29 and C105 RATIFICATION decrees -- ratifications,
+not an import ban.
+
+PAKISTAN -- a concrete new lead, explicitly NOT adopted: a search snippet of
+the Commerce SRO page lists an "Amendment in the Import Policy Order, 2022 in
+Pursuance to Pakistan's Commitments under ILO Conventions" as SRO 1085 of
+08-07-2026, but commerce.gov.pk 403s to both curl and WebFetch, so it stays a
+snippet. The ECC/cabinet dates now conflict THREE ways (2, 8 and 15 July).
+The Urdu sweep is credited this time via a genuine Urdu page reporting the
+April ECC decision.
+
+LIGHTER THAN PROTOCOL, recorded on the rows: Russia, Saudi Arabia, Singapore,
+South Korea and Sri Lanka got one English search each with no source fetch,
+so their prior verifications stand rather than being renewed; the Hangul and
+Cyrillic queries returned English pages so no local-language negatives are
+claimed for Korea or Russia; ZATCA and customs.gov.lk remain unsearched.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+Batch 6 had not returned when this entry was written and follows as
+addendum 3.
+
+Push: pending (this commit)
