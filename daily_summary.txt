@@ -5492,3 +5492,201 @@ Bahamian subsidiary-legislation mirror.
 TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
 
 Push: pending (this commit)
+
+
+--- 2026-10-14 addendum 2 confirmed push: 4fb5998 ---
+
+
+=== 2026-10-15 03:30 UTC ===
+
+NO MATERIAL CHANGES to any classification. Tally holds at
+18 Yes / 13 Partial / 29 No. The value of this run is almost entirely in
+CORRECTIONS TO THIS FILE'S OWN REASONING: one wrong diagnosis retired, one
+overstated conclusion walked back, one trap identified that nearly produced
+a wrong reclassification twice, and one structural policy question raised
+that I am deliberately NOT acting on alone.
+
+NO NEW OR REVISED USTR DETERMINATION. Three Federal Register sweeps:
+  - unfiltered "forced labor" + "Section 301": totalResults 18, newest still
+    2026-07-28 (Notice 2026-15181; Presidential Determination 2026-15274).
+  - USTR agency corpus: totalResults 2089, newest 2026-10-08.
+  - unfiltered "forced labor" since 2026-08-01 GREW from 5 to 6. I ran the
+    new item down rather than dismissing it by title: 2026-20955 (DHS,
+    2026-10-14), "Removal of Automatic Extensions for Certain Employment
+    Authorization Documents" -- an immigration EAD rule finalising a 2025
+    interim rule, topics "Aliens / Employment / Students". Not an import
+    measure, not Section 301. All six items in that sweep remain CBP/DHS/SEC
+    with none from USTR, which is exactly why the unfiltered query is
+    mandatory.
+The USTR October press-release index is byte-identical to yesterday: same 10
+items, 34,021 bytes. Two batches reached the same conclusion independently
+with their own gibberish controls.
+
+PROCESS CHANGE THIS RUN: the shared brief was consolidated into a single
+CORE_BRIEF.md that all six agents read, instead of being restated six times
+-- including the CORRECTED mirror list, since three entries were overturned
+on 14 October (qistas.com, online.zakon.kz, vlexvenezuela.com) and would
+otherwise have been handed out again as working routes.
+
+=== CORRECTIONS TO THIS FILE'S OWN REASONING ===
+
+1. GUATEMALA -- THE "JAVASCRIPT SHELL" DIAGNOSIS WAS WRONG, and I verified
+the correction myself. mineco.gob.gt carries the meta generator "Joomla! -
+Open Source Content Management" and is server-rendered. The sweeps were
+rightly voided but for the WRONG REASON: "trabajo" and "forzoso" genuinely
+do not appear on that homepage, while "MINECO" returns 2 and "Guatemala" 3.
+THE CONTROL WORD WAS BADLY CHOSEN. The refinement belongs to the whole file:
+a control must be a term that MUST appear on the page type being tested, and
+a ministry homepage need not say "trabajo". Separately, that site's own
+Joomla com_finder search IS a genuine phantom -- real queries and gibberish
+return 94,317 / 94,541 / 94,081 bytes with identical counts -- so that
+surface stays void.
+A route that reads was then found and I control-validated it hard: the
+Diario de Centro America REST API, dca.gob.gt/wp-json/wp/v2/posts?search=,
+where gibberish returns X-WP-Total 0 at 2 bytes, "trabajo" returns 24,629
+and "forzoso" 91. Against it, NO LISTADO OFICIAL HAS ISSUED; the 15 November
+deadline is not yet due. It also produced a COLUMN 6 UPGRADE this row has
+lacked -- government-direct and quoted (DCA, 19 August 2026): "el acuerdo
+ministerial en materia laboral... sobre trabajo forzoso, entro en vigor el
+lunes. Dicha normativa PROHIBE LA IMPORTACION de mercancias provenientes de
+empresas que tengan esta caracteristica en su manufactura." 17 August was a
+Monday and the piece is dated Wednesday the 19th, so "el lunes" is the 17th.
+
+2. MOROCCO -- YESTERDAY'S CONCLUSION WAS OVERSTATED AND IS WALKED BACK. This
+file recorded that plain http "reached the origin for the first time". It
+reached A default IIS binding, not the Bulletin Officiel host. I verified:
+the KNOWN-REAL BO paths return 404 at 1,259 bytes over plain http -- the same
+size as every guessed path -- while only the root returns 200 at 701 bytes,
+and HTTPS on those same real paths gives curl 000. The real site is
+HTTPS-only and resets. The genuine gain today is the URL SHAPE:
+sgg.gov.ma/BO/AR/3111/2026/BO_7528_Ar.pdf and
+sgg.gov.ma/BO/FR/2873/2026/BO_7532_Fr.pdf -- and note the numeric segment
+DIFFERS BY LANGUAGE (3111 Arabic, 2873 French). A non-government route was
+tried for the first time: gazettes.africa/gazettes/ma/2026 loads but its
+newest issue is BO 7506 of 7 May, about five months stale, so it cannot
+support a post-July negative.
+
+3. BRAZIL -- A TRAP THAT NEARLY PRODUCED A WRONG RECLASSIFICATION, TWICE.
+The Camara API's "ementa" field for PL 2799/2015 describes a cocoa-only
+CONTRACTING restriction ("importacao de CACAU e seus derivados...
+estabelecerem CONTRATOS"), with keywords cacau and contrato mercantil. Read
+alone that would put Brazil at No rather than Partial, and I was ready to
+make that change. It is wrong, and structurally so: THE EMENTA FIELD CARRIES
+THE TEXT AS FILED IN 2015 AND IS NEVER REWRITTEN WHEN A COMMITTEE ADOPTS A
+SUBSTITUTIVO. I read the tramitacao events directly (76 events) and the
+history is explicit -- CTRAB parecer with substitutivo 2025-08-13, approved
+2025-09-03; CDE parecer 2026-03-11, approved 2026-06-10; received by CCJC
+2026-06-12 with two bills apensados. This also retrospectively VINDICATES
+the earlier decision to decline a secondary summary calling the bill
+cocoa-only: that summary was describing the 2015 original.
+ONE GENUINE REFINEMENT, though: this row attributes the expansion to all
+products to the LABOUR COMMITTEE's substitutivo, but the record shows the
+CDE rapporteur recommended approval "com substitutivo; e pela REJEICAO do
+Substitutivo da Comissao de Trabalho". So the operative text before the CCJC
+is the CDE substitutivo, and whether it retains the all-products scope is
+NOT established. Partial(a) holds -- the apensados and the CDE substitutivo
+all concern forced and child labour -- but the scope of the operative text is
+now an open question to settle from the parecer itself.
+
+=== A STRUCTURAL POLICY QUESTION, FLAGGED AND NOT ACTED ON ===
+
+NEW ZEALAND's existing s.96 Customs and Excise Act 2018 PRISON-LABOUR import
+prohibition is an enacted import ban of a forced-labour type, and could
+arguably be read as Partial(c) -- an existing partial regime short of a full
+forced-labour import prohibition. I am NOT changing it today, because doing
+so for New Zealand alone would repeat precisely the inconsistency corrected
+for the Philippines yesterday: other economies may carry prison-labour
+provisions, and India's own notification distinguishes forced labour from
+"products of prison labour". This needs a FILE-WIDE AUDIT of prison-labour
+import provisions across all 60 rows before any row moves on that basis.
+Recorded as the next structural question for this file.
+
+=== ALGERIA FULLY CLOSED, AND THE TRANSIENCE RULE VINDICATED ===
+
+Issue 071, which returned 404 at 1,259 bytes in BOTH editions yesterday,
+EXISTS on retry: Arabic 200 at 525,998 bytes (43pp, 180,914 chars, controls
+17/27) and French 200 at 262,776 bytes (44pp, 176,358 chars, controls
+"journal officiel" 53, "decret executif" 106, "arrete" 80). All
+forced-labour terms and a gibberish control return zero in both; the four
+"forc" hits are "force majeure" in a school regulation. 073-075 are 404, so
+072 is the ceiling. Algeria is now a VERIFIED negative across Arabic 001-072
+AND French 001-072, complete with no gaps. The pass also caught its own
+error -- its first French count returned "decret executif" 0 because accents
+were not stripped -- which is the decode-before-counting rule again.
+
+=== OTHER SUBSTANTIVE GAINS ===
+
+- BAHRAIN: a properly VERIFIED negative, with the POST procedure now
+  documented so it need not be rediscovered: GET with a cookie jar, read the
+  id="token" field, resend as a RequestVerificationToken header, POST
+  PostParam with SortBy "SortDate". Controls MATCH the earlier baseline
+  exactly (customs 3 by title / 11 by text; import 7 / 20) and BOTH gibberish
+  strings return HTTP 302 at 132 bytes -- confirming that a 302 IS the
+  zero-hit signal, not a failure. Both forced-labour phrasings: 302.
+- MALAYSIA: the AGC gazette re-polled by enumeration, with the best control
+  design of the run. P.U.(A) 7,345 -> 7,352 and P.U.(B) 9,230 -> 9,237, newest
+  80 of each read, all target terms zero -- against a POSITIVE control that
+  makes the zero meaningful: P.U.(A) 338/2026 "Customs (Prohibition of
+  Imports) (Amendment) (No. 4) Order 2026" reproduces in range and is the only
+  such order, with no No. 5. The series demonstrably carries instruments of
+  exactly the kind sought.
+- OMAN: issue CONTENTS read for the first time (1666-1669), all terms zero --
+  and a NEW CONFUSABLE logged that strengthens rather than weakens the
+  negative: Ministerial Decision 209/2026 banning certain fish imports from
+  Buzau county, Romania, which proves import-ban decisions DO appear in these
+  contents pages when they exist.
+- KUWAIT: the MOCI decisions page finally re-read (114,641 bytes, 2026
+  decisions through No. 32) with the R22 air-conditioner import ban present
+  as a positive control and both forced-labour terms zero.
+- THE BAHAMAS: the independent-mirror search is now EXHAUSTED, not open --
+  fifteen routes failed (commonlii, worldlii, refworld, natlex, vlex,
+  lexisnexis, parliament hosts, gazettes.africa). The tribune242 search was
+  found VOID by the gibberish test. One working search was found, though it is
+  a government host: bahamascustoms.gov.bs /wp-json/wp/v2/search,
+  control-validated, where "forced" returns 4 unrelated hits and "208A"
+  returns 0.
+- NIGERIA: the April 2026 prohibition list READ at news level for the first
+  time, controls passing, with "forced", "prison" and "slave" all zero.
+  Sources DISAGREE on its scope (non-ECOWAS only vs blanket). Hausa and
+  Yoruba were done properly this time by direct front-page fetch and grep
+  with controls and gibberish checks -- front-page level only, so no verified
+  negative claimed. fmiti.gov.ng's search is VOID (near-identical sizes for
+  real query and gibberish).
+- CAMBODIA: the Khmer obligation DISCHARGED at thin-coverage after several
+  partial runs -- ministry Prakas listing plus a second outlet's own search
+  that discriminates by size. WebSearch again returned only English and was
+  correctly not counted.
+- CHILE: the committee-assignment gap is now EXPLAINED rather than
+  outstanding -- the Chamber's own WSComision service is INCOMPLETE, returning
+  only two committees, and senado.cl's tramitacion page is a shell returning
+  identical bytes. The assignment cannot be read from open data at all.
+- COSTA RICA: the "366 -> 47" control collapse is EXPLAINED -- stripping
+  removes markup mentions of the decree number, so the earlier counts were
+  never comparable.
+- COLOMBIA: the Diario Oficial question recorded as SETTLED BY STRONG
+  INFERENCE with the limit stated. A new route failed in a newly informative
+  way: suin-juriscol.gov.co fails with curl 60 (incomplete chain), a
+  DIFFERENT layer from the "curl 000" previously recorded, and
+  funcionpublica.gov.co returns a 503 naming our own client IP -- an origin IP
+  block.
+- EL SALVADOR: Partial(c) holds but today was explicitly NOT a proper fifth
+  test, because Boletin DGA 032-2026 still has not been read and the
+  transparencia search is a VOID shell. The residual risk is now named
+  precisely: "inconsistencias" could be read to cover a finding that goods
+  WERE forced-labour made, which would make the regime a de facto prohibition
+  and move the row to Yes.
+
+LIGHTER THAN PROTOCOL, recorded on the rows: the Dominican Republic's newest
+sitting agenda was not read; Norway's regjeringen.no 403'd today so nothing
+was added at source; Mexico's Spanish search carried no control; Bangladesh's
+second-outlet obligation failed on six Cloudflare-blocked dailies; Ecuador's
+Registro Oficial was again not queried.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched,
+including on Oman's mjla.gov.om incomplete chain and Morocco's HTTPS-only
+estate.
+
+Batches 3, 5 and 6 had not returned when this entry was written and follow
+as addenda.
+
+Push: pending (this commit)
