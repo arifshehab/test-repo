@@ -5954,3 +5954,129 @@ Batch 6 had not returned when this entry was written and follows as
 addendum 3.
 
 Push: pending (this commit)
+
+
+--- 2026-10-15 addendum 2 confirmed push: 8d3eb3d ---
+
+
+=== 2026-10-15 05:40 UTC (addendum 3 -- batch 6, rerun) ===
+
+NOTE ON THIS BATCH: the original batch 6 was killed by a container restart
+before it reported, and its work was lost. It was re-run from the same brief,
+with the other five batches' results supplied so it would not repeat the
+Federal Register and USTR index checks. Nothing else was affected: the repo
+and all three earlier commits were intact on the remote.
+
+*** ONE CLASSIFICATION CHANGE: URUGUAY MOVES No -> Partial(a). ***
+Tally is now 18 Yes / 14 Partial / 28 No. This is the second change in two
+days, and it corrects an error this file made yesterday.
+
+URUGUAY HAS A FORCED-LABOUR IMPORT-BAN PROVISION BEFORE PARLIAMENT: Article
+96 of the Proyecto de Ley de Competitividad y Reduccion del Costo de Vida,
+presented by the Executive on 10 June 2026, into the Senate on 18 June, and
+given HALF-SANCTION BY THE SENATE ON 26 AUGUST. It now sits in the Camara de
+Representantes with no reported vote. I verified it from two independent
+directions myself:
+ (i) Ambito (200, 103,214 bytes, control "Competitividad" 6) quotes the
+     operative wording -- the government "prohibira, mediante las medidas que
+     se consideren apropiadas, las importaciones de bienes que hayan sido
+     producidos total o parcialmente por empresas donde haya sido comprobado
+     objetivamente la utilizacion de trabajo forzoso u obligatorio, incluido
+     el trabajo infantil forzoso u obligatorio" -- and expressly ties it to
+     the US action against 60 countries including Uruguay.
+ (ii) An independent 29-page professional analysis of the bill by Guyer &
+     Regules, read at document level (657,493 bytes, 75,018 chars): "Se
+     incorpora un marco legal para prevenir la importacion de bienes
+     producidos total o parcialmente por empresas donde haya sido comprobado
+     objetivamente la utilizacion de trabajo forzoso u obligatorio, incluido
+     el trabajo infantil forzoso (art. 96)", aimed at preventing "dumping
+     social".
+Column 6 is set to the best available tier: El Cronista/EFE, which attributes
+to the Ministry of Economy directly -- "Economia destaco que en el marco del
+Proyecto de Ley de Competitividad y Reduccion del Costo de Vida se incorporo
+un articulo que prohibe la importacion de productos que hayan sido producidos
+utilizando trabajo forzoso o infantil" -- which I fetched and grepped, making
+it tier (b), news citing a government body, above the Ambito and law-firm
+readings.
+
+WHY THIS WAS MISSED, AND THE LESSON BEYOND THIS ROW. On 14 October this row
+was recorded as a VERIFIED NEGATIVE on the strength of enumerating IMPO:
+decrees 1-238 and laws 20480-20530, ~73,600 lines, strong controls, all
+forced-labour terms zero. That enumeration was sound and its result still
+stands -- there is no ENACTED Uruguayan instrument. But its SCOPE excluded
+bills entirely, and a tabled bill is exactly what Partial(a) turns on. A
+method praised here a day earlier carried a blind spot that produced a wrong
+classification for a day.
+THE GENERAL LESSON, to be applied file-wide: ENUMERATING ENACTED INSTRUMENTS
+CAN NEVER BY ITSELF ESTABLISH A "NO", because "No" requires the absence of a
+tabled bill and of a treaty commitment as well as of an enacted ban. Any row
+whose No rests only on a gazette or decree sweep needs a separate legislature
+check. That is now the second structural audit this file owes, alongside the
+prison-labour question raised under New Zealand.
+Open points stated rather than papered over: parlamento.gub.uy returns 403 at
+548 bytes, so THE BILL TEXT ITSELF IS UNREAD; it is NOT confirmed that
+Article 96 survived the Senate vote, where some articles passed only on the
+coalition's votes, and that is the first thing to check next run.
+
+UNITED KINGDOM -- NC40 IS UNCHANGED AND UNDECIDED, which is the result that
+was being watched for. The amendment set grew again, 177 to 196 (totalResults
+196 AND len(items) 196, so complete; AddClauseOrSchedule 41 to 60 while the
+other two categories held). "forced" still returns exactly 1 and it is still
+NC40; "prohibit" and "import" both return 0 across ALL 196 items, so nineteen
+new amendments added no import measure. NC40 remains NoDecision, with
+decisionExplanation "The House has not considered this amendment". New
+context that makes it worth watching daily: the Bills API shows COMMITTEE
+SITTINGS on 13, 15, 20, 22, 27 and 29 October and 3 November, so this is live
+business in a running committee. The 15 October selection and amendment
+papers are Cloudflare-blocked, so a selection decision could exist that the
+API had not yet recorded.
+
+VENEZUELA -- A REAL ROUTE INTO THE OFFICIAL GAZETTE REGISTER, after weeks at
+"unknown at gazette level", and it is the plain-http form again.
+http://www.gacetaoficial.gob.ve/ returns 200 at 256,796 bytes: the Imprenta
+Nacional calendar and search, with a day endpoint returning JSON carrying a
+PDF path. Unlike the struck-off vlex mirror, THIS SEARCH VALIDATES -- a real
+term returns 5,297 characters of results, the gibberish returns "No se
+encontraron Gacetas" at 451. The forced-labour term returns ZERO, but whether
+the field indexes body text or only sumarios is unknown, so that is
+title-level at best. Newest issue is 43.471 of 1 October; 10-15 October
+return empty, so the October gap is the source's own. Issues 43.470 and
+43.471 were downloaded and their sumario pages rendered and read as images:
+appointments, payment delegations, a Central Bank notice, budget transfers --
+no trade instrument. Their text layers are headers only, so the body sweep is
+VOID and the bodies are scanned images; 43.463-43.468 are unread because the
+downloads run ~27 MB at about 1 MB/minute with no byte-range resume.
+
+TWO MORE DIAGNOSTIC CORRECTIONS, both about us rather than them:
+- THAILAND: dft.go.th -- the Department of Foreign Trade, the notice-issuing
+  body -- fails with "unable to get local issuer certificate", and under
+  openssl s_client THE PROXY'S OWN GATEWAY CA IS THE CHAIN'S ISSUER. So the
+  failure is at OUR EGRESS LAYER, not a bad chain at DFT. Materially
+  different diagnosis. Eight ocs.go.th sub-pages were read with passing
+  controls and all seven Thai terms zero, but they belong to the Council of
+  State, not the DFT, so the pass correctly graded that an UNUSABLE negative
+  rather than banking it.
+- TÜRKIYE: the 14-15 October full-text sweeps are VOID for a NEW reason,
+  not the casing bug. Those full-issue PDFs (136 and 188 pages) have a
+  GARBLED TEXT LAYER -- extraction yields mojibake and the control returns 0.
+  Index-level reads of the HTML issue pages are clean (issue 33401: two
+  regulations plus Constitutional Court party-finance decisions; issue 33400:
+  two regulations and two communiques including anti-dumping 2026/31). The
+  8-13 October full-text closure is unaffected.
+
+OTHER: Switzerland confirmed NO signed US agreement -- SECO's page has
+"signed" at zero and says "The aim remains to conclude a legally binding
+agreement", and the March 2026 deadline lapsed after a Supreme Court ruling;
+a reported vice-ministerial claim that Thailand had "already signed" was
+declined for want of a date or US confirmation, with USTR's agreements page
+showing Thailand 0 against controls of Malaysia 9 and Taiwan 7. Taiwan's
+source-level access failed again but is now documented rather than untried:
+lis.ly.gov.tw is the LAW-TEXT system, not a bill system. Trinidad's old Legal
+Notice "gap" puzzle is retired -- the apparent gaps are two RANGE files, with
+only LN 313 genuinely absent. Vietnam still has no implementing circular.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+All six batches are now in. Final tally: 18 Yes / 14 Partial / 28 No.
+
+Push: pending (this commit)
