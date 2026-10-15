@@ -5690,3 +5690,137 @@ Batches 3, 5 and 6 had not returned when this entry was written and follow
 as addenda.
 
 Push: pending (this commit)
+
+
+--- 2026-10-15 main entry confirmed push: 4de51b2 ---
+
+
+=== 2026-10-15 04:05 UTC (addendum 1 -- batch 3) ===
+
+Batch 3 (Guyana through Kazakhstan) returned. No classification changes;
+tally still 18 Yes / 13 Partial / 29 No. But it produced the single most
+valuable source this file has acquired in weeks, plus two open items closed
+and a correction to my own framing from yesterday.
+
+*** A PREVIOUSLY UNRECORDED USTR PRESS RELEASE OF 15 SEPTEMBER 2026 NAMES
+TWELVE ECONOMIES AS HAVING ADOPTED FORCED-LABOUR IMPORT PROHIBITIONS. ***
+I fetched and grepped it myself (200, 34,444 bytes, control "forced labor"
+9). The operative sentence:
+  "As a result of these efforts and USTR's Section 301 investigation of this
+   issue, by July 2026, 12 additional economies had adopted measures that
+   prohibit the importation of goods made by forced labor, INCLUDING
+   Cambodia, Canada, Ecuador, the European Union, Guatemala, Honduras, India,
+   Indonesia, Mexico, Pakistan, Sri Lanka, and Trinidad and Tobago."
+All twelve are already classified Yes in this file. That is twelve of the
+eighteen Yes rows corroborated by the investigating authority itself, on a
+government host -- the strongest external validation the classifications have
+had.
+
+It is also THE THIRD INDEPENDENT VINDICATION OF THE DESIGNATION-DEPENDENT
+FRAMEWORK POLICY, and the cleanest. India, Pakistan and Trinidad and Tobago
+are all designation-dependent framework bans -- prohibitions that bite only on
+goods the executive later designates -- and USTR names all three among
+economies that "prohibit the importation of goods made by forced labor". The
+authority running the investigation treats them as bans. That policy was
+contested internally as recently as yesterday, when the Philippines row was
+found to be applying an abandoned "standalone blanket prohibition" test.
+
+TWO CAUTIONS ON USING IT, both recorded on the rows:
+- The word "INCLUDING" makes the list ILLUSTRATIVE, not closed, so absence
+  from it is NOT evidence against any row. This is demonstrated internally:
+  Vietnam (Decree 292, 22 July) and the Philippines (JAO 26-01, 24 July) both
+  fall within "by July 2026" and are unnamed. The six Yes rows not named are
+  The Bahamas, Colombia, the Dominican Republic, Israel, the Philippines and
+  Vietnam -- all late-July or later instruments.
+- The release states only that a measure was adopted, not its text, date or
+  scope.
+It was added to Honduras's column 6, which matters there specifically because
+that row's source is leyes.hn, a PRIVATE mirror rather than a government
+host -- and leyes.hn returned a Vercel Security Checkpoint (HTTP 429) today,
+making today's Honduran statute check VOID.
+
+TWO OPEN ITEMS CLOSED
+
+INDIA -- the enquiry procedure is FOUND, and it is a separate Gazette item
+from the ban notification: Public Notice 21/2026-27-DGFT of 13 July 2026,
+inserting Para 2.50A into the Handbook of Procedures 2023, published in
+Gazette Extraordinary Part I Sec. 1, No. 206, 14 July 2026, ID
+CG-DL-E-16072026-274552. DGFT may open an enquiry "suo motu or upon receipt
+of any information or complaint supported by credible material", may seek
+information from traders and manufacturers, consult ministries, take inputs
+from domestic or international bodies, and on completion "may make
+appropriate recommendations to the Central Government, including
+recommendations for prohibition of the import of such goods".
+
+ISRAEL -- the empty Schedule is now EXPLAINED rather than merely observed,
+which is the more useful result. The order was approved UNANIMOUSLY BY THE
+KNESSET ECONOMY COMMITTEE on Thursday 13 August 2026, and adding specific
+products later "will require FRESH ECONOMY COMMITTEE APPROVAL". That is why
+the Schedule has stayed empty for two months, and it tells us what to watch:
+the next step is a committee proceeding, not a ministerial signature. The
+Schedule was verified empty again today (71,882 bytes, oldid 3076979, one
+revision). On the 90-day deadline, three outlets independently quote the
+figure but NONE gives a calendar date, so 24 October remains our arithmetic
+and nothing reports the mechanism as submitted.
+
+A CORRECTION TO MY OWN FRAMING FROM YESTERDAY -- INDIA'S EFFECTIVE DATE
+
+Yesterday I recorded the "30 days versus immediate effect" conflict as a
+Hindi-versus-English mismatch inside one document. That was too narrow. TWO
+ENGLISH VERSIONS ARE IN CIRCULATION. The Gazette PDF's English says "with
+immediate effect" twice, but a reproduction by the Export Promotion Council
+for Handicrafts (Craftcil, July 2026) prints the same notification with the
+English text "with effect after the expiry of 30 days from the date of
+publication of this Notification in the Official Gazette", repeats it in its
+Effect paragraph, and adds "in effect from 12th Aug 2026" -- running the
+arithmetic from the notification date of 13 July rather than publication on
+14 July. No official statement of which governs was found. The Gazette is the
+primary text and says immediate; Yes is unaffected either way since both
+dates are past.
+
+JORDAN -- the "five years" claim VERIFIED against primary text, and it
+carries more than was recorded. Article 2.9(1): "Jordan shall, within five
+years of entry into force of this agreement, prohibit the importation of
+goods mined, produced, or manufactured wholly or in part by forced or
+compulsory labor. Further to this obligation, Jordan shall recognize U.S.
+government determinations on entities under Section 307 of the Tariff Act of
+1930 and shall presumptively prohibit importation of goods from those
+companies." So the clock runs from entry into force and has not started, and
+the obligation includes recognising US Section 307 entity determinations with
+a presumptive prohibition. The Article 6.6(2) notification is still
+unestablished by ANY route; three more failed, including pm.gov.jo returning
+HTTP 200 with a 54-BYTE EMPTY BODY and representatives.jo returning an
+identical byte count for its search URL as for its homepage.
+
+ROUTES THAT DIED OR WERE RETIRED THIS RUN -- four, which matters because they
+were being carried as options:
+- KAZAKHSTAN's OFFICIAL site has now gone too. adilet.zan.kz is a
+  client-rendered shell returning 1,573 bytes with the SAME md5 for every URL
+  including gibberish, build-stamped 2026-10-13, so it migrated days ago; its
+  JS bundle exposes only auth endpoints. old.adilet.zan.kz returns identical
+  bytes for real and gibberish on the old parameter and HTTP 302 at 0 bytes on
+  the correct one, including for a Russian control. So NO statute route works
+  for Kazakhstan at all and the sweep is VOID, not negative.
+- HONG KONG's elegislation.gov.hk -- flagged yesterday as the promising
+  extension -- is a CLIENT-RENDERED SHELL returning 7,562 bytes for every
+  path, so searching it is void.
+- INDIA's pib.gov.in/allRel.aspx and dgft.gov.in's notification page are both
+  client-rendered with no searchable content, which retires the allRel route
+  rather than merely recording it as blocked.
+- Today's info.gov.hk 15 October index carries only 398 characters with the
+  control at ZERO, so it is unpopulated and today is not a valid read, unlike
+  the 14 October page.
+
+OTHER: Indonesia's owed Indonesian-language search was run and the Kemendag
+JDIH record shows no revocation of Permendag 9/2026; Iraq got its first
+government controls, two of which FAILED and are recorded as void rather than
+banked; Guyana -- which had no searches at all yesterday -- got its first
+government host controls; and USTR's training event is confirmed as an event
+but NOT as Japanese attendance, since the release names no attendees.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+Batches 5 and 6 had not returned when this entry was written and follow as
+addendum 2.
+
+Push: pending (this commit)
