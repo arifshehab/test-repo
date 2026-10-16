@@ -6080,3 +6080,191 @@ TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
 All six batches are now in. Final tally: 18 Yes / 14 Partial / 28 No.
 
 Push: pending (this commit)
+
+
+--- 2026-10-15 addendum 3 confirmed push: 3a0b268 ---
+
+
+=== 2026-10-16 05:10 UTC ===
+
+NO CLASSIFICATION CHANGES. Tally holds at 18 Yes / 14 Partial / 28 No. The
+value of this run is in CLOSING THINGS: one structural audit resolved, three
+open items settled at primary-document level, one of my own claims defended
+against a challenge, and one decoy source struck off.
+
+NO NEW OR REVISED USTR DETERMINATION. All three Federal Register sweeps are
+unchanged from yesterday: unfiltered "forced labor"+"Section 301"
+totalResults 18 with the newest still 2026-07-28; unfiltered "forced labor"
+since 2026-08-01 totalResults 6, all CBP/DHS/SEC; USTR agency corpus 2089,
+newest 2026-10-08. The USTR October index is unchanged at 34,021 bytes and 10
+items. (My first diff of that index flagged two "new" slugs, but they were
+artefacts of my own truncated comparison list, not new items.)
+
+=== STRUCTURAL AUDIT 2 RESOLVED: PRISON-LABOUR PROHIBITIONS DO NOT COUNT ===
+
+Opened on 14 October because New Zealand's enacted prison-labour import
+prohibition could arguably read as Partial(c), and moving one row alone would
+have been inconsistent. RESOLVED: they do not count as forced-labour import
+bans, no row moves, and the question is closed. Three independent governments
+treat the categories as DISTINCT, all verified by me at document level:
+ (i) NEW ZEALAND's own Cabinet paper -- "prison labour" 18 times against
+     "forced labour" twice -- says NZ "does not currently have capability to
+     monitor prison labour regimes of other countries (NOR ASSESS WHETHER THE
+     CONDITIONS IN THOSE REGIMES AMOUNT TO FORCED LABOUR)", and invokes forced
+     labour only as rationale ("such goods MAY have been produced under forced
+     labour or conditions akin to it");
+ (ii) INDIA's FTP notification adds forced labour "in addition to products of
+     prison labour";
+ (iii) BRAZIL's pending bill expressly provides that "não se considera oriundo
+     de trabalho forçado ou obrigatório o bem ou produto em que se empregou
+     trabalho de pessoa apenada".
+A fourth line: USTR's own practice. NZ's Order has been in force since
+1 October 2019, yet USTR investigated NZ, put it in the no-ban tier, and
+omitted it from the twelve named on 15 September. Also noted: Bangladesh's
+treaty commitment names "convict labor OR forced or compulsory labor" as
+separate categories. A prison-labour prohibition is a COMPLETE regime for a
+different though overlapping category, not a partial forced-labour regime.
+Separately, s.96 of the NZ Act turns out to be only an ENABLING POWER; the
+instrument is the Customs Import Prohibition (Goods Produced by Prison
+Labour) Order 2019.
+
+=== THREE OPEN ITEMS SETTLED ON PRIMARY TEXT ===
+
+EL SALVADOR -- Partial(c) settled on the STATUTE, closing the precise residual
+risk carried since 14 October. The bulletin is still unread, but the verbatim
+text of Article 27-A was obtained and I verified it (314,675 bytes, controls
+"27-A" 1 / "forzoso" 6). It requires a sworn declaration that goods "no han
+sido fabricados o elaborados, total o parcialmente, mediante trabajo forzoso,
+obligatorio o trabajo infantil". THE TRIGGER IS DECISIVE: "De comprobarse la
+falsedad en la declaración que fue presentada o no se presente la información
+requerida" gives rise to liability, suspension, "la retención preventiva de la
+mercancía, la denegatoria del despacho". So consequences flow from FALSITY OF
+THE DECLARATION OR FAILURE TO SUPPLY -- not from a finding that the goods were
+forced-labour made. EY's "inconsistencias" maps to exactly that. The risk I
+named on 14 October is closed against it.
+
+BRAZIL -- the CDE substitutivo RETAINS ALL-PRODUCTS SCOPE, closing yesterday's
+open question. I read the parecer itself (148,496 bytes, 16,927 chars). The
+rapporteur votes "pela rejeição do Substitutivo aprovado na Comissão de
+Trabalho e pela aprovação... na forma do Substitutivo anexo", whose Article 1
+reads "Fica proibida a importação e a respectiva disponibilização no mercado
+nacional de produtos em cujo processo produtivo for confirmada, por decisão
+judicial transitada em julgado ou decisão irrecorrível de corte internacional
+de justiça..., a existência de trabalho infantil ou de trabalho forçado ou
+obrigatório." The cocoa framing is definitively dead, confirming rule 26 was
+the right reading. TWO MATERIAL CAVEATS NOW RECORDED: the trigger is NARROW,
+requiring a final judicial or irrecorrible international-court decision, not
+an administrative finding; and the vacancy period was extended to ONE YEAR
+after publication.
+
+CHINA -- the legislature check done at DOCUMENT level, the strongest evidence
+this row has carried. The NPCSC 2026 Legislative Plan was read in full (4pp,
+5,149 chars, as amended 20 April) with controls passing (legislation 69, draft
+8, law 266) and the forced-labour, foreign-trade and import terms ALL ZERO.
+The only customs item is the Customs Law in the PREPARATORY list. Limits
+stated: a third-party copy of the gazette text, since npc.gov.cn's own pages
+403'd.
+
+=== I OVERRODE A BATCH FINDING ON INDIA, AFTER RE-VERIFYING ===
+
+The pass reported that India's effective-date conflict "does not reproduce in
+the official copies". It does. The pass read CG-DL-E-16072026-274552, the Para
+2.50A ENQUIRY-PROCEDURE notice -- a different instrument, whose only effect
+clause is about notifying the procedure. The conflict lives in
+CG-DL-E-16072026-274548, the Para 2.20B BAN notification, which I re-fetched
+and re-read today: its ENGLISH says the Government "hereby inserts a new Para
+2.20B... as follows WITH IMMEDIATE EFFECT" while its HINDI says the paragraph
+"will be effective after the expiry of 30 DAYS from the date of publication".
+Rule 10 in action, and the pass flagged the possibility itself, which is good
+practice. One precision on my own earlier note: today's pdftotext extraction
+yields "immediate effect" ONCE where pypdfium2 yielded it twice on 14 October
+-- an extraction difference between libraries, not a change in the document.
+The same read confirms the operative sentence is self-executing: "The import
+of goods produced, wholly or in part, using forced labour is prohibited."
+
+=== AUDIT 1 (LEGISLATURE CHECKS) -- FIRST SYSTEMATIC PASS ===
+
+Run because Uruguay moved No->Partial yesterday on a tabled bill that sat
+outside a sweep of enacted instruments only. Results so far, honestly graded:
+- VERIFIED: AUSTRALIA -- the aph.gov.au bills list PAGINATED in full, 13 pages,
+  124 bills across both Houses MATCHING the site's own total, no relevant
+  title. (Note aph's own search is VOID: identical text length for real
+  queries and gibberish, so pagination was the right method.)
+- VERIFIED: JAPAN -- and the session number gap is closed. The 222nd Diet was
+  convened 5 October to 12 December, so 222 is current; its bill list carries
+  control "bill" 64 with all five target terms zero.
+- VERIFIED (new route): HONG KONG -- app.legco.gov.hk/BillsDB/odata/Vbills over
+  PLAIN HTTP, odata.count 6,884, controls "Labour" 13 and "Import" 31 against
+  "Forced" 0 and gibberish 0; of 21 bills gazetted in 2026, none relevant.
+  Limit: primary bills only, NOT subsidiary legislation, which is where an
+  Import and Export Ordinance order would sit.
+- VERIFIED (new route): KAZAKHSTAN is NO LONGER structurally unverifiable.
+  legalacts.egov.kz validates (gibberish zero; "import" 10, trade ministry 10,
+  "ban on importation" 5) and five forced-labour phrasings return zero. Limits:
+  loose recall, and it covers state-body drafts rather than Mazhilis bills.
+- THIN: Algeria (RSS feed only; the bills API is unresolvable), Angola (list
+  not exposed; the approved-diplomas feed is stale to 2024 -- though a NEW
+  backend route, portaladmin.parlamento.ao/api/info/, was discovered), Bahrain
+  (a working news search on the lower house, but the Shura site is VOID at an
+  identical 56,867 bytes for any query), Nigeria (a shell), Oman (homepage).
+- FAILED AT THE HOST: Kuwait (three host forms curl 000), Libya (curl 000),
+  Morocco (both chambers Cloudflare with cf-mitigated: challenge), Iraq (VOID
+  -- Cloudflare on every route), Egypt (parliament 503 "upstream connect
+  error"; three Egyptian news searches are PHANTOMS and the sweep is void),
+  Guyana (site search VOID -- identical 105,348 chars for any query; the Bill
+  Status page lags to May 2025).
+The honest scoreboard: four verified, five thin, six failed. Several "No" rows
+therefore rest on verified gazette sweeps but UNVERIFIED legislature checks,
+and the file should say so rather than imply otherwise.
+
+=== A DECOY STRUCK OFF ===
+IRAQ: iraq-lg-law.org, which earlier runs treated as a legal source whose
+control merely "failed", is a SLOT-GAMBLING SPAM PAGE titled "Slot Depo 5K" at
+788,167 bytes. Its zero control was not a reading failure -- it is not a
+statute site at all, and must never be cited.
+
+=== OTHER GAINS ===
+- AUSTRALIA: the unopened statutory-review PDF is now read. Its only import
+  reference is that "Others thought declarations would be most effective when
+  accompanied by an import ban" -- stakeholder opinion in a consultation
+  summary, NOT a government proposal, so it creates no Partial.
+- THE BAHAMAS: the media library holds 913 items and NOTHING has been uploaded
+  since 2026-08-25, which tightens the s.208A negative on recency.
+- JORDAN: the US side checked for the first time (Federal Register, 42 results,
+  none on entry into force). LAYER CORRECTION: lob.gov.jo now returns an F5
+  "bobcmn" ORIGIN WAF page at 6,761 bytes, not the CONNECT 502 recorded
+  earlier -- blocked at the origin, not at our egress.
+- ISRAEL: the Schedule is still empty and the committee check could not be
+  done -- newly diagnosed as a GEO/MAINTENANCE redirect across every Knesset
+  host, not a WAF. Four Israeli news homepages carried the control at zero and
+  those sweeps were correctly VOIDED rather than reported as negatives.
+- MALAYSIA: the Dewan Rakyat list MOVED (266,400 -> 268,904 bytes, with a new
+  D.R.26/2026 read on 15 October), which usefully demonstrates the listing is
+  live rather than cached.
+- ARGENTINA: a new lead recorded but NOT acted on -- two Diputados bills
+  prohibiting imports made with CHILD labour (4123-D-2022, 1286-D-2024).
+  Forced labour appears only in their recitals, so they are child-labour bills;
+  status unknown and Argentine bills lapse after two years.
+- NIGERIA: the scope dispute resolved at law-firm level in favour of the
+  narrower reading -- the April circular applies "only to certain goods
+  originating from non-ECOWAS Member States" and "consists of 17 items", none
+  forced-labour related. Gazette publication still unconfirmed.
+- GUATEMALA: no Listado Oficial; the DCA API controls re-validated and six
+  queries run. The 15 November deadline is not yet due.
+- DOMINICAN REPUBLIC: a third agenda (7 October) read at document level, all
+  terms zero. Caveat recorded: "trabajo" is zero in these agendas too, so it
+  is NOT a usable control -- only "sesión" is.
+
+TOOLING: this container image was replaced overnight and wiped the scratchpad.
+All helpers were rebuilt. Two traps worth recording, because each would look
+like "the technique is unavailable": the default python3 on PATH is 3.11 with
+NEITHER pypdfium2 nor PIL, while /usr/bin/python3 is 3.13 and has both; and
+pdfminer is gone. The render-and-read helper has been rebuilt on poppler's
+pdftoppm so it has no Python dependency at all.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+Batches 5 and 6 had not returned when this entry was written and follow as
+addenda.
+
+Push: pending (this commit)
