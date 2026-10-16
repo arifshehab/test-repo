@@ -6375,3 +6375,115 @@ Batch 6 had not returned when this entry was written and follows as
 addendum 2.
 
 Push: pending (this commit)
+
+
+--- 2026-10-16 addendum 1 confirmed push: 55f504b ---
+
+
+=== 2026-10-16 06:25 UTC (addendum 2 -- batch 6) ===
+
+All six batches are now in. NO CLASSIFICATION CHANGES. Final tally:
+18 Yes / 14 Partial / 28 No.
+
+A METHODOLOGY RULE FIRED FOR THE FIRST TIME -- UNITED KINGDOM. The amendment
+set has grown 143 -> 173 -> 177 -> 196 -> 212, and 212 NOW EXCEEDS the
+take=200 page size. I verified it: one request returns totalResults 212 but
+len(items) 200. So the standing check of totalResults against len(items) DID
+ITS JOB by failing, and the correct response is to PAGE -- skip=200 returns
+the remaining 12, union exactly 212 unique amendmentIds. Any future run
+reading only the first page will silently miss items; this feed must now be
+paged.
+Across all 212: "import" ZERO and "supply chain" ZERO, so the sixteen new
+amendments added no import measure. "forced" matches exactly two, both
+NoDecision -- NC40 (10039332, hoc118, Liam Byrne, decisionExplanation "The
+House has not considered this amendment") and a forced-MARRIAGE deportation
+clause that is irrelevant here. The decision tally across the set is 152
+NoDecision, 22 Agreed, 19 NotSelected, 15 NegativedOnDivision, 2
+WithdrawnBeforeDebate, 1 Withdrawn, 1 NotCalled -- decisions ARE being
+recorded, which makes NC40's continued NoDecision meaningful rather than an
+artefact. New route: the Hansard API control-validates ("immigration" 103,
+gibberish 0) and shows the committee at its Fifth and Sixth sittings on
+15 October at clause 18, with "new clause 40" returning zero -- consistent
+with new clauses being taken after the clauses, so NC40's selection status is
+simply not yet determinable.
+
+URUGUAY -- A GOVERNMENT-DIRECT SOURCE FOUND, upgrading column 6 from news to
+tier (a). The Ministry of Economy and Finance's own slide deck for the
+Chamber of Deputies finance committee (gub.uy, 1,099,410 bytes, 42,628 chars)
+lists as the seventh of the bill's seven blocks "7. Medidas para prevenir
+importaciones realizadas bajo trabajo forzoso", and states: "Trabajo forzoso:
+Se establece un marco para impedir la importación de bienes producidos
+mediante trabajo forzoso u obligatorio, incluido el trabajo infantil
+forzoso." Crucially it is the DIPUTADOS-stage deck, i.e. after the 26 August
+Senate vote, which is indirect but real evidence the provision survived --
+the government was still presenting it as part of the bill.
+THE ARTICLE-LEVEL QUESTION IS STILL NOT CONFIRMED, and is recorded as such:
+the Senate passed the bill 31-0 in general, but reporting notes "La mayoría
+de los artículos fueron acompañados por el PN y el PC", the bill runs to 240
+articles, and no source states how Article 96 itself was voted. The deck
+gives no article number and its footer still reads "Mayo de 2025". The bill
+text remains unread -- parlamento.gub.uy is 403 on every path, the
+legislative subdomain is curl 000, diputados.gub.uy fails on a TLS NAME
+MISMATCH. Diputados has not voted; its committee began 9 September and the
+only plenary date found is "noviembre" from a secondary source, with the
+minister saying he would send amendments from the Senate debate.
+
+TRINIDAD -- the corpus moved substantially and all of it is clean: Gazettes
+173 and 174, Legal Notices 829-831, and Act No. 18 of 2026, all modified
+16 October, all target terms zero. A VALUABLE NEAR-MISS: LN 830 IS a
+Prohibition (Carriage Coastwise, Importation and Exportation) Order under
+Customs Act s.44 -- but for copper, brass and scrap-metal EXPORTS. It usefully
+proves prohibition orders of exactly this family do appear in the series,
+which is what makes the forced-labour zero meaningful. PATH CORRECTION: the
+previously recorded /Gazette/ and /Legal Notices/ paths now both return a
+46,554-byte "Coming Soon" page and are DEAD; the working listings are the
+Apache indexes at printery.gov.tt/e-gazette/2026/{Acts,Gazette,Legal%20Notices}/.
+
+TÜRKIYE -- yesterday's mojibake finding is NARROWED: the HTML issue pages
+decode cleanly as cp1254 and are not garbled; the problem is specific to the
+full-issue PDFs. Issue 33402 of 16 October read at index level with control
+"tebliğ" 10, gibberish 0, and zorla/cebri/ithalat/yasak all zero, with the
+dotted-İ casing handled by normalising before counting. The legislature
+register search is VOID -- the TBMM bill endpoint returns recordsTotal 0 for
+every query including an empty one and a working control, and the site search
+returns identical bytes for a real query and gibberish.
+
+VENEZUELA -- the six previously unread issues (43.463-43.468, 9.6-26.0 MB
+each) are now downloaded and read at SUMARIO level, all terms zero. Honest
+limit: the bodies are scanned images -- one page carries 103 characters of
+header against a 300-ppi image -- and no body sweep was done because no OCR is
+available here, so these are sumario-level negatives only. A NEW TRAP WORTH
+KEEPING: the gazette's advanced filter requires BOTH fecha_desde AND
+fecha_hasta; with fecha_desde alone even the control "Decreto" returns "No se
+encontraron", which would read as a false negative. With both set, "Decreto"
+returns 15 issues and "Resolución" 49.
+
+VIETNAM -- the administering authority is now POSITIVELY identified rather
+than merely "not MOIT": two independent secondary sources reproduce the
+decree's Appendix I row assigning the category to the MINISTRY OF HOME
+AFFAIRS. That confirms rather than revives the refuted MOIT claim, which was
+always about MOIT being the US liaison. Appendix I itself is still unread.
+
+OTHER: Switzerland's author-filter negative is now STABLE across two runs
+(the same three and seven items, none on forced labour), and a title scan
+adds depth -- the register carries 16 "Zwangsarbeit" items and 5
+"Einfuhrverbot" items, so it demonstrably covers both concepts and neither
+has produced a 2026 import measure; SECO still has "signed" at zero. Thailand
+gained a partial route via the Wayback Machine serving DFT's own pages, but
+the snapshot is a homepage news list eight days stale and the legal and
+measures pages are archived only before the June Cabinet decision. Taiwan
+reproduced exactly. The UAE's Federal National Council is unreachable by
+every route, so that limb is unverified rather than negative.
+
+LEGISLATURE AUDIT, FINAL SCOREBOARD across all 28 "No" rows: verified for
+Australia, Japan, Hong Kong, Kazakhstan, South Africa, South Korea and
+Switzerland; thin for Algeria, Angola, Bahrain, Nigeria, Oman, Qatar, Saudi
+Arabia, Singapore, Thailand, Türkiye and Venezuela; and failed outright at
+the host for Kuwait, Libya, Morocco, Iraq, Egypt, Guyana, Russia and the UAE.
+So seven verified, eleven thin, eight failed. Several "No" rows rest on solid
+gazette sweeps but unverified legislature checks, and the rows now say so
+rather than implying a completeness they do not have.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+Push: pending (this commit)
