@@ -6268,3 +6268,110 @@ Batches 5 and 6 had not returned when this entry was written and follow as
 addenda.
 
 Push: pending (this commit)
+
+
+--- 2026-10-16 main entry confirmed push: 4fd28b8 ---
+
+
+=== 2026-10-16 05:45 UTC (addendum 1 -- batch 5) ===
+
+Batch 5 returned. No classification changes; tally holds at
+18 Yes / 14 Partial / 28 No.
+
+SOUTH AFRICA -- A CHALLENGE TO THIS FILE'S OWN CONTROL, RUN DOWN AND
+RESOLVED IN THE FILE'S FAVOUR. The pass reported that the recorded control
+("Customs and Excise", 25 hits since 25 July) "was not reproduced", finding
+10,000 instead, and correctly noted that 10,000 is a CAP rather than a count.
+The explanation is that the pass omitted the date filter. I tested the
+parameter directly:
+  "Customs and Excise", no filter            -> count 10000 (the cap)
+  "Customs and Excise", date__gte=2026-07-25 -> count 25     (the recorded figure)
+  "Customs and Excise", date__gte=2030-01-01 -> count 0      (proves it bites)
+  "forced labour",      date__gte=2026-07-25 -> count 0
+  "forced labour",      no filter            -> count 116
+  gibberish                                   -> count 0
+So the filter demonstrably works and the recorded control was right. This is
+now the cleanest form of the South Africa negative: the corpus carries the
+phrase 116 times historically, the date parameter is proven to filter, and
+the post-25-July count is zero. Coverage limit: the newest South African
+issue indexed is 13 October (no. 55540), so 14-16 October are not yet
+indexed and the extension to 16 October could not be completed.
+The SOUTH AFRICA LEGISLATURE CHECK IS ALSO NOW VERIFIED via a discriminating
+route -- the Parliamentary Monitoring Group search returns 133 matches for
+"forced labour" against 0 for gibberish, with its newest relevant hit a
+26 June parliamentary question to Minister Tau, and no customs or trade bill
+on its current-bills list. South Africa remains the likeliest next move to
+Partial if the promised notice is gazetted.
+
+SOUTH KOREA -- the legislature check is now VERIFIED AT BODY LEVEL, closing a
+gap this row has carried for weeks. Controls pass (Customs Act 44, supply
+chain 27, labour 93, trade 34) while six forced-labour and import-ban
+phrasings plus a Hangul nonsense string all return the API's explicit "no
+matching data". The two September supply-chain bills were then READ: one bans
+collusive price-fixing in crisis items, the other is supply-chain support
+where "import" appears once in "diversifying import source countries".
+Route worth keeping: bodies come from a POST to the Assembly's
+downloadDtlZip.do endpoint, since the detail page loads its text by AJAX.
+A BILL NOT PREVIOUSLY IN THIS FILE was found and correctly NOT acted on --
+2220854 of 27 August, a corporate human-rights and environmental DUE-DILIGENCE
+bill, with 73 hits for "due diligence", 166 for "human rights", ZERO for the
+forced-labour term, and "import" appearing only inside the unrelated word for
+"revenue". Not an import ban.
+
+PERU -- no Decreto Supremo, and the long-running count discrepancy is now
+EXPLAINED. El Peruano was scanned with the correct "query" parameter and
+strong controls ("decreto supremo" 491 hits for 8-16 October, gibberish 0),
+against which "trabajo forzoso" returns one Constitutional Court issue and
+"trabajo forzado" zero. The explanation for passes disagreeing (39 vs 8 vs
+491) is that the figure read is totalHits, which MIXES whole-issue
+cuadernillos with itemised norms -- so those numbers must never be compared
+across runs, and only itemised norms matter. Over 1 July to 16 October the
+only itemised norm is a MINCETUR travel authorisation. Four whole-issue hits
+were not opened. Carry-over is still unresolved and the classification does
+not turn on it.
+
+PAKISTAN -- a third independent date source, and the dates are now FOUR-WAY
+ambiguous. A genuine Urdu page reports that "the federal cabinet has given an
+important approval regarding implementation of international labour
+standards, approving the inclusion of a definition of forced labour in the
+Import Policy Order 2022". Its header reads 9 July, and usefully its
+og:image upload path carries an INDEPENDENT date marker of 2026-07-09 -- better
+than a header alone, though still not proof. So: ECC 2 July, an SRO dated
+08-07-2026 per an unverified snippet, this cabinet page at 9 July, press at
+15 July. A coherent sequence exists but neither the cabinet date nor SRO 1085
+is proven, and customspk is now void for this question (its search returns
+"did not match any entries" for both terms).
+
+PHILIPPINES -- both live gaps remain, and one is now TIMED. Publication under
+section 12 is still unverified (Official Gazette and DOLE both Cloudflare).
+On the section 9 implementing guidelines, DTI's own search DOES discriminate
+(gibberish 0; the forced-labour query returns 12 hits) and surfaces the JAO
+and press release but NO guidelines -- so they have not issued. The 90-day
+deadline from effectivity falls around LATE OCTOBER, making the guidelines
+imminent and the single thing most likely to move this row: if they merely
+channel pre-existing RA 10863 powers without creating a prohibition, the row
+should revert to Partial.
+
+OTHER: Russia verified at title level at source, but its LEGISLATURE check is
+a GAP not a negative -- both sozd.duma.gov.ru forms fail after CONNECT is
+established, and duma.gov.ru's own search is a PHANTOM returning an identical
+229,973-byte 404 for every query. Saudi Arabia's Umm al-Qura results had to be
+judged by TITLE because the pages are ~800 KB regardless of query, so byte
+size carries no signal; its Shura host gives curl 000 / 503. Singapore's MTI
+newsroom HAS MOVED to a meti.gov.sg host, and its Parliament bills page shows
+only the 10 newest bills with both keyword and page parameters PHANTOMS.
+Sri Lanka's guidelines now have a reason on the record -- Customs was awaiting
+ministerial directives as of mid-August -- and its REST control quality is
+mixed and labelled as such.
+
+Prison-labour audit, further datapoints consistent with yesterday's
+resolution: Peru's register carries two domestic PRISON-WORK bills, which are
+rehabilitation measures and not import prohibitions, and no prison-labour
+import prohibition surfaced in any of batch 5's ten.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+Batch 6 had not returned when this entry was written and follows as
+addendum 2.
+
+Push: pending (this commit)
