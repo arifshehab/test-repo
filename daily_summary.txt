@@ -6487,3 +6487,139 @@ rather than implying a completeness they do not have.
 TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
 
 Push: pending (this commit)
+
+
+--- 2026-10-16 addendum 2 confirmed push: 2d8f029 ---
+
+
+=== 2026-10-17 04:30 UTC ===
+
+NO CLASSIFICATION CHANGES so far. Tally holds at 18 Yes / 14 Partial / 28 No.
+This entry covers batches 3 and 5; batches 1, 2, 4 and 6 were still running
+and follow as addenda.
+
+NO NEW OR REVISED USTR DETERMINATION. All three Federal Register sweeps are
+identical to yesterday: unfiltered "forced labor"+"Section 301" totalResults
+18 with the newest still 2026-07-28; unfiltered "forced labor" since
+2026-08-01 totalResults 6, all CBP/DHS/SEC; USTR agency corpus 2089, newest
+2026-10-08. The USTR October index is byte-identical at 34,021 bytes with the
+same ten items -- listed in full this time rather than diffed against a
+hardcoded set, which is what produced yesterday's false positives.
+
+=== A THIRD STRUCTURAL QUESTION SETTLED ON PRINCIPLE -- GUYANA ===
+
+Batch 3 surfaced, and I verified verbatim, a statement by Guyana's Foreign
+Secretary: "Where credible evidence exists, she said, Guyana's Customs Act
+provides authority to prohibit the importations of goods. 'When it is
+conclusively determined that imported goods were produced using forced
+labour, the responsible minister has powers to prohibit importation,' she
+said." The pass correctly kept No and FLAGGED a possible Partial(c) argument
+rather than acting on it.
+THE ANSWER IS NO, and the reason generalises so this stops recurring:
+A GENERIC STATUTORY POWER TO PROHIBIT IMPORTS, NOT SPECIFIC TO FORCED LABOUR
+AND NEVER EXERCISED FOR IT, IS NOT A PARTIAL(c) REGIME.
+ (i) It does not discriminate. Nearly every customs statute among the 60
+     contains such a power, so counting it would convert most of the 28 "No"
+     rows to Partial and the test would stop distinguishing anything.
+ (ii) It is the inverse of the settled designation-dependent cases. Trinidad
+     s.45(1)(w), India Para 2.20B, Pakistan ¶7(3) and the rest are Yes
+     precisely because the instrument NAMES forced labour as a ground.
+     Guyana's authority does not, and no instrument has issued.
+ (iii) Partial(c) describes an existing partial REGIME short of a full
+     prohibition -- the UK qualifies on actual transparency and procurement
+     duties. Guyana has unexercised generic authority and no regime at all.
+USTR also named Guyana among the non-banners. This is the third such
+question resolved in three days, after the prison-labour audit (16 Oct) and
+the Philippines designation-dependent test (14 Oct).
+
+=== JAPAN VERIFIED FOR BOTH HOUSES, VIA AN ENCODING TRAP ===
+
+The House of Representatives bill list for the current 222nd Diet is served
+as SHIFT_JIS. I confirmed it: utf-8 and euc_jp both RAISE UnicodeDecodeError
+and only shift_jis decodes, giving control "法律案" 41 and "議案" 13 against
+the forced-labour term at ZERO. Decoding as utf-8 with errors replaced would
+have produced garbage and a FALSE ZERO on every term -- a new instance of the
+decode-before-counting rule. A second route also validates: the National Diet
+Library minutes API returns 3 speech records for the forced-labour term
+between 1 March and 17 October, all debate and none a bill, against a control
+of 6 meetings and gibberish 0.
+
+=== ISRAEL -- ONE WEEK TO THE INFERRED DEADLINE ===
+
+The Schedule is STILL EMPTY (Wikisource 200 at 71,881 bytes, oldid unchanged,
+heading followed directly by the signature, no amending order). The committee
+mechanism is now confirmed VERBATIM rather than paraphrased: any future
+addition of products "will require renewed approval of the Economy
+Committee", so the signal to watch is a committee proceeding, not a
+ministerial signature. A DISPLAY-DATE TRAP WAS AVOIDED: the order was
+published 17.8.26 in Kovetz Takanot No. 12505, and the "19/08/2026" on the
+chamber page is that site's own post date. Nothing reports the enforcement
+mechanism as submitted, and 24 October remains OUR ARITHMETIC -- no outlet
+gives a calendar date. The Knesset estate is unobservable: three hosts return
+a 303 at 48 bytes to a geo-maintenance page, plain http gives 503, and the
+open-data host gets a CONNECT 502. The 303 did NOT clear on retry, so it is
+not transient.
+
+=== JORDAN -- A CONFLICTING CLAIM DECLINED, WITH SOUND REASONING ===
+
+CNN Arabic of 7 August states the agreement "entered into force on the first
+of August". The pass fetched the page and confirmed the quote is really
+there, then declined it: under the verified Article 6.6(2) text, a 1 August
+entry into force would require mutual written notification around 2 June --
+SEVEN WEEKS BEFORE THE AGREEMENT WAS SIGNED on 21 July. It is a video blurb
+with no article text and most likely conflates the US tariff-side effective
+date. A second secondary source points the other way, saying the agreement is
+"not yet in force". Official routes all negative; the trade ministry's
+news-list URL returns byte-identical content to its homepage and is VOID.
+
+=== PHILIPPINES -- THE REVERSION QUESTION STAYS OPEN, BECAUSE THE GUIDELINES
+DO NOT EXIST YET ===
+
+Batch 5 was asked to recommend reverting to Partial if the §9 implementing
+guidelines merely channel pre-existing RA 10863 powers. It found no evidence
+either way because the guidelines have not issued. DTI's own search
+discriminates (24 and 28 raw hits for the two spellings, gibberish 0) and
+returns only the JAO and the signing release; an independent legal update
+dated 15 OCTOBER confirms it from the other side, telling companies to
+"await the implementing guidelines to be issued by the DTI, DOLE, DOF, and
+BOC". PUBLICATION OF THE ORDER IS STILL UNVERIFIED, AND THAT MATTERS MORE
+THAN IT LOOKS: because §12 ties effectivity to publication, an unknown
+publication date means the 90-day clock's START is also unknown, so "late
+October" is itself an estimate.
+
+=== OTHER ===
+- SOUTH AFRICA: coverage EXTENDED to 16 October past the previous 13 October
+  ceiling, with the mandatory date filter and controls passing ("Customs and
+  Excise" 26, "Government Gazette" 87 of which 70 South African, gibberish
+  0) and "forced labour" at ZERO. PMG returns 133 quoted matches, IDENTICAL
+  to the earlier run -- which is itself the finding. One honest caveat: the
+  16 October ceiling relies on a country parameter the pass did not
+  separately prove.
+- HONDURAS: an alternative route found after leyes.hn voided a THIRD day --
+  an independent Gaceta digest reaching Gaceta 37,264 of 15 October, carrying
+  exactly two entries for the ban, matching this row. Flagged not adopted:
+  its dates for those two Gacetas disagree with the row's, probably site
+  posting dates.
+- IRAQ: a SECOND decoy identified after yesterday's gambling page --
+  iraqld.com is an Iraqi-dinar rumour site, not a statute source. Eleven
+  routes failed; the legislature limb stays ungraded.
+- KAZAKHSTAN: the new portal now has an EXACT discriminator -- a
+  1,212,457-byte zero-result baseline that gibberish and five real
+  forced-labour phrasings all return, while genuine hits return larger pages.
+- HONG KONG: the subsidiary-legislation gap is NOT closed and is better
+  understood -- the OData service exposes only Vbills with no $count, and the
+  e-Gazette search is a Livewire form that IGNORES the query string (identical
+  56,387 bytes). Today's info.gov.hk daily pages are VOID (control zero).
+- INDIA: no official resolution of the effective-date conflict, but the
+  secondary picture is one-sided -- every source follows the HINDI 30-day
+  reading and none says "immediate".
+- RUSSIA: two commercial databases added to the dead list -- garant.ru and
+  consultant.ru are both VOID (a legislative control returns 1 hit while the
+  real query and gibberish both return 0).
+- SAUDI ARABIA: today's pass HONESTLY DOWNGRADED -- the search URL used did
+  not validate (gibberish echoed eight times), so it is void and the earlier
+  verified negative stands rather than being renewed.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+Push: pending (this commit)
