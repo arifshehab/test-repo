@@ -6623,3 +6623,131 @@ October" is itself an estimate.
 TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
 
 Push: pending (this commit)
+
+
+--- 2026-10-17 main entry confirmed push: efddecd (plus cleanup commit) ---
+
+
+=== 2026-10-17 06:15 UTC (addendum 1 -- batches 1 and 6) ===
+
+No classification changes. Tally holds at 18 Yes / 14 Partial / 28 No.
+Batches 2 and 4 were still running and follow as addendum 2.
+
+*** USTR'S OWN FINAL-ACTION FEDERAL REGISTER NOTICE OF 23 JULY 2026 HAS NOW
+BEEN READ DIRECTLY -- a primary document this file had never had. ***
+I verified the passages myself (ustr.gov PDF, 2,793,062 bytes, 882,415 chars;
+controls "forced labor" 86, "Section 301" 115).
+
+ITS 10% CRITERION IS STRUCTURALLY IDENTICAL TO THIS FILE'S SCHEME, which is
+the strongest external validation the classifications have had: "for an
+economy that imposes a forced labor import prohibition, has committed to
+impose and enforce such a prohibition through an Agreement on Reciprocal
+Trade (ART), or has imposed a partial regime with the effect of preventing
+the importation of certain forced labor goods, the Trade Representative has
+determined 10 percent is the appropriate rate". USTR's three limbs map onto
+this file's Yes, Partial(b) and Partial(c) respectively.
+
+It also records the investigation's findings: FIFTY-FOUR economies "have
+failed to impose and effectively enforce a prohibition", and SIX -- Canada,
+Ecuador, the European Union, Indonesia, Mexico and Pakistan -- "have failed
+to effectively enforce" one, i.e. those six had a prohibition but were not
+enforcing it. Those are the June-2026 baseline and many of the 54 have since
+enacted bans, so they corroborate this file's starting point without
+challenging any current classification.
+
+AND IT CONFIRMS THE UNITED KINGDOM IN USTR'S OWN WORDS: the notice describes
+the UK as having "imposed a partial regime with the effect of preventing the
+importation of certain forced labor goods" and places it at 10% on that
+basis -- primary third-party confirmation of exactly the Partial(c) reading
+this row carries.
+
+=== A MISREADING HEADED OFF -- SWITZERLAND ===
+
+Batch 6 reported that "Switzerland and Taiwan are named in its commitments
+regarding forced labor import prohibitions provision", which read alone would
+suggest a treaty limb and a move to Partial(b). IT DOES NOT. I read the
+passage: it is an EXEMPTION power, listing products of thirteen economies the
+Trade Representative may exempt "that would encourage these economies TO
+FULFILL COMMITMENTS regarding forced labor import prohibitions OR to
+encourage these economies TO ENACT AND EFFECTIVELY ENFORCE a forced labor
+import prohibition". It is a DISJUNCTION, so the list deliberately mixes
+economies that have commitments with economies that have none, and membership
+proves nothing either way.
+The same notice settles it directly: SWITZERLAND IS IN THE LIST OF FIFTY-FOUR
+that "have failed to impose and effectively enforce a prohibition". USTR does
+not credit it with a commitment. Switzerland stays No and does not join the
+watchlist. Taiwan's Partial(b) rests on its signed agreement, not on this
+list.
+
+=== VIETNAM -- A USEFUL CAUTION ABOUT USTR'S LISTS ===
+The notice places Vietnam at 12.5% and includes it among the fifty-four --
+yet Decree 292 was issued on 22 JULY, the day before the notice. USTR did not
+credit it, almost certainly because the finding was settled on the June
+record. That does not bear on this file's classification, which turns on
+whether an instrument was enacted rather than on whether USTR counted it in
+time -- and it is a concrete reminder that absence from USTR's lists is weak
+evidence about recent instruments.
+
+=== ARGENTINA -- LEGISLATURE CHECK NOW VERIFIED, AND THE FLAGGED LEAD CLOSED
+
+The Chamber's own bill search was driven directly (POST to
+hcdn.gob.ar/proyectos/resultado.html) and control-validates: "importación"
+returns 2,028 bills, gibberish returns "Ningún proyecto ha sido encontrado".
+Usefully the HCDN index also covers Senate-origin expedientes, so one search
+spans both chambers (senado.gob.ar is behind a captcha WAF at 44,778 bytes).
+The two bills flagged yesterday are both Fein CHILD-labour bills --
+4123-D-2022 and 1286-D-2024, "PROHIBICIÓN DE IMPORTACIÓN DE BIENES QUE
+CONTENGAN TRABAJO INFANTIL" -- each showing a committee referral and no
+movement, and both assessed as LAPSED under the two-year rule of Ley 13.640
+(an inference from the rule and the dates; HCDN carries no "caducado" flag).
+No re-filing. On forced labour specifically, "trabajo forzoso" returns 19
+bills with none after May 2025, and four further phrasings return nothing on
+import bans. Verified at title-and-summary level; the search does not index
+full text.
+
+=== OTHER GAINS ===
+- UK: the feed was PAGED correctly, as the new rule requires -- skip=0 gives
+  200, skip=200 gives 12, skip=400 gives 0, union 212 matching totalResults.
+  "import" and "supply chain" both ZERO; "forced" exactly 2, both NoDecision.
+  The decision tally is unchanged from yesterday, which is what makes NC40's
+  continued NoDecision meaningful. Next sitting 20 October.
+- THE BAHAMAS: the recency bracket is now EXACT -- uploads after 2026-08-20
+  return exactly one item (25 August), and after 2026-08-26 and after
+  2027-01-01 both return ZERO. Nothing uploaded in over seven weeks.
+- BAHRAIN: the REAL legislation register was found, with topic flags for
+  bills and bill-proposals -- but it is VOID BY FETCH (identical 177,127 bytes
+  for an empty query, a working control and gibberish), because results load
+  through an admin-ajax endpoint whose action name is not in the JS bundles
+  read. Better characterised than "thin": the register exists and is
+  identified; only the AJAX action is missing.
+- ANGOLA: the new backend was probed systematically. Its legislative
+  endpoints carry explanatory text only and the approved-diplomas key returns
+  an empty body; the one substantive endpoint is the parliamentary journal
+  index (61,693 bytes, controls passing, all target terms zero). Conclusion
+  worth recording: this backend has NO register of tabled bills, so the limb
+  is structurally unavailable by this route rather than merely unreached.
+- ALGERIA: the gazette ceiling extended four issues further (073-080 all 404
+  in both languages). The legislature was pushed hard -- about twenty-five
+  further API paths, all 404 -- and the upper house adds a layer: an ENVOY
+  "upstream connect error" 503 over http, incomplete chain over https.
+- THAILAND: the gazette is blocked more comprehensively than recorded --
+  Cloudflare 403s on direct PDF paths too, and a KNOWN-GOOD control URL was
+  refused. The Wayback fallback also closed: its CDX endpoint returns
+  "Blocked by egress policy", which is OUR layer.
+- TÜRKIYE: the register is VOID a second day and the layer is now named --
+  the endpoint returns an F5 "Request Rejected" page AS HTTP 200 at 37,543
+  bytes, exactly the trap the taxonomy warns about.
+- VENEZUELA: the filter takes DD/MM/YYYY and ISO dates produce a SILENT void
+  -- a sharper statement of yesterday's trap. The 1 Sept-17 Oct window is a
+  valid title-level negative; the 2-17 October window is VOID because the
+  control itself returns nothing. The Asamblea Nacional was usefully checked:
+  its 2026-27 legislative plan lists 29 laws, none on forced labour.
+- URUGUAY: the enacted-instrument negative extended cleanly (decrees 239-241
+  and laws 20531-20533 all the 4,450-byte stub against working controls).
+  Article 96's survival is still unconfirmed at article level, and one
+  tantalising 4 August item -- headlined that a "artículo sobre trabajo
+  forzoso" could serve as a "barrera de protección" -- is PAYWALLED.
+
+TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
+
+Push: pending (this commit)
