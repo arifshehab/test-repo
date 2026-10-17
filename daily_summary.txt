@@ -6751,3 +6751,72 @@ full text.
 TLS verification was left on throughout; no -k, HTTPS_PROXY untouched.
 
 Push: pending (this commit)
+
+=== 2026-10-17 03:05 UTC (addendum 2) ===
+Batches 2 and 4 applied. Tally unchanged: 18 Yes / 14 Partial / 28 No.
+
+Primary-source gains:
+- Costa Rica: the period-level gazette negative owed since 1 October is finally
+  delivered. imprentanacional.go.cr accepts ?date=DD/MM/2026 and each date links a
+  complete-edition PDF, with Alcances linked separately. All 14 ordinary editions
+  29 Sept - 16 Oct plus Alcances 129-139 (contiguous) were extracted: "45941" is
+  zero everywhere except Alcance 129, the decree itself. NO Lista Oficial through
+  16 October, at gazette level rather than search level. Structural lesson: the
+  complete-edition PDFs EXCLUDE the Alcances, so a sweep reading only complete
+  editions silently misses the supplements where such decrees appear.
+- Dominican Republic: the Senate bill is now confirmed at primary source
+  (www.senadord.gob.do, 22 September, 550,103 bytes, "trabajo forzoso" 16,
+  gibberish 0): "aprobo de urgencia el proyecto de ley de Prevencion y Prohibicion
+  de Importacion de Trabajo Forzoso", on a favourable Industry Committee report,
+  "aprobado en dos lecturas consecutivas". The "27 votos" figure from secondary
+  reporting is NOT in the Senate's own article (control returns 0) and was
+  correctly not adopted. Senate-only, so no classification movement. The Senate's
+  wp-json REST API is blocked (401, Kadence Security); the ?s= HTML search is the
+  only route and the apex 301s to www.
+- Mexico: the DOF date conflict is resolved at primary level. The apex host reads
+  nota_detalle.php?codigo=5679955 at 299,710 bytes showing "DOF: 17/02/2023",
+  signed 13 February, Transitorio Unico giving 90 days to entry into force -- both
+  the cited date and the May 2023 effective date confirmed. A DOF period sweep also
+  now works on the apex host with a verified positive control and gibberish 0;
+  1 Sept - 17 Oct 2026 yields only an unrelated PEMEX acuerdo. LIMIT recorded: the
+  same query over February 2023 returns 0 despite 24 hits in that note's body, so
+  DOF search does not index every note's full text.
+- Libya: the legislature check reaches a host for the first time. The HoR's real
+  domain is parliament.ly (WordPress, wp-json search works; controls 316/1,106,
+  gibberish 0); all hor.* forms are CONNECT 502 at our egress. Its Official Gazette
+  issues 1-12 of year 4 were also read (188,000 chars, controls 368/183) with every
+  forced-labour and import term zero. News-and-gazette level, not a bills register.
+- Nigeria: now verified at titles level for BOTH chambers. The nass.gov.ng
+  DataTable search is VOID (recordsFiltered = 2,660 for every query incl.
+  gibberish), so all 2,660 rows were enumerated - and are heavily historical. The
+  gap was closed via PLAC's tracker API, paged in full to 2,798 bills matching its
+  own total, newest record updated 16 October, both chambers of the 10th Assembly:
+  "forced" 0, "slavery" 0 against controls labour 10 / customs 4 / prohibit 39.
+  Titles-level only (111 of 2,798 records carry body text).
+- Morocco: upper house enumerated in full - 9 government bills and 70
+  private-member proposals, controls matching the item counts exactly, all
+  forced-labour, import, trafficking and customs terms zero. Lower house stays
+  Cloudflare-blocked, so the limb remains thin. The Bulletin Officiel route is now
+  genuinely closed: every SGG path resets or 502s and nine candidate alternatives
+  all fail, so the BO URL numbering hypothesis could not be tested at all.
+- Kuwait: the legislature limb does not merely fail - it does not exist. The Amir
+  dissolved the National Assembly on 10 May 2024 and suspended seven constitutional
+  articles for up to four years, unreversed. There is no tabled-bill limb; the
+  gazette-instrument route stays unread (kuwaitalyawm host fails with an incomplete
+  chain, NOT bypassed).
+- Oman: the Shura Council bills register was located and measured - and is stale,
+  page 1 topping out at June 2017. No 2026 negative is claimed from it. qanoon.om
+  still shows 1669 of 11 October as newest.
+- Norway: Storting pending-business list re-polled today (85,662 bytes, scope line
+  "i lopet av hostsesjonen 2026"); target terms zero, the one "tvang" hit being
+  "tvangsmidler" in an unrelated police-law item.
+- Nicaragua: the owed government-direct attempt was made and failed across eleven
+  hosts. One live lead for next run: legislacion.asamblea.gob.ni/Normaweb.nsf
+  returns 200 at 643 bytes over plain http and was not explored.
+- Malaysia: Malay-language search returned native items only, nothing past July.
+
+Passes lighter than instructed, stated plainly: no new New Zealand check was run;
+Nigeria and PLAC are titles-level; Morocco covers only the upper house; batch 4 ran
+no new RTA or trade-deal searches for its ten economies. TLS compliance: no -k and
+no proxy change anywhere in this run; the Kuwait and Morocco chain failures were
+left as failures.
