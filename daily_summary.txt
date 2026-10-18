@@ -6940,3 +6940,72 @@ Unmet limbs, stated plainly: no Sinhala/Tamil search (Sri Lanka), no Urdu-site
 grep (Pakistan), no Qatar/Saudi/Russia statute-portal checks, no Korean bill-body
 POST, no congreso.gob.pe or El Peruano sweep, no Khmer-language negative claimed
 for Cambodia, and no French/German search for the EU.
+
+=== 2026-10-18 03:00 UTC (addendum 2) ===
+Batch 3's second pass applied (its first pass was light by its own account and it
+was sent back). Tally unchanged: 18 Yes / 14 Partial / 28 No. Two further column 6
+upgrades, and the India question is resolved into something better than a conflict.
+
+INDIA -- both documents were read side by side at first hand, and the missing key
+was that the DGFT copy in column 6 is a PRE-PUBLICATION DRAFT. Its header says
+"(To be published in the Gazette of India Extraordinary...)", it is dated 13 July,
+and its S.O. number is left BLANK where the gazette supplies 3879(E). That draft's
+English says "with effect after the expiry of 30 days". The gazette as published
+(Extraordinary No. 3716, 14 July, digitally signed 16 July) says "with immediate
+effect" in ENGLISH but 30 days in HINDI. So the sequence is: draft English 30 days
+-> gazette Hindi 30 days, gazette English "immediate". The inference, stated as an
+inference: the "immediate effect" wording appears to have entered the English limb
+alone at gazetting, so the better reading of drafting intent is 30 days and the
+gazette English is the outlier. Nothing turns on it -- 30 days from 14 July is
+13 August, both dates long past, so the ban is in force either way and India stays
+Yes. Column 6 now carries both copies so the discrepancy is inspectable. Controls
+confirmed the right document this time ("274548" 2, "274552" 0), after an earlier
+pass read the wrong notification.
+
+ISRAEL -- the Economy Committee sitting that had never been located is found. The
+Knesset Economy Committee approved the order unanimously on Thursday 13 August
+2026 (emess.co.il, 13/08/26 16:23; JDN, control "kfiya" 4, gibberish 0), so the
+full sequence is committee 13 August -> signature 16 August -> publication
+17 August. The mechanism is now confirmed from a source rather than inferred: JDN
+states that any future addition of products "will require renewed Economy
+Committee approval". The thing to watch is therefore a SECOND sitting, and none
+after 13 August was found. The Schedule remains empty.
+
+INDONESIA -- the Permendag primary text is read at last, after weeks of being
+cited without being opened. Pasal 2: importers may only import goods not produced
+through forced labour. Pasal 6: goods proven on investigation to be so produced
+"dilarang untuk diimpor". In force on promulgation. Column 6 gains the PDF; the
+undated voi.id item is withdrawn as uncitable (Cloudflare 403, cannot be dated).
+
+KAZAKHSTAN -- this morning's void discriminator is replaced with a working one,
+which is the real result. Byte size is abandoned; the portal renders totalPages
+and ten result links per page, and those are counted. Controls now pass properly
+(gibberish yields no totalPages and 0 links; "import" yields 35 pages). On that
+footing all 46 links across both Russian phrasings were enumerated and inspected --
+every one an akimat/maslikhat penal-labour-site decision, social-assistance rule
+or budget item. The owed Kazakh-language search is also now done. Verified for
+state-body drafts, with Mazhilis bills not covered.
+
+JAPAN -- verified at title level for both houses and both Diets, with encoding
+handled explicitly: the 222nd Diet list decodes as shift_jis but the 221st FAILS
+strict shift_jis and needs cp932. Control "houritsuan" 41/126/67/250 across the
+four lists; all forced-labour, import-ban and Uyghur terms zero.
+
+HONDURAS -- a second readable Gaceta route found (a Supabase PDF mirror serving
+both relevant issues with text layers) while leyes.hn stays blocked for a fifth
+day. It confirms the decree's Article 4 general prohibition and the 21 August
+list of six records. Two caveats kept rather than smoothed: the mirror is
+non-governmental so it is deliberately NOT promoted into column 6, and there is an
+ARTICLE-NUMBERING DISCREPANCY -- this read puts deferred application at Art 28 and
+vigencia at Art 32, where the row has cited 28/29, so the numbering needs
+re-checking. Also resolved: bibliotecalegalhn.com's morning SSL_ERROR_SYSCALL was
+transient; curl -v now shows a clean TLS 1.3 handshake on a Let's Encrypt
+certificate whose issuer is NOT our proxy CA.
+
+Still not reached: Hong Kong subsidiary legislation (the daily-page sweep run
+instead is explicitly not a substitute), the Reshumot primary, any Knesset host,
+any Economy Committee sitting after 13 August, the Gazette of India origin, and
+Jordan's Art 6.6(2) notification -- now unestablished after an eighth round. A
+Thomson Reuters "middle of September" claim was declined on the same ground as the
+earlier CNN Arabic one: both run the clock from signing, not from the exchange of
+notifications the article actually requires.
