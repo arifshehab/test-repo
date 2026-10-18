@@ -7009,3 +7009,64 @@ Jordan's Art 6.6(2) notification -- now unestablished after an eighth round. A
 Thomson Reuters "middle of September" claim was declined on the same ground as the
 earlier CNN Arabic one: both run the clock from signing, not from the exchange of
 notifications the article actually requires.
+
+=== 2026-10-18 03:20 UTC (addendum 3 -- run complete) ===
+Batch 6 applied; all six batches now in. FINAL TALLY UNCHANGED:
+18 Yes / 14 Partial / 28 No. No classification moved today.
+
+THAILAND is the run's most significant watchlist development, though it changes
+nothing yet. Reuters of 7 October quotes PM Anutin saying Thailand is at "the last
+paragraph" of the US trade agreement and expects to SIGN an Agreement on
+Reciprocal Trade during Trump's next Asia visit, "likely in November in Manila or
+Shenzhen". Two copies were fetched and grepped; neither mentions forced labour,
+and no agreement text exists to check, so there is nothing that could yet
+constitute a limb (b) commitment. Verified against the authoritative list rather
+than left to reporting: USTR's Agreements on Reciprocal Trade page was re-fetched
+centrally (41,000 bytes, gibberish 0) and still lists EXACTLY TEN signed
+agreements -- Malaysia, Cambodia, El Salvador, Guatemala, Argentina, Bangladesh,
+Taiwan, Indonesia, Ecuador, Jordan -- with Thailand, Pakistan and Vietnam all
+returning ZERO. Action for future runs: if a Thai ART is signed, fetch the text
+and look for an Article 2.9 or 3.9 equivalent, which would move Thailand from No
+straight to Partial(b).
+
+URUGUAY's Article 96 question is still unanswered, but for a newly identified
+reason worth recording: IMPO is serving a fault as a success. Every norm page
+returns a 3,550-byte "Se ha producido un error interno del sistema" stub as HTTP
+200 -- and the control, law 20530, returns the same stub, which is what proves the
+route void rather than the norm absent. The pass correctly declined to extend the
+negative at all. Six press articles were fetched and grepped rather than read from
+snippets, with "forzoso" zero in all six against passing controls.
+
+UNITED KINGDOM -- rule 22 exercised properly rather than assumed: the amendments
+feed was paged to exhaustion (200 + 12 + 0), the union of 212 matching
+totalResults exactly. NC40's decision tally is identical to 17 October, so it
+remains undecided. Two Hansard API constraints pinned: startDate is required and
+take above 100 errors; the quoted "new clause 40" query returns HTTP 500 and is
+therefore untested, not negative.
+
+SWITZERLAND -- verified at register level, with the paging that makes it
+trustworthy: the OData register truncated at 1,000 rows with a __next link, which
+was followed, giving 1,661 unique items per language across German, French and
+Italian. The only forced-labour hit in all three is one already cleared. Two
+near-misses correctly set aside (Importverbot on the West Bank and Brazilian
+meat).
+
+Honest qualifications carried into the file: Türkiye's 18 October issue has its
+primary control at ZERO, so that day is index-level only and not a swept day;
+Taiwan's negative is mirror-only, nothing read at ly.gov.tw itself; Venezuela's is
+title-level only, which cannot exclude a measure inside an issue given the bodies
+are scanned images; Vietnam's absence of implementing circulars is search-level,
+not a register check; and the UAE had no host retried at all today.
+
+RUN SUMMARY. No new USTR determination. No economy changed classification. The
+substantive gains were four column 6 upgrades to government-direct sources
+(Argentina's revised ARTI, Nicaragua's Ley 1280, India's gazette mirror alongside
+the DGFT draft, Indonesia's Permendag PDF), three primary texts read for the first
+time (Permendag, Ley 1280, the trilateral statement), the Israel Economy Committee
+sitting located, two broken search discriminators detected and one replaced
+(Kazakhstan), and one new methodology rule (27, USTR path change). One classification
+question is left deliberately open and flagged: the Philippines JAO, where the
+operative text cuts both ways and the row is held at Yes only because the test
+previously committed to concerns implementing guidelines that do not yet exist.
+
+All pushes this run succeeded and were verified against the remote.
