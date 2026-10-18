@@ -6866,3 +6866,77 @@ structure quoted; and the Kazakhstan legalacts.egov.kz byte-size discriminator i
 VOID today -- gibberish 1,288,433 bytes against a blank query's 1,302,907 and the
 real query's 1,302,955, only 48 bytes apart -- so no negative is claimed from it,
 and the agent is replacing it by parsing result counts.
+
+=== 2026-10-18 02:40 UTC (addendum 1) ===
+Batches 1, 2, 4 and 5 applied. Tally unchanged: 18 Yes / 14 Partial / 28 No.
+Two column 6 UPGRADES, both to tier (a) government-direct sources.
+
+ARGENTINA -- a Protocol of Amendment to the ARTI was signed on 14 October by
+Foreign Minister Quirno and Ambassador Greer, reportedly enabling transmission of
+the treaty to Congress. Both documents were read directly rather than trusted to
+reporting, and the division between them is the finding:
+  - The PROTOCOL is purely tariff-related (123,638 bytes, 3pp): controls "forced",
+    "labor", "Section 307" and "2.9" are ALL ZERO against "Tariff" 4, gibberish 0.
+    It amends only Section 1 and the US Schedule 2 General Notes, and recites the
+    ARTI as "signed in Washington, D.C. on February 5, 2026".
+  - The REVISED ARTI retains Article 2.9 verbatim (308,407 bytes, 37pp):
+    "Argentina shall adopt and effectively implement a prohibition on the
+    importation of goods mined, produced, or manufactured wholly or in part by
+    forced or compulsory labor... Argentina shall consider U.S. government
+    determinations on entities under Section 307 of the Tariff Act of 1930."
+  - A distinction from Jordan worth recording: "five years" returns ZERO in the
+    Argentine text, so unlike Jordan's Art 2.9(1) this commitment has NO deadline.
+    Art 6.7 requires an exchange of written notifications plus 60 days; none is
+    reported, so the agreement is not in force.
+  Argentina stays Partial(b); column 6 upgraded from the November 2025 fact sheet
+  to the revised ARTI PDF itself. Note the USTR October press index lists NOTHING
+  on this protocol, so that index LAGS and is not a completeness check.
+
+NICARAGUA -- the government-direct source owed for many runs is finally obtained,
+via yesterday's unexplored lead. The 643-byte page is only a JavaScript redirect,
+but the Domino view behind it works when "$" is percent-encoded as %24. Ley 1280
+was then read in full and independently re-verified (8,972 bytes, controls
+"forzado" 2, gibberish 0): approved 8 April 2026, published La Gaceta No. 61 of
+9 April, in force from publication, adding Article 16 bis to Ley 265 requiring
+importers to attach a written declaration on a DGA form that goods were not made
+wholly or partly with forced labour. This CONFIRMS rather than changes the
+classification: a sworn-declaration regime with no prohibition, exactly the El
+Salvador holding, so Partial(c) -- now resting on the enacted law itself. Column 6
+upgraded from the EY alert to the National Assembly's database.
+
+PHILIPPINES -- a real classification conflict, recorded rather than quietly
+resolved. The JAO's operative text was re-read at first hand from the scanned
+pages. Against the row: the Committee's powers are investigative and advisory
+throughout, s4.1.6 confines it to "coordinative and recommendatory functions", and
+s7 has it endorse findings to the BOC "for the prohibition of the importation of
+such goods, in accordance with customs laws" -- with no self-executing prohibition
+anywhere, i.e. channelling of existing RA 10863 powers. For the row: s8 excludes
+"goods shipped prior to its effectivity, as evidenced by the Bill of Lading" --
+an Order that merely constituted a committee would need no shipment-date exclusion
+keyed to transport documents; s6 puts the burden on the importer directly; s7 is
+mandatory; and the Order is titled "Rules on the Investigation and Prohibition of
+the Importation...". LEFT AT YES on a disciplined ground: the test committed to
+earlier was whether the s9 implementing guidelines channel RA 10863, and those
+guidelines do not yet exist. Moreover the 90-day clock cannot even be dated, since
+s12 ties effectivity to publication and the publication date is still unverified,
+so the guidelines are not demonstrably overdue. This is the most consequential
+unresolved judgment in the file.
+
+Other substantive gains: Algeria JO 073 swept clean in both editions, with the
+Arabic controls passing only after NFKC normalisation (the line-reversed variant
+zeroed even the controls, which is how the valid pass was identified); Oman issue
+1670 confirmed not yet published via a genuine 88,118-byte 404; Libya gazette year
+4 no. 12 (14 October) clean; Bahrain's zero-hit signal identified as HTTP 302 at
+132 bytes rather than an empty 200; the EU Cellar 400s traced to a missing
+Accept-Language header, not a block; Singapore's ?keyword= parameter shown to be
+byte-identical to unfiltered and therefore void; New Zealand's owed check run.
+
+Corrections to my own work: I told batch 1 that Brazil was "No" when the file says
+Partial(a) -- the agent caught it and correctly kept the baseline. A Qatar route
+recorded as working (api.moj.gov.qa) returned 404 on every path today, so it
+should not be assumed from the mirror list.
+
+Unmet limbs, stated plainly: no Sinhala/Tamil search (Sri Lanka), no Urdu-site
+grep (Pakistan), no Qatar/Saudi/Russia statute-portal checks, no Korean bill-body
+POST, no congreso.gob.pe or El Peruano sweep, no Khmer-language negative claimed
+for Cambodia, and no French/German search for the EU.
