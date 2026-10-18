@@ -6820,3 +6820,49 @@ Nigeria and PLAC are titles-level; Morocco covers only the upper house; batch 4 
 no new RTA or trade-deal searches for its ten economies. TLS compliance: no -k and
 no proxy change anywhere in this run; the Kuwait and Morocco chain failures were
 left as failures.
+
+=== 2026-10-18 02:20 UTC ===
+Interim entry for the 18 October run; six batch agents still running, addenda to
+follow. Tally unchanged: 18 Yes / 14 Partial / 28 No.
+
+NO NEW USTR DETERMINATION, verified three ways at primary source. Federal Register:
+"forced labor" + "Section 301" unfiltered still 18 items, newest 2026-07-28;
+"forced labor" alone since 10 October returns only 2, both unrelated (an Interior
+marine-mammal rule and a DHS employment-authorisation rule); the USTR agency corpus
+stands at 2,089, newest 2026-10-08. The USTR press index's newest item is
+2026-10-13. The 23 July final-action framework remains operative.
+
+ONE NEW PRIMARY DOCUMENT, AND THE FINDING IS THAT IT CHANGES NOTHING. USTR
+announced on 2 October a trilateral "Statement on Eliminating Forced Labor in
+Global Supply Chains" agreed by the Trade Ministers of the United States,
+Argentina and Mexico (those three only) at the G20 Trade Ministerial. The
+statement PDF itself was retrieved and read (126,972 bytes), not just the press
+release. Its operative sentence is HORTATORY, not obligational: "we recognize our
+opportunity and responsibility to work together to eliminate goods produced with
+forced labor from supply chains and international trade, including by adopting or
+maintaining and effectively enforcing measures that prohibit the importation or
+sale of goods produced wholly or in part with forced labor" -- no undertaking and
+no deadline, unlike Jordan's ART Article 2.9(1) ("shall prohibit within five
+years"), which is what constitutes a limb (b) commitment. So Argentina stays
+Partial(b) and Mexico stays Yes; the statement is recorded on both rows as a
+non-event with the reasoning, because the headline invites the opposite
+conclusion. It does corroborate this file's scheme in its own words: economies
+"have adopted, or committed to adopt, measures".
+
+METHODOLOGY -- NEW RULE 27. USTR's site paths have MOVED, from
+/about-us/policy-offices/press-office/... to /about/policy-offices/press-office/...
+The month index used for weeks now returns a genuine 404 (22,652 bytes, titled
+"Page not found") while the UNDATED parent still resolves at the old path, so the
+failure presents as an absence rather than a move. Re-derived from the parent's own
+markup, the new path returns 34,021 bytes -- byte-identical to yesterday, so
+nothing was lost. Rule: a 404 on an index that worked yesterday may be a PATH
+CHANGE; fetch the parent and re-derive the link pattern before recording a
+negative.
+
+Batch 3 reported a light first pass and was sent back for a second. Its two gains
+so far: Israel's Schedule is confirmed STILL EMPTY (the "tosefet" heading runs
+straight into the 16 August signature), with the s.1/s.2 designation-dependent
+structure quoted; and the Kazakhstan legalacts.egov.kz byte-size discriminator is
+VOID today -- gibberish 1,288,433 bytes against a blank query's 1,302,907 and the
+real query's 1,302,955, only 48 bytes apart -- so no negative is claimed from it,
+and the agent is replacing it by parsing result counts.
