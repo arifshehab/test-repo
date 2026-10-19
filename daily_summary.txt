@@ -7133,3 +7133,72 @@ where the congreso.gob.pe bill page would be tier (a)). Both are assigned to the
 batches still running. Noted for honesty: my first pass at this audit flagged six
 rows because a crude host regex misread canada.ca, regjeringen.no, gub.uy and
 baochinhphu.vn as non-government; corrected before reporting.
+
+=== 2026-10-19 03:05 UTC (addendum 1) ===
+Batches 1 and 2 applied. Tally still unchanged: 18 Yes / 14 Partial / 28 No.
+Batches 3 and 5 still running, plus batch 6's second pass.
+
+DOMINICAN REPUBLIC -- the Chamber of Deputies question is answered, and the route
+was found resourcefully: after camaradediputados.gob.do failed on every form, the
+agent pulled the Chamber's Angular app bundle (5.3 MB) and read the API routes out
+of it. The endpoint diputadosrd.gob.do/sil/api/iniciativa/ has clean controls
+(gibberish total 0; "forzos" and "mercanc" each returning exactly the target).
+Initiative 159923 is Proyecto de Ley 06469-2024-2028-CD, "Proyecto de ley de
+prevención y prohibición de mercancías producidas mediante trabajo forzoso",
+ORIGIN SENATE, estado "Depositado" with fechaDeposito 2026-10-12, VIGENTE, group
+"Industria y Comercio", sponsor Félix Ramón Bautista Rosario. Comisiones,
+votaciones and Actividades are all zero -- deposited, with no committee referral
+or vote. This is the first evidence in the file of a Chamber step after the
+22 September Senate passage. Classification unaffected: the Yes rests on Decreto
+502-26.
+
+EUROPEAN UNION -- A CORRECTION THAT REVERSES SOMETHING THIS FILE RECORDED AS
+SETTLED. The row has said the claim that the Commission guidelines were published
+in the OJ on 3 September "was refuted". That refutation is WRONG. CELEX
+52026XC04637, "Commission Notice -- Guidelines on the application of Regulation
+(EU) 2024/3015 on prohibiting products made with forced labour on the Union
+market", dated 2026-09-03, was retrieved and read directly: 1,143,341 bytes,
+"forced labour" 350, "2024/3015" 5, gibberish 0, with sections including "Risk
+indicators to identify forced labour". A bogus CELEX returns 404 at 56 bytes, so
+the route discriminates. The likely cause of the earlier false negative: the
+resource URL 303s with a ZERO-BYTE body and must be followed with -L.
+Separately, the amending-act sweep owed for many runs is now DONE via the SPARQL
+endpoint: no amending regulation, no postponement, no stop-the-clock act touching
+2024/3015.
+
+BRAZIL -- all four other cocoa bills read as full PDFs, not from ementas. PL
+49/2026 and PL 952/2026 DO carry forced-labour content (the latter a
+declaration regime of the El Salvador/Nicaragua type), so both are additional
+tabled limb (a) bills corroborating Partial(a); PL 850/2026 is phytosanitary and
+PL 893/2026 antidumping. A false positive was caught in the process: PL 850's two
+"forçado" hits are the substring in "re-forçado". More importantly the PRL 2
+SUBSTITUTIVO itself is now read and is NOT cocoa-only -- and note its trigger,
+which would matter greatly if it passed: the prohibition attaches only on a FINAL,
+UNAPPEALABLE judicial decision, domestic or international.
+
+ECUADOR -- the Constitutional Court determined on 16 October that the Acuerdo de
+Comercio Recíproco "requiere aprobación de la Asamblea Nacional" under Article
+419(3) and (6), describing this as only "el primer momento de control
+constitucional". The row's statement that Court review is pending is now out of
+date. Classification unaffected: Ecuador's Yes rests on COMEX Resolution 005-2026,
+never on the RTA.
+
+BAHRAIN -- a correction narrowing what has been swept: the gazette SEARCH INDEX's
+newest item is 3909 of 8 October, whereas yesterday's "3911 of 10 October" ceiling
+came from the homepage list. Issues 3910+ are not covered by the sweep.
+
+Also: Bangladesh's owed second-outlet Bangla fetch is finally done and yields a
+real local-language negative; Egypt's Arabic requirement is genuinely met for the
+first time (Egyptian-outlet Arabic pages, not English); Guatemala's "listado
+oficial" query is run with the feed confirmed current, so its zero is not a
+stale-feed artefact; Argentina's HCDN search is validated because the zero-result
+stub is byte-identical to the gibberish stub.
+
+PROCESS FIX -- RULE 28. Twice in two days my own hand-written per-economy hints in
+a research prompt misstated a row's current classification from memory: Brazil
+called "No" on 18 October when the file said Partial(a), and Colombia called
+"Partial(a) on a draft resolution" today when the file has said Yes on Decreto
+1444 since 28 September. Both agents caught it and kept the baseline. The standing
+rule is now that the generated batch file, which comes straight from the CSV, is
+AUTHORITATIVE over the prompt's prose, and prompts must not restate a
+classification from memory.
