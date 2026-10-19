@@ -7254,3 +7254,66 @@ UAE -- the two hosts previously recorded only as "curl 000" are now diagnosed an
 both are ORIGIN-SIDE, not our egress: almajles.gov.ae resets after the TLS
 ClientHello, and fnc.gov.ae returns a TLS alert "unrecognized name", an SNI or
 virtual-host rejection.
+
+=== 2026-10-19 04:05 UTC (addendum 3) ===
+Batch 5 applied (104 tool calls, the heaviest pass of the run). Tally unchanged:
+18 Yes / 14 Partial / 28 No. Batch 3 still running.
+
+RUSSIA -- the most important finding, because it retroactively qualifies every
+prior entry on that row: THE pravo.gov.ru API's DateFrom PARAMETER DOES NOT
+FILTER. A query with DateFrom=2026-07-01 returned items from 2015-2023. So every
+count this file has taken from that endpoint, today's and all previous runs', is
+an ALL-TIME title-level count and not a windowed sweep. Any past wording implying
+a dated sweep of the Russian gazette must be read accordingly. A second
+constraint: matching is whole-word.
+
+QATAR -- a primary route is found at last, after many runs with no Qatari source
+of any kind and after yesterday's 404s on every guessed path:
+api.moj.gov.qa/api/v1/Legislation/search-index. Controls are strong (468 and 4,258
+hits against gibberish 0), and the full "qarar" set was enumerated at 8,089 items
+with a newest publishDate of 2026-09-17 and zero October items. Verified through
+17 September, the October gap being the source's own lag rather than a failed read.
+
+PERU -- the bill is now confirmed at government primary source, which also closes
+one of the two column 6 sourcing gaps identified in this morning's audit. The
+Congress SPLey service returns exactly one record for pleyNum 14852: "PROYECTO DE
+LEY QUE ESTABLECE LA PROHIBICIÓN DE IMPORTACIÓN DE MERCANCÍAS PRODUCIDAS POR
+TRABAJO FORZOSO", EN COMISIÓN, presented 2026-07-02, proponent PODER EJECUTIVO; a
+bogus number returns an empty array, so the filter discriminates. Across the whole
+14,864-row register exactly one forced-labour bill exists, the other three
+FORZOSO titles being "herederos forzosos" noise. Column 6 now carries the Congress
+expediente page, with the honest caveat that the portal is an Angular SPA whose
+hash route cannot be server-fetched -- it is the canonical government locator and
+the service behind it was verified on the identifiers in the URL. The El Peruano
+route is also finally pinned after several failed guesses.
+
+SAUDI ARABIA -- a verified gazette endpoint (uqn.gov.sa/api/widget/52/json), which
+matters because this row has long carried the warning that uqn pages are ~800 KB
+regardless of query so byte size is meaningless; title-level JSON sidesteps that.
+Its one notable hit, a January 2025 national policy to eradicate forced labour, is
+a policy instrument and was correctly not treated as an import ban.
+
+SINGAPORE -- a new tier-(a) quote, read directly. DPM Gan's 8 September Oral
+Answer says at para 8 that an ART "may involve commitments beyond an import
+prohibition, including EXPORT CONTROLS OR RESTRICTIONS RELATING TO THIRD
+COUNTRIES". That is a government's own reading of what the RTA bucket entails and
+is worth bearing in mind for every Partial(b) economy in this file.
+
+SOUTH KOREA -- a lead logged without being over-read: Seoul Economic Daily of
+24 July reports the government "reportedly considered" amending the Foreign Trade
+Act to institutionalise an import ban. That is internal consideration at second
+hand with no bill tabled, so it falls below Partial(a) and changes nothing.
+
+SOUTH AFRICA -- two structural changes logged: the gazettes.africa endpoint now
+returns results_html rather than results, so a parser keyed to the old field would
+silently see nothing; and the corpus has grown (the control moved from 25-26 to
+36), a reminder that a control value is not a constant. Coverage runs only through
+16 October, so 17-19 October are unindexed rather than empty.
+
+PHILIPPINES -- nothing decisive. The §9 guidelines are not issued and the
+publication date remains unverified, so the 90-day clock still cannot be dated;
+all three publication routes (officialgazette.gov.ph, dole.gov.ph, onar.up.edu.ph)
+are blocked. A useful negative datum: the PDF metadata dates the FILE, not
+publication. Meanwhile the government itself still treats the JAO as the operative
+measure (Undersecretary Gepty, 18 September, read directly). The row stays Yes on
+the same narrow ground as yesterday.
