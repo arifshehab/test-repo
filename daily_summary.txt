@@ -7202,3 +7202,55 @@ called "No" on 18 October when the file said Partial(a), and Colombia called
 rule is now that the generated batch file, which comes straight from the CSV, is
 AUTHORITATIVE over the prompt's prose, and prompts must not restate a
 classification from memory.
+
+=== 2026-10-19 03:35 UTC (addendum 2) ===
+Batch 6's second pass applied. Tally unchanged: 18 Yes / 14 Partial / 28 No.
+Batches 3 and 5 still running.
+
+TRINIDAD AND TOBAGO -- the designation question is answered at document level for
+the first time, and this is the most substantial thing the row has carried. All
+720 published 2026 Legal Notice PDFs were downloaded and text-extracted, every one
+non-empty and all 720 carrying the control string "LEGAL NOTICE NO". Across the
+whole set "forced" matches only two notices, Nos. 245 and 565, and both are
+DETENTION ORDERS reciting kidnapping/trafficking offences, not designations.
+"Section 45" and "45(1)" match nothing relevant. Only six notices cite the Customs
+Act at all, and the two import-prohibition ones amend an order under SECTION 44, a
+different section. So there is no s.45(1)(w) forced-labour designation among the
+720, verified for those 720. Two gaps stated precisely: the index lists 720 of 831
+numbers, so No. 313 and Nos. 707-816 are absent and unread, and the Gazette and
+Acts listings were not searched. Yes is unchanged on the framework provision, but
+it is now known the designation power has not been exercised in the published
+notices.
+
+UNITED KINGDOM -- yesterday's Hansard non-read is diagnosed and fixed, and the
+cause is a classic of this file: THE PARAMETER NAMES WERE WRONG. The working form
+needs the "queryParameters." prefix. With it the route discriminates (control
+"immigration" 100 results; gibberish 0 at 159 bytes), "forced labour" returns 8
+hits all dated 14-16 October, and all eight were opened and are unrelated
+business. The amendments feed was re-paged to exhaustion (200+12+0 = 212 matching
+totalResults) and NC40 is confirmed verbatim as "Designation of goods presumed to
+involve forced labour", decision NoDecision, tally unchanged from yesterday.
+
+VENEZUELA -- a negative was almost claimed on a void window and was caught. The
+1-19 October filter returns "No se encontraron" FOR THE CONTROL ITSELF, so that
+window can support nothing. Widened to 1 September-19 October the control passes
+and the forced-labour terms are zero -- but a further qualification is recorded
+rather than suppressed: "importación" and "arancel" also return zero there, and a
+real import measure would likely contain one, so the indexed text layer is weak
+and the zero is worth less than it looks.
+
+SWITZERLAND -- re-queried, and only three items exist in the window since
+15 October. Note a FAILED CONTROL: the Italian control "lavoro" returns zero, so
+the Italian limb of this window is not validated. Today is thin; the 18 October
+register-level negative remains the real basis.
+
+URUGUAY -- still unconfirmed, but now for a precisely understood reason. The
+Ámbito piece was fetched in full and does contain "artículo 96" once, but it
+describes the bill AS ORIGINALLY SENT, so it confirms the article existed on
+introduction and says nothing about whether it survived the Senate vote, which is
+the actual question. IMPO's control returns the same fault stub for a second day.
+
+UAE -- the two hosts previously recorded only as "curl 000" are now diagnosed and
+both are ORIGIN-SIDE, not our egress: almajles.gov.ae resets after the TLS
+ClientHello, and fnc.gov.ae returns a TLS alert "unrecognized name", an SNI or
+virtual-host rejection.
