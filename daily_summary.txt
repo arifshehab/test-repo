@@ -7317,3 +7317,71 @@ are blocked. A useful negative datum: the PDF metadata dates the FILE, not
 publication. Meanwhile the government itself still treats the JAO as the operative
 measure (Undersecretary Gepty, 18 September, read directly). The row stays Yes on
 the same narrow ground as yesterday.
+
+=== 2026-10-19 05:00 UTC (addendum 4 -- run complete) ===
+Batch 3 re-run applied; all six batches now in. FINAL TALLY UNCHANGED:
+18 Yes / 14 Partial / 28 No. No economy changed classification today.
+
+Note on process: batch 3's original run was lost when the container restarted
+before it reported. Nothing committed was lost. It was re-run from scratch with a
+freshly regenerated batch file (per rule 28, the batch file is authoritative only
+if current) and with this run's three search-validation failures added to its
+instructions as warnings.
+
+ISRAEL -- THE RESHUMOT PRIMARY IS READ AT LAST, closing the longest-standing
+sourcing gap in the file. Israel had been the only one of the 60 economies with no
+government-direct source in column 6. The document is Kovetz HaTakanot No. 12505
+of 4 Elul 5786 / 17 August 2026, page 2560, independently re-fetched and verified
+(74,642 bytes, 2pp; controls "kfiya" 5, "tosefet" 2, "2560" 2, gibberish 0). Its
+provenance is evident from the document itself, which carries the Reshumot
+colophon naming the Ministry of Justice and the Government Printer. Section 1 is
+confirmed verbatim and, newly, so is its ILO Convention 29 definition of forced
+labour, which this row had never recorded; two further clauses previously omitted
+are now on record (the Penal Law s.2(b) approval basis and "on the conditions set
+out in the Schedule"), and section 2's DEEMING clause strengthens the Yes reading.
+The Schedule is confirmed empty from the typeset original. The product-addition
+watch is now a real GAZETTE-LEVEL negative rather than a search one: issues 12505
+to 12553 were swept, all 49 contiguous at HTTP 200 with 12554 a 404, and the order
+appears only in 12505 with no amending order. SOURCING CAVEAT KEPT EXPLICIT:
+olaw.org.il is a third-party host, so although this is the gazette's own typeset
+PDF it is strictly not government-hosted; it is added to column 6 because it
+outranks everything previously there, while gov.il, nevo.co.il and
+ps.justice.gov.il all remain unreachable. A decoding trap was logged in passing: a
+control on the minister's name returns zero because the signature is LETTER-SPACED
+for display.
+
+IRAQ -- a primary route is found and swept, the first Iraqi government source this
+file has ever had, after runs in which the only candidates turned out to be
+gambling spam and a dinar-rumour site. The Ministry of Justice hosts al-Waqa'i'
+al-Iraqiya; 25 issue PDFs (29 MB) covering 12 January to 5 October were downloaded
+and swept in full text with NFKC normalisation. All four forced-labour terms are
+zero against working positive controls, with gibberish zero. So there is no
+forced-labour import instrument in the Iraqi gazette through 5 October -- a
+verified negative for the gazette limb.
+
+HONDURAS -- the numbering discrepancy is resolved AND THIS ROW WAS WRONG. The text
+reads "ARTÍCULO 28.- Aplicación diferida de la prohibición"; Article 29 is
+"Difusión" and Article 32 is "Vigencia". The row's earlier attribution of deferral
+to Article 29 was an error and the mirror reading was right. Column 6 is
+deliberately unchanged: unlike Israel's case this row already carries a government
+source, so a non-governmental mirror adds no sourcing rank.
+
+HONG KONG -- the bills limb is now verified, and the syntax needed is recorded:
+the LegCo OData feed requires OData v3 form (substringof, $inlinecount=allpages)
+because $count returns 400. Controls pass and "Forced" returns 0 across the 20
+bills gazetted since 1 March. Subsidiary legislation remains the standing gap --
+the e-gazette site serves the same "Important Notices" page for list, search and
+gazette alike, i.e. a client-rendered shell.
+
+JORDAN -- a ninth round with the notification still unestablished, and a useful
+warning: representatives.jo, senate.jo and jordan.gov.jo ALL LOAD, but the control
+returns zero on all three, so those sweeps are void. A pass that skipped the
+control could easily have reported three clean government-site zeros.
+
+SOURCING AUDIT, re-run at close: the mandatory column 5/6 rule passes for all 60
+rows, and of 32 Yes/Partial rows only Israel now lacks a strictly
+government-hosted column 6 link -- and that one is the official gazette PDF on a
+third-party host, which is a materially different position from the law-firm and
+business-chamber links it replaced.
+
+All pushes this run succeeded and were verified against the remote.
