@@ -7070,3 +7070,66 @@ operative text cuts both ways and the row is held at Yes only because the test
 previously committed to concerns implementing guidelines that do not yet exist.
 
 All pushes this run succeeded and were verified against the remote.
+
+=== 2026-10-19 02:30 UTC ===
+Batches 4 and 6 applied; batches 1, 2, 3 and 5 still running and batch 6 sent back
+for a second pass. Tally unchanged so far: 18 Yes / 14 Partial / 28 No.
+
+NO NEW USTR DETERMINATION, verified four ways and all byte-consistent with
+yesterday: Federal Register "forced labor" + "Section 301" still 18 items, newest
+2026-07-28; "forced labor" since 11 October only 2, both unrelated; USTR corpus
+2,089, newest 2026-10-08; USTR October press index 34,021 bytes, 10 items, newest
+2026-10-13.
+
+THAILAND -- the run's headline watchlist question, now answered for today: NO
+agreement has been signed, so Thailand stays No. The detail firmed up usefully
+though: Thai-language Bangkokbiznews reports Deputy PM Suphajee hoping to close
+the deal in November with SIGNING AT THE ASEAN SUMMIT IN MANILA, 16-18 November,
+and Kaohoon reports a Trump letter to Anutin saying talks are in the final stage.
+So the earlier "Manila or Shenzhen" framing resolves toward Manila (APEC Shenzhen
+is 18-19 November with Trump's attendance unconfirmed). No text exists, so there
+is no Article 2.9/3.9 equivalent to check. Limit stated honestly: the search tool
+gives no publication dates, so an 8-18 October signing cannot be excluded by these
+results alone, though none of 18 results across three searches reported one.
+
+OMAN -- issue 1670 IS now published (18 October, 101,480 bytes), superseding
+yesterday's "not published" and showing that a 404 is dated, not permanent. Its
+contents are clean, and they supply an unusually good positive control: all five
+Ministerial Decisions 258-262/2026 are themselves ANIMAL-HEALTH IMPORT BANS, which
+demonstrates that import-prohibition decisions do surface in these contents lists,
+so the forced-labour zero is meaningful rather than a listing artefact.
+
+TÜRKIYE -- yesterday's control failure is explained, and not explained away. The
+18 October issue is a Yönetmelik-only issue with NO Tebliğ section at all, so
+"tebliğ" returning zero reflects the issue's composition. The methodological point
+kept: the control must be chosen per issue type, not fixed. Both 18 and 19 October
+are index-level, not swept days.
+
+URUGUAY -- IMPO is still faulted, proven again by the control returning the same
+3,550-byte "error interno" stub. Two useful discriminations: the fault is confined
+to norm pages (the homepage is fine at 144,336 bytes), and /leyes/20530 without
+the year is a genuine 404, so not an alternative route. The parliament hosts are
+now properly diagnosed with -v after three runs of unattributed "curl 000":
+legislativo.parlamento.gub.uy completes TLS and then the ORIGIN cancels the HTTP/2
+stream (an origin fault, not our egress), while www.senado.gub.uy is a genuine
+egress CONNECT 502.
+
+A NON-RESULT RECORDED AS SUCH: the UK Hansard query returned HTTP 200 at 175
+bytes with no positive control run. That is a tooling non-read, not evidence of
+absence, and is explicitly not counted as a negative.
+
+CORRECTION TO MY OWN WORK: yesterday's New Zealand entry said sponsors wanted
+passage "before the 7 November election", which implies a live bill and
+contradicts this file's own record that the Modern Slavery Bill lapsed at
+dissolution on 1 October. The lapse stands; that phrasing came from an undated
+secondary summary and should not have been written as current. The classification
+is unaffected either way.
+
+WHOLE-FILE AUDIT (step 3): the mandatory column 5/6 rule passes for all 60 rows.
+On sourcing priority, of 32 Yes/Partial rows only TWO lack any government-direct
+source in column 6 -- Israel (a Wikisource mirror, a law firm and a business
+chamber; the Reshumot primary has never been read) and Peru (an Infobae article,
+where the congreso.gob.pe bill page would be tier (a)). Both are assigned to the
+batches still running. Noted for honesty: my first pass at this audit flagged six
+rows because a crude host regex misread canada.ca, regjeringen.no, gub.uy and
+baochinhphu.vn as non-government; corrected before reporting.
